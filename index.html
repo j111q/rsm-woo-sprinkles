@@ -1,0 +1,482 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>RSM: Woo Sprinkles</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #fafaf7;
+    --ink: #1a1a1a;
+    --muted: #6b6b6b;
+    --line: #e8e6e0;
+    --card: #ffffff;
+    --open: #1a7f37;
+    --open-bg: #dafbe1;
+    --closed: #8250df;
+    --closed-bg: #f0e9ff;
+    --merged-1: #8250df;
+    --merged-2: #ff7eb6;
+    --merged-3: #ffb347;
+    --pr: #0969da;
+    --pr-bg: #ddf4ff;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--bg); color: var(--ink); font-family: 'Inter', -apple-system, system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+  .shell { max-width: 1200px; margin: 0 auto; padding: 48px 32px 80px; }
+
+  header { display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; margin-bottom: 40px; flex-wrap: wrap; }
+  h1 { font-family: 'Fraunces', serif; font-weight: 800; font-size: 56px; line-height: 1; letter-spacing: -0.02em; margin: 0 0 8px; }
+  h1 .amp { font-style: italic; font-weight: 400; color: var(--muted); padding: 0 8px; }
+  .subtitle { color: var(--muted); font-size: 15px; margin: 0; }
+  .updated { font-size: 13px; color: var(--muted); text-align: right; }
+  .updated button { background: none; border: 1px solid var(--line); border-radius: 999px; padding: 6px 14px; font: inherit; font-size: 12px; color: var(--ink); cursor: pointer; margin-top: 6px; transition: all 0.15s; }
+  .updated button:hover { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+
+  .people { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 32px; }
+  .person { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 20px 24px; display: flex; align-items: center; gap: 16px; }
+  .person img { width: 52px; height: 52px; border-radius: 50%; }
+  .person .handle { font-weight: 600; font-size: 17px; }
+  .person .handle a { color: inherit; text-decoration: none; }
+  .person .handle a:hover { text-decoration: underline; }
+  .person .stats { color: var(--muted); font-size: 13px; margin-top: 2px; }
+  .person .stats b { color: var(--ink); font-weight: 600; }
+
+  .tabs { display: flex; gap: 4px; margin-bottom: 24px; border-bottom: 1px solid var(--line); padding-bottom: 0; }
+  .tab { background: none; border: none; padding: 10px 16px; font: inherit; font-size: 14px; font-weight: 500; color: var(--muted); cursor: pointer; border-bottom: 2px solid transparent; margin-bottom: -1px; transition: color 0.15s; }
+  .tab:hover { color: var(--ink); }
+  .tab.active { color: var(--ink); border-bottom-color: var(--ink); }
+  .tab .count { background: var(--line); color: var(--muted); font-size: 11px; padding: 2px 7px; border-radius: 999px; margin-left: 6px; font-weight: 600; }
+  .tab.active .count { background: var(--ink); color: var(--bg); }
+
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(360px, 1fr)); gap: 16px; }
+  .list { display: flex; flex-direction: column; gap: 8px; }
+
+  .card.list-card { display: grid; grid-template-columns: 120px 1fr auto; align-items: center; gap: 20px; padding: 14px 18px 14px 0; }
+  .card.list-card .status-col { display: flex; align-items: center; justify-content: flex-start; padding-left: 16px; align-self: stretch; }
+  .card.list-card .status-col .status-tag { font-size: 11px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; padding: 6px 12px; border-radius: 6px; white-space: nowrap; }
+  .card.list-card.open .status-col .status-tag { background: var(--open-bg); color: var(--open); }
+  .card.list-card.closed .status-col .status-tag { background: var(--closed-bg); color: var(--closed); }
+  .card.list-card.merged .status-col .status-tag { background: linear-gradient(135deg, var(--merged-1), var(--merged-2)); color: white; display: inline-flex; align-items: center; gap: 7px; padding: 6px 11px; }
+  .card.list-card.merged .status-col .status-tag .icon { font-size: 16px; line-height: 1; }
+  .card.list-card.merged .status-col .status-tag .text { display: flex; flex-direction: column; line-height: 1.15; font-size: 10.5px; }
+  .card.list-card .main-col { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+  .card.list-card .title { font-size: 14px; margin: 0; }
+  .card.list-card .sub-row { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; font-size: 12px; color: var(--muted); }
+  .card.list-card .sub-row .labels { display: inline-flex; gap: 3px; }
+  .card.list-card .sub-row .label { font-size: 10px; padding: 1px 6px; }
+  .card.list-card .meta-col { display: flex; flex-direction: column; align-items: flex-end; gap: 2px; font-size: 12px; color: var(--muted); white-space: nowrap; }
+  .card.list-card .meta-col .comments::before { content: "💬 "; }
+  .card.list-card.merged::before { display: none; }
+  .card.list-card.merged { background: linear-gradient(90deg, #fef4ff 0%, #ffffff 40%); }
+
+  .view-toggle { display: inline-flex; gap: 2px; background: var(--line); padding: 3px; border-radius: 10px; margin-left: auto; }
+  .view-toggle button { background: none; border: none; padding: 6px 12px; font: inherit; font-size: 12px; font-weight: 500; color: var(--muted); cursor: pointer; border-radius: 7px; display: inline-flex; align-items: center; gap: 6px; }
+  .view-toggle button.active { background: white; color: var(--ink); box-shadow: 0 1px 2px rgba(0,0,0,0.08); }
+  .view-toggle svg { width: 13px; height: 13px; }
+  .tabs-row { display: flex; align-items: center; border-bottom: 1px solid var(--line); margin-bottom: 24px; gap: 12px; }
+  .tabs-row .tabs { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 18px 20px; position: relative; transition: transform 0.15s, box-shadow 0.15s; display: flex; flex-direction: column; gap: 10px; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,0.06); }
+
+  .card.merged {
+    background: linear-gradient(135deg, #ffffff 0%, #fff 60%, #fef4ff 100%);
+    border-color: transparent;
+    box-shadow: 0 0 0 1.5px transparent;
+    background-clip: padding-box;
+    position: relative;
+  }
+  .card.merged::before {
+    content: "";
+    position: absolute; inset: 0; border-radius: 14px; padding: 1.5px;
+    background: linear-gradient(135deg, var(--merged-1), var(--merged-2), var(--merged-3));
+    -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+    -webkit-mask-composite: xor; mask-composite: exclude;
+    pointer-events: none;
+  }
+  .card.merged .sparkle {
+    position: absolute; top: -10px; right: 14px;
+    font-size: 22px;
+    filter: drop-shadow(0 2px 8px rgba(130,80,223,0.4));
+    animation: bob 3s ease-in-out infinite;
+  }
+  @keyframes bob { 0%, 100% { transform: translateY(0) rotate(-4deg); } 50% { transform: translateY(-4px) rotate(6deg); } }
+
+  .row { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+  .repo { font-size: 12px; color: var(--muted); font-family: ui-monospace, 'SF Mono', Menlo, monospace; }
+  .repo a { color: inherit; text-decoration: none; }
+  .repo a:hover { color: var(--ink); }
+  .author-mini { font-size: 11px; color: var(--muted); }
+  .author-mini img { width: 14px; height: 14px; border-radius: 50%; vertical-align: middle; margin-right: 4px; }
+
+  .title { font-size: 15px; font-weight: 600; line-height: 1.35; margin: 0; }
+  .title a { color: inherit; text-decoration: none; }
+  .title a:hover { text-decoration: underline; text-decoration-thickness: 1.5px; text-underline-offset: 3px; }
+  .num { color: var(--muted); font-weight: 500; }
+
+  .badges { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
+  .badge { font-size: 11px; font-weight: 600; padding: 3px 9px; border-radius: 999px; display: inline-flex; align-items: center; gap: 4px; letter-spacing: 0.01em; }
+  .badge.state-open { background: var(--open-bg); color: var(--open); }
+  .badge.state-closed { background: var(--closed-bg); color: var(--closed); }
+  .badge.state-merged { background: linear-gradient(135deg, #8250df, #ff7eb6); color: white; }
+  .badge.kind-pr { background: var(--pr-bg); color: var(--pr); }
+  .badge.kind-issue { background: #fff4e5; color: #b35c00; }
+  .badge.milestone { background: #f3f2ee; color: var(--muted); font-weight: 500; }
+
+  .labels { display: flex; gap: 4px; flex-wrap: wrap; }
+  .label { font-size: 10.5px; font-weight: 500; padding: 2px 8px; border-radius: 4px; border: 1px solid rgba(0,0,0,0.08); }
+
+  .meta { display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: var(--muted); margin-top: auto; padding-top: 8px; border-top: 1px dashed var(--line); }
+  .meta .comments::before { content: "💬 "; }
+  .meta .date { font-variant-numeric: tabular-nums; }
+
+  .empty { text-align: center; padding: 80px 20px; color: var(--muted); }
+  .empty .em { font-family: 'Fraunces', serif; font-style: italic; font-size: 24px; color: var(--ink); }
+
+  .loader { text-align: center; padding: 60px 0; color: var(--muted); font-size: 14px; }
+  .loader .dot { display: inline-block; animation: pulse 1.2s ease-in-out infinite; }
+  .loader .dot:nth-child(2) { animation-delay: 0.15s; }
+  .loader .dot:nth-child(3) { animation-delay: 0.3s; }
+  @keyframes pulse { 0%, 100% { opacity: 0.3; } 50% { opacity: 1; } }
+
+  .rate-warn { background: #fff4e5; border: 1px solid #ffd699; color: #8a4a00; padding: 12px 16px; border-radius: 12px; font-size: 13px; margin-bottom: 24px; display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+  .rate-warn button { background: #8a4a00; color: white; border: none; padding: 6px 14px; border-radius: 999px; font: inherit; font-size: 12px; cursor: pointer; }
+  .token-modal { position: fixed; inset: 0; background: rgba(0,0,0,0.4); display: none; align-items: center; justify-content: center; z-index: 100; }
+  .token-modal.open { display: flex; }
+  .token-modal .box { background: white; padding: 28px; border-radius: 16px; max-width: 440px; width: 90%; }
+  .token-modal h3 { margin: 0 0 8px; font-family: 'Fraunces', serif; font-size: 22px; }
+  .token-modal p { margin: 0 0 16px; font-size: 13px; color: var(--muted); line-height: 1.5; }
+  .token-modal input { width: 100%; padding: 10px 12px; border: 1px solid var(--line); border-radius: 8px; font: inherit; font-size: 13px; font-family: ui-monospace, monospace; }
+  .token-modal .actions { display: flex; gap: 8px; margin-top: 16px; justify-content: flex-end; }
+  .token-modal button { padding: 8px 16px; border-radius: 999px; border: 1px solid var(--line); background: white; font: inherit; font-size: 13px; cursor: pointer; }
+  .token-modal button.primary { background: var(--ink); color: white; border-color: var(--ink); }
+
+  @media (max-width: 700px) {
+    .shell { padding: 32px 20px; }
+    h1 { font-size: 40px; }
+    .people { grid-template-columns: 1fr; }
+    .grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+<div class="shell">
+
+  <header>
+    <div>
+      <h1>RSM<span class="amp">:</span> Woo Sprinkles</h1>
+      <p class="subtitle">Two designers poking at code, sprinkling tiny improvements across Woo — one PR at a time. ✨</p>
+    </div>
+    <div class="updated">
+      <div id="updated">—</div>
+      <button id="refresh">↻ Refresh</button>
+      <button id="token-btn" style="margin-left: 6px;" title="Add GitHub token (higher rate limit)">🔑</button>
+    </div>
+  </header>
+
+  <div class="people" id="people"></div>
+
+  <div id="rate-warn" class="rate-warn" style="display:none;">
+    <span><b>Rate limited.</b> GitHub's 60-per-hour anonymous cap is exhausted. Add a personal access token (no scopes needed for public data) to lift it to 5,000/hr.</span>
+    <button onclick="openTokenModal()">Add token</button>
+  </div>
+
+  <div class="tabs-row">
+    <div class="tabs" id="tabs"></div>
+    <div class="view-toggle" id="view-toggle">
+      <button data-view="grid" title="Grid view">
+        <svg viewBox="0 0 16 16" fill="currentColor"><rect x="1" y="1" width="6" height="6" rx="1"/><rect x="9" y="1" width="6" height="6" rx="1"/><rect x="1" y="9" width="6" height="6" rx="1"/><rect x="9" y="9" width="6" height="6" rx="1"/></svg>
+        Grid
+      </button>
+      <button data-view="list" class="active" title="List view">
+        <svg viewBox="0 0 16 16" fill="currentColor"><rect x="1" y="2" width="14" height="2.5" rx="1"/><rect x="1" y="7" width="14" height="2.5" rx="1"/><rect x="1" y="12" width="14" height="2.5" rx="1"/></svg>
+        List
+      </button>
+    </div>
+  </div>
+
+  <div id="content"><div class="loader">Fetching<span class="dot">.</span><span class="dot">.</span><span class="dot">.</span></div></div>
+
+</div>
+
+<div class="token-modal" id="token-modal">
+  <div class="box">
+    <h3>Add a GitHub token</h3>
+    <p>Creates a higher rate limit (5,000/hr vs 60). Make a <b>classic</b> token at <a href="https://github.com/settings/tokens/new" target="_blank">github.com/settings/tokens/new</a> — no scopes needed for public data. Stored only in your browser's localStorage.</p>
+    <input type="password" id="token-input" placeholder="ghp_..." />
+    <div class="actions">
+      <button onclick="closeTokenModal()">Cancel</button>
+      <button class="primary" onclick="saveToken()">Save &amp; refresh</button>
+    </div>
+  </div>
+</div>
+
+<script>
+const USERS = ['j111q', 'annchichi'];
+const STORAGE_KEY = 'gh-dashboard-token';
+let allItems = [];
+let activeTab = 'all';
+let activeView = 'list';
+
+let memoryToken = '';
+function safeStorage() {
+  try { return window.localStorage; } catch (e) { return null; }
+}
+function getToken() {
+  const ls = safeStorage();
+  if (ls) { try { return ls.getItem(STORAGE_KEY) || ''; } catch (e) {} }
+  return memoryToken;
+}
+function setToken(v) {
+  const ls = safeStorage();
+  if (ls) {
+    try { if (v) ls.setItem(STORAGE_KEY, v); else ls.removeItem(STORAGE_KEY); return; } catch (e) {}
+  }
+  memoryToken = v;
+}
+function openTokenModal() { document.getElementById('token-modal').classList.add('open'); document.getElementById('token-input').value = getToken(); }
+function closeTokenModal() { document.getElementById('token-modal').classList.remove('open'); }
+function saveToken() {
+  const v = document.getElementById('token-input').value.trim();
+  setToken(v);
+  closeTokenModal();
+  load();
+}
+
+async function ghFetch(url) {
+  const headers = { 'Accept': 'application/vnd.github+json' };
+  const t = getToken();
+  if (t) headers['Authorization'] = `Bearer ${t}`;
+  const res = await fetch(url, { headers });
+  if (res.status === 403 || res.status === 429) {
+    document.getElementById('rate-warn').style.display = 'flex';
+    throw new Error('rate-limited');
+  }
+  if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
+  return res.json();
+}
+
+async function fetchUser(user) {
+  // Three queries: merged PRs (celebratory), open, closed-unmerged
+  const [merged, open, closedUnmerged, profile] = await Promise.all([
+    ghFetch(`https://api.github.com/search/issues?q=${encodeURIComponent(`author:${user} is:merged`)}&sort=updated&order=desc&per_page=100`),
+    ghFetch(`https://api.github.com/search/issues?q=${encodeURIComponent(`author:${user} is:open`)}&sort=updated&order=desc&per_page=100`),
+    ghFetch(`https://api.github.com/search/issues?q=${encodeURIComponent(`author:${user} is:closed -is:merged`)}&sort=updated&order=desc&per_page=100`),
+    ghFetch(`https://api.github.com/users/${user}`)
+  ]);
+  const tag = (items, statusTag) => items.items.map(i => ({ ...i, _status: statusTag, _author: user }));
+  return {
+    user, profile,
+    items: [
+      ...tag(merged, 'merged'),
+      ...tag(open, 'open'),
+      ...tag(closedUnmerged, 'closed')
+    ]
+  };
+}
+
+function repoName(item) {
+  // repository_url: https://api.github.com/repos/OWNER/REPO
+  const m = item.repository_url.match(/repos\/(.+)$/);
+  return m ? m[1] : '';
+}
+
+function labelTextColor(hex) {
+  if (!hex) return '#000';
+  const r = parseInt(hex.slice(0,2),16), g = parseInt(hex.slice(2,4),16), b = parseInt(hex.slice(4,6),16);
+  return (r*299 + g*587 + b*114)/1000 > 140 ? '#222' : '#fff';
+}
+
+function formatDate(iso) {
+  const d = new Date(iso);
+  const now = new Date();
+  const days = Math.floor((now - d) / 86400000);
+  if (days === 0) return 'today';
+  if (days === 1) return 'yesterday';
+  if (days < 7) return `${days}d ago`;
+  if (days < 30) return `${Math.floor(days/7)}w ago`;
+  if (days < 365) return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+  return d.toLocaleDateString('en-US', { month: 'short', year: 'numeric' });
+}
+
+function renderCard(item) {
+  const isPR = !!item.pull_request;
+  const status = item._status;
+  const repo = repoName(item);
+  const labels = (item.labels || []).map(l => {
+    const color = labelTextColor(l.color);
+    return `<span class="label" style="background:#${l.color}22;color:${color === '#fff' ? '#' + l.color : color};border-color:#${l.color}44;">${l.name}</span>`;
+  }).join('');
+  const milestone = item.milestone ? `<span class="badge milestone">🎯 ${item.milestone.title}</span>` : '';
+  const stateBadge = status === 'merged'
+    ? '<span class="badge state-merged">✓ Merged</span>'
+    : status === 'open'
+      ? '<span class="badge state-open">● Open</span>'
+      : '<span class="badge state-closed">Closed</span>';
+  const kindBadge = isPR ? '<span class="badge kind-pr">PR</span>' : '<span class="badge kind-issue">Issue</span>';
+  const sparkle = status === 'merged' ? '<div class="sparkle">✨</div>' : '';
+  const author = `<span class="author-mini"><img src="https://github.com/${item._author}.png?size=28" alt="" />${item._author}</span>`;
+
+  return `
+    <div class="card ${status === 'merged' ? 'merged' : ''}">
+      ${sparkle}
+      <div class="row">
+        <span class="repo"><a href="https://github.com/${repo}" target="_blank">${repo}</a></span>
+        <span style="flex:1"></span>
+        ${author}
+      </div>
+      <h3 class="title"><a href="${item.html_url}" target="_blank">${escapeHtml(item.title)} <span class="num">#${item.number}</span></a></h3>
+      <div class="badges">${stateBadge}${kindBadge}${milestone}</div>
+      ${labels ? `<div class="labels">${labels}</div>` : ''}
+      <div class="meta">
+        <span class="comments">${item.comments}</span>
+        <span class="date">updated ${formatDate(item.updated_at)}</span>
+      </div>
+    </div>
+  `;
+}
+
+function renderListCard(item) {
+  const isPR = !!item.pull_request;
+  const status = item._status;
+  const repo = repoName(item);
+  const labels = (item.labels || []).slice(0, 4).map(l => {
+    const color = labelTextColor(l.color);
+    return `<span class="label" style="background:#${l.color}22;color:${color === '#fff' ? '#' + l.color : color};border-color:#${l.color}44;">${l.name}</span>`;
+  }).join('');
+  const statusLabel = status === 'merged'
+    ? '<span class="icon">✨</span><span class="text"><span>Sprinkle</span><span>Merged</span></span>'
+    : status === 'open' ? '● Open' : 'Closed';
+  const kindBadge = isPR ? '<span class="badge kind-pr">PR</span>' : '<span class="badge kind-issue">Issue</span>';
+  const milestone = item.milestone ? `<span class="badge milestone">🎯 ${escapeHtml(item.milestone.title)}</span>` : '';
+  const author = `<span class="author-mini"><img src="https://github.com/${item._author}.png?size=28" alt="" />${item._author}</span>`;
+
+  return `
+    <div class="card list-card ${status}">
+      <div class="status-col"><span class="status-tag">${statusLabel}</span></div>
+      <div class="main-col">
+        <h3 class="title"><a href="${item.html_url}" target="_blank">${escapeHtml(item.title)} <span class="num">#${item.number}</span></a></h3>
+        <div class="sub-row">
+          ${kindBadge}
+          <span class="repo"><a href="https://github.com/${repo}" target="_blank">${repo}</a></span>
+          ${author}
+          ${milestone}
+          ${labels ? `<span class="labels">${labels}</span>` : ''}
+        </div>
+      </div>
+      <div class="meta-col">
+        <span class="comments">${item.comments}</span>
+        <span class="date">${formatDate(item.updated_at)}</span>
+      </div>
+    </div>
+  `;
+}
+
+function escapeHtml(s) { return s.replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]); }
+
+function renderPeople(datasets) {
+  const html = datasets.map(d => {
+    const merged = d.items.filter(i => i._status === 'merged').length;
+    const open = d.items.filter(i => i._status === 'open').length;
+    const closed = d.items.filter(i => i._status === 'closed').length;
+    return `
+      <div class="person">
+        <img src="${d.profile.avatar_url}" alt="${d.user}" />
+        <div>
+          <div class="handle"><a href="https://github.com/${d.user}" target="_blank">@${d.user}</a></div>
+          <div class="stats"><b>${merged}</b> merged · <b>${open}</b> open · <b>${closed}</b> closed</div>
+        </div>
+      </div>
+    `;
+  }).join('');
+  document.getElementById('people').innerHTML = html;
+}
+
+function renderTabs() {
+  const counts = {
+    all: allItems.length,
+    merged: allItems.filter(i => i._status === 'merged').length,
+    open: allItems.filter(i => i._status === 'open').length,
+    closed: allItems.filter(i => i._status === 'closed').length,
+  };
+  const tabs = [
+    ['all', 'All'],
+    ['merged', '✨ Merged'],
+    ['open', 'Open'],
+    ['closed', 'Closed'],
+  ];
+  document.getElementById('tabs').innerHTML = tabs.map(([k, label]) =>
+    `<button class="tab ${activeTab === k ? 'active' : ''}" data-tab="${k}">${label}<span class="count">${counts[k]}</span></button>`
+  ).join('');
+  document.querySelectorAll('.tab').forEach(t => t.addEventListener('click', () => {
+    activeTab = t.dataset.tab;
+    renderTabs();
+    renderGrid();
+  }));
+}
+
+function renderGrid() {
+  const filtered = activeTab === 'all' ? allItems : allItems.filter(i => i._status === activeTab);
+  const sorted = filtered.slice().sort((a, b) => {
+    // merged first, then by updated desc
+    if (a._status === 'merged' && b._status !== 'merged') return -1;
+    if (a._status !== 'merged' && b._status === 'merged') return 1;
+    return new Date(b.updated_at) - new Date(a.updated_at);
+  });
+  const content = document.getElementById('content');
+  if (sorted.length === 0) {
+    content.innerHTML = `<div class="empty"><div class="em">Nothing here.</div><p>No items match this filter.</p></div>`;
+    return;
+  }
+  if (activeView === 'list') {
+    content.innerHTML = `<div class="list">${sorted.map(renderListCard).join('')}</div>`;
+  } else {
+    content.innerHTML = `<div class="grid">${sorted.map(renderCard).join('')}</div>`;
+  }
+}
+
+function wireViewToggle() {
+  document.querySelectorAll('#view-toggle button').forEach(b => {
+    b.addEventListener('click', () => {
+      activeView = b.dataset.view;
+      document.querySelectorAll('#view-toggle button').forEach(x => x.classList.toggle('active', x.dataset.view === activeView));
+      renderGrid();
+    });
+  });
+}
+wireViewToggle();
+
+async function load() {
+  document.getElementById('rate-warn').style.display = 'none';
+  document.getElementById('content').innerHTML = `<div class="loader">Fetching<span class="dot">.</span><span class="dot">.</span><span class="dot">.</span></div>`;
+  try {
+    const datasets = await Promise.all(USERS.map(fetchUser));
+    const cutoff = Date.now() - 10 * 86400000;
+    datasets.forEach(d => { d.items = d.items.filter(i => new Date(i.updated_at).getTime() >= cutoff); });
+    renderPeople(datasets);
+    allItems = datasets.flatMap(d => d.items);
+    renderTabs();
+    renderGrid();
+    const now = new Date();
+    document.getElementById('updated').textContent = `Updated ${now.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' })}`;
+  } catch (e) {
+    if (e.message !== 'rate-limited') {
+      document.getElementById('content').innerHTML = `<div class="empty"><div class="em">Something went sideways.</div><p>${escapeHtml(e.message)}</p></div>`;
+    } else {
+      document.getElementById('content').innerHTML = '';
+    }
+  }
+}
+
+document.getElementById('refresh').addEventListener('click', load);
+document.getElementById('token-btn').addEventListener('click', openTokenModal);
+document.getElementById('token-modal').addEventListener('click', e => { if (e.target.id === 'token-modal') closeTokenModal(); });
+
+load();
+</script>
+</body>
+</html>
