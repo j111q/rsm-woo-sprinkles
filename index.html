@@ -37,7 +37,14 @@
   .updated button:hover { background: var(--ink); color: var(--bg); border-color: var(--ink); }
 
   .people { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 32px; }
-  .person { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 20px 24px; display: flex; align-items: center; gap: 16px; }
+  .person { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 20px 24px; display: flex; align-items: center; gap: 16px; cursor: pointer; transition: all 0.15s; position: relative; }
+  .person:hover { border-color: #bbb; transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.04); }
+  .person.active { border-color: var(--ink); background: var(--ink); color: white; }
+  .person.active .stats, .person.active .stats b { color: rgba(255,255,255,0.85); }
+  .person.active .handle a { color: white; }
+  .person.dimmed { opacity: 0.55; }
+  .person .check { position: absolute; top: 10px; right: 12px; font-size: 12px; color: rgba(255,255,255,0.9); display: none; }
+  .person.active .check { display: block; }
   .person img { width: 52px; height: 52px; border-radius: 50%; }
   .person .handle { font-weight: 600; font-size: 17px; }
   .person .handle a { color: inherit; text-decoration: none; }
@@ -169,7 +176,7 @@
   <header>
     <div>
       <h1>RSM<span class="amp">:</span> Woo Sprinkles</h1>
-      <p class="subtitle">Two designers poking at code, sprinkling tiny improvements across Woo — one PR at a time. ✨</p>
+      <p class="subtitle">Two designers poking at code, sprinkling tiny tweaks across Woo — one PR at a time. ✨</p>
     </div>
     <div class="updated">
       <div id="updated">—</div>
@@ -221,6 +228,7 @@ const STORAGE_KEY = 'gh-dashboard-token';
 let allItems = [];
 let activeTab = 'all';
 let activeView = 'list';
+let activeAuthor = null;
 
 let memoryToken = '';
 function safeStorage() {
@@ -383,25 +391,51 @@ function renderPeople(datasets) {
     const merged = d.items.filter(i => i._status === 'merged').length;
     const open = d.items.filter(i => i._status === 'open').length;
     const closed = d.items.filter(i => i._status === 'closed').length;
+    const isActive = activeAuthor === d.user;
+    const isDimmed = activeAuthor && !isActive;
     return `
-      <div class="person">
+      <div class="person ${isActive ? 'active' : ''} ${isDimmed ? 'dimmed' : ''}" data-user="${d.user}" role="button" tabindex="0" title="Click to filter to @${d.user}">
+        <span class="check">✓</span>
         <img src="${d.profile.avatar_url}" alt="${d.user}" />
         <div>
-          <div class="handle"><a href="https://github.com/${d.user}" target="_blank">@${d.user}</a></div>
+          <div class="handle"><a href="https://github.com/${d.user}" target="_blank" onclick="event.stopPropagation()">@${d.user}</a></div>
           <div class="stats"><b>${merged}</b> merged · <b>${open}</b> open · <b>${closed}</b> closed</div>
         </div>
       </div>
     `;
   }).join('');
-  document.getElementById('people').innerHTML = html;
+  const root = document.getElementById('people');
+  root.innerHTML = html;
+  root.querySelectorAll('.person').forEach(el => {
+    el.addEventListener('click', () => {
+      const u = el.dataset.user;
+      activeAuthor = activeAuthor === u ? null : u;
+      renderPeopleActive();
+      renderTabs();
+      renderGrid();
+    });
+  });
+}
+
+function renderPeopleActive() {
+  document.querySelectorAll('#people .person').forEach(el => {
+    const u = el.dataset.user;
+    el.classList.toggle('active', activeAuthor === u);
+    el.classList.toggle('dimmed', !!activeAuthor && activeAuthor !== u);
+  });
+}
+
+function authorFilteredItems() {
+  return activeAuthor ? allItems.filter(i => i._author === activeAuthor) : allItems;
 }
 
 function renderTabs() {
+  const base = authorFilteredItems();
   const counts = {
-    all: allItems.length,
-    merged: allItems.filter(i => i._status === 'merged').length,
-    open: allItems.filter(i => i._status === 'open').length,
-    closed: allItems.filter(i => i._status === 'closed').length,
+    all: base.length,
+    merged: base.filter(i => i._status === 'merged').length,
+    open: base.filter(i => i._status === 'open').length,
+    closed: base.filter(i => i._status === 'closed').length,
   };
   const tabs = [
     ['all', 'All'],
@@ -420,7 +454,8 @@ function renderTabs() {
 }
 
 function renderGrid() {
-  const filtered = activeTab === 'all' ? allItems : allItems.filter(i => i._status === activeTab);
+  const base = authorFilteredItems();
+  const filtered = activeTab === 'all' ? base : base.filter(i => i._status === activeTab);
   const sorted = filtered.slice().sort((a, b) => {
     // merged first, then by updated desc
     if (a._status === 'merged' && b._status !== 'merged') return -1;
