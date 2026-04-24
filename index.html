@@ -68,6 +68,7 @@
   .card.list-card .status-col .status-tag { font-size: 11px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; padding: 6px 12px; border-radius: 6px; white-space: nowrap; }
   .card.list-card.open .status-col .status-tag { background: var(--open-bg); color: var(--open); }
   .card.list-card.closed .status-col .status-tag { background: var(--closed-bg); color: var(--closed); }
+  .card.list-card.draft .status-col .status-tag { background: repeating-linear-gradient(45deg, #f4f4f0, #f4f4f0 4px, #ebeae4 4px, #ebeae4 8px); color: #666; border: 1px dashed #b8b5ae; }
   .card.list-card.merged .status-col .status-tag { background: linear-gradient(135deg, var(--merged-1), var(--merged-2)); color: white; display: inline-flex; align-items: center; gap: 7px; padding: 6px 11px; }
   .card.list-card.merged .status-col .status-tag .icon { font-size: 16px; line-height: 1; }
   .card.list-card.merged .status-col .status-tag .text { display: flex; flex-direction: column; line-height: 1.15; font-size: 10.5px; }
@@ -137,6 +138,7 @@
   .badge.kind-pr { background: var(--pr-bg); color: var(--pr); }
   .badge.kind-issue { background: #fff4e5; color: #b35c00; }
   .badge.milestone { background: #f3f2ee; color: var(--muted); font-weight: 500; }
+  .badge.state-draft { background: repeating-linear-gradient(45deg, #f4f4f0, #f4f4f0 4px, #ebeae4 4px, #ebeae4 8px); color: #666; border: 1px dashed #b8b5ae; }
 
   .labels { display: flex; gap: 4px; flex-wrap: wrap; }
   .label { font-size: 10.5px; font-weight: 500; padding: 2px 8px; border-radius: 4px; border: 1px solid rgba(0,0,0,0.08); }
@@ -359,11 +361,14 @@ function renderCard(item) {
     return `<span class="label" style="background:#${l.color}22;color:${color === '#fff' ? '#' + l.color : color};border-color:#${l.color}44;">${l.name}</span>`;
   }).join('');
   const milestone = item.milestone ? `<span class="badge milestone">🎯 ${item.milestone.title}</span>` : '';
+  const isDraft = isPR && item.draft === true;
   const stateBadge = status === 'merged'
     ? '<span class="badge state-merged">✓ Merged</span>'
-    : status === 'open'
-      ? '<span class="badge state-open">● Open</span>'
-      : '<span class="badge state-closed">Closed</span>';
+    : isDraft
+      ? '<span class="badge state-draft">◌ Draft</span>'
+      : status === 'open'
+        ? '<span class="badge state-open">● Open</span>'
+        : '<span class="badge state-closed">Closed</span>';
   const kindBadge = isPR ? '<span class="badge kind-pr">PR</span>' : '<span class="badge kind-issue">Issue</span>';
   const sparkle = status === 'merged' ? '<div class="sparkle">✨</div>' : '';
   const author = `<span class="author-mini"><img src="https://github.com/${item._author}.png?size=28" alt="" />${item._author}</span>`;
@@ -395,15 +400,18 @@ function renderListCard(item) {
     const color = labelTextColor(l.color);
     return `<span class="label" style="background:#${l.color}22;color:${color === '#fff' ? '#' + l.color : color};border-color:#${l.color}44;">${l.name}</span>`;
   }).join('');
+  const isDraft = isPR && item.draft === true;
+  const effectiveStatus = isDraft ? 'draft' : status;
   const statusLabel = status === 'merged'
     ? '<span class="icon">✨</span><span class="text"><span>Sprinkle</span><span>Merged</span></span>'
+    : isDraft ? '◌ Draft'
     : status === 'open' ? '● Open' : 'Closed';
   const kindBadge = isPR ? '<span class="badge kind-pr">PR</span>' : '<span class="badge kind-issue">Issue</span>';
   const milestone = item.milestone ? `<span class="badge milestone">🎯 ${escapeHtml(item.milestone.title)}</span>` : '';
   const author = `<span class="author-mini"><img src="https://github.com/${item._author}.png?size=28" alt="" />${item._author}</span>`;
 
   return `
-    <div class="card list-card ${status}">
+    <div class="card list-card ${effectiveStatus}">
       <div class="status-col"><span class="status-tag">${statusLabel}</span></div>
       <div class="main-col">
         <h3 class="title"><a href="${item.html_url}" target="_blank">${escapeHtml(item.title)} <span class="num">#${item.number}</span></a></h3>
