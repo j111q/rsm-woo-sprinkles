@@ -318,11 +318,13 @@ async function fetchUser(user) {
     ghFetch(`https://api.github.com/users/${user}`)
   ]);
   const tag = (items, statusTag) => items.items.map(i => ({ ...i, _status: statusTag, _author: user }));
+  // Split open PRs into draft vs open
+  const openSplit = open.items.map(i => ({ ...i, _status: (i.draft ? 'draft' : 'open'), _author: user }));
   return {
     user, profile,
     items: [
       ...tag(merged, 'merged'),
-      ...tag(open, 'open'),
+      ...openSplit,
       ...tag(closedUnmerged, 'closed')
     ]
   };
@@ -361,14 +363,10 @@ function renderCard(item) {
     return `<span class="label" style="background:#${l.color}22;color:${color === '#fff' ? '#' + l.color : color};border-color:#${l.color}44;">${l.name}</span>`;
   }).join('');
   const milestone = item.milestone ? `<span class="badge milestone">🎯 ${item.milestone.title}</span>` : '';
-  const isDraft = isPR && item.draft === true;
-  const stateBadge = status === 'merged'
-    ? '<span class="badge state-merged">✓ Merged</span>'
-    : isDraft
-      ? '<span class="badge state-draft">◌ Draft</span>'
-      : status === 'open'
-        ? '<span class="badge state-open">● Open</span>'
-        : '<span class="badge state-closed">Closed</span>';
+  const stateBadge = status === 'merged' ? '<span class="badge state-merged">✓ Merged</span>'
+    : status === 'draft' ? '<span class="badge state-draft">◌ Draft</span>'
+    : status === 'open' ? '<span class="badge state-open">● Open</span>'
+    : '<span class="badge state-closed">Closed</span>';
   const kindBadge = isPR ? '<span class="badge kind-pr">PR</span>' : '<span class="badge kind-issue">Issue</span>';
   const sparkle = status === 'merged' ? '<div class="sparkle">✨</div>' : '';
   const author = `<span class="author-mini"><img src="https://github.com/${item._author}.png?size=28" alt="" />${item._author}</span>`;
@@ -400,18 +398,16 @@ function renderListCard(item) {
     const color = labelTextColor(l.color);
     return `<span class="label" style="background:#${l.color}22;color:${color === '#fff' ? '#' + l.color : color};border-color:#${l.color}44;">${l.name}</span>`;
   }).join('');
-  const isDraft = isPR && item.draft === true;
-  const effectiveStatus = isDraft ? 'draft' : status;
   const statusLabel = status === 'merged'
     ? '<span class="icon">✨</span><span class="text"><span>Sprinkle</span><span>Merged</span></span>'
-    : isDraft ? '◌ Draft'
+    : status === 'draft' ? '◌ Draft'
     : status === 'open' ? '● Open' : 'Closed';
   const kindBadge = isPR ? '<span class="badge kind-pr">PR</span>' : '<span class="badge kind-issue">Issue</span>';
   const milestone = item.milestone ? `<span class="badge milestone">🎯 ${escapeHtml(item.milestone.title)}</span>` : '';
   const author = `<span class="author-mini"><img src="https://github.com/${item._author}.png?size=28" alt="" />${item._author}</span>`;
 
   return `
-    <div class="card list-card ${effectiveStatus}">
+    <div class="card list-card ${status}">
       <div class="status-col"><span class="status-tag">${statusLabel}</span></div>
       <div class="main-col">
         <h3 class="title"><a href="${item.html_url}" target="_blank">${escapeHtml(item.title)} <span class="num">#${item.number}</span></a></h3>
@@ -437,6 +433,7 @@ function renderPeople(datasets) {
   const html = datasets.map(d => {
     const merged = d.items.filter(i => i._status === 'merged').length;
     const open = d.items.filter(i => i._status === 'open').length;
+    const draft = d.items.filter(i => i._status === 'draft').length;
     const closed = d.items.filter(i => i._status === 'closed').length;
     const isActive = activeAuthor === d.user;
     const isDimmed = activeAuthor && !isActive;
@@ -446,7 +443,7 @@ function renderPeople(datasets) {
         <img src="${d.profile.avatar_url}" alt="${d.user}" />
         <div>
           <div class="handle"><a href="https://github.com/${d.user}" target="_blank" onclick="event.stopPropagation()">@${d.user}</a></div>
-          <div class="stats"><b>${merged}</b> merged · <b>${open}</b> open · <b>${closed}</b> closed</div>
+          <div class="stats"><b>${merged}</b> merged · <b>${open}</b> open · <b>${draft}</b> draft · <b>${closed}</b> closed</div>
         </div>
       </div>
     `;
@@ -482,12 +479,14 @@ function renderTabs() {
     all: base.length,
     merged: base.filter(i => i._status === 'merged').length,
     open: base.filter(i => i._status === 'open').length,
+    draft: base.filter(i => i._status === 'draft').length,
     closed: base.filter(i => i._status === 'closed').length,
   };
   const tabs = [
     ['all', 'All'],
     ['merged', '✨ Merged'],
     ['open', 'Open'],
+    ['draft', '◌ Draft'],
     ['closed', 'Closed'],
   ];
   document.getElementById('tabs').innerHTML = tabs.map(([k, label]) =>
