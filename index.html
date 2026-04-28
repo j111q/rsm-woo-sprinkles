@@ -255,16 +255,10 @@
     <div class="updated">
       <div id="updated">—</div>
       <button id="refresh">↻ Refresh</button>
-      <button id="token-btn" style="margin-left: 6px;" title="Add GitHub token (higher rate limit)">🔑</button>
     </div>
   </header>
 
   <div class="people" id="people"></div>
-
-  <div id="rate-warn" class="rate-warn" style="display:none;">
-    <span><b>Rate limited.</b> GitHub's 60-per-hour anonymous cap is exhausted. Add a personal access token (no scopes needed for public data) to lift it to 5,000/hr.</span>
-    <button onclick="openTokenModal()">Add token</button>
-  </div>
 
   <div class="tabs" id="tabs"></div>
 
@@ -272,60 +266,15 @@
 
 </div>
 
-<div class="token-modal" id="token-modal">
-  <div class="box">
-    <h3>Add a GitHub token</h3>
-    <p>Creates a higher rate limit (5,000/hr vs 60). Make a <b>classic</b> token at <a href="https://github.com/settings/tokens/new" target="_blank">github.com/settings/tokens/new</a> — no scopes needed for public data. Stored only in your browser's localStorage.</p>
-    <input type="password" id="token-input" placeholder="ghp_..." />
-    <div class="actions">
-      <button onclick="closeTokenModal()">Cancel</button>
-      <button class="primary" onclick="saveToken()">Save &amp; refresh</button>
-    </div>
-  </div>
-</div>
-
 <script>
 const USERS = ['j111q', 'annchichi'];
-const STORAGE_KEY = 'gh-dashboard-token';
 let allItems = [];
 let activeTab = 'all';
 let activeAuthor = null;
 let wins = {};
 
-let memoryToken = '';
-function safeStorage() {
-  try { return window.localStorage; } catch (e) { return null; }
-}
-function getToken() {
-  const ls = safeStorage();
-  if (ls) { try { return ls.getItem(STORAGE_KEY) || ''; } catch (e) {} }
-  return memoryToken;
-}
-function setToken(v) {
-  const ls = safeStorage();
-  if (ls) {
-    try { if (v) ls.setItem(STORAGE_KEY, v); else ls.removeItem(STORAGE_KEY); return; } catch (e) {}
-  }
-  memoryToken = v;
-}
-function openTokenModal() { document.getElementById('token-modal').classList.add('open'); document.getElementById('token-input').value = getToken(); }
-function closeTokenModal() { document.getElementById('token-modal').classList.remove('open'); }
-function saveToken() {
-  const v = document.getElementById('token-input').value.trim();
-  setToken(v);
-  closeTokenModal();
-  load();
-}
-
 async function ghFetch(url) {
-  const headers = { 'Accept': 'application/vnd.github+json' };
-  const t = getToken();
-  if (t) headers['Authorization'] = `Bearer ${t}`;
-  const res = await fetch(url, { headers });
-  if (res.status === 403 || res.status === 429) {
-    document.getElementById('rate-warn').style.display = 'flex';
-    throw new Error('rate-limited');
-  }
+  const res = await fetch(url, { headers: { 'Accept': 'application/vnd.github+json' } });
   if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
   return res.json();
 }
@@ -615,7 +564,6 @@ async function loadPrefetched() {
 }
 
 async function load() {
-  document.getElementById('rate-warn').style.display = 'none';
   document.getElementById('content').innerHTML = `<div class="loader">Fetching<span class="dot">.</span><span class="dot">.</span><span class="dot">.</span></div>`;
   try {
     await loadWins();
@@ -639,17 +587,11 @@ async function load() {
     renderGrid();
     document.getElementById('updated').textContent = `Updated ${stamp.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' })}`;
   } catch (e) {
-    if (e.message !== 'rate-limited') {
-      document.getElementById('content').innerHTML = `<div class="empty"><div class="em">Something went sideways.</div><p>${escapeHtml(e.message)}</p></div>`;
-    } else {
-      document.getElementById('content').innerHTML = '';
-    }
+    document.getElementById('content').innerHTML = `<div class="empty"><div class="em">Something went sideways.</div><p>${escapeHtml(e.message)}</p></div>`;
   }
 }
 
 document.getElementById('refresh').addEventListener('click', load);
-document.getElementById('token-btn').addEventListener('click', openTokenModal);
-document.getElementById('token-modal').addEventListener('click', e => { if (e.target.id === 'token-modal') closeTokenModal(); });
 
 load();
 </script>

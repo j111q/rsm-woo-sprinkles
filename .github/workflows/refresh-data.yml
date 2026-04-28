@@ -5,8 +5,8 @@ on:
     branches: [main]
     paths-ignore: ['data.json']
   schedule:
-    # Every 30 minutes
-    - cron: '*/30 * * * *'
+    # Every 5 minutes (GitHub Actions minimum)
+    - cron: '*/5 * * * *'
   workflow_dispatch:
 
 permissions:
