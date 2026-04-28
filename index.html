@@ -390,7 +390,7 @@ function renderListCard(item) {
   const win = status === 'merged' ? getWin(item) : null;
   const winBlock = (win && win.impact) ? `
     <div class="win-block">
-      <span class="win-label">📈 Impacts:</span>
+      <span class="win-label">📈 Impact:</span>
       <span class="win-impact">${escapeHtml(win.impact)}</span>
     </div>
   ` : '';
