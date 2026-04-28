@@ -627,7 +627,9 @@ async function load() {
     });
 
     const cutoff = Date.now() - 10 * 86400000;
-    datasets.forEach(d => { d.items = d.items.filter(i => new Date(i.updated_at).getTime() >= cutoff); });
+    datasets.forEach(d => {
+      d.items = d.items.filter(i => i._source === 'trac' || new Date(i.updated_at).getTime() >= cutoff);
+    });
     renderPeople(datasets);
     allItems = datasets.flatMap(d => d.items);
     renderTabs();
