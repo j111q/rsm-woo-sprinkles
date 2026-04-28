@@ -93,7 +93,7 @@
     "64334": {
       "category": "Polish",
       "summary": "Offline awareness banner in Woo admin (reuses WP core notice)",
-      "impact": "152 Woo Zendesk tickets / 90d mention lost connection or unsaved changes (no Tracks event — banner reuses WP core's silent notice)"
+      "impact": "152 Woo Zendesk tickets / 90d mention lost connection or unsaved changes"
     },
     "64353": {
       "category": "Cleanup",
