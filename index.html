@@ -604,20 +604,40 @@ function renderCategoryPill(item) {
   return `<span class="category-pill ${categoryClass(cat)}">${escapeHtml(cat)}</span>`;
 }
 
+async function loadPrefetched() {
+  try {
+    const res = await fetch('data.json?t=' + Date.now());
+    if (!res.ok) return null;
+    const data = await res.json();
+    if (!data || !data.datasets) return null;
+    return data;
+  } catch (e) { return null; }
+}
+
 async function load() {
   document.getElementById('rate-warn').style.display = 'none';
   document.getElementById('content').innerHTML = `<div class="loader">Fetching<span class="dot">.</span><span class="dot">.</span><span class="dot">.</span></div>`;
   try {
     await loadWins();
-    const datasets = await Promise.all(USERS.map(fetchUser));
+
+    // Try the GitHub-Action-prefetched data first; fall back to live API only if missing.
+    let datasets;
+    let stamp = new Date();
+    const pre = await loadPrefetched();
+    if (pre) {
+      datasets = pre.datasets;
+      if (pre.fetchedAt) stamp = new Date(pre.fetchedAt);
+    } else {
+      datasets = await Promise.all(USERS.map(fetchUser));
+    }
+
     const cutoff = Date.now() - 10 * 86400000;
     datasets.forEach(d => { d.items = d.items.filter(i => new Date(i.updated_at).getTime() >= cutoff); });
     renderPeople(datasets);
     allItems = datasets.flatMap(d => d.items);
     renderTabs();
     renderGrid();
-    const now = new Date();
-    document.getElementById('updated').textContent = `Updated ${now.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' })}`;
+    document.getElementById('updated').textContent = `Updated ${stamp.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' })}`;
   } catch (e) {
     if (e.message !== 'rate-limited') {
       document.getElementById('content').innerHTML = `<div class="empty"><div class="em">Something went sideways.</div><p>${escapeHtml(e.message)}</p></div>`;
