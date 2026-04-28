@@ -50,7 +50,7 @@
   .canvas-item .head h2 a:hover { text-decoration: underline; text-decoration-thickness: 1.5px; text-underline-offset: 4px; }
   .canvas-item .caption { font-size: 14px; color: var(--muted); line-height: 1.55; max-width: 70ch; }
   .canvas-item .frame { background: var(--card); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.04); }
-  .canvas-item .frame iframe { width: 100%; border: none; display: block; background: white; }
+  .canvas-item .frame .shadow-host { display: block; width: 100%; }
   .canvas-item .frame img { width: 100%; height: auto; display: block; }
   .canvas-item .impact-line { font-size: 13px; color: var(--muted); display: flex; align-items: center; gap: 6px; }
   .canvas-item .impact-line .pin { color: #8250df; }
@@ -627,9 +627,10 @@ function renderCanvas() {
     const heading = w.summary || `${it.repo}#${it.number}`;
     const cat = w.category || (wins._default_category || 'Sprinkle');
     const url = `https://github.com/${it.repo}/pull/${it.number}`;
+    const frameId = `frame-${it.repo.replace(/[^a-z0-9]/gi,'-')}-${it.number}`;
     const frame = it.type === 'image'
       ? `<img src="${escapeHtml(it.src)}" alt="" loading="lazy" />`
-      : `<iframe src="${escapeHtml(it.src)}" loading="lazy" style="height:${it.height || 600}px" sandbox="allow-same-origin"></iframe>`;
+      : `<div class="shadow-host" id="${frameId}" data-src="${escapeHtml(it.src)}"></div>`;
     const impact = w.impact ? `<div class="impact-line"><span class="pin">📈</span> ${escapeHtml(w.impact)}</div>` : '';
     const caption = it.caption ? `<p class="caption">${escapeHtml(it.caption)}</p>` : '';
     return `
@@ -644,6 +645,18 @@ function renderCanvas() {
       </div>
     `;
   }).join('');
+
+  // Inline HTML demos via Shadow DOM so their styles don't bleed into the dashboard
+  root.querySelectorAll('.shadow-host[data-src]').forEach(host => {
+    if (host.shadowRoot) return; // already populated
+    fetch(host.dataset.src).then(r => r.text()).then(html => {
+      const doc = new DOMParser().parseFromString(html, 'text/html');
+      const styles = Array.from(doc.head.querySelectorAll('style,link[rel="stylesheet"]')).map(n => n.outerHTML).join('');
+      const body = doc.body ? doc.body.innerHTML : '';
+      const shadow = host.attachShadow({ mode: 'open' });
+      shadow.innerHTML = `<style>:host { display: block; }</style>${styles}${body}`;
+    }).catch(() => { host.textContent = 'Could not load preview'; });
+  });
 }
 
 function setMode(mode) {

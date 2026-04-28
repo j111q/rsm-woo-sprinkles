@@ -4,33 +4,16 @@
     {
       "repo": "woocommerce/woocommerce",
       "number": "64196",
-      "type": "iframe",
+      "type": "html",
       "src": "looks/pr-64196-before-after.html",
-      "height": 720,
       "caption": "Structural admin elements now respect the user's WP admin color scheme — no more hardcoded blues."
     },
     {
       "repo": "woocommerce/woocommerce",
       "number": "64276",
-      "type": "iframe",
+      "type": "html",
       "src": "looks/pr-64276-before-after.html",
-      "height": 720,
       "caption": "Hardcoded grays in Woo admin retoned to align with WP 7.0 — calmer, less murky text."
-    },
-    {
-      "repo": "woocommerce/woocommerce",
-      "number": "64334",
-      "type": "image",
-      "src": "looks/offline-banner-screenshot.png",
-      "caption": "When admin loses connectivity, merchants now see WP core's offline notice — no more silent save failures."
-    },
-    {
-      "repo": "woocommerce/woocommerce",
-      "number": "64353",
-      "type": "iframe",
-      "src": "looks/reminder-bar-reskin-preview.html",
-      "height": 720,
-      "caption": "Removed the persistent task list reminder bar that nagged stores well past onboarding."
     }
   ]
 }
