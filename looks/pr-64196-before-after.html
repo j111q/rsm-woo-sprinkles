@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>PR #64196 — Before/After</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: #f0f0f1;
+    padding: 32px;
+    color: #1e1e1e;
+  }
+  h1 { font-size: 18px; margin-bottom: 4px; }
+  .subtitle { color: #757575; font-size: 13px; margin-bottom: 24px; }
+  .comparison {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    margin-bottom: 32px;
+  }
+  .col-label {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    color: #757575;
+    margin-bottom: 12px;
+    font-weight: 600;
+  }
+  .frame {
+    background: #fff;
+    border-radius: 8px;
+    padding: 24px;
+    border: 1px solid #e0e0e0;
+    min-height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+  }
+
+  /* Before scheme = hardcoded blue (what it looked like on any scheme) */
+  .before .button      { background: #007cba; }
+  .before .reminder    { background: #007cba; }
+  .before .focus-ring  { box-shadow: 0 0 0 2px #2271b1; }
+  .before .hover-card  { border-color: #007cba; }
+  .before .icon        { fill: #007cba; }
+  .before .icon-big    { fill: #2271b1; }
+
+  /* After, on Modern scheme (#3858e9) */
+  .after-modern .button      { background: #3858e9; }
+  .after-modern .reminder    { background: #3858e9; }
+  .after-modern .focus-ring  { box-shadow: 0 0 0 2px #3858e9; }
+  .after-modern .hover-card  { border-color: #3858e9; }
+  .after-modern .icon        { fill: #3858e9; }
+  .after-modern .icon-big    { fill: #3858e9; }
+
+  /* After, on Sunrise scheme (#dd823b) */
+  .after-sunrise .button      { background: #dd823b; }
+  .after-sunrise .reminder    { background: #dd823b; }
+  .after-sunrise .focus-ring  { box-shadow: 0 0 0 2px #dd823b; }
+  .after-sunrise .hover-card  { border-color: #dd823b; }
+  .after-sunrise .icon        { fill: #dd823b; }
+  .after-sunrise .icon-big    { fill: #dd823b; }
+
+  /* After, on Ectoplasm scheme (#a3b745) */
+  .after-ectoplasm .button      { background: #a3b745; }
+  .after-ectoplasm .reminder    { background: #a3b745; }
+  .after-ectoplasm .focus-ring  { box-shadow: 0 0 0 2px #a3b745; }
+  .after-ectoplasm .hover-card  { border-color: #a3b745; }
+  .after-ectoplasm .icon        { fill: #a3b745; }
+  .after-ectoplasm .icon-big    { fill: #a3b745; }
+
+  .button {
+    border: 0;
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: 500;
+    font-size: 13px;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  .reminder {
+    width: 100%;
+    color: #fff;
+    padding: 10px 16px;
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: 2px;
+    text-align: center;
+  }
+  .focus-ring {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    padding: 16px 20px;
+    font-size: 13px;
+    border-radius: 2px;
+  }
+  .hover-card {
+    background: #fff;
+    border: 1.5px solid;
+    padding: 16px 20px;
+    font-size: 13px;
+    border-radius: 3px;
+  }
+  .icon {
+    width: 18px;
+    height: 18px;
+  }
+  .icon-big {
+    width: 22px;
+    height: 22px;
+  }
+  .row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+  }
+
+  .comparison-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+  }
+  h2 {
+    font-size: 14px;
+    margin-top: 24px;
+    margin-bottom: 12px;
+    font-weight: 600;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 8px;
+  }
+</style>
+</head>
+<body>
+
+<h1>PR #64196 — Before / After</h1>
+<p class="subtitle">How the 7 changed admin elements respond to the merchant's Admin Color Scheme preference.</p>
+
+<h2>Before (any scheme)  vs  After, on 3 schemes</h2>
+
+<div class="comparison-3">
+  <div>
+    <div class="col-label">Before — hardcoded</div>
+    <div class="frame before">
+      <button class="button">Send magic link</button>
+      <div class="reminder">Complete store setup</div>
+      <div class="focus-ring">Focused card</div>
+      <div class="hover-card">Hover border</div>
+      <div class="row">
+        <svg class="icon-big" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/></svg>
+        <span>Fulfillment status</span>
+      </div>
+      <div class="row">
+        <svg class="icon" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/></svg>
+        <span>Subscription info</span>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <div class="col-label">After — Modern (default)</div>
+    <div class="frame after-modern">
+      <button class="button">Send magic link</button>
+      <div class="reminder">Complete store setup</div>
+      <div class="focus-ring">Focused card</div>
+      <div class="hover-card">Hover border</div>
+      <div class="row">
+        <svg class="icon-big" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/></svg>
+        <span>Fulfillment status</span>
+      </div>
+      <div class="row">
+        <svg class="icon" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/></svg>
+        <span>Subscription info</span>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <div class="col-label">After — Sunrise</div>
+    <div class="frame after-sunrise">
+      <button class="button">Send magic link</button>
+      <div class="reminder">Complete store setup</div>
+      <div class="focus-ring">Focused card</div>
+      <div class="hover-card">Hover border</div>
+      <div class="row">
+        <svg class="icon-big" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/></svg>
+        <span>Fulfillment status</span>
+      </div>
+      <div class="row">
+        <svg class="icon" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/></svg>
+        <span>Subscription info</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<h2>What stays hardcoded (text links — for accessibility)</h2>
+<div class="comparison-3">
+  <div>
+    <div class="col-label">Modern</div>
+    <div class="frame" style="padding:16px;align-items:flex-start;text-align:left">
+      <a href="#" style="color:#007cba;text-decoration:none;font-weight:600">Campaign title link</a>
+      <a href="#" style="color:#007cba;text-decoration:none">Refresh subscriptions</a>
+      <a href="#" style="color:#007cba;text-decoration:none">Skip to content</a>
+    </div>
+  </div>
+  <div>
+    <div class="col-label">Sunrise</div>
+    <div class="frame" style="padding:16px;align-items:flex-start;text-align:left">
+      <a href="#" style="color:#007cba;text-decoration:none;font-weight:600">Campaign title link</a>
+      <a href="#" style="color:#007cba;text-decoration:none">Refresh subscriptions</a>
+      <a href="#" style="color:#007cba;text-decoration:none">Skip to content</a>
+    </div>
+  </div>
+  <div>
+    <div class="col-label">Ectoplasm</div>
+    <div class="frame" style="padding:16px;align-items:flex-start;text-align:left">
+      <a href="#" style="color:#007cba;text-decoration:none;font-weight:600">Campaign title link</a>
+      <a href="#" style="color:#007cba;text-decoration:none">Refresh subscriptions</a>
+      <a href="#" style="color:#007cba;text-decoration:none">Skip to content</a>
+    </div>
+  </div>
+</div>
+
+<p style="margin-top:16px;font-size:12px;color:#757575;">Text link colors remain hardcoded accessible blue regardless of scheme — matching what WordPress core itself does for text links.</p>
+
+</body>
+</html>

@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Reminder bar reskin — full-page preview</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { height: 100%; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: #f0f0f1;
+    color: #1e1e1e;
+    font-size: 13px;
+    line-height: 1.4;
+    padding: 24px;
+  }
+
+  h1 { font-size: 18px; margin-bottom: 4px; }
+  .subtitle { color: #757575; font-size: 12px; margin-bottom: 24px; }
+  h2 { font-size: 14px; margin: 32px 0 8px; font-weight: 600; }
+  .desc { color: #50575e; margin-bottom: 12px; font-size: 13px; }
+
+  /* ============ */
+  /* Admin mockup */
+  /* ============ */
+  .admin {
+    background: #f0f0f1;
+    display: grid;
+    grid-template-columns: 160px 1fr;
+    grid-template-rows: 32px 1fr;
+    border: 1px solid #c3c4c7;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 16px;
+    min-height: 420px;
+  }
+  .admin-bar {
+    grid-column: 1 / -1;
+    background: #1e1e1e;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+    font-size: 13px;
+    gap: 16px;
+  }
+  .admin-bar .site-name { font-weight: 600; }
+  .admin-bar .sp { flex: 1; }
+  .admin-bar .user { opacity: 0.9; }
+  .admin-sidebar {
+    background: #1e1e1e;
+    color: #c3c4c7;
+    padding: 8px 0;
+    font-size: 13px;
+  }
+  .admin-sidebar .item {
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  .admin-sidebar .item.active {
+    background: #3858e9;
+    color: #fff;
+  }
+  .admin-sidebar .item.sub {
+    padding-left: 28px;
+    font-size: 12px;
+    opacity: 0.8;
+  }
+
+  .admin-content-area {
+    background: #f0f0f1;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+  }
+
+  .admin-main {
+    padding: 16px 20px;
+    flex: 1;
+  }
+
+  .page-title {
+    font-size: 23px;
+    font-weight: 400;
+    margin-bottom: 16px;
+    color: #1e1e1e;
+  }
+
+  .page-content {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #c3c4c7;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.04);
+    min-height: 180px;
+    color: #50575e;
+    border-radius: 4px;
+  }
+
+  /* ========================== */
+  /* A — CURRENT: custom full-width bar ABOVE page title */
+  /* ========================== */
+  .reminder-current {
+    height: 40px;
+    background-color: #007cba;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    color: #fff;
+    font-size: 13px;
+    width: 100%;
+  }
+  .reminder-current button {
+    color: #fff;
+    background: none;
+    border: 0;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 4px 8px;
+    line-height: 1;
+  }
+
+  /* ========================== */
+  /* B — OPTION: WP notice inside content */
+  /* ========================== */
+  .notice {
+    background: #fff;
+    padding: 1px 12px;
+    border-left-width: 4px;
+    border-left-style: solid;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.04);
+    margin: 0 0 16px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    min-height: 40px;
+  }
+  .notice-modern { border-left-color: #3858e9; }
+  .notice p {
+    padding: 9px 0;
+    margin: 0;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #1e1e1e;
+  }
+  .notice button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    padding: 9px;
+    color: #787c82;
+    font-size: 16px;
+    line-height: 1;
+  }
+
+  /* ========================== */
+  /* C — OPTION: light bg full-width with left accent */
+  /* ========================== */
+  .reminder-tinted {
+    padding: 12px 20px;
+    background: #f0f6fc;
+    border-left: 4px solid #3858e9;
+    border-bottom: 1px solid #dcdcde;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #1e1e1e;
+    font-size: 13px;
+  }
+  .reminder-tinted button {
+    color: #1e1e1e;
+    background: none;
+    border: 0;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 4px 8px;
+    line-height: 1;
+  }
+
+  .pros-cons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    background: #fff;
+    padding: 12px 16px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    margin-bottom: 24px;
+  }
+  .pros-cons h4 {
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: #757575;
+    margin-bottom: 4px;
+  }
+  .pros-cons ul {
+    font-size: 12px;
+    color: #50575e;
+    padding-left: 18px;
+    line-height: 1.5;
+  }
+  code {
+    background: #f0f0f0;
+    padding: 1px 4px;
+    border-radius: 2px;
+    font-family: ui-monospace, Menlo, monospace;
+    font-size: 11px;
+  }
+
+  strong { font-weight: 600; }
+</style>
+</head>
+<body>
+
+<h1>Reminder bar — in full-page context</h1>
+<p class="subtitle">How each option sits inside the actual wp-admin layout.</p>
+
+<!-- A — Current -->
+<h2>A — Current (what's on trunk)</h2>
+<p class="desc">40px full-width accent bar sits between the black admin bar and the page title. Solid blue, white text.</p>
+<div class="admin">
+  <div class="admin-bar">
+    <span class="site-name">⬛ Woo Sprinkles</span>
+    <span>Store coming soon</span>
+    <span class="sp"></span>
+    <span class="user">Howdy, admin</span>
+  </div>
+  <div class="admin-sidebar">
+    <div class="item">Dashboard</div>
+    <div class="item">Posts</div>
+    <div class="item">Media</div>
+    <div class="item active">WooCommerce</div>
+    <div class="item sub">Home</div>
+    <div class="item sub">Orders</div>
+    <div class="item sub">Products</div>
+    <div class="item">Appearance</div>
+    <div class="item">Users</div>
+    <div class="item">Settings</div>
+  </div>
+  <div class="admin-content-area">
+    <div class="reminder-current">
+      <span>You have <strong>4 tasks left</strong> to complete your store setup.</span>
+      <button aria-label="Dismiss">×</button>
+    </div>
+    <div class="admin-main">
+      <h2 class="page-title">Orders</h2>
+      <div class="page-content">Page content…</div>
+    </div>
+  </div>
+</div>
+<div class="pros-cons">
+  <div><h4>✅ Pros</h4><ul><li>High visibility above the fold</li><li>Persistent across all admin pages</li></ul></div>
+  <div><h4>⚠️ Cons</h4><ul><li>Custom to Woo — doesn't match WP core patterns</li><li>White-on-accent fails WCAG AA on 7/9 color schemes</li><li>Feels like a different visual language from the rest of wp-admin</li></ul></div>
+</div>
+
+<!-- B — WP notice inside content -->
+<h2>B — WP <code>.notice</code> pattern, inside the content area</h2>
+<p class="desc">Uses WordPress's standard notice pattern. Sits at the top of the page content, below the page title. Dark text on white with a 4px left border in Modern blue.</p>
+<div class="admin">
+  <div class="admin-bar">
+    <span class="site-name">⬛ Woo Sprinkles</span>
+    <span>Store coming soon</span>
+    <span class="sp"></span>
+    <span class="user">Howdy, admin</span>
+  </div>
+  <div class="admin-sidebar">
+    <div class="item">Dashboard</div>
+    <div class="item">Posts</div>
+    <div class="item">Media</div>
+    <div class="item active">WooCommerce</div>
+    <div class="item sub">Home</div>
+    <div class="item sub">Orders</div>
+    <div class="item sub">Products</div>
+    <div class="item">Appearance</div>
+    <div class="item">Users</div>
+    <div class="item">Settings</div>
+  </div>
+  <div class="admin-content-area">
+    <div class="admin-main">
+      <h2 class="page-title">Orders</h2>
+      <div class="notice notice-modern">
+        <p>You have <strong>4 tasks left</strong> to complete your store setup.</p>
+        <button aria-label="Dismiss">×</button>
+      </div>
+      <div class="page-content">Page content…</div>
+    </div>
+  </div>
+</div>
+<div class="pros-cons">
+  <div><h4>✅ Pros</h4><ul><li>Matches WP core's standard notice pattern exactly</li><li>Accessible on all color schemes (dark text on white)</li><li>Users already know how to interact with WP notices</li><li>Uses scheme color only for the 4px accent (always safe)</li></ul></div>
+  <div><h4>⚠️ Cons</h4><ul><li>Lower visual prominence than full-width bar</li><li>Sits below page title — merchant could scroll past</li><li>Not persistent "above the fold" on every screen</li></ul></div>
+</div>
+
+<!-- C — Full-width light tinted -->
+<h2>C — Full-width light-tinted bar (compromise)</h2>
+<p class="desc">Keeps the "full-width above page title" placement, but uses a soft tinted background with dark text + a 4px left accent. High visibility, scheme-safe contrast.</p>
+<div class="admin">
+  <div class="admin-bar">
+    <span class="site-name">⬛ Woo Sprinkles</span>
+    <span>Store coming soon</span>
+    <span class="sp"></span>
+    <span class="user">Howdy, admin</span>
+  </div>
+  <div class="admin-sidebar">
+    <div class="item">Dashboard</div>
+    <div class="item">Posts</div>
+    <div class="item">Media</div>
+    <div class="item active">WooCommerce</div>
+    <div class="item sub">Home</div>
+    <div class="item sub">Orders</div>
+    <div class="item sub">Products</div>
+    <div class="item">Appearance</div>
+    <div class="item">Users</div>
+    <div class="item">Settings</div>
+  </div>
+  <div class="admin-content-area">
+    <div class="reminder-tinted">
+      <span>You have <strong>4 tasks left</strong> to complete your store setup.</span>
+      <button aria-label="Dismiss">×</button>
+    </div>
+    <div class="admin-main">
+      <h2 class="page-title">Orders</h2>
+      <div class="page-content">Page content…</div>
+    </div>
+  </div>
+</div>
+<div class="pros-cons">
+  <div><h4>✅ Pros</h4><ul><li>Stays above-the-fold and highly visible</li><li>Accessible on all color schemes</li><li>Reads as "a softer, more modern version" of the current bar</li></ul></div>
+  <div><h4>⚠️ Cons</h4><ul><li>Still a custom pattern (not standard <code>.notice</code>)</li><li>Less strictly "aligned with Core"</li></ul></div>
+</div>
+
+</body>
+</html>
