@@ -262,19 +262,7 @@
     <button onclick="openTokenModal()">Add token</button>
   </div>
 
-  <div class="tabs-row">
-    <div class="tabs" id="tabs"></div>
-    <div class="view-toggle" id="view-toggle">
-      <button data-view="grid" title="Grid view">
-        <svg viewBox="0 0 16 16" fill="currentColor"><rect x="1" y="1" width="6" height="6" rx="1"/><rect x="9" y="1" width="6" height="6" rx="1"/><rect x="1" y="9" width="6" height="6" rx="1"/><rect x="9" y="9" width="6" height="6" rx="1"/></svg>
-        Grid
-      </button>
-      <button data-view="list" class="active" title="List view">
-        <svg viewBox="0 0 16 16" fill="currentColor"><rect x="1" y="2" width="14" height="2.5" rx="1"/><rect x="1" y="7" width="14" height="2.5" rx="1"/><rect x="1" y="12" width="14" height="2.5" rx="1"/></svg>
-        List
-      </button>
-    </div>
-  </div>
+  <div class="tabs" id="tabs"></div>
 
   <div id="content"><div class="loader">Fetching<span class="dot">.</span><span class="dot">.</span><span class="dot">.</span></div></div>
 
@@ -297,7 +285,6 @@ const USERS = ['j111q', 'annchichi'];
 const STORAGE_KEY = 'gh-dashboard-token';
 let allItems = [];
 let activeTab = 'all';
-let activeView = 'list';
 let activeAuthor = null;
 let wins = {};
 
@@ -384,44 +371,6 @@ function formatDate(iso) {
   return d.toLocaleDateString('en-US', { month: 'short', year: 'numeric' });
 }
 
-function renderCard(item) {
-  const isPR = !!item.pull_request;
-  const status = item._status;
-  const repo = repoName(item);
-  const labels = (item.labels || []).map(l => {
-    const color = labelTextColor(l.color);
-    return `<span class="label" style="background:#${l.color}22;color:${color === '#fff' ? '#' + l.color : color};border-color:#${l.color}44;">${l.name}</span>`;
-  }).join('');
-  const milestone = item.milestone ? `<span class="badge milestone">🎯 ${item.milestone.title}</span>` : '';
-  const stateBadge = status === 'merged' ? '<span class="badge state-merged">✓ Merged</span>'
-    : status === 'draft' ? '<span class="badge state-draft">◌ Draft</span>'
-    : status === 'open' ? '<span class="badge state-open">● Open</span>'
-    : '<span class="badge state-closed">Closed</span>';
-  const kindBadge = isPR ? '<span class="badge kind-pr">PR</span>' : '<span class="badge kind-issue">Issue</span>';
-  const sparkle = status === 'merged' ? '<div class="sparkle">✨</div>' : '';
-  const author = `<span class="author-mini"><img src="https://github.com/${item._author}.png?size=28" alt="" />${item._author}</span>`;
-
-  return `
-    <div class="card ${status === 'merged' ? 'merged' : ''}">
-      ${sparkle}
-      <div class="row">
-        <span class="repo"><a href="https://github.com/${repo}" target="_blank">${repo}</a></span>
-        <span style="flex:1"></span>
-        ${author}
-      </div>
-      ${renderCategoryPill(item)}
-      <h3 class="title"><a href="${item.html_url}" target="_blank">${escapeHtml(item.title)} <span class="num">#${item.number}</span></a></h3>
-      <div class="badges">${stateBadge}${kindBadge}${milestone}</div>
-      ${labels ? `<div class="labels">${labels}</div>` : ''}
-      ${status === 'merged' ? renderWinRow(item) : ''}
-      <div class="meta">
-        <span class="comments">${item.comments}</span>
-        <span class="date">updated ${formatDate(item.updated_at)}</span>
-      </div>
-    </div>
-  `;
-}
-
 function renderListCard(item) {
   const isPR = !!item.pull_request;
   const status = item._status;
@@ -450,7 +399,7 @@ function renderListCard(item) {
 
   return `
     <div class="card list-card ${status}">
-      <div class="status-col"><span class="status-tag">${statusLabel}</span></div>
+      <div class="status-col"><span class="status-tag"${status === 'merged' ? ' title="click me for a surprise"' : ''}>${statusLabel}</span></div>
       <div class="main-col">
         ${renderCategoryPill(item)}
         <h3 class="title"><a href="${item.html_url}" target="_blank">${escapeHtml(item.title)} <span class="num">#${item.number}</span></a></h3>
@@ -557,11 +506,7 @@ function renderGrid() {
     content.innerHTML = `<div class="empty"><div class="em">Nothing here.</div><p>No items match this filter.</p></div>`;
     return;
   }
-  if (activeView === 'list') {
-    content.innerHTML = `<div class="list">${sorted.map(renderListCard).join('')}</div>`;
-  } else {
-    content.innerHTML = `<div class="grid">${sorted.map(renderCard).join('')}</div>`;
-  }
+  content.innerHTML = `<div class="list">${sorted.map(renderListCard).join('')}</div>`;
 }
 
 function burstConfetti(cx, cy) {
@@ -613,17 +558,6 @@ document.addEventListener('click', (e) => {
   burstConfetti(r.left + r.width / 2, r.top + r.height / 2);
 });
 
-function wireViewToggle() {
-  document.querySelectorAll('#view-toggle button').forEach(b => {
-    b.addEventListener('click', () => {
-      activeView = b.dataset.view;
-      document.querySelectorAll('#view-toggle button').forEach(x => x.classList.toggle('active', x.dataset.view === activeView));
-      renderGrid();
-    });
-  });
-}
-wireViewToggle();
-
 async function loadWins() {
   try {
     const res = await fetch('wins.json?t=' + Date.now());
@@ -664,14 +598,6 @@ function categoryClass(cat) {
 function renderCategoryPill(item) {
   const cat = getCategory(item);
   return `<span class="category-pill ${categoryClass(cat)}">${escapeHtml(cat)}</span>`;
-}
-
-function renderWinRow(item) {
-  const w = getWin(item);
-  if (!w) return '';
-  const impact = w.impact ? `<span class="win-impact">${escapeHtml(w.impact)}</span>` : '';
-  const theme = w.theme ? `<span class="win-theme">${escapeHtml(w.theme)}</span>` : '';
-  return `<div class="win-row"><span class="win-icon">📈</span><span><span class="win-summary">${escapeHtml(w.summary)}</span>${impact}</span>${theme}</div>`;
 }
 
 async function load() {
