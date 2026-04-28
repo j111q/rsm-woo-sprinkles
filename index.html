@@ -269,6 +269,7 @@
 
 <script>
 const USERS = ['j111q', 'annchichi'];
+const HACKATHON_START = new Date('2026-04-15T00:00:00Z').getTime();
 let allItems = [];
 let activeTab = 'all';
 let activeAuthor = null;
@@ -626,9 +627,8 @@ async function load() {
       if (tracByUser[d.user]) d.items = [...d.items, ...tracByUser[d.user]];
     });
 
-    const cutoff = Date.now() - 10 * 86400000;
     datasets.forEach(d => {
-      d.items = d.items.filter(i => i._source === 'trac' || new Date(i.updated_at).getTime() >= cutoff);
+      d.items = d.items.filter(i => new Date(i.updated_at).getTime() >= HACKATHON_START);
     });
     renderPeople(datasets);
     allItems = datasets.flatMap(d => d.items);
