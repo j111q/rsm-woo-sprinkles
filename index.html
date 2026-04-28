@@ -636,10 +636,25 @@ function getWin(item) {
   return wins[repo] && wins[repo][String(item.number)];
 }
 
+function inferCategory(title) {
+  const t = title.toLowerCase();
+  // Mercantile work
+  if (/mercantile|ssh-mercantile/.test(t)) return 'Mercantile';
+  // Copy / messaging fixes
+  if (/\b(copy|message|merchant-friendly|error notice|developer-facing|wording|label[s]? (for|on)|placeholder text)\b/.test(t)) return 'Copy';
+  // Cleanup / removals / deprecations
+  if (/\b(remove|removes|drop|drops|delete|deletes|deprecate|stop rendering|clean ?up|public-safe)\b/.test(t)) return 'Cleanup';
+  // WP 7.0 alignment work
+  if (/wp ?7\.0|wordpress 7\.0|wp-admin-theme-color|wp-admin-border-width|--wp-admin|tokenize|radius-s|border-radius|focus ring|select2|form-control|palette|destructive|theme color|gray|grey|placeholder|primary text|notice/.test(t)) return 'WP 7.0';
+  // Polish / awareness / banners
+  if (/\b(awareness|banner|polish|align(ment)?|fix |adjust|tweak)\b/.test(t)) return 'Polish';
+  return wins._default_category || 'Sprinkle';
+}
+
 function getCategory(item) {
   const w = getWin(item);
   if (w && w.category) return w.category;
-  return wins._default_category || 'Sprinkle';
+  return inferCategory(item.title || '');
 }
 
 function categoryClass(cat) {
