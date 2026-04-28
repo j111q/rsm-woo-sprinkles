@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-04-28T16:04:32.761Z",
+  "fetchedAt": "2026-04-28T16:21:23.340Z",
   "datasets": [
     {
       "user": "j111q",
@@ -187,6 +187,56 @@
           "_author": "j111q"
         },
         {
+          "number": 64443,
+          "title": "Stop rendering inbox note images and deprecate the API",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64443",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": false,
+          "comments": 4,
+          "updated_at": "2026-04-28T16:12:46Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64443"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            },
+            {
+              "name": "plugin: woocommerce beta tester",
+              "color": "db1c8e"
+            },
+            {
+              "name": "package: @woocommerce/experimental",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.9.0"
+          },
+          "_status": "open",
+          "_author": "j111q"
+        },
+        {
+          "number": 64444,
+          "title": "Remove deprecated inbox note image/layout API (PR follow-up)",
+          "html_url": "https://github.com/woocommerce/woocommerce/issues/64444",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "comments": 0,
+          "updated_at": "2026-04-28T16:05:59Z",
+          "labels": [
+            {
+              "name": "Data Structure/CRUD/Backend Processing",
+              "color": "f7c8c1"
+            }
+          ],
+          "milestone": null,
+          "_status": "open",
+          "_author": "j111q"
+        },
+        {
           "number": 64454,
           "title": "Link meta box radius bridge to upstream Trac ticket #65142",
           "html_url": "https://github.com/woocommerce/woocommerce/pull/64454",
@@ -243,56 +293,6 @@
           "milestone": {
             "title": "10.9.0"
           },
-          "_status": "open",
-          "_author": "j111q"
-        },
-        {
-          "number": 64443,
-          "title": "Stop rendering inbox note images and deprecate the API",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/64443",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "draft": false,
-          "comments": 3,
-          "updated_at": "2026-04-28T13:04:56Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/64443"
-          },
-          "labels": [
-            {
-              "name": "plugin: woocommerce",
-              "color": "db1c8e"
-            },
-            {
-              "name": "plugin: woocommerce beta tester",
-              "color": "db1c8e"
-            },
-            {
-              "name": "package: @woocommerce/experimental",
-              "color": "db1c8e"
-            }
-          ],
-          "milestone": {
-            "title": "10.9.0"
-          },
-          "_status": "open",
-          "_author": "j111q"
-        },
-        {
-          "number": 64444,
-          "title": "Remove deprecated inbox note image/layout API (PR 2 follow-up)",
-          "html_url": "https://github.com/woocommerce/woocommerce/issues/64444",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "comments": 0,
-          "updated_at": "2026-04-28T08:10:37Z",
-          "labels": [
-            {
-              "name": "Data Structure/CRUD/Backend Processing",
-              "color": "f7c8c1"
-            }
-          ],
-          "milestone": null,
           "_status": "open",
           "_author": "j111q"
         },
@@ -1172,6 +1172,30 @@
       },
       "items": [
         {
+          "number": 64327,
+          "title": "Align Product / Coupon Data panel labels and help-tips with 40px inputs (WP 7.0)",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64327",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 6,
+          "updated_at": "2026-04-28T16:21:00Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64327"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.8.0"
+          },
+          "_status": "merged",
+          "_author": "annchichi"
+        },
+        {
           "number": 64389,
           "title": "Align order edit page address Select2 with WordPress 7.0 input height",
           "html_url": "https://github.com/woocommerce/woocommerce/pull/64389",
@@ -1325,30 +1349,6 @@
             "title": "10.8.0"
           },
           "_status": "merged",
-          "_author": "annchichi"
-        },
-        {
-          "number": 64327,
-          "title": "Align Product / Coupon Data panel labels and help-tips with 40px inputs (WP 7.0)",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/64327",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "draft": false,
-          "comments": 5,
-          "updated_at": "2026-04-28T13:09:30Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/64327"
-          },
-          "labels": [
-            {
-              "name": "plugin: woocommerce",
-              "color": "db1c8e"
-            }
-          ],
-          "milestone": {
-            "title": "10.8.0"
-          },
-          "_status": "open",
           "_author": "annchichi"
         },
         {
