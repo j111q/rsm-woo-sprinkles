@@ -1,0 +1,45 @@
+{
+  "_note": "Curated wins from RSM Woo Sprinkles Linear project updates. Update when new merged sprinkles are summarized in https://linear.app/a8c/project/woo-sprinkles-thinking-tiny-4340828d3f07/activity",
+  "woocommerce/woocommerce": {
+    "64191": {
+      "summary": "8px radius on product, order & coupon meta boxes",
+      "impact": "~307K stores edit products / 30d · 51M views",
+      "theme": "WP 7.0 alignment"
+    },
+    "64327": {
+      "summary": "Aligned Product Data & Coupon Data labels and help tips",
+      "impact": "~307K stores edit products · ~244K edit orders / 30d",
+      "theme": "WP 7.0 alignment"
+    },
+    "64322": {
+      "summary": "WP 7.0 form-control sizing on settings & shipping zones",
+      "impact": "~259K stores visit settings · ~88K touch shipping / 30d",
+      "theme": "WP 7.0 alignment"
+    },
+    "64196": {
+      "summary": "Structural admin elements honor the WP admin theme color",
+      "impact": "~47K stores see Marketplace / 30d · 500K views",
+      "theme": "WP 7.0 alignment"
+    },
+    "64357": {
+      "summary": "Dropped the broken pencil icon from CES feedback snackbars",
+      "impact": "~17.5K stores · 116K impressions / 30d",
+      "theme": "Cleanup"
+    },
+    "64187": {
+      "summary": "Fixed the plugin-install permission error message",
+      "impact": "~1,445 stores hit this error / 90d",
+      "theme": "Copy"
+    },
+    "64286": {
+      "summary": "Merchant-friendly copy for email test-send errors",
+      "impact": "",
+      "theme": "Copy"
+    },
+    "64334": {
+      "summary": "Offline awareness banner in Woo admin (reuses WP core notice)",
+      "impact": "",
+      "theme": "Polish"
+    }
+  }
+}

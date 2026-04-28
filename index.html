@@ -80,6 +80,13 @@
   .card.list-card .meta-col { display: flex; flex-direction: column; align-items: flex-end; gap: 2px; font-size: 12px; color: var(--muted); white-space: nowrap; }
   .card.list-card .meta-col .comments::before { content: "💬 "; }
   .card.list-card.merged { background: linear-gradient(90deg, #fef4ff 0%, #ffffff 40%); }
+  .win-row { display: flex; align-items: center; gap: 8px; margin-top: 6px; padding: 6px 10px 6px 10px; border-radius: 8px; background: linear-gradient(90deg, rgba(130,80,223,0.08), rgba(255,126,182,0.06) 60%, transparent); border-left: 2px solid; border-image: linear-gradient(180deg, var(--merged-1), var(--merged-2), var(--merged-3)) 1; font-size: 12px; line-height: 1.35; }
+  .win-row .win-icon { font-size: 13px; flex-shrink: 0; }
+  .win-row .win-summary { font-weight: 600; color: var(--ink); }
+  .win-row .win-impact { color: var(--muted); }
+  .win-row .win-impact::before { content: " · "; color: #c9c5bc; padding: 0 2px; }
+  .win-row .win-theme { font-size: 10px; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #8250df; background: rgba(130,80,223,0.1); padding: 2px 7px; border-radius: 999px; margin-left: auto; flex-shrink: 0; white-space: nowrap; }
+
   .card.list-card.merged .status-tag { cursor: pointer; user-select: none; transition: transform 0.1s; }
   .card.list-card.merged .status-tag:hover { transform: scale(1.04); }
   .card.list-card.merged .status-tag:active { transform: scale(0.96); }
@@ -270,6 +277,7 @@ let allItems = [];
 let activeTab = 'all';
 let activeView = 'list';
 let activeAuthor = null;
+let wins = {};
 
 let memoryToken = '';
 function safeStorage() {
@@ -382,6 +390,7 @@ function renderCard(item) {
       <h3 class="title"><a href="${item.html_url}" target="_blank">${escapeHtml(item.title)} <span class="num">#${item.number}</span></a></h3>
       <div class="badges">${stateBadge}${kindBadge}${milestone}</div>
       ${labels ? `<div class="labels">${labels}</div>` : ''}
+      ${status === 'merged' ? renderWinRow(item) : ''}
       <div class="meta">
         <span class="comments">${item.comments}</span>
         <span class="date">updated ${formatDate(item.updated_at)}</span>
@@ -418,6 +427,7 @@ function renderListCard(item) {
           ${milestone}
           ${labels ? `<span class="labels">${labels}</span>` : ''}
         </div>
+        ${status === 'merged' ? renderWinRow(item) : ''}
       </div>
       <div class="meta-col">
         <span class="comments">${item.comments}</span>
@@ -580,10 +590,31 @@ function wireViewToggle() {
 }
 wireViewToggle();
 
+async function loadWins() {
+  try {
+    const res = await fetch('wins.json?t=' + Date.now());
+    if (res.ok) wins = await res.json();
+  } catch (e) { /* wins are optional */ }
+}
+
+function getWin(item) {
+  const repo = repoName(item);
+  return wins[repo] && wins[repo][String(item.number)];
+}
+
+function renderWinRow(item) {
+  const w = getWin(item);
+  if (!w) return '';
+  const impact = w.impact ? `<span class="win-impact">${escapeHtml(w.impact)}</span>` : '';
+  const theme = w.theme ? `<span class="win-theme">${escapeHtml(w.theme)}</span>` : '';
+  return `<div class="win-row"><span class="win-icon">📈</span><span><span class="win-summary">${escapeHtml(w.summary)}</span>${impact}</span>${theme}</div>`;
+}
+
 async function load() {
   document.getElementById('rate-warn').style.display = 'none';
   document.getElementById('content').innerHTML = `<div class="loader">Fetching<span class="dot">.</span><span class="dot">.</span><span class="dot">.</span></div>`;
   try {
+    await loadWins();
     const datasets = await Promise.all(USERS.map(fetchUser));
     const cutoff = Date.now() - 10 * 86400000;
     datasets.forEach(d => { d.items = d.items.filter(i => new Date(i.updated_at).getTime() >= cutoff); });
