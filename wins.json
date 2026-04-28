@@ -63,11 +63,13 @@
     },
     "64262": {
       "category": "WP 7.0",
-      "summary": "Legacy admin custom button border-radius aligns with WP 7.0"
+      "summary": "Legacy admin custom button border-radius aligns with WP 7.0",
+      "impact": "Every Woo admin button reshaped · ~1.74M stores view Woo admin / 28d"
     },
     "64276": {
       "category": "WP 7.0",
-      "summary": "Tokenized hardcoded grays in Woo admin for WP 7.0 alignment"
+      "summary": "Tokenized hardcoded grays in Woo admin for WP 7.0 alignment",
+      "impact": "Every admin text element retoned · ~1.74M stores view Woo admin / 28d"
     },
     "64280": {
       "category": "WP 7.0",
@@ -76,7 +78,7 @@
     "64286": {
       "category": "Copy",
       "summary": "Merchant-friendly copy for email test-send errors",
-      "impact": ""
+      "impact": "~5.1K stores hit email test-send failures / 28d · 19K events / 30d"
     },
     "64322": {
       "category": "WP 7.0",
@@ -91,7 +93,7 @@
     "64334": {
       "category": "Polish",
       "summary": "Offline awareness banner in Woo admin (reuses WP core notice)",
-      "impact": ""
+      "impact": "Surfaces whenever Woo admin loses connectivity (no Tracks event — banner uses WP core's silent notice)"
     },
     "64353": {
       "category": "Cleanup",
@@ -112,7 +114,8 @@
     },
     "64397": {
       "category": "Copy",
-      "summary": "Merchant-friendly message on plugin install upgrader failure"
+      "summary": "Merchant-friendly message on plugin install upgrader failure",
+      "impact": "~7.0K stores hit plugin install errors / 28d · 19.5K events / 30d"
     },
     "64417": {
       "category": "WP 7.0",
