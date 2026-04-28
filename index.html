@@ -83,7 +83,7 @@
   .card.list-card .right-col .tags-stack { display: flex; flex-wrap: wrap; gap: 4px; justify-content: flex-end; }
   .card.list-card .right-col .tags-stack .label { font-size: 10px; padding: 2px 7px; }
   .card.list-card .right-col .tags-stack .badge { font-size: 10px; padding: 2px 8px; }
-  .card.list-card .win-block { background: linear-gradient(135deg, rgba(130,80,223,0.09) 0%, rgba(255,126,182,0.06) 60%, rgba(255,179,71,0.05) 100%); border: 1px solid rgba(130,80,223,0.18); border-radius: 8px; padding: 7px 10px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; font-size: 12px; line-height: 1.35; margin-top: 4px; }
+  .card.list-card .win-block { background: rgba(255,255,255,0.88); border: 1px solid rgba(130,80,223,0.22); border-radius: 8px; padding: 7px 10px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; font-size: 12px; line-height: 1.35; margin-top: 4px; }
   .card.list-card .win-block .win-label { font-weight: 700; color: var(--ink); flex-shrink: 0; }
   .card.list-card .win-block .win-impact { color: var(--muted); flex: 1; min-width: 0; }
 
@@ -390,7 +390,7 @@ function renderListCard(item) {
   const win = status === 'merged' ? getWin(item) : null;
   const winBlock = (win && win.impact) ? `
     <div class="win-block">
-      <span class="win-label">Impacts:</span>
+      <span class="win-label">📈 Impacts:</span>
       <span class="win-impact">${escapeHtml(win.impact)}</span>
     </div>
   ` : '';
