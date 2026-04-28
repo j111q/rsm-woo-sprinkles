@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-04-28T17:58:33.407Z",
+  "fetchedAt": "2026-04-28T19:43:26.569Z",
   "datasets": [
     {
       "user": "j111q",
@@ -1172,6 +1172,110 @@
       },
       "items": [
         {
+          "number": 64212,
+          "title": "Align legacy admin success notice with WordPress 7.0 palette",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64212",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 7,
+          "updated_at": "2026-04-28T19:32:15Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64212"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.8.0"
+          },
+          "_status": "merged",
+          "_author": "annchichi"
+        },
+        {
+          "number": 64237,
+          "title": "Align settings notice with WordPress 7.0 palette",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64237",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 6,
+          "updated_at": "2026-04-28T19:31:37Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64237"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.8.0"
+          },
+          "_status": "merged",
+          "_author": "annchichi"
+        },
+        {
+          "number": 64244,
+          "title": "Use --wp-admin-theme-color for legacy Select2",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64244",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 5,
+          "updated_at": "2026-04-28T19:31:28Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64244"
+          },
+          "labels": [
+            {
+              "name": "needs: documentation",
+              "color": "ffea00"
+            },
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.8.0"
+          },
+          "_status": "merged",
+          "_author": "annchichi"
+        },
+        {
+          "number": 64181,
+          "title": "Fix confusing error notice in shipping tour close handler",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64181",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 8,
+          "updated_at": "2026-04-28T19:14:01Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64181"
+          },
+          "labels": [
+            {
+              "name": "needs: documentation",
+              "color": "ffea00"
+            },
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.8.0"
+          },
+          "_status": "merged",
+          "_author": "annchichi"
+        },
+        {
           "number": 64327,
           "title": "Align Product / Coupon Data panel labels and help-tips with 40px inputs (WP 7.0)",
           "html_url": "https://github.com/woocommerce/woocommerce/pull/64327",
@@ -1352,6 +1456,50 @@
           "_author": "annchichi"
         },
         {
+          "number": 64186,
+          "title": "Fix: replace developer-facing plugin install error with merchant-friendly copy",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64186",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": false,
+          "comments": 6,
+          "updated_at": "2026-04-28T19:31:35Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64186"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": null,
+          "_status": "open",
+          "_author": "annchichi"
+        },
+        {
+          "number": 64354,
+          "title": "Align order preview action buttons with WordPress 7.0 secondary style",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64354",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": false,
+          "comments": 5,
+          "updated_at": "2026-04-28T18:53:01Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64354"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": null,
+          "_status": "open",
+          "_author": "annchichi"
+        },
+        {
           "number": 64421,
           "title": "Adopt WP 7.0 notice-dismiss button sizing natively",
           "html_url": "https://github.com/woocommerce/woocommerce/pull/64421",
@@ -1374,30 +1522,6 @@
           "_author": "annchichi"
         },
         {
-          "number": 64181,
-          "title": "Fix confusing error notice in shipping tour close handler",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/64181",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "draft": false,
-          "comments": 7,
-          "updated_at": "2026-04-28T11:04:58Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/64181"
-          },
-          "labels": [
-            {
-              "name": "plugin: woocommerce",
-              "color": "db1c8e"
-            }
-          ],
-          "milestone": {
-            "title": "10.8.0"
-          },
-          "_status": "open",
-          "_author": "annchichi"
-        },
-        {
           "number": 64249,
           "title": "Use --wp-admin-border-width-focus for focus ring widths",
           "html_url": "https://github.com/woocommerce/woocommerce/pull/64249",
@@ -1408,76 +1532,6 @@
           "updated_at": "2026-04-28T10:45:49Z",
           "pull_request": {
             "html_url": "https://github.com/woocommerce/woocommerce/pull/64249"
-          },
-          "labels": [
-            {
-              "name": "plugin: woocommerce",
-              "color": "db1c8e"
-            }
-          ],
-          "milestone": {
-            "title": "10.8.0"
-          },
-          "_status": "open",
-          "_author": "annchichi"
-        },
-        {
-          "number": 64354,
-          "title": "Align order preview action buttons with WordPress 7.0 secondary style",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/64354",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "draft": false,
-          "comments": 4,
-          "updated_at": "2026-04-27T17:30:30Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/64354"
-          },
-          "labels": [
-            {
-              "name": "plugin: woocommerce",
-              "color": "db1c8e"
-            }
-          ],
-          "milestone": null,
-          "_status": "open",
-          "_author": "annchichi"
-        },
-        {
-          "number": 64237,
-          "title": "Align settings notice with WordPress 7.0 palette",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/64237",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "draft": false,
-          "comments": 5,
-          "updated_at": "2026-04-27T15:16:24Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/64237"
-          },
-          "labels": [
-            {
-              "name": "plugin: woocommerce",
-              "color": "db1c8e"
-            }
-          ],
-          "milestone": {
-            "title": "10.8.0"
-          },
-          "_status": "open",
-          "_author": "annchichi"
-        },
-        {
-          "number": 64212,
-          "title": "Align legacy admin success notice with WordPress 7.0 palette",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/64212",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "draft": false,
-          "comments": 6,
-          "updated_at": "2026-04-27T15:14:33Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/64212"
           },
           "labels": [
             {
@@ -1560,52 +1614,6 @@
           "milestone": {
             "title": "10.8.0"
           },
-          "_status": "open",
-          "_author": "annchichi"
-        },
-        {
-          "number": 64244,
-          "title": "Use --wp-admin-theme-color for legacy Select2",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/64244",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "draft": false,
-          "comments": 4,
-          "updated_at": "2026-04-27T15:11:19Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/64244"
-          },
-          "labels": [
-            {
-              "name": "plugin: woocommerce",
-              "color": "db1c8e"
-            }
-          ],
-          "milestone": {
-            "title": "10.8.0"
-          },
-          "_status": "open",
-          "_author": "annchichi"
-        },
-        {
-          "number": 64186,
-          "title": "Fix: replace developer-facing plugin install error with merchant-friendly copy",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/64186",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "draft": false,
-          "comments": 5,
-          "updated_at": "2026-04-27T15:10:48Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/64186"
-          },
-          "labels": [
-            {
-              "name": "plugin: woocommerce",
-              "color": "db1c8e"
-            }
-          ],
-          "milestone": null,
           "_status": "open",
           "_author": "annchichi"
         },
