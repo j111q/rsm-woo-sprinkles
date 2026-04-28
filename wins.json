@@ -2,6 +2,14 @@
   "_note": "Categories + curated wins from RSM Woo Sprinkles Linear project updates. Update when new PRs are opened or merged-sprinkle wins are summarized in https://linear.app/a8c/project/woo-sprinkles-thinking-tiny-4340828d3f07/activity. Categories: WP 7.0 | Cleanup | Copy | Polish | Mercantile",
   "_default_category": "Sprinkle",
   "woocommerce/woocommerce": {
+    "64181": {
+      "category": "Copy",
+      "summary": "Cleaner error notice when shipping tour close fails"
+    },
+    "64186": {
+      "category": "Copy",
+      "summary": "Replaces developer-facing plugin install error with merchant-friendly copy"
+    },
     "64187": {
       "category": "Copy",
       "summary": "Fixed the plugin-install permission error message",
@@ -16,6 +24,54 @@
       "category": "WP 7.0",
       "summary": "Structural admin elements honor the WP admin theme color",
       "impact": "~47K stores see Marketplace / 30d · 500K views"
+    },
+    "64203": {
+      "category": "WP 7.0",
+      "summary": "Admin destructive action red aligns with WP 7.0 error red"
+    },
+    "64204": {
+      "category": "WP 7.0",
+      "summary": "Shipping destructive action red aligns with WP 7.0 error red"
+    },
+    "64212": {
+      "category": "WP 7.0",
+      "summary": "Legacy admin success notice aligns with WP 7.0 palette"
+    },
+    "64237": {
+      "category": "WP 7.0",
+      "summary": "Settings notice aligns with WP 7.0 palette"
+    },
+    "64241": {
+      "category": "WP 7.0",
+      "summary": "Marketplace product card focus ring uses admin theme color"
+    },
+    "64244": {
+      "category": "WP 7.0",
+      "summary": "Legacy Select2 uses --wp-admin-theme-color"
+    },
+    "64249": {
+      "category": "WP 7.0",
+      "summary": "Focus ring widths use --wp-admin-border-width-focus"
+    },
+    "64257": {
+      "category": "WP 7.0",
+      "summary": "Woo admin primary text color aligns with WP 7.0"
+    },
+    "64259": {
+      "category": "WP 7.0",
+      "summary": "Woo admin placeholder text color aligns with WP 7.0"
+    },
+    "64262": {
+      "category": "WP 7.0",
+      "summary": "Legacy admin custom button border-radius aligns with WP 7.0"
+    },
+    "64276": {
+      "category": "WP 7.0",
+      "summary": "Tokenized hardcoded grays in Woo admin for WP 7.0 alignment"
+    },
+    "64280": {
+      "category": "WP 7.0",
+      "summary": "Woo admin gray text colors align with WP 7.0 via SCSS tokens"
     },
     "64286": {
       "category": "Copy",
@@ -43,7 +99,7 @@
     },
     "64354": {
       "category": "WP 7.0",
-      "summary": "Order preview action buttons get secondary button treatment"
+      "summary": "Order preview action buttons get WP 7.0 secondary button treatment"
     },
     "64357": {
       "category": "Cleanup",
@@ -52,11 +108,15 @@
     },
     "64389": {
       "category": "WP 7.0",
-      "summary": "Order edit address Select2 matches standard input height"
+      "summary": "Order edit address Select2 matches WP 7.0 input height"
+    },
+    "64397": {
+      "category": "Copy",
+      "summary": "Merchant-friendly message on plugin install upgrader failure"
     },
     "64417": {
       "category": "WP 7.0",
-      "summary": "Adopt $radius-s 2px border radius for Woo"
+      "summary": "Adopt $radius-s 2px border radius for Woo inputs and buttons"
     },
     "64420": {
       "category": "WP 7.0",
@@ -65,12 +125,22 @@
     "64421": {
       "category": "WP 7.0",
       "summary": "Adopt WP 7.0 notice-dismiss button sizing natively"
+    },
+    "64443": {
+      "category": "Cleanup",
+      "summary": "Stop rendering inbox note images and deprecate the API"
     }
   },
   "senadir/ssh-mercantile": {
     "1": {
       "category": "Mercantile",
       "summary": "Design pass on the ssh-mercantile TUI"
+    }
+  },
+  "poligilad-auto/woo-revamp": {
+    "2": {
+      "category": "Cleanup",
+      "summary": "Removed internal references to make repo public-safe"
     }
   }
 }
