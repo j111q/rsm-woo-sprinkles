@@ -216,13 +216,13 @@
     .grid { grid-template-columns: 1fr; }
 
     .card.list-card {
-      grid-template-columns: auto 1fr;
-      grid-template-areas: "status main" "right right";
-      gap: 8px 12px;
+      grid-template-columns: 1fr;
+      grid-template-areas: "status" "main" "right";
+      gap: 8px;
       padding: 14px;
       align-items: start;
     }
-    .card.list-card .status-col { grid-area: status; padding-left: 0; align-self: flex-start; padding-top: 2px; }
+    .card.list-card .status-col { grid-area: status; padding-left: 0; align-self: flex-start; }
     .card.list-card .main-col { grid-area: main; }
     .card.list-card .right-col { grid-area: right; }
     .card.list-card .right-col .meta-top { align-self: flex-start; }
