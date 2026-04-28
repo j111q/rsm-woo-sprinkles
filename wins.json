@@ -110,7 +110,8 @@
     },
     "64389": {
       "category": "WP 7.0",
-      "summary": "Order edit address Select2 matches WP 7.0 input height"
+      "summary": "Order edit address Select2 matches WP 7.0 input height",
+      "impact": "~81K stores click order address fields / 28d · 2.4M clicks / 30d"
     },
     "64397": {
       "category": "Copy",
@@ -119,7 +120,8 @@
     },
     "64417": {
       "category": "WP 7.0",
-      "summary": "Adopt $radius-s 2px border radius for Woo inputs and buttons"
+      "summary": "Adopt $radius-s 2px border radius for Woo inputs and buttons",
+      "impact": "Every Woo custom input & button reshaped · ~1.74M stores view Woo admin / 28d"
     },
     "64420": {
       "category": "WP 7.0",
