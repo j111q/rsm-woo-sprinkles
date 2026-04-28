@@ -1,45 +1,76 @@
 {
-  "_note": "Curated wins from RSM Woo Sprinkles Linear project updates. Update when new merged sprinkles are summarized in https://linear.app/a8c/project/woo-sprinkles-thinking-tiny-4340828d3f07/activity",
+  "_note": "Categories + curated wins from RSM Woo Sprinkles Linear project updates. Update when new PRs are opened or merged-sprinkle wins are summarized in https://linear.app/a8c/project/woo-sprinkles-thinking-tiny-4340828d3f07/activity. Categories: WP 7.0 | Cleanup | Copy | Polish | Mercantile",
+  "_default_category": "Sprinkle",
   "woocommerce/woocommerce": {
+    "64187": {
+      "category": "Copy",
+      "summary": "Fixed the plugin-install permission error message",
+      "impact": "~1,445 stores hit this error / 90d"
+    },
     "64191": {
+      "category": "WP 7.0",
       "summary": "8px radius on product, order & coupon meta boxes",
-      "impact": "~307K stores edit products / 30d · 51M views",
-      "theme": "WP 7.0 alignment"
-    },
-    "64327": {
-      "summary": "Aligned Product Data & Coupon Data labels and help tips",
-      "impact": "~307K stores edit products · ~244K edit orders / 30d",
-      "theme": "WP 7.0 alignment"
-    },
-    "64322": {
-      "summary": "WP 7.0 form-control sizing on settings & shipping zones",
-      "impact": "~259K stores visit settings · ~88K touch shipping / 30d",
-      "theme": "WP 7.0 alignment"
+      "impact": "~307K stores edit products / 30d · 51M views"
     },
     "64196": {
+      "category": "WP 7.0",
       "summary": "Structural admin elements honor the WP admin theme color",
-      "impact": "~47K stores see Marketplace / 30d · 500K views",
-      "theme": "WP 7.0 alignment"
-    },
-    "64357": {
-      "summary": "Dropped the broken pencil icon from CES feedback snackbars",
-      "impact": "~17.5K stores · 116K impressions / 30d",
-      "theme": "Cleanup"
-    },
-    "64187": {
-      "summary": "Fixed the plugin-install permission error message",
-      "impact": "~1,445 stores hit this error / 90d",
-      "theme": "Copy"
+      "impact": "~47K stores see Marketplace / 30d · 500K views"
     },
     "64286": {
+      "category": "Copy",
       "summary": "Merchant-friendly copy for email test-send errors",
-      "impact": "",
-      "theme": "Copy"
+      "impact": ""
+    },
+    "64322": {
+      "category": "WP 7.0",
+      "summary": "WP 7.0 form-control sizing on settings & shipping zones",
+      "impact": "~259K stores visit settings · ~88K touch shipping / 30d"
+    },
+    "64327": {
+      "category": "WP 7.0",
+      "summary": "Aligned Product Data & Coupon Data labels and help tips",
+      "impact": "~307K stores edit products · ~244K edit orders / 30d"
     },
     "64334": {
+      "category": "Polish",
       "summary": "Offline awareness banner in Woo admin (reuses WP core notice)",
-      "impact": "",
-      "theme": "Polish"
+      "impact": ""
+    },
+    "64353": {
+      "category": "Cleanup",
+      "summary": "Removes the task list reminder bar"
+    },
+    "64354": {
+      "category": "WP 7.0",
+      "summary": "Order preview action buttons get secondary button treatment"
+    },
+    "64357": {
+      "category": "Cleanup",
+      "summary": "Dropped the broken pencil icon from CES feedback snackbars",
+      "impact": "~17.5K stores · 116K impressions / 30d"
+    },
+    "64389": {
+      "category": "WP 7.0",
+      "summary": "Order edit address Select2 matches standard input height"
+    },
+    "64417": {
+      "category": "WP 7.0",
+      "summary": "Adopt $radius-s 2px border radius for Woo"
+    },
+    "64420": {
+      "category": "WP 7.0",
+      "summary": "Marketplace header account button height & alignment"
+    },
+    "64421": {
+      "category": "WP 7.0",
+      "summary": "Adopt WP 7.0 notice-dismiss button sizing natively"
+    }
+  },
+  "senadir/ssh-mercantile": {
+    "1": {
+      "category": "Mercantile",
+      "summary": "Design pass on the ssh-mercantile TUI"
     }
   }
 }

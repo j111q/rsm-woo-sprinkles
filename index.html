@@ -86,7 +86,14 @@
   .card.list-card .win-block { background: linear-gradient(135deg, rgba(130,80,223,0.09) 0%, rgba(255,126,182,0.06) 60%, rgba(255,179,71,0.05) 100%); border: 1px solid rgba(130,80,223,0.18); border-radius: 8px; padding: 7px 10px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; font-size: 12px; line-height: 1.35; margin-top: 4px; }
   .card.list-card .win-block .win-label { font-weight: 700; color: var(--ink); flex-shrink: 0; }
   .card.list-card .win-block .win-impact { color: var(--muted); flex: 1; min-width: 0; }
-  .card.list-card .win-block .win-theme { font-size: 9.5px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #8250df; background: rgba(130,80,223,0.12); padding: 2px 7px; border-radius: 999px; white-space: nowrap; flex-shrink: 0; }
+
+  .category-pill { font-size: 10px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; padding: 3px 9px; border-radius: 999px; white-space: nowrap; align-self: flex-start; display: inline-block; margin-bottom: 4px; }
+  .cat-wp-7-0 { color: #8250df; background: rgba(130,80,223,0.12); }
+  .cat-cleanup { color: #1a7f37; background: rgba(26,127,55,0.12); }
+  .cat-copy { color: #b35c00; background: rgba(179,92,0,0.12); }
+  .cat-polish { color: #0969da; background: rgba(9,105,218,0.12); }
+  .cat-mercantile { color: #cf222e; background: rgba(207,34,46,0.1); }
+  .cat-sprinkle { color: var(--muted); background: rgba(0,0,0,0.05); }
   .card.list-card .right-col .meta-row { display: flex; flex-wrap: wrap; gap: 6px 8px; justify-content: flex-end; align-items: center; font-size: 12px; color: var(--muted); }
   .card.list-card .right-col .meta-row .repo { font-family: ui-monospace, 'SF Mono', Menlo, monospace; font-size: 11px; }
   .card.list-card .right-col .meta-row .repo a { color: var(--muted); text-decoration: none; }
@@ -402,6 +409,7 @@ function renderCard(item) {
         <span style="flex:1"></span>
         ${author}
       </div>
+      ${renderCategoryPill(item)}
       <h3 class="title"><a href="${item.html_url}" target="_blank">${escapeHtml(item.title)} <span class="num">#${item.number}</span></a></h3>
       <div class="badges">${stateBadge}${kindBadge}${milestone}</div>
       ${labels ? `<div class="labels">${labels}</div>` : ''}
@@ -435,7 +443,6 @@ function renderListCard(item) {
     <div class="win-block">
       <span class="win-label">Impacts:</span>
       <span class="win-impact">${escapeHtml(win.impact)}</span>
-      ${win.theme ? `<span class="win-theme">${escapeHtml(win.theme)}</span>` : ''}
     </div>
   ` : '';
 
@@ -445,6 +452,7 @@ function renderListCard(item) {
     <div class="card list-card ${status}">
       <div class="status-col"><span class="status-tag">${statusLabel}</span></div>
       <div class="main-col">
+        ${renderCategoryPill(item)}
         <h3 class="title"><a href="${item.html_url}" target="_blank">${escapeHtml(item.title)} <span class="num">#${item.number}</span></a></h3>
         ${winBlock}
       </div>
@@ -626,6 +634,21 @@ async function loadWins() {
 function getWin(item) {
   const repo = repoName(item);
   return wins[repo] && wins[repo][String(item.number)];
+}
+
+function getCategory(item) {
+  const w = getWin(item);
+  if (w && w.category) return w.category;
+  return wins._default_category || 'Sprinkle';
+}
+
+function categoryClass(cat) {
+  return 'cat-' + cat.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+}
+
+function renderCategoryPill(item) {
+  const cat = getCategory(item);
+  return `<span class="category-pill ${categoryClass(cat)}">${escapeHtml(cat)}</span>`;
 }
 
 function renderWinRow(item) {
