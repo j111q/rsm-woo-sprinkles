@@ -218,12 +218,12 @@
     .card.list-card {
       grid-template-columns: 1fr;
       grid-template-areas: "status" "main" "right";
-      gap: 8px;
+      gap: 14px;
       padding: 14px;
       align-items: start;
     }
     .card.list-card .status-col { grid-area: status; padding-left: 0; align-self: stretch; }
-    .card.list-card .status-col .status-tag { width: 100%; box-sizing: border-box; display: flex; align-items: center; justify-content: center; }
+    .card.list-card .status-col .status-tag { width: 100%; box-sizing: border-box; display: flex; align-items: center; justify-content: center; padding-top: 8px; padding-bottom: 8px; }
     .card.list-card.merged .status-col .status-tag .text { flex-direction: row; gap: 5px; }
     .card.list-card .main-col { grid-area: main; }
     .card.list-card .right-col { grid-area: right; }
