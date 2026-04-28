@@ -93,6 +93,7 @@
   .cat-copy { color: #b35c00; background: rgba(179,92,0,0.12); }
   .cat-polish { color: #0969da; background: rgba(9,105,218,0.12); }
   .cat-mercantile { color: #cf222e; background: rgba(207,34,46,0.1); }
+  .cat-wp-core { color: #21759b; background: rgba(33,117,155,0.12); }
   .cat-sprinkle { color: var(--muted); background: rgba(0,0,0,0.05); }
   .card.list-card .right-col .meta-row { display: flex; flex-wrap: wrap; gap: 6px 8px; justify-content: flex-end; align-items: center; font-size: 12px; color: var(--muted); }
   .card.list-card .right-col .meta-row .repo { font-family: ui-monospace, 'SF Mono', Menlo, monospace; font-size: 11px; }
@@ -163,6 +164,7 @@
   .badge.state-merged { background: linear-gradient(135deg, #8250df, #ff7eb6); color: white; }
   .badge.kind-pr { background: var(--pr-bg); color: var(--pr); }
   .badge.kind-issue { background: #fff4e5; color: #b35c00; }
+  .badge.kind-trac { background: #e8f0fe; color: #21759b; font-weight: 700; }
   .badge.milestone { background: #f3f2ee; color: var(--muted); font-weight: 500; }
   .badge.state-draft { background: repeating-linear-gradient(45deg, #f4f4f0, #f4f4f0 4px, #ebeae4 4px, #ebeae4 8px); color: #666; border: 1px dashed #b8b5ae; }
 
@@ -325,6 +327,7 @@ function formatDate(iso) {
 
 function renderListCard(item) {
   const isPR = !!item.pull_request;
+  const isTrac = item._source === 'trac';
   const status = item._status;
   const repo = repoName(item);
   const labels = (item.labels || []).slice(0, 6).map(l => {
@@ -335,7 +338,11 @@ function renderListCard(item) {
     ? '<span class="icon">✨</span><span class="text"><span>Sprinkle</span><span>Merged</span></span>'
     : status === 'draft' ? '◌ Draft'
     : status === 'open' ? '● Open' : 'Closed';
-  const kindBadge = isPR ? '<span class="badge kind-pr">PR</span>' : '<span class="badge kind-issue">Issue</span>';
+  const kindBadge = isTrac
+    ? '<span class="badge kind-trac">Trac</span>'
+    : isPR ? '<span class="badge kind-pr">PR</span>' : '<span class="badge kind-issue">Issue</span>';
+  const repoLabel = isTrac ? 'core.trac.wordpress.org' : repo;
+  const repoUrl = isTrac ? 'https://core.trac.wordpress.org/' : `https://github.com/${repo}`;
   const milestone = item.milestone ? `<span class="badge milestone">🎯 ${escapeHtml(item.milestone.title)}</span>` : '';
   const author = `<span class="author-mini"><img src="https://github.com/${item._author}.png?size=28" alt="" />${item._author}</span>`;
 
@@ -363,7 +370,7 @@ function renderListCard(item) {
         </div>
         <div class="meta-row">
           ${kindBadge}
-          <span class="repo"><a href="https://github.com/${repo}" target="_blank">${repo}</a></span>
+          <span class="repo"><a href="${repoUrl}" target="_blank">${escapeHtml(repoLabel)}</a></span>
           ${author}
         </div>
         ${tags ? `<div class="tags-stack">${tags}</div>` : ''}
@@ -517,6 +524,36 @@ async function loadWins() {
   } catch (e) { /* wins are optional */ }
 }
 
+async function loadTrac() {
+  try {
+    const res = await fetch('trac.json?t=' + Date.now());
+    if (res.ok) return await res.json();
+  } catch (e) { /* trac is optional */ }
+  return { tickets: [] };
+}
+
+function tracTicketToItem(t) {
+  let status = 'open';
+  if (t.status === 'closed') {
+    status = (t.resolution === 'fixed') ? 'merged' : 'closed';
+  }
+  return {
+    number: t.number,
+    title: t.title,
+    html_url: `https://core.trac.wordpress.org/ticket/${t.number}`,
+    repository_url: 'https://core.trac.wordpress.org',
+    comments: t.comments || 0,
+    updated_at: t.updated_at,
+    labels: [],
+    milestone: t.milestone ? { title: t.milestone } : null,
+    _status: status,
+    _author: t.github_user,
+    _source: 'trac',
+    _category: t.category || 'WP Core',
+    _tracUser: t.trac_user
+  };
+}
+
 function getWin(item) {
   const repo = repoName(item);
   return wins[repo] && wins[repo][String(item.number)];
@@ -538,6 +575,7 @@ function inferCategory(title) {
 }
 
 function getCategory(item) {
+  if (item._category) return item._category;
   const w = getWin(item);
   if (w && w.category) return w.category;
   return inferCategory(item.title || '');
@@ -565,7 +603,7 @@ async function loadPrefetched() {
 async function load() {
   document.getElementById('content').innerHTML = `<div class="loader">Fetching<span class="dot">.</span><span class="dot">.</span><span class="dot">.</span></div>`;
   try {
-    await loadWins();
+    const [_, trac] = await Promise.all([loadWins(), loadTrac()]);
 
     // Try the GitHub-Action-prefetched data first; fall back to live API only if missing.
     let datasets;
@@ -577,6 +615,16 @@ async function load() {
     } else {
       datasets = await Promise.all(USERS.map(fetchUser));
     }
+
+    // Merge Trac tickets into the matching user's dataset.
+    const tracByUser = {};
+    (trac.tickets || []).forEach(t => {
+      const item = tracTicketToItem(t);
+      (tracByUser[item._author] = tracByUser[item._author] || []).push(item);
+    });
+    datasets.forEach(d => {
+      if (tracByUser[d.user]) d.items = [...d.items, ...tracByUser[d.user]];
+    });
 
     const cutoff = Date.now() - 10 * 86400000;
     datasets.forEach(d => { d.items = d.items.filter(i => new Date(i.updated_at).getTime() >= cutoff); });

@@ -1,0 +1,23 @@
+{
+  "_note": "WordPress Core Trac tickets manually tracked. Trac is behind a hashcash anti-bot wall, so we can't auto-fetch. Add new tickets here when filed. status: new | accepted | reopened | reviewing | closed. resolution: only set when status=closed; 'fixed' counts as a Sprinkle Merged win.",
+  "tickets": [
+    {
+      "trac_user": "jillq",
+      "github_user": "j111q",
+      "number": 65085,
+      "title": "Expose admin design tokens (radius, spacing, grayscale, typography) as CSS custom properties via wp-base-styles",
+      "status": "new",
+      "category": "WP Core",
+      "updated_at": "2026-04-17"
+    },
+    {
+      "trac_user": "jillq",
+      "github_user": "j111q",
+      "number": 65142,
+      "title": "Round editor .postbox containers to match WP 7.0 dashboard widgets",
+      "status": "new",
+      "category": "WP Core",
+      "updated_at": "2026-04-28"
+    }
+  ]
+}
