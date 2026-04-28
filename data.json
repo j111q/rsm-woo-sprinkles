@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-04-28T14:21:20.564Z",
+  "fetchedAt": "2026-04-28T15:57:57.767Z",
   "datasets": [
     {
       "user": "j111q",
@@ -9,6 +9,34 @@
         "html_url": "https://github.com/j111q"
       },
       "items": [
+        {
+          "number": 64191,
+          "title": "Add 8px border-radius to WooCommerce editor meta boxes (WP 7.0 alignment)",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64191",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 4,
+          "updated_at": "2026-04-28T15:13:11Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64191"
+          },
+          "labels": [
+            {
+              "name": "needs: documentation",
+              "color": "ffea00"
+            },
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.8.0"
+          },
+          "_status": "merged",
+          "_author": "j111q"
+        },
         {
           "number": 64196,
           "title": "Align structural admin elements with WP theme color CSS custom properties",
@@ -53,34 +81,6 @@
           ],
           "milestone": {
             "title": "10.9.0"
-          },
-          "_status": "merged",
-          "_author": "j111q"
-        },
-        {
-          "number": 64191,
-          "title": "Add 8px border-radius to WooCommerce editor meta boxes (WP 7.0 alignment)",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/64191",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "closed",
-          "draft": false,
-          "comments": 4,
-          "updated_at": "2026-04-27T11:29:54Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/64191"
-          },
-          "labels": [
-            {
-              "name": "needs: documentation",
-              "color": "ffea00"
-            },
-            {
-              "name": "plugin: woocommerce",
-              "color": "db1c8e"
-            }
-          ],
-          "milestone": {
-            "title": "10.8.0"
           },
           "_status": "merged",
           "_author": "j111q"
@@ -187,14 +187,36 @@
           "_author": "j111q"
         },
         {
+          "number": 64454,
+          "title": "Link meta box radius bridge to upstream Trac ticket #65142",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64454",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": false,
+          "comments": 3,
+          "updated_at": "2026-04-28T15:18:00Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64454"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": null,
+          "_status": "open",
+          "_author": "j111q"
+        },
+        {
           "number": 64453,
           "title": "Fix widows in admin body copy",
           "html_url": "https://github.com/woocommerce/woocommerce/pull/64453",
           "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
           "state": "open",
           "draft": false,
-          "comments": 3,
-          "updated_at": "2026-04-28T14:11:03Z",
+          "comments": 4,
+          "updated_at": "2026-04-28T14:45:39Z",
           "pull_request": {
             "html_url": "https://github.com/woocommerce/woocommerce/pull/64453"
           },
