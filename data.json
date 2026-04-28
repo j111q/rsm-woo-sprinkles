@@ -1,0 +1,2217 @@
+{
+  "fetchedAt": "2026-04-28T14:16:36.931Z",
+  "datasets": [
+    {
+      "user": "j111q",
+      "profile": {
+        "login": "j111q",
+        "avatar_url": "https://avatars.githubusercontent.com/u/65582817?v=4",
+        "html_url": "https://github.com/j111q"
+      },
+      "items": [
+        {
+          "number": 64196,
+          "title": "Align structural admin elements with WP theme color CSS custom properties",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64196",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 6,
+          "updated_at": "2026-04-28T13:15:36Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64196"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.9.0"
+          },
+          "_status": "merged",
+          "_author": "j111q"
+        },
+        {
+          "number": 64276,
+          "title": "Tokenize hardcoded grays in Woo admin for WP 7.0 alignment",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64276",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 5,
+          "updated_at": "2026-04-28T13:12:59Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64276"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.9.0"
+          },
+          "_status": "merged",
+          "_author": "j111q"
+        },
+        {
+          "number": 64191,
+          "title": "Add 8px border-radius to WooCommerce editor meta boxes (WP 7.0 alignment)",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64191",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 4,
+          "updated_at": "2026-04-27T11:29:54Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64191"
+          },
+          "labels": [
+            {
+              "name": "needs: documentation",
+              "color": "ffea00"
+            },
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.8.0"
+          },
+          "_status": "merged",
+          "_author": "j111q"
+        },
+        {
+          "number": 64357,
+          "title": "Drop default icon from CES feedback snackbars",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64357",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 4,
+          "updated_at": "2026-04-27T05:43:40Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64357"
+          },
+          "labels": [
+            {
+              "name": "package: @woocommerce/customer-effort-score",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.8.0"
+          },
+          "_status": "merged",
+          "_author": "j111q"
+        },
+        {
+          "number": 64187,
+          "title": "Copy improvement: clear permission error when user cannot install plugins",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64187",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 9,
+          "updated_at": "2026-04-24T09:40:11Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64187"
+          },
+          "labels": [
+            {
+              "name": "needs: documentation",
+              "color": "ffea00"
+            },
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            },
+            {
+              "name": "package: @woocommerce/data",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.8.0"
+          },
+          "_status": "merged",
+          "_author": "j111q"
+        },
+        {
+          "number": 64334,
+          "title": "Add offline awareness to WooCommerce admin (reuses WP core #lost-connection-notice)",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64334",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 7,
+          "updated_at": "2026-04-23T07:22:36Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64334"
+          },
+          "labels": [
+            {
+              "name": "needs: documentation",
+              "color": "ffea00"
+            },
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.8.0"
+          },
+          "_status": "merged",
+          "_author": "j111q"
+        },
+        {
+          "number": 31,
+          "title": "Document wptexturize() behavior in punctuation README",
+          "html_url": "https://github.com/WordPress/WordPress-Documentation-Style-Guide/pull/31",
+          "repository_url": "https://api.github.com/repos/WordPress/WordPress-Documentation-Style-Guide",
+          "state": "closed",
+          "draft": false,
+          "comments": 0,
+          "updated_at": "2026-04-07T10:29:12Z",
+          "pull_request": {
+            "html_url": "https://github.com/WordPress/WordPress-Documentation-Style-Guide/pull/31"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "merged",
+          "_author": "j111q"
+        },
+        {
+          "number": 64453,
+          "title": "Fix widows in admin body copy",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64453",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": false,
+          "comments": 3,
+          "updated_at": "2026-04-28T14:11:03Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64453"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            },
+            {
+              "name": "package: @woocommerce/components",
+              "color": "db1c8e"
+            },
+            {
+              "name": "package: @woocommerce/customer-effort-score",
+              "color": "db1c8e"
+            },
+            {
+              "name": "package: @woocommerce/experimental",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.9.0"
+          },
+          "_status": "open",
+          "_author": "j111q"
+        },
+        {
+          "number": 64443,
+          "title": "Stop rendering inbox note images and deprecate the API",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64443",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": false,
+          "comments": 3,
+          "updated_at": "2026-04-28T13:04:56Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64443"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            },
+            {
+              "name": "plugin: woocommerce beta tester",
+              "color": "db1c8e"
+            },
+            {
+              "name": "package: @woocommerce/experimental",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.9.0"
+          },
+          "_status": "open",
+          "_author": "j111q"
+        },
+        {
+          "number": 64444,
+          "title": "Remove deprecated inbox note image/layout API (PR 2 follow-up)",
+          "html_url": "https://github.com/woocommerce/woocommerce/issues/64444",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "comments": 0,
+          "updated_at": "2026-04-28T08:10:37Z",
+          "labels": [
+            {
+              "name": "Data Structure/CRUD/Backend Processing",
+              "color": "f7c8c1"
+            }
+          ],
+          "milestone": null,
+          "_status": "open",
+          "_author": "j111q"
+        },
+        {
+          "number": 64353,
+          "title": "Remove the task list reminder bar from Woo admin",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64353",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": false,
+          "comments": 4,
+          "updated_at": "2026-04-28T06:06:49Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64353"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            },
+            {
+              "name": "focus: e2e tests",
+              "color": "ff6b00"
+            }
+          ],
+          "milestone": {
+            "title": "10.8.0"
+          },
+          "_status": "open",
+          "_author": "j111q"
+        },
+        {
+          "number": 1,
+          "title": "Design pass on the TUI",
+          "html_url": "https://github.com/senadir/ssh-mercantile/pull/1",
+          "repository_url": "https://api.github.com/repos/senadir/ssh-mercantile",
+          "state": "open",
+          "draft": false,
+          "comments": 0,
+          "updated_at": "2026-04-24T09:39:51Z",
+          "pull_request": {
+            "html_url": "https://github.com/senadir/ssh-mercantile/pull/1"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "open",
+          "_author": "j111q"
+        },
+        {
+          "number": 77056,
+          "title": "Apply typographic transformations (texturize) to DataForm field labels and descriptions",
+          "html_url": "https://github.com/WordPress/gutenberg/issues/77056",
+          "repository_url": "https://api.github.com/repos/WordPress/gutenberg",
+          "state": "open",
+          "comments": 6,
+          "updated_at": "2026-04-09T18:00:14Z",
+          "labels": [
+            {
+              "name": "[Type] Enhancement",
+              "color": "FEF2C0"
+            },
+            {
+              "name": "[Feature] DataViews",
+              "color": "FBCA04"
+            }
+          ],
+          "milestone": null,
+          "_status": "open",
+          "_author": "j111q"
+        },
+        {
+          "number": 45922,
+          "title": "Move Description under Summary",
+          "html_url": "https://github.com/woocommerce/woocommerce/issues/45922",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "comments": 2,
+          "updated_at": "2025-04-24T21:32:20Z",
+          "labels": [
+            {
+              "name": "Enhancement",
+              "color": "4cb782"
+            },
+            {
+              "name": "Product/Inventory Management",
+              "color": "f7c8c1"
+            },
+            {
+              "name": "Kirigami",
+              "color": "eb5757"
+            }
+          ],
+          "milestone": null,
+          "_status": "open",
+          "_author": "j111q"
+        },
+        {
+          "number": 2,
+          "title": "The Single Product Page should show real product data, and you should be able to select which product is shown",
+          "html_url": "https://github.com/woocommerce/woo-design-quality/issues/2",
+          "repository_url": "https://api.github.com/repos/woocommerce/woo-design-quality",
+          "state": "open",
+          "comments": 0,
+          "updated_at": "2025-03-31T16:04:15Z",
+          "labels": [
+            {
+              "name": "temp: design quality",
+              "color": "f9d0c4"
+            }
+          ],
+          "milestone": null,
+          "_status": "open",
+          "_author": "j111q"
+        },
+        {
+          "number": 26544,
+          "title": "Shipping rate is hidden when cost=$0 causing confusing UI ",
+          "html_url": "https://github.com/woocommerce/woocommerce/issues/26544",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "comments": 2,
+          "updated_at": "2025-01-28T11:23:14Z",
+          "labels": [
+            {
+              "name": "Bug",
+              "color": "eb5757"
+            },
+            {
+              "name": "Enhancement",
+              "color": "4cb782"
+            },
+            {
+              "name": "Checkout",
+              "color": "f7c8c1"
+            },
+            {
+              "name": "Shipping",
+              "color": "f7c8c1"
+            },
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            },
+            {
+              "name": "Rubik",
+              "color": "eb5757"
+            }
+          ],
+          "milestone": null,
+          "_status": "closed",
+          "_author": "j111q"
+        },
+        {
+          "number": 41448,
+          "title": "Snackbars with Icons are not aligned",
+          "html_url": "https://github.com/woocommerce/woocommerce/issues/41448",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "comments": 1,
+          "updated_at": "2025-01-28T10:47:07Z",
+          "labels": [
+            {
+              "name": "Bug",
+              "color": "eb5757"
+            }
+          ],
+          "milestone": null,
+          "_status": "closed",
+          "_author": "j111q"
+        },
+        {
+          "number": 41447,
+          "title": "[?] icon should be in-line with the text, and tooltip should have a max-width",
+          "html_url": "https://github.com/woocommerce/woocommerce/issues/41447",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "comments": 2,
+          "updated_at": "2025-01-28T10:43:51Z",
+          "labels": [
+            {
+              "name": "Bug",
+              "color": "eb5757"
+            }
+          ],
+          "milestone": null,
+          "_status": "closed",
+          "_author": "j111q"
+        },
+        {
+          "number": 52858,
+          "title": "Alignment bug in Product Editor 2.0 Feedback Form",
+          "html_url": "https://github.com/woocommerce/woocommerce/issues/52858",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "comments": 1,
+          "updated_at": "2025-01-27T22:35:52Z",
+          "labels": [
+            {
+              "name": "Bug",
+              "color": "eb5757"
+            },
+            {
+              "name": "needs: design",
+              "color": "ffea00"
+            },
+            {
+              "name": "Kirigami",
+              "color": "eb5757"
+            }
+          ],
+          "milestone": null,
+          "_status": "closed",
+          "_author": "j111q"
+        },
+        {
+          "number": 45925,
+          "title": "Bug: Product form content is not aligned to the centre",
+          "html_url": "https://github.com/woocommerce/woocommerce/issues/45925",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "comments": 4,
+          "updated_at": "2024-05-28T17:58:25Z",
+          "labels": [
+            {
+              "name": "Bug",
+              "color": "eb5757"
+            }
+          ],
+          "milestone": null,
+          "_status": "closed",
+          "_author": "j111q"
+        },
+        {
+          "number": 45920,
+          "title": "Simplify the Images empty state",
+          "html_url": "https://github.com/woocommerce/woocommerce/issues/45920",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "comments": 8,
+          "updated_at": "2024-05-24T05:36:13Z",
+          "labels": [
+            {
+              "name": "Enhancement",
+              "color": "4cb782"
+            },
+            {
+              "name": "needs: design feedback",
+              "color": "ffea00"
+            }
+          ],
+          "milestone": null,
+          "_status": "closed",
+          "_author": "j111q"
+        },
+        {
+          "number": 45883,
+          "title": "Replace copy: List Price to Regular Price",
+          "html_url": "https://github.com/woocommerce/woocommerce/issues/45883",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "comments": 0,
+          "updated_at": "2024-05-21T20:28:02Z",
+          "labels": [
+            {
+              "name": "Enhancement",
+              "color": "4cb782"
+            }
+          ],
+          "milestone": null,
+          "_status": "closed",
+          "_author": "j111q"
+        },
+        {
+          "number": 47146,
+          "title": "[Enhancement] Reduce the space between fields from 24px to 16px",
+          "html_url": "https://github.com/woocommerce/woocommerce/issues/47146",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "comments": 0,
+          "updated_at": "2024-05-21T17:46:18Z",
+          "labels": [],
+          "milestone": null,
+          "_status": "closed",
+          "_author": "j111q"
+        },
+        {
+          "number": 45921,
+          "title": "Add help text under `Include downloads` toggle",
+          "html_url": "https://github.com/woocommerce/woocommerce/issues/45921",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "comments": 3,
+          "updated_at": "2024-05-15T08:23:02Z",
+          "labels": [
+            {
+              "name": "Enhancement",
+              "color": "4cb782"
+            }
+          ],
+          "milestone": null,
+          "_status": "closed",
+          "_author": "j111q"
+        },
+        {
+          "number": 47145,
+          "title": "[Enhancement] Move all Pricing fields to General and remove Pricing tab",
+          "html_url": "https://github.com/woocommerce/woocommerce/issues/47145",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "comments": 1,
+          "updated_at": "2024-05-06T08:29:32Z",
+          "labels": [],
+          "milestone": null,
+          "_status": "closed",
+          "_author": "j111q"
+        },
+        {
+          "number": 44761,
+          "title": "After Variations are created, disable the fields that don’t do anything",
+          "html_url": "https://github.com/woocommerce/woocommerce/issues/44761",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "comments": 3,
+          "updated_at": "2024-03-22T16:52:44Z",
+          "labels": [],
+          "milestone": null,
+          "_status": "closed",
+          "_author": "j111q"
+        },
+        {
+          "number": 44169,
+          "title": "Custom Fields for New Product Editor",
+          "html_url": "https://github.com/woocommerce/woocommerce/issues/44169",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "comments": 0,
+          "updated_at": "2024-03-13T22:17:19Z",
+          "labels": [],
+          "milestone": null,
+          "_status": "closed",
+          "_author": "j111q"
+        },
+        {
+          "number": 43808,
+          "title": "Refinement on Variations tab",
+          "html_url": "https://github.com/woocommerce/woocommerce/issues/43808",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "comments": 0,
+          "updated_at": "2024-02-05T21:00:38Z",
+          "labels": [],
+          "milestone": null,
+          "_status": "closed",
+          "_author": "j111q"
+        },
+        {
+          "number": 43807,
+          "title": "Hide Downloads section under Toggle",
+          "html_url": "https://github.com/woocommerce/woocommerce/issues/43807",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "comments": 0,
+          "updated_at": "2024-02-02T13:04:43Z",
+          "labels": [],
+          "milestone": null,
+          "_status": "closed",
+          "_author": "j111q"
+        },
+        {
+          "number": 43845,
+          "title": "\"Choose Products for Me\" should show skeleton loading whenever button is pressed",
+          "html_url": "https://github.com/woocommerce/woocommerce/issues/43845",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "comments": 1,
+          "updated_at": "2024-01-24T22:08:41Z",
+          "labels": [],
+          "milestone": null,
+          "_status": "closed",
+          "_author": "j111q"
+        },
+        {
+          "number": 42691,
+          "title": "Linked products",
+          "html_url": "https://github.com/woocommerce/woocommerce/issues/42691",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "comments": 7,
+          "updated_at": "2024-01-24T21:19:01Z",
+          "labels": [],
+          "milestone": null,
+          "_status": "closed",
+          "_author": "j111q"
+        },
+        {
+          "number": 42898,
+          "title": "Text in description field disappears when Full Editor is opened",
+          "html_url": "https://github.com/woocommerce/woocommerce/issues/42898",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "comments": 1,
+          "updated_at": "2023-12-19T19:28:01Z",
+          "labels": [
+            {
+              "name": "Bug",
+              "color": "eb5757"
+            }
+          ],
+          "milestone": null,
+          "_status": "closed",
+          "_author": "j111q"
+        },
+        {
+          "number": 42958,
+          "title": "Description is empty when Full Editor is opened",
+          "html_url": "https://github.com/woocommerce/woocommerce/issues/42958",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "comments": 1,
+          "updated_at": "2023-12-19T15:13:43Z",
+          "labels": [],
+          "milestone": null,
+          "_status": "closed",
+          "_author": "j111q"
+        },
+        {
+          "number": 41509,
+          "title": "Add help text to Shipping toggle",
+          "html_url": "https://github.com/woocommerce/woocommerce/issues/41509",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "comments": 0,
+          "updated_at": "2023-11-21T21:41:40Z",
+          "labels": [],
+          "milestone": null,
+          "_status": "closed",
+          "_author": "j111q"
+        },
+        {
+          "number": 41451,
+          "title": "[Individual Variant] Manage limits for downloads in a single variant are not working",
+          "html_url": "https://github.com/woocommerce/woocommerce/issues/41451",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "comments": 0,
+          "updated_at": "2023-11-17T18:30:20Z",
+          "labels": [
+            {
+              "name": "Bug",
+              "color": "eb5757"
+            }
+          ],
+          "milestone": null,
+          "_status": "closed",
+          "_author": "j111q"
+        },
+        {
+          "number": 1644,
+          "title": "Change Google-related logos to the generic G logo",
+          "html_url": "https://github.com/woocommerce/google-listings-and-ads/issues/1644",
+          "repository_url": "https://api.github.com/repos/woocommerce/google-listings-and-ads",
+          "state": "closed",
+          "comments": 3,
+          "updated_at": "2022-08-26T08:25:12Z",
+          "labels": [],
+          "milestone": null,
+          "_status": "closed",
+          "_author": "j111q"
+        },
+        {
+          "number": 882,
+          "title": "Add two CES prompts to get more product feedback ",
+          "html_url": "https://github.com/woocommerce/google-listings-and-ads/issues/882",
+          "repository_url": "https://api.github.com/repos/woocommerce/google-listings-and-ads",
+          "state": "closed",
+          "comments": 8,
+          "updated_at": "2021-12-27T06:15:47Z",
+          "labels": [
+            {
+              "name": "type: enhancement",
+              "color": "0075ca"
+            }
+          ],
+          "milestone": {
+            "title": "X.X"
+          },
+          "_status": "closed",
+          "_author": "j111q"
+        },
+        {
+          "number": 860,
+          "title": "Add 2 inbox notifications to prompt for public reviews",
+          "html_url": "https://github.com/woocommerce/google-listings-and-ads/issues/860",
+          "repository_url": "https://api.github.com/repos/woocommerce/google-listings-and-ads",
+          "state": "closed",
+          "comments": 17,
+          "updated_at": "2021-11-18T03:49:53Z",
+          "labels": [
+            {
+              "name": "type: enhancement",
+              "color": "0075ca"
+            }
+          ],
+          "milestone": {
+            "title": "1.7"
+          },
+          "_status": "closed",
+          "_author": "j111q"
+        },
+        {
+          "number": 956,
+          "title": "Allow stores to mark themselves as an Adult-oriented account",
+          "html_url": "https://github.com/woocommerce/google-listings-and-ads/issues/956",
+          "repository_url": "https://api.github.com/repos/woocommerce/google-listings-and-ads",
+          "state": "closed",
+          "comments": 6,
+          "updated_at": "2021-08-25T13:23:04Z",
+          "labels": [
+            {
+              "name": "type: enhancement",
+              "color": "0075ca"
+            }
+          ],
+          "milestone": {
+            "title": "1.5"
+          },
+          "_status": "closed",
+          "_author": "j111q"
+        },
+        {
+          "number": 781,
+          "title": "Make the Reclaim URL flow a little more alarming",
+          "html_url": "https://github.com/woocommerce/google-listings-and-ads/issues/781",
+          "repository_url": "https://api.github.com/repos/woocommerce/google-listings-and-ads",
+          "state": "closed",
+          "comments": 7,
+          "updated_at": "2021-06-17T07:42:01Z",
+          "labels": [
+            {
+              "name": "type: enhancement",
+              "color": "0075ca"
+            }
+          ],
+          "milestone": {
+            "title": "1.2"
+          },
+          "_status": "closed",
+          "_author": "j111q"
+        },
+        {
+          "number": 776,
+          "title": "Change default for Audience > Location in setup flow",
+          "html_url": "https://github.com/woocommerce/google-listings-and-ads/issues/776",
+          "repository_url": "https://api.github.com/repos/woocommerce/google-listings-and-ads",
+          "state": "closed",
+          "comments": 0,
+          "updated_at": "2021-06-16T08:32:27Z",
+          "labels": [
+            {
+              "name": "type: enhancement",
+              "color": "0075ca"
+            }
+          ],
+          "milestone": {
+            "title": "1.1"
+          },
+          "_status": "closed",
+          "_author": "j111q"
+        },
+        {
+          "number": 514,
+          "title": "Account connection issues in beta test",
+          "html_url": "https://github.com/woocommerce/google-listings-and-ads/issues/514",
+          "repository_url": "https://api.github.com/repos/woocommerce/google-listings-and-ads",
+          "state": "closed",
+          "comments": 20,
+          "updated_at": "2021-06-10T05:45:58Z",
+          "labels": [
+            {
+              "name": "authentication",
+              "color": "fccb62"
+            },
+            {
+              "name": "priority: high",
+              "color": "d93f0b"
+            },
+            {
+              "name": "status: on hold",
+              "color": "d93f0b"
+            }
+          ],
+          "milestone": null,
+          "_status": "closed",
+          "_author": "j111q"
+        },
+        {
+          "number": 716,
+          "title": "Add status box in Product Feed",
+          "html_url": "https://github.com/woocommerce/google-listings-and-ads/issues/716",
+          "repository_url": "https://api.github.com/repos/woocommerce/google-listings-and-ads",
+          "state": "closed",
+          "comments": 4,
+          "updated_at": "2021-06-07T11:32:57Z",
+          "labels": [
+            {
+              "name": "account & offer mgmt",
+              "color": "611296"
+            }
+          ],
+          "milestone": {
+            "title": "1.0"
+          },
+          "_status": "closed",
+          "_author": "j111q"
+        },
+        {
+          "number": 546,
+          "title": "Add/Update 4 inbox messages",
+          "html_url": "https://github.com/woocommerce/google-listings-and-ads/issues/546",
+          "repository_url": "https://api.github.com/repos/woocommerce/google-listings-and-ads",
+          "state": "closed",
+          "comments": 15,
+          "updated_at": "2021-06-07T08:51:15Z",
+          "labels": [
+            {
+              "name": "type: enhancement",
+              "color": "0075ca"
+            }
+          ],
+          "milestone": {
+            "title": "1.0"
+          },
+          "_status": "closed",
+          "_author": "j111q"
+        },
+        {
+          "number": 717,
+          "title": "Override the \"enhanced free listings\" warning",
+          "html_url": "https://github.com/woocommerce/google-listings-and-ads/issues/717",
+          "repository_url": "https://api.github.com/repos/woocommerce/google-listings-and-ads",
+          "state": "closed",
+          "comments": 1,
+          "updated_at": "2021-06-04T09:35:53Z",
+          "labels": [
+            {
+              "name": "account & offer mgmt",
+              "color": "611296"
+            }
+          ],
+          "milestone": {
+            "title": "1.0"
+          },
+          "_status": "closed",
+          "_author": "j111q"
+        },
+        {
+          "number": 735,
+          "title": "Change \"Disconnect Google Ads\" modal text",
+          "html_url": "https://github.com/woocommerce/google-listings-and-ads/issues/735",
+          "repository_url": "https://api.github.com/repos/woocommerce/google-listings-and-ads",
+          "state": "closed",
+          "comments": 0,
+          "updated_at": "2021-06-04T05:05:59Z",
+          "labels": [
+            {
+              "name": "type: bug",
+              "color": "d73a4a"
+            }
+          ],
+          "milestone": {
+            "title": "1.0"
+          },
+          "_status": "closed",
+          "_author": "j111q"
+        },
+        {
+          "number": 673,
+          "title": "User can't complete setup with free shipping for orders over $0",
+          "html_url": "https://github.com/woocommerce/google-listings-and-ads/issues/673",
+          "repository_url": "https://api.github.com/repos/woocommerce/google-listings-and-ads",
+          "state": "closed",
+          "comments": 1,
+          "updated_at": "2021-06-04T01:27:50Z",
+          "labels": [
+            {
+              "name": "type: bug",
+              "color": "d73a4a"
+            },
+            {
+              "name": "priority: high",
+              "color": "d93f0b"
+            }
+          ],
+          "milestone": {
+            "title": "1.0"
+          },
+          "_status": "closed",
+          "_author": "j111q"
+        },
+        {
+          "number": 675,
+          "title": "Copy changes to in-product landing page",
+          "html_url": "https://github.com/woocommerce/google-listings-and-ads/issues/675",
+          "repository_url": "https://api.github.com/repos/woocommerce/google-listings-and-ads",
+          "state": "closed",
+          "comments": 2,
+          "updated_at": "2021-05-27T10:48:30Z",
+          "labels": [
+            {
+              "name": "type: bug",
+              "color": "d73a4a"
+            },
+            {
+              "name": "priority: high",
+              "color": "d93f0b"
+            }
+          ],
+          "milestone": {
+            "title": "1.0"
+          },
+          "_status": "closed",
+          "_author": "j111q"
+        },
+        {
+          "number": 581,
+          "title": "Connect to existing MC accounts didn't work and create new MC account didn't work",
+          "html_url": "https://github.com/woocommerce/google-listings-and-ads/issues/581",
+          "repository_url": "https://api.github.com/repos/woocommerce/google-listings-and-ads",
+          "state": "closed",
+          "comments": 7,
+          "updated_at": "2021-05-25T16:57:07Z",
+          "labels": [
+            {
+              "name": "priority: critical",
+              "color": "d73a4a"
+            }
+          ],
+          "milestone": null,
+          "_status": "closed",
+          "_author": "j111q"
+        },
+        {
+          "number": 555,
+          "title": "Changes to Success Modal after first setup",
+          "html_url": "https://github.com/woocommerce/google-listings-and-ads/issues/555",
+          "repository_url": "https://api.github.com/repos/woocommerce/google-listings-and-ads",
+          "state": "closed",
+          "comments": 5,
+          "updated_at": "2021-05-25T13:38:23Z",
+          "labels": [
+            {
+              "name": "type: enhancement",
+              "color": "0075ca"
+            },
+            {
+              "name": "merchant center",
+              "color": "17d1c4"
+            }
+          ],
+          "milestone": {
+            "title": "1.0"
+          },
+          "_status": "closed",
+          "_author": "j111q"
+        },
+        {
+          "number": 639,
+          "title": "Add FAQs to Step 1 of setup flow",
+          "html_url": "https://github.com/woocommerce/google-listings-and-ads/issues/639",
+          "repository_url": "https://api.github.com/repos/woocommerce/google-listings-and-ads",
+          "state": "closed",
+          "comments": 1,
+          "updated_at": "2021-05-25T03:18:37Z",
+          "labels": [
+            {
+              "name": "merchant center",
+              "color": "17d1c4"
+            }
+          ],
+          "milestone": {
+            "title": "1.0"
+          },
+          "_status": "closed",
+          "_author": "j111q"
+        },
+        {
+          "number": 633,
+          "title": "Add a beta notice to our WordPress.org plugin page",
+          "html_url": "https://github.com/woocommerce/google-listings-and-ads/issues/633",
+          "repository_url": "https://api.github.com/repos/woocommerce/google-listings-and-ads",
+          "state": "closed",
+          "comments": 5,
+          "updated_at": "2021-05-21T02:02:12Z",
+          "labels": [],
+          "milestone": null,
+          "_status": "closed",
+          "_author": "j111q"
+        },
+        {
+          "number": 580,
+          "title": "Change 'Get started' to 'Set up free listings in Google'",
+          "html_url": "https://github.com/woocommerce/google-listings-and-ads/issues/580",
+          "repository_url": "https://api.github.com/repos/woocommerce/google-listings-and-ads",
+          "state": "closed",
+          "comments": 0,
+          "updated_at": "2021-05-12T07:43:16Z",
+          "labels": [],
+          "milestone": null,
+          "_status": "closed",
+          "_author": "j111q"
+        },
+        {
+          "number": 519,
+          "title": "Couldn't complete setup in beta test (Alexey in Lookback)",
+          "html_url": "https://github.com/woocommerce/google-listings-and-ads/issues/519",
+          "repository_url": "https://api.github.com/repos/woocommerce/google-listings-and-ads",
+          "state": "closed",
+          "comments": 9,
+          "updated_at": "2021-04-29T14:23:05Z",
+          "labels": [],
+          "milestone": null,
+          "_status": "closed",
+          "_author": "j111q"
+        },
+        {
+          "number": 202,
+          "title": "Update the Dashboard UI based on new changes",
+          "html_url": "https://github.com/woocommerce/google-listings-and-ads/issues/202",
+          "repository_url": "https://api.github.com/repos/woocommerce/google-listings-and-ads",
+          "state": "closed",
+          "comments": 2,
+          "updated_at": "2021-04-21T10:27:32Z",
+          "labels": [
+            {
+              "name": "type: enhancement",
+              "color": "0075ca"
+            },
+            {
+              "name": "reporting",
+              "color": "d30c69"
+            }
+          ],
+          "milestone": null,
+          "_status": "closed",
+          "_author": "j111q"
+        },
+        {
+          "number": 449,
+          "title": "Rename 'Google Shopping Free Listings' to 'Free Listings'",
+          "html_url": "https://github.com/woocommerce/google-listings-and-ads/issues/449",
+          "repository_url": "https://api.github.com/repos/woocommerce/google-listings-and-ads",
+          "state": "closed",
+          "comments": 0,
+          "updated_at": "2021-04-20T01:53:04Z",
+          "labels": [
+            {
+              "name": "type: bug",
+              "color": "d73a4a"
+            },
+            {
+              "name": "account & offer mgmt",
+              "color": "611296"
+            }
+          ],
+          "milestone": null,
+          "_status": "closed",
+          "_author": "j111q"
+        }
+      ]
+    },
+    {
+      "user": "annchichi",
+      "profile": {
+        "login": "annchichi",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13378873?v=4",
+        "html_url": "https://github.com/annchichi"
+      },
+      "items": [
+        {
+          "number": 64389,
+          "title": "Align order edit page address Select2 with WordPress 7.0 input height",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64389",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 6,
+          "updated_at": "2026-04-28T11:24:23Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64389"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.8.0"
+          },
+          "_status": "merged",
+          "_author": "annchichi"
+        },
+        {
+          "number": 64417,
+          "title": "Fix: adopt $radius-s (2px) border-radius for Woo custom inputs and buttons (WP 7.0)",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64417",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 5,
+          "updated_at": "2026-04-28T10:36:24Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64417"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.9.0"
+          },
+          "_status": "merged",
+          "_author": "annchichi"
+        },
+        {
+          "number": 64397,
+          "title": "Show merchant-friendly message on plugin install upgrader failure",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64397",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 3,
+          "updated_at": "2026-04-28T09:11:20Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64397"
+          },
+          "labels": [
+            {
+              "name": "needs: documentation",
+              "color": "ffea00"
+            },
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.9.0"
+          },
+          "_status": "merged",
+          "_author": "annchichi"
+        },
+        {
+          "number": 64262,
+          "title": "Align Woo legacy admin custom button border-radius with WordPress 7.0",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64262",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 5,
+          "updated_at": "2026-04-28T09:03:32Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64262"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.8.0"
+          },
+          "_status": "merged",
+          "_author": "annchichi"
+        },
+        {
+          "number": 64322,
+          "title": "Adopt WP 7.0 form-control sizing on settings inputs and Select2 multi-select",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64322",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 7,
+          "updated_at": "2026-04-28T08:43:41Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64322"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.8.0"
+          },
+          "_status": "merged",
+          "_author": "annchichi"
+        },
+        {
+          "number": 64286,
+          "title": "Map email test-send errors to merchant-friendly copy",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64286",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 6,
+          "updated_at": "2026-04-22T11:24:56Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64286"
+          },
+          "labels": [
+            {
+              "name": "needs: documentation",
+              "color": "ffea00"
+            },
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            },
+            {
+              "name": "focus: e2e tests",
+              "color": "ff6b00"
+            }
+          ],
+          "milestone": {
+            "title": "10.8.0"
+          },
+          "_status": "merged",
+          "_author": "annchichi"
+        },
+        {
+          "number": 64327,
+          "title": "Align Product / Coupon Data panel labels and help-tips with 40px inputs (WP 7.0)",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64327",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": false,
+          "comments": 5,
+          "updated_at": "2026-04-28T13:09:30Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64327"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.8.0"
+          },
+          "_status": "open",
+          "_author": "annchichi"
+        },
+        {
+          "number": 64421,
+          "title": "Adopt WP 7.0 notice-dismiss button sizing natively",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64421",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": false,
+          "comments": 5,
+          "updated_at": "2026-04-28T11:55:44Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64421"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": null,
+          "_status": "open",
+          "_author": "annchichi"
+        },
+        {
+          "number": 64181,
+          "title": "Fix confusing error notice in shipping tour close handler",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64181",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": false,
+          "comments": 7,
+          "updated_at": "2026-04-28T11:04:58Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64181"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.8.0"
+          },
+          "_status": "open",
+          "_author": "annchichi"
+        },
+        {
+          "number": 64249,
+          "title": "Use --wp-admin-border-width-focus for focus ring widths",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64249",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": false,
+          "comments": 5,
+          "updated_at": "2026-04-28T10:45:49Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64249"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.8.0"
+          },
+          "_status": "open",
+          "_author": "annchichi"
+        },
+        {
+          "number": 64354,
+          "title": "Align order preview action buttons with WordPress 7.0 secondary style",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64354",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": false,
+          "comments": 4,
+          "updated_at": "2026-04-27T17:30:30Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64354"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": null,
+          "_status": "open",
+          "_author": "annchichi"
+        },
+        {
+          "number": 64237,
+          "title": "Align settings notice with WordPress 7.0 palette",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64237",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": false,
+          "comments": 5,
+          "updated_at": "2026-04-27T15:16:24Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64237"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.8.0"
+          },
+          "_status": "open",
+          "_author": "annchichi"
+        },
+        {
+          "number": 64212,
+          "title": "Align legacy admin success notice with WordPress 7.0 palette",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64212",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": false,
+          "comments": 6,
+          "updated_at": "2026-04-27T15:14:33Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64212"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.8.0"
+          },
+          "_status": "open",
+          "_author": "annchichi"
+        },
+        {
+          "number": 64204,
+          "title": "Align shipping destructive action red with WordPress 7.0 error red",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64204",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": false,
+          "comments": 5,
+          "updated_at": "2026-04-27T15:12:46Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64204"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.8.0"
+          },
+          "_status": "open",
+          "_author": "annchichi"
+        },
+        {
+          "number": 64280,
+          "title": "Align Woo admin gray text colors with WordPress 7.0 (via SCSS tokens)",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64280",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": false,
+          "comments": 7,
+          "updated_at": "2026-04-27T15:11:41Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64280"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.8.0"
+          },
+          "_status": "open",
+          "_author": "annchichi"
+        },
+        {
+          "number": 64203,
+          "title": "Align admin destructive action red with WordPress 7.0 error red",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64203",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": false,
+          "comments": 4,
+          "updated_at": "2026-04-27T15:11:41Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64203"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.8.0"
+          },
+          "_status": "open",
+          "_author": "annchichi"
+        },
+        {
+          "number": 64244,
+          "title": "Use --wp-admin-theme-color for legacy Select2",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64244",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": false,
+          "comments": 4,
+          "updated_at": "2026-04-27T15:11:19Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64244"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.8.0"
+          },
+          "_status": "open",
+          "_author": "annchichi"
+        },
+        {
+          "number": 64186,
+          "title": "Fix: replace developer-facing plugin install error with merchant-friendly copy",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64186",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": false,
+          "comments": 5,
+          "updated_at": "2026-04-27T15:10:48Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64186"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": null,
+          "_status": "open",
+          "_author": "annchichi"
+        },
+        {
+          "number": 64420,
+          "title": "Fix Marketplace header account button height and alignment",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64420",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": false,
+          "comments": 4,
+          "updated_at": "2026-04-27T15:07:58Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64420"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": null,
+          "_status": "open",
+          "_author": "annchichi"
+        },
+        {
+          "number": 64254,
+          "title": "Marketplace product card title focus ring is clipped at the bottom",
+          "html_url": "https://github.com/woocommerce/woocommerce/issues/64254",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "comments": 0,
+          "updated_at": "2026-04-20T16:17:36Z",
+          "labels": [
+            {
+              "name": "WCCOM/Marketplace",
+              "color": "f7c8c1"
+            }
+          ],
+          "milestone": null,
+          "_status": "open",
+          "_author": "annchichi"
+        },
+        {
+          "number": 67662,
+          "title": "Update `Notice` component design",
+          "html_url": "https://github.com/WordPress/gutenberg/issues/67662",
+          "repository_url": "https://api.github.com/repos/WordPress/gutenberg",
+          "state": "open",
+          "comments": 19,
+          "updated_at": "2025-07-27T10:23:24Z",
+          "labels": [
+            {
+              "name": "[Type] Enhancement",
+              "color": "FEF2C0"
+            },
+            {
+              "name": "Needs Design Feedback",
+              "color": "0e8a16"
+            },
+            {
+              "name": "Design System",
+              "color": "ed2572"
+            }
+          ],
+          "milestone": null,
+          "_status": "open",
+          "_author": "annchichi"
+        },
+        {
+          "number": 22,
+          "title": "Disconnected shipping setup experience",
+          "html_url": "https://github.com/woocommerce/woo-design-quality/issues/22",
+          "repository_url": "https://api.github.com/repos/woocommerce/woo-design-quality",
+          "state": "open",
+          "comments": 0,
+          "updated_at": "2025-03-31T16:04:22Z",
+          "labels": [
+            {
+              "name": "product area: store setup",
+              "color": "5319E7"
+            },
+            {
+              "name": "temp: design quality",
+              "color": "f9d0c4"
+            }
+          ],
+          "milestone": null,
+          "_status": "open",
+          "_author": "annchichi"
+        },
+        {
+          "number": 21,
+          "title": "Disconnected shipping setup experience",
+          "html_url": "https://github.com/woocommerce/woo-design-quality/issues/21",
+          "repository_url": "https://api.github.com/repos/woocommerce/woo-design-quality",
+          "state": "open",
+          "comments": 0,
+          "updated_at": "2025-03-31T16:04:22Z",
+          "labels": [
+            {
+              "name": "product area: store setup",
+              "color": "5319E7"
+            },
+            {
+              "name": "temp: design quality",
+              "color": "f9d0c4"
+            }
+          ],
+          "milestone": null,
+          "_status": "open",
+          "_author": "annchichi"
+        },
+        {
+          "number": 19,
+          "title": "Loading spinner on Stripe page takes too long (>5 seconds)",
+          "html_url": "https://github.com/woocommerce/woo-design-quality/issues/19",
+          "repository_url": "https://api.github.com/repos/woocommerce/woo-design-quality",
+          "state": "open",
+          "comments": 0,
+          "updated_at": "2025-03-31T16:04:21Z",
+          "labels": [
+            {
+              "name": "product area: store setup",
+              "color": "5319E7"
+            },
+            {
+              "name": "temp: design quality",
+              "color": "f9d0c4"
+            }
+          ],
+          "milestone": null,
+          "_status": "open",
+          "_author": "annchichi"
+        },
+        {
+          "number": 20,
+          "title": "Store location form feels redundant in both tax and shipping during setup",
+          "html_url": "https://github.com/woocommerce/woo-design-quality/issues/20",
+          "repository_url": "https://api.github.com/repos/woocommerce/woo-design-quality",
+          "state": "open",
+          "comments": 0,
+          "updated_at": "2025-03-31T16:04:21Z",
+          "labels": [
+            {
+              "name": "product area: store setup",
+              "color": "5319E7"
+            },
+            {
+              "name": "temp: design quality",
+              "color": "f9d0c4"
+            }
+          ],
+          "milestone": null,
+          "_status": "open",
+          "_author": "annchichi"
+        },
+        {
+          "number": 17,
+          "title": "[Bug] Write with AI disabled but Category AI works",
+          "html_url": "https://github.com/woocommerce/woo-design-quality/issues/17",
+          "repository_url": "https://api.github.com/repos/woocommerce/woo-design-quality",
+          "state": "open",
+          "comments": 0,
+          "updated_at": "2025-03-31T16:04:20Z",
+          "labels": [
+            {
+              "name": "product area: product editor",
+              "color": "5319E7"
+            },
+            {
+              "name": "temp: design quality",
+              "color": "f9d0c4"
+            }
+          ],
+          "milestone": null,
+          "_status": "open",
+          "_author": "annchichi"
+        },
+        {
+          "number": 18,
+          "title": "Unclear transition to Stripe during payment setup",
+          "html_url": "https://github.com/woocommerce/woo-design-quality/issues/18",
+          "repository_url": "https://api.github.com/repos/woocommerce/woo-design-quality",
+          "state": "open",
+          "comments": 0,
+          "updated_at": "2025-03-31T16:04:20Z",
+          "labels": [
+            {
+              "name": "product area: store setup",
+              "color": "5319E7"
+            },
+            {
+              "name": "temp: design quality",
+              "color": "f9d0c4"
+            }
+          ],
+          "milestone": null,
+          "_status": "open",
+          "_author": "annchichi"
+        },
+        {
+          "number": 15,
+          "title": "Clarify usage differences between product description & product short description",
+          "html_url": "https://github.com/woocommerce/woo-design-quality/issues/15",
+          "repository_url": "https://api.github.com/repos/woocommerce/woo-design-quality",
+          "state": "open",
+          "comments": 0,
+          "updated_at": "2025-03-31T16:04:19Z",
+          "labels": [
+            {
+              "name": "product area: product editor",
+              "color": "5319E7"
+            },
+            {
+              "name": "temp: design quality",
+              "color": "f9d0c4"
+            }
+          ],
+          "milestone": null,
+          "_status": "open",
+          "_author": "annchichi"
+        },
+        {
+          "number": 16,
+          "title": "Not clear what happens after publishing a product",
+          "html_url": "https://github.com/woocommerce/woo-design-quality/issues/16",
+          "repository_url": "https://api.github.com/repos/woocommerce/woo-design-quality",
+          "state": "open",
+          "comments": 0,
+          "updated_at": "2025-03-31T16:04:19Z",
+          "labels": [
+            {
+              "name": "product area: product editor",
+              "color": "5319E7"
+            },
+            {
+              "name": "temp: design quality",
+              "color": "f9d0c4"
+            }
+          ],
+          "milestone": null,
+          "_status": "open",
+          "_author": "annchichi"
+        },
+        {
+          "number": 1477,
+          "title": "Keyboards' word suggestion not working",
+          "html_url": "https://github.com/Automattic/simplenote-android/issues/1477",
+          "repository_url": "https://api.github.com/repos/Automattic/simplenote-android",
+          "state": "open",
+          "comments": 3,
+          "updated_at": "2025-02-22T19:15:22Z",
+          "labels": [
+            {
+              "name": "[Type] Bug",
+              "color": "ee0701"
+            },
+            {
+              "name": "not verified",
+              "color": "b60205"
+            }
+          ],
+          "milestone": null,
+          "_status": "open",
+          "_author": "annchichi"
+        },
+        {
+          "number": 15972,
+          "title": "Sign in with SMS in 2FA 1password blocks the line (text in a code instead)",
+          "html_url": "https://github.com/wordpress-mobile/WordPress-Android/issues/15972",
+          "repository_url": "https://api.github.com/repos/wordpress-mobile/WordPress-Android",
+          "state": "open",
+          "comments": 0,
+          "updated_at": "2024-07-03T19:21:04Z",
+          "labels": [
+            {
+              "name": "[Type] Enhancement",
+              "color": "84b6eb"
+            },
+            {
+              "name": "Login",
+              "color": "006b75"
+            }
+          ],
+          "milestone": null,
+          "_status": "open",
+          "_author": "annchichi"
+        },
+        {
+          "number": 147,
+          "title": "Done",
+          "html_url": "https://github.com/learn-co-students/js-hoisting-readme-js-intro-000/pull/147",
+          "repository_url": "https://api.github.com/repos/learn-co-students/js-hoisting-readme-js-intro-000",
+          "state": "open",
+          "draft": false,
+          "comments": 0,
+          "updated_at": "2016-10-05T03:07:45Z",
+          "pull_request": {
+            "html_url": "https://github.com/learn-co-students/js-hoisting-readme-js-intro-000/pull/147"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "open",
+          "_author": "annchichi"
+        },
+        {
+          "number": 150,
+          "title": "Done",
+          "html_url": "https://github.com/learn-co-students/javascript-fix-the-scope-lab-js-intro-000/pull/150",
+          "repository_url": "https://api.github.com/repos/learn-co-students/javascript-fix-the-scope-lab-js-intro-000",
+          "state": "open",
+          "draft": false,
+          "comments": 0,
+          "updated_at": "2016-10-01T20:10:45Z",
+          "pull_request": {
+            "html_url": "https://github.com/learn-co-students/javascript-fix-the-scope-lab-js-intro-000/pull/150"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "open",
+          "_author": "annchichi"
+        },
+        {
+          "number": 173,
+          "title": "Done",
+          "html_url": "https://github.com/learn-co-students/javascript-arithmetic-lab-js-intro-000/pull/173",
+          "repository_url": "https://api.github.com/repos/learn-co-students/javascript-arithmetic-lab-js-intro-000",
+          "state": "open",
+          "draft": false,
+          "comments": 0,
+          "updated_at": "2016-09-29T05:20:51Z",
+          "pull_request": {
+            "html_url": "https://github.com/learn-co-students/javascript-arithmetic-lab-js-intro-000/pull/173"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "open",
+          "_author": "annchichi"
+        },
+        {
+          "number": 182,
+          "title": "Done",
+          "html_url": "https://github.com/learn-co-students/js-functions-lab-js-intro-000/pull/182",
+          "repository_url": "https://api.github.com/repos/learn-co-students/js-functions-lab-js-intro-000",
+          "state": "open",
+          "draft": false,
+          "comments": 0,
+          "updated_at": "2016-09-28T03:31:21Z",
+          "pull_request": {
+            "html_url": "https://github.com/learn-co-students/js-functions-lab-js-intro-000/pull/182"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "open",
+          "_author": "annchichi"
+        },
+        {
+          "number": 172,
+          "title": "Done",
+          "html_url": "https://github.com/learn-co-students/javascript-intro-to-functions-lab-js-intro-000/pull/172",
+          "repository_url": "https://api.github.com/repos/learn-co-students/javascript-intro-to-functions-lab-js-intro-000",
+          "state": "open",
+          "draft": false,
+          "comments": 0,
+          "updated_at": "2016-09-27T07:55:47Z",
+          "pull_request": {
+            "html_url": "https://github.com/learn-co-students/javascript-intro-to-functions-lab-js-intro-000/pull/172"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "open",
+          "_author": "annchichi"
+        },
+        {
+          "number": 216,
+          "title": "Done",
+          "html_url": "https://github.com/learn-co-students/skills-based-javascript-intro-to-flow-control-js-intro-000/pull/216",
+          "repository_url": "https://api.github.com/repos/learn-co-students/skills-based-javascript-intro-to-flow-control-js-intro-000",
+          "state": "open",
+          "draft": false,
+          "comments": 0,
+          "updated_at": "2016-09-25T05:48:01Z",
+          "pull_request": {
+            "html_url": "https://github.com/learn-co-students/skills-based-javascript-intro-to-flow-control-js-intro-000/pull/216"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "open",
+          "_author": "annchichi"
+        },
+        {
+          "number": 348,
+          "title": "Done",
+          "html_url": "https://github.com/learn-co-students/javascript-strings-lab-js-intro-000/pull/348",
+          "repository_url": "https://api.github.com/repos/learn-co-students/javascript-strings-lab-js-intro-000",
+          "state": "open",
+          "draft": false,
+          "comments": 0,
+          "updated_at": "2016-09-23T05:47:22Z",
+          "pull_request": {
+            "html_url": "https://github.com/learn-co-students/javascript-strings-lab-js-intro-000/pull/348"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "open",
+          "_author": "annchichi"
+        },
+        {
+          "number": 393,
+          "title": "Done",
+          "html_url": "https://github.com/learn-co-students/javascript-logging-lab-js-intro-000/pull/393",
+          "repository_url": "https://api.github.com/repos/learn-co-students/javascript-logging-lab-js-intro-000",
+          "state": "open",
+          "draft": false,
+          "comments": 0,
+          "updated_at": "2016-09-13T07:06:10Z",
+          "pull_request": {
+            "html_url": "https://github.com/learn-co-students/javascript-logging-lab-js-intro-000/pull/393"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "open",
+          "_author": "annchichi"
+        },
+        {
+          "number": 64388,
+          "title": "[Enhancement]: Align order edit page address Select2 height with WP 7.0 inputs",
+          "html_url": "https://github.com/woocommerce/woocommerce/issues/64388",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "comments": 1,
+          "updated_at": "2026-04-24T07:53:46Z",
+          "labels": [
+            {
+              "name": "Enhancement",
+              "color": "4cb782"
+            },
+            {
+              "name": "Order Management",
+              "color": "f7c8c1"
+            }
+          ],
+          "milestone": null,
+          "_status": "closed",
+          "_author": "annchichi"
+        },
+        {
+          "number": 64321,
+          "title": "Product / Coupon Data panel labels misaligned with 40px fields on WP 7.0",
+          "html_url": "https://github.com/woocommerce/woocommerce/issues/64321",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "comments": 1,
+          "updated_at": "2026-04-22T15:59:32Z",
+          "labels": [
+            {
+              "name": "Product/Inventory Management",
+              "color": "f7c8c1"
+            }
+          ],
+          "milestone": null,
+          "_status": "closed",
+          "_author": "annchichi"
+        },
+        {
+          "number": 64259,
+          "title": "Align Woo admin placeholder text color with WordPress 7.0",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64259",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 5,
+          "updated_at": "2026-04-21T11:33:35Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64259"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": null,
+          "_status": "closed",
+          "_author": "annchichi"
+        },
+        {
+          "number": 64257,
+          "title": "Align Woo admin primary text color with WordPress 7.0",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64257",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 5,
+          "updated_at": "2026-04-21T11:31:41Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64257"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": null,
+          "_status": "closed",
+          "_author": "annchichi"
+        },
+        {
+          "number": 64241,
+          "title": "Align Marketplace product card focus ring with admin theme color",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64241",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": true,
+          "comments": 2,
+          "updated_at": "2026-04-21T07:06:01Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64241"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": null,
+          "_status": "closed",
+          "_author": "annchichi"
+        },
+        {
+          "number": 17986,
+          "title": "Copy change in connecting with FB",
+          "html_url": "https://github.com/wordpress-mobile/WordPress-iOS/issues/17986",
+          "repository_url": "https://api.github.com/repos/wordpress-mobile/WordPress-iOS",
+          "state": "closed",
+          "comments": 1,
+          "updated_at": "2026-03-23T17:05:43Z",
+          "labels": [
+            {
+              "name": "Sharing",
+              "color": "006b75"
+            },
+            {
+              "name": "[Type] Enhancement",
+              "color": "4cb782"
+            }
+          ],
+          "milestone": null,
+          "_status": "closed",
+          "_author": "annchichi"
+        },
+        {
+          "number": 10554,
+          "title": "There is a small area that cuts the asset in the free trial summary screen",
+          "html_url": "https://github.com/woocommerce/woocommerce-ios/issues/10554",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce-ios",
+          "state": "closed",
+          "comments": 1,
+          "updated_at": "2023-08-29T07:31:31Z",
+          "labels": [
+            {
+              "name": "category: design",
+              "color": "3e4b9e"
+            }
+          ],
+          "milestone": null,
+          "_status": "closed",
+          "_author": "annchichi"
+        },
+        {
+          "number": 10553,
+          "title": "Skip button has a weird spacing in the profiler questions",
+          "html_url": "https://github.com/woocommerce/woocommerce-ios/issues/10553",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce-ios",
+          "state": "closed",
+          "comments": 1,
+          "updated_at": "2023-08-29T07:31:31Z",
+          "labels": [
+            {
+              "name": "category: design",
+              "color": "3e4b9e"
+            }
+          ],
+          "milestone": null,
+          "_status": "closed",
+          "_author": "annchichi"
+        },
+        {
+          "number": 15927,
+          "title": "Change the color in the navigation area",
+          "html_url": "https://github.com/wordpress-mobile/WordPress-Android/issues/15927",
+          "repository_url": "https://api.github.com/repos/wordpress-mobile/WordPress-Android",
+          "state": "closed",
+          "comments": 0,
+          "updated_at": "2022-08-15T15:50:54Z",
+          "labels": [
+            {
+              "name": "[Type] Enhancement",
+              "color": "84b6eb"
+            },
+            {
+              "name": "groundskeeping",
+              "color": "C0264D"
+            }
+          ],
+          "milestone": null,
+          "_status": "closed",
+          "_author": "annchichi"
+        },
+        {
+          "number": 15917,
+          "title": "Translation on Join us in the About screen ",
+          "html_url": "https://github.com/wordpress-mobile/WordPress-Android/issues/15917",
+          "repository_url": "https://api.github.com/repos/wordpress-mobile/WordPress-Android",
+          "state": "closed",
+          "comments": 2,
+          "updated_at": "2022-02-15T07:40:00Z",
+          "labels": [
+            {
+              "name": "Localization",
+              "color": "eec2f9"
+            }
+          ],
+          "milestone": null,
+          "_status": "closed",
+          "_author": "annchichi"
+        }
+      ]
+    }
+  ]
+}
