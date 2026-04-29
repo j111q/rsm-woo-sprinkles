@@ -19,7 +19,7 @@
     "64191": {
       "category": "WP 7.0",
       "summary": "8px radius on product, order & coupon meta boxes",
-      "impact": "~307K stores edit products / 30d · 51M views"
+      "impact": "~307K stores edit products · ~244K edit orders · ~65K save coupons / 30d"
     },
     "64196": {
       "category": "WP 7.0",
@@ -51,7 +51,7 @@
     "64244": {
       "category": "WP 7.0",
       "summary": "Legacy Select2 uses --wp-admin-theme-color",
-      "impact": "Every legacy Select2 dropdown retinted · ~1.74M stores view Woo admin / 28d"
+      "impact": "Every legacy Select2 dropdown retinted · seen on most Woo admin pages"
     },
     "64249": {
       "category": "WP 7.0",
@@ -68,12 +68,12 @@
     "64262": {
       "category": "WP 7.0",
       "summary": "Legacy admin custom button border-radius aligns with WP 7.0",
-      "impact": "Every Woo admin button reshaped · ~1.74M stores view Woo admin / 28d"
+      "impact": "Every legacy custom Woo button reshaped · ~1.74M stores view Woo admin / 28d"
     },
     "64276": {
       "category": "WP 7.0",
       "summary": "Tokenized hardcoded grays in Woo admin for WP 7.0 alignment",
-      "impact": "Every admin text element retoned · ~1.74M stores view Woo admin / 28d"
+      "impact": "Every hardcoded gray retoned · ~1.74M stores view Woo admin / 28d"
     },
     "64280": {
       "category": "WP 7.0",
