@@ -461,6 +461,14 @@ function renderTabs() {
   }));
 }
 
+const EMPTY_COPY = {
+  all:    { em: 'Nothing in the kitchen yet 🧁', body: 'No sprinkles to display.' },
+  merged: { em: 'No sprinkles merged yet ✨',    body: 'When something ships, the confetti follows.' },
+  open:   { em: 'Inbox zero ✨',                 body: 'No open PRs or tickets right now.' },
+  draft:  { em: 'Nothing rising in the oven 🥐', body: 'No drafts in progress at the moment.' },
+  closed: { em: 'Nothing got tossed 👍',         body: 'No closed-without-merge items.' }
+};
+
 function renderGrid() {
   const base = authorFilteredItems();
   const filtered = activeTab === 'all' ? base : base.filter(i => i._status === activeTab);
@@ -472,7 +480,9 @@ function renderGrid() {
   });
   const content = document.getElementById('content');
   if (sorted.length === 0) {
-    content.innerHTML = `<div class="empty"><div class="em">Nothing here.</div><p>No items match this filter.</p></div>`;
+    const c = EMPTY_COPY[activeTab] || EMPTY_COPY.all;
+    const who = activeAuthor ? ` for <b>@${escapeHtml(activeAuthor)}</b>` : '';
+    content.innerHTML = `<div class="empty"><div class="em">${c.em}</div><p>${c.body}${who ? `<br/><span style="font-size:12px;opacity:0.8">${who.trim()}</span>` : ''}</p></div>`;
     return;
   }
   content.innerHTML = `<div class="list">${sorted.map(renderListCard).join('')}</div>`;
