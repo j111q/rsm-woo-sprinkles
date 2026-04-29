@@ -42,7 +42,7 @@
     "64237": {
       "category": "WP 7.0",
       "summary": "Blueprint settings notice aligns with WP 7.0 palette",
-      "impact": "~200 stores export Blueprints / 28d (Blueprint settings screen is niche)"
+      "impact": "~200 stores export Blueprints / 28d (typically power users)"
     },
     "64241": {
       "category": "WP 7.0",
@@ -138,7 +138,7 @@
     "64443": {
       "category": "Cleanup",
       "summary": "Stop rendering inbox note images and deprecate the API",
-      "impact": "~24.2K unique stores saw inbox note images / 90d"
+      "impact": "~24.2K unique stores saw inbox note images looking off / 90d"
     }
   },
   "senadir/ssh-mercantile": {
