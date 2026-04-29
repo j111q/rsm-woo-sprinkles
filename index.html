@@ -396,7 +396,6 @@ function renderPeople(datasets) {
     const merged = d.items.filter(i => i._status === 'merged').length;
     const open = d.items.filter(i => i._status === 'open').length;
     const draft = d.items.filter(i => i._status === 'draft').length;
-    const closed = d.items.filter(i => i._status === 'closed').length;
     const isActive = activeAuthor === d.user;
     const isDimmed = activeAuthor && !isActive;
     return `
@@ -405,7 +404,7 @@ function renderPeople(datasets) {
         <img src="${d.profile.avatar_url}" alt="${d.user}" />
         <div>
           <div class="handle"><a href="https://github.com/${d.user}" target="_blank" onclick="event.stopPropagation()">@${d.user}</a></div>
-          <div class="stats"><b>${merged}</b> merged · <b>${open}</b> open · <b>${draft}</b> draft · <b>${closed}</b> closed</div>
+          <div class="stats"><b>${merged}</b> merged · <b>${open}</b> open · <b>${draft}</b> draft</div>
         </div>
       </div>
     `;
@@ -442,14 +441,12 @@ function renderTabs() {
     merged: base.filter(i => i._status === 'merged').length,
     open: base.filter(i => i._status === 'open').length,
     draft: base.filter(i => i._status === 'draft').length,
-    closed: base.filter(i => i._status === 'closed').length,
   };
   const tabs = [
     ['all', 'All'],
     ['merged', '✨ Merged'],
     ['open', 'Open'],
     ['draft', '◌ Draft'],
-    ['closed', 'Closed'],
   ];
   document.getElementById('tabs').innerHTML = tabs.map(([k, label]) =>
     `<button class="tab ${activeTab === k ? 'active' : ''}" data-tab="${k}">${label}<span class="count">${counts[k]}</span></button>`
@@ -465,8 +462,7 @@ const EMPTY_COPY = {
   all:    { em: 'Nothing in the kitchen yet 🧁', body: 'No sprinkles to display.' },
   merged: { em: 'No sprinkles merged yet ✨',    body: 'When something ships, the confetti follows.' },
   open:   { em: 'Inbox zero ✨',                 body: 'No open PRs or tickets right now.' },
-  draft:  { em: 'Nothing rising in the oven 🥐', body: 'No drafts in progress at the moment.' },
-  closed: { em: 'Nothing got tossed 👍',         body: 'No closed-without-merge items.' }
+  draft:  { em: 'Nothing rising in the oven 🥐', body: 'No drafts in progress at the moment.' }
 };
 
 function renderGrid() {
@@ -647,7 +643,10 @@ async function load() {
     });
 
     datasets.forEach(d => {
-      d.items = d.items.filter(i => new Date(i.updated_at).getTime() >= HACKATHON_START);
+      d.items = d.items.filter(i =>
+        i._status !== 'closed' &&
+        new Date(i.updated_at).getTime() >= HACKATHON_START
+      );
     });
     renderPeople(datasets);
     allItems = datasets.flatMap(d => d.items);
