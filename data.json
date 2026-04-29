@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-04-29T03:33:43.519Z",
+  "fetchedAt": "2026-04-29T03:37:48.115Z",
   "datasets": [
     {
       "user": "j111q",
@@ -223,6 +223,42 @@
           "_author": "j111q"
         },
         {
+          "number": 64453,
+          "title": "Fix widows in admin body copy",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64453",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": false,
+          "comments": 4,
+          "updated_at": "2026-04-29T03:35:55Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64453"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            },
+            {
+              "name": "package: @woocommerce/components",
+              "color": "db1c8e"
+            },
+            {
+              "name": "package: @woocommerce/customer-effort-score",
+              "color": "db1c8e"
+            },
+            {
+              "name": "package: @woocommerce/experimental",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.9.0"
+          },
+          "_status": "open",
+          "_author": "j111q"
+        },
+        {
           "number": 64444,
           "title": "Remove deprecated inbox note image/layout API (PR follow-up)",
           "html_url": "https://github.com/woocommerce/woocommerce/issues/64444",
@@ -255,42 +291,6 @@
           "labels": [
             {
               "name": "plugin: woocommerce",
-              "color": "db1c8e"
-            }
-          ],
-          "milestone": {
-            "title": "10.9.0"
-          },
-          "_status": "open",
-          "_author": "j111q"
-        },
-        {
-          "number": 64453,
-          "title": "Fix widows in admin body copy",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/64453",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "draft": false,
-          "comments": 4,
-          "updated_at": "2026-04-28T14:45:39Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/64453"
-          },
-          "labels": [
-            {
-              "name": "plugin: woocommerce",
-              "color": "db1c8e"
-            },
-            {
-              "name": "package: @woocommerce/components",
-              "color": "db1c8e"
-            },
-            {
-              "name": "package: @woocommerce/customer-effort-score",
-              "color": "db1c8e"
-            },
-            {
-              "name": "package: @woocommerce/experimental",
               "color": "db1c8e"
             }
           ],
