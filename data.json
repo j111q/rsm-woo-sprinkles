@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-04-29T01:20:54.179Z",
+  "fetchedAt": "2026-04-29T02:58:04.013Z",
   "datasets": [
     {
       "user": "j111q",
@@ -194,7 +194,7 @@
           "state": "open",
           "draft": false,
           "comments": 4,
-          "updated_at": "2026-04-28T16:12:46Z",
+          "updated_at": "2026-04-29T02:56:28Z",
           "pull_request": {
             "html_url": "https://github.com/woocommerce/woocommerce/pull/64443"
           },
@@ -1500,28 +1500,6 @@
           "_author": "annchichi"
         },
         {
-          "number": 64421,
-          "title": "Adopt WP 7.0 notice-dismiss button sizing natively",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/64421",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "draft": false,
-          "comments": 5,
-          "updated_at": "2026-04-28T11:55:44Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/64421"
-          },
-          "labels": [
-            {
-              "name": "plugin: woocommerce",
-              "color": "db1c8e"
-            }
-          ],
-          "milestone": null,
-          "_status": "open",
-          "_author": "annchichi"
-        },
-        {
           "number": 64249,
           "title": "Use --wp-admin-border-width-focus for focus ring widths",
           "html_url": "https://github.com/woocommerce/woocommerce/pull/64249",
@@ -2037,6 +2015,28 @@
           "labels": [],
           "milestone": null,
           "_status": "open",
+          "_author": "annchichi"
+        },
+        {
+          "number": 64421,
+          "title": "Adopt WP 7.0 notice-dismiss button sizing natively",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64421",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 6,
+          "updated_at": "2026-04-29T01:39:33Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64421"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": null,
+          "_status": "closed",
           "_author": "annchichi"
         },
         {
