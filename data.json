@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-04-29T02:58:04.013Z",
+  "fetchedAt": "2026-04-29T03:13:56.255Z",
   "datasets": [
     {
       "user": "j111q",
@@ -9,6 +9,42 @@
         "html_url": "https://github.com/j111q"
       },
       "items": [
+        {
+          "number": 64443,
+          "title": "Stop rendering inbox note images and deprecate the API",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64443",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 5,
+          "updated_at": "2026-04-29T03:12:57Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64443"
+          },
+          "labels": [
+            {
+              "name": "needs: documentation",
+              "color": "ffea00"
+            },
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            },
+            {
+              "name": "plugin: woocommerce beta tester",
+              "color": "db1c8e"
+            },
+            {
+              "name": "package: @woocommerce/experimental",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.9.0"
+          },
+          "_status": "merged",
+          "_author": "j111q"
+        },
         {
           "number": 64191,
           "title": "Add 8px border-radius to WooCommerce editor meta boxes (WP 7.0 alignment)",
@@ -184,38 +220,6 @@
           "labels": [],
           "milestone": null,
           "_status": "merged",
-          "_author": "j111q"
-        },
-        {
-          "number": 64443,
-          "title": "Stop rendering inbox note images and deprecate the API",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/64443",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "draft": false,
-          "comments": 4,
-          "updated_at": "2026-04-29T02:56:28Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/64443"
-          },
-          "labels": [
-            {
-              "name": "plugin: woocommerce",
-              "color": "db1c8e"
-            },
-            {
-              "name": "plugin: woocommerce beta tester",
-              "color": "db1c8e"
-            },
-            {
-              "name": "package: @woocommerce/experimental",
-              "color": "db1c8e"
-            }
-          ],
-          "milestone": {
-            "title": "10.9.0"
-          },
-          "_status": "open",
           "_author": "j111q"
         },
         {
