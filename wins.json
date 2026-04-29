@@ -73,7 +73,7 @@
     "64276": {
       "category": "WP 7.0",
       "summary": "Tokenized hardcoded grays in Woo admin for WP 7.0 alignment",
-      "impact": "Every hardcoded gray retoned · ~1.74M stores view Woo admin / 28d"
+      "impact": "Every hardcoded gray retoned · ~144K stores hit onboarding / 28d (one highlight surface among several touched)"
     },
     "64280": {
       "category": "WP 7.0",
