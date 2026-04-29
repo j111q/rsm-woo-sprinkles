@@ -68,7 +68,7 @@
     "64262": {
       "category": "WP 7.0",
       "summary": "Legacy admin custom button border-radius aligns with WP 7.0",
-      "impact": "Every legacy custom Woo button reshaped · ~1.74M stores view Woo admin / 28d"
+      "impact": "Minimal user-visible impact · CSS hygiene pass on rules that apply to HTML no longer rendered on modern Woo"
     },
     "64276": {
       "category": "WP 7.0",
