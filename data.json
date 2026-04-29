@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-04-29T07:10:07.941Z",
+  "fetchedAt": "2026-04-29T08:39:45.544Z",
   "datasets": [
     {
       "user": "j111q",
@@ -220,6 +220,34 @@
           "labels": [],
           "milestone": null,
           "_status": "merged",
+          "_author": "j111q"
+        },
+        {
+          "number": 64476,
+          "title": "Order notes meta box: clarify visibility, modernize bubble styling",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64476",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": true,
+          "comments": 0,
+          "updated_at": "2026-04-29T08:38:49Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64476"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            },
+            {
+              "name": "focus: e2e tests",
+              "color": "ff6b00"
+            }
+          ],
+          "milestone": {
+            "title": "10.9.0"
+          },
+          "_status": "draft",
           "_author": "j111q"
         },
         {
@@ -1460,6 +1488,124 @@
           "_author": "annchichi"
         },
         {
+          "number": 64354,
+          "title": "Align order preview action buttons with WordPress 7.0 secondary style",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64354",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": false,
+          "comments": 5,
+          "updated_at": "2026-04-29T08:37:27Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64354"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": null,
+          "_status": "open",
+          "_author": "annchichi"
+        },
+        {
+          "number": 64280,
+          "title": "Align Woo admin gray text colors with WordPress 7.0 (via SCSS tokens)",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64280",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": false,
+          "comments": 7,
+          "updated_at": "2026-04-29T08:00:01Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64280"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.9.0"
+          },
+          "_status": "open",
+          "_author": "annchichi"
+        },
+        {
+          "number": 64204,
+          "title": "Align shipping destructive action red with WordPress 7.0 error red",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64204",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": false,
+          "comments": 5,
+          "updated_at": "2026-04-29T07:58:03Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64204"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.9.0"
+          },
+          "_status": "open",
+          "_author": "annchichi"
+        },
+        {
+          "number": 64203,
+          "title": "Align admin destructive action red with WordPress 7.0 error red",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64203",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": false,
+          "comments": 4,
+          "updated_at": "2026-04-29T07:57:33Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64203"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.9.0"
+          },
+          "_status": "open",
+          "_author": "annchichi"
+        },
+        {
+          "number": 64249,
+          "title": "Use --wp-admin-border-width-focus for focus ring widths",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64249",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": false,
+          "comments": 5,
+          "updated_at": "2026-04-29T07:55:19Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64249"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.9.0"
+          },
+          "_status": "open",
+          "_author": "annchichi"
+        },
+        {
           "number": 64186,
           "title": "Fix: replace developer-facing plugin install error with merchant-friendly copy",
           "html_url": "https://github.com/woocommerce/woocommerce/pull/64186",
@@ -1478,124 +1624,6 @@
             }
           ],
           "milestone": null,
-          "_status": "open",
-          "_author": "annchichi"
-        },
-        {
-          "number": 64354,
-          "title": "Align order preview action buttons with WordPress 7.0 secondary style",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/64354",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "draft": false,
-          "comments": 5,
-          "updated_at": "2026-04-28T18:53:01Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/64354"
-          },
-          "labels": [
-            {
-              "name": "plugin: woocommerce",
-              "color": "db1c8e"
-            }
-          ],
-          "milestone": null,
-          "_status": "open",
-          "_author": "annchichi"
-        },
-        {
-          "number": 64249,
-          "title": "Use --wp-admin-border-width-focus for focus ring widths",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/64249",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "draft": false,
-          "comments": 5,
-          "updated_at": "2026-04-28T10:45:49Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/64249"
-          },
-          "labels": [
-            {
-              "name": "plugin: woocommerce",
-              "color": "db1c8e"
-            }
-          ],
-          "milestone": {
-            "title": "10.8.0"
-          },
-          "_status": "open",
-          "_author": "annchichi"
-        },
-        {
-          "number": 64204,
-          "title": "Align shipping destructive action red with WordPress 7.0 error red",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/64204",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "draft": false,
-          "comments": 5,
-          "updated_at": "2026-04-27T15:12:46Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/64204"
-          },
-          "labels": [
-            {
-              "name": "plugin: woocommerce",
-              "color": "db1c8e"
-            }
-          ],
-          "milestone": {
-            "title": "10.8.0"
-          },
-          "_status": "open",
-          "_author": "annchichi"
-        },
-        {
-          "number": 64280,
-          "title": "Align Woo admin gray text colors with WordPress 7.0 (via SCSS tokens)",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/64280",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "draft": false,
-          "comments": 7,
-          "updated_at": "2026-04-27T15:11:41Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/64280"
-          },
-          "labels": [
-            {
-              "name": "plugin: woocommerce",
-              "color": "db1c8e"
-            }
-          ],
-          "milestone": {
-            "title": "10.8.0"
-          },
-          "_status": "open",
-          "_author": "annchichi"
-        },
-        {
-          "number": 64203,
-          "title": "Align admin destructive action red with WordPress 7.0 error red",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/64203",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "draft": false,
-          "comments": 4,
-          "updated_at": "2026-04-27T15:11:41Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/64203"
-          },
-          "labels": [
-            {
-              "name": "plugin: woocommerce",
-              "color": "db1c8e"
-            }
-          ],
-          "milestone": {
-            "title": "10.8.0"
-          },
           "_status": "open",
           "_author": "annchichi"
         },
