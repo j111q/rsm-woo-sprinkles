@@ -4,7 +4,8 @@
   "woocommerce/woocommerce": {
     "64181": {
       "category": "Copy",
-      "summary": "Cleaner error notice when shipping tour close fails"
+      "summary": "Cleaner error notice when shipping tour close fails",
+      "impact": "Affects merchants completing the shipping setup tour · ~2K stores set shipping costs / 28d"
     },
     "64186": {
       "category": "Copy",
@@ -35,11 +36,13 @@
     },
     "64212": {
       "category": "WP 7.0",
-      "summary": "Legacy admin success notice aligns with WP 7.0 palette"
+      "summary": "Legacy admin success notice aligns with WP 7.0 palette",
+      "impact": "Every legacy success notice retoned · ~1.74M stores view Woo admin / 28d"
     },
     "64237": {
       "category": "WP 7.0",
-      "summary": "Settings notice aligns with WP 7.0 palette"
+      "summary": "Settings notice aligns with WP 7.0 palette",
+      "impact": "Every settings notice retoned · ~1.74M stores view Woo admin / 28d"
     },
     "64241": {
       "category": "WP 7.0",
@@ -47,7 +50,8 @@
     },
     "64244": {
       "category": "WP 7.0",
-      "summary": "Legacy Select2 uses --wp-admin-theme-color"
+      "summary": "Legacy Select2 uses --wp-admin-theme-color",
+      "impact": "Every legacy Select2 dropdown retinted · ~1.74M stores view Woo admin / 28d"
     },
     "64249": {
       "category": "WP 7.0",
