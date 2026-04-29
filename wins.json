@@ -137,7 +137,8 @@
     },
     "64443": {
       "category": "Cleanup",
-      "summary": "Stop rendering inbox note images and deprecate the API"
+      "summary": "Stop rendering inbox note images and deprecate the API",
+      "impact": "~24.2K unique stores saw inbox note images / 90d"
     }
   },
   "senadir/ssh-mercantile": {
