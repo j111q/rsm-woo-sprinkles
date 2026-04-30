@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-04-30T12:54:56.725Z",
+  "fetchedAt": "2026-04-30T15:00:48.087Z",
   "datasets": [
     {
       "user": "j111q",
@@ -244,6 +244,91 @@
           "labels": [],
           "milestone": null,
           "_status": "merged",
+          "_author": "j111q"
+        },
+        {
+          "number": 5,
+          "title": "Catalog filters: swap grid in place instead of full page nav",
+          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/5",
+          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
+          "state": "open",
+          "draft": false,
+          "comments": 0,
+          "updated_at": "2026-04-30T14:27:53Z",
+          "pull_request": {
+            "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/5"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "open",
+          "_author": "j111q"
+        },
+        {
+          "number": 1,
+          "title": "Match prototype copy to real Mercantile facts (contact, returns, fine print)",
+          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/1",
+          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
+          "state": "open",
+          "draft": false,
+          "comments": 0,
+          "updated_at": "2026-04-30T14:13:24Z",
+          "pull_request": {
+            "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/1"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "open",
+          "_author": "j111q"
+        },
+        {
+          "number": 3,
+          "title": "Use shared homepage hero across shop + category templates",
+          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/3",
+          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
+          "state": "open",
+          "draft": false,
+          "comments": 0,
+          "updated_at": "2026-04-30T14:13:22Z",
+          "pull_request": {
+            "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/3"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "open",
+          "_author": "j111q"
+        },
+        {
+          "number": 4,
+          "title": "Add fade-up stagger to product grid cells",
+          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/4",
+          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
+          "state": "open",
+          "draft": false,
+          "comments": 0,
+          "updated_at": "2026-04-30T14:08:15Z",
+          "pull_request": {
+            "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/4"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "open",
+          "_author": "j111q"
+        },
+        {
+          "number": 2,
+          "title": "WP logomark in the ticker → home link",
+          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/2",
+          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
+          "state": "open",
+          "draft": false,
+          "comments": 0,
+          "updated_at": "2026-04-30T13:55:13Z",
+          "pull_request": {
+            "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/2"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "open",
           "_author": "j111q"
         },
         {
