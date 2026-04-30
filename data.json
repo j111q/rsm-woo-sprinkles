@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-04-30T15:00:48.087Z",
+  "fetchedAt": "2026-04-30T16:25:37.243Z",
   "datasets": [
     {
       "user": "j111q",
@@ -247,6 +247,34 @@
           "_author": "j111q"
         },
         {
+          "number": 64353,
+          "title": "Remove the task list reminder bar from Woo admin",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64353",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": false,
+          "comments": 4,
+          "updated_at": "2026-04-30T15:12:18Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64353"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            },
+            {
+              "name": "focus: e2e tests",
+              "color": "ff6b00"
+            }
+          ],
+          "milestone": {
+            "title": "10.8.0"
+          },
+          "_status": "open",
+          "_author": "j111q"
+        },
+        {
           "number": 5,
           "title": "Catalog filters: swap grid in place instead of full page nav",
           "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/5",
@@ -406,34 +434,6 @@
             }
           ],
           "milestone": null,
-          "_status": "open",
-          "_author": "j111q"
-        },
-        {
-          "number": 64353,
-          "title": "Remove the task list reminder bar from Woo admin",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/64353",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "draft": false,
-          "comments": 4,
-          "updated_at": "2026-04-28T06:06:49Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/64353"
-          },
-          "labels": [
-            {
-              "name": "plugin: woocommerce",
-              "color": "db1c8e"
-            },
-            {
-              "name": "focus: e2e tests",
-              "color": "ff6b00"
-            }
-          ],
-          "milestone": {
-            "title": "10.8.0"
-          },
           "_status": "open",
           "_author": "j111q"
         },
