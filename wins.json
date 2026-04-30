@@ -9,7 +9,8 @@
     },
     "64186": {
       "category": "Copy",
-      "summary": "Replaces developer-facing plugin install error with merchant-friendly copy"
+      "summary": "Replaces 'Plugin API call failed' with merchant-friendly copy",
+      "impact": "~727 stores see this error / month · 7,645 events / 30d, mostly mid-onboarding"
     },
     "64187": {
       "category": "Copy",
