@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-04-30T09:29:18.672Z",
+  "fetchedAt": "2026-04-30T11:14:30.086Z",
   "datasets": [
     {
       "user": "j111q",
@@ -254,7 +254,7 @@
           "state": "open",
           "draft": false,
           "comments": 4,
-          "updated_at": "2026-04-30T07:13:36Z",
+          "updated_at": "2026-04-30T10:08:35Z",
           "pull_request": {
             "html_url": "https://github.com/woocommerce/woocommerce/pull/64476"
           },
@@ -276,13 +276,13 @@
         },
         {
           "number": 64453,
-          "title": "Fix widows in admin body copy",
+          "title": "Fix widows in admin body copy not covered by the global rule",
           "html_url": "https://github.com/woocommerce/woocommerce/pull/64453",
           "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
           "state": "open",
           "draft": false,
-          "comments": 4,
-          "updated_at": "2026-04-29T03:35:55Z",
+          "comments": 5,
+          "updated_at": "2026-04-30T09:58:05Z",
           "pull_request": {
             "html_url": "https://github.com/woocommerce/woocommerce/pull/64453"
           },
@@ -293,10 +293,6 @@
             },
             {
               "name": "package: @woocommerce/components",
-              "color": "db1c8e"
-            },
-            {
-              "name": "package: @woocommerce/customer-effort-score",
               "color": "db1c8e"
             },
             {
