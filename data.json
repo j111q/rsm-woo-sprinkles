@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-04-30T11:14:30.086Z",
+  "fetchedAt": "2026-04-30T12:54:56.725Z",
   "datasets": [
     {
       "user": "j111q",
@@ -1519,7 +1519,7 @@
           "state": "open",
           "draft": false,
           "comments": 5,
-          "updated_at": "2026-04-29T08:37:27Z",
+          "updated_at": "2026-04-30T12:28:46Z",
           "pull_request": {
             "html_url": "https://github.com/woocommerce/woocommerce/pull/64354"
           },
@@ -1529,7 +1529,9 @@
               "color": "db1c8e"
             }
           ],
-          "milestone": null,
+          "milestone": {
+            "title": "10.9.0"
+          },
           "_status": "open",
           "_author": "annchichi"
         },
