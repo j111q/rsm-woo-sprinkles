@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-01T00:03:06.791Z",
+  "fetchedAt": "2026-05-01T02:18:08.992Z",
   "datasets": [
     {
       "user": "j111q",
@@ -244,6 +244,40 @@
           "labels": [],
           "milestone": null,
           "_status": "merged",
+          "_author": "j111q"
+        },
+        {
+          "number": 7,
+          "title": "Remove search field from section-head",
+          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/7",
+          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
+          "state": "open",
+          "draft": false,
+          "comments": 0,
+          "updated_at": "2026-05-01T02:15:14Z",
+          "pull_request": {
+            "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/7"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "open",
+          "_author": "j111q"
+        },
+        {
+          "number": 6,
+          "title": "section-head: equalize cart button height with search field",
+          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/6",
+          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
+          "state": "open",
+          "draft": false,
+          "comments": 0,
+          "updated_at": "2026-05-01T02:11:13Z",
+          "pull_request": {
+            "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/6"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "open",
           "_author": "j111q"
         },
         {
