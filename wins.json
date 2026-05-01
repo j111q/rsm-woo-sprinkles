@@ -10,7 +10,7 @@
     "64186": {
       "category": "Copy",
       "summary": "Replaces 'Plugin API call failed' with merchant-friendly copy",
-      "impact": "~727 stores see this error / month · 7,645 events / 30d, mostly mid-onboarding"
+      "impact": "~1,300 stores hit this error / 90d, mostly mid-onboarding"
     },
     "64187": {
       "category": "Copy",
