@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-01T11:21:01.316Z",
+  "fetchedAt": "2026-05-01T12:09:42.913Z",
   "datasets": [
     {
       "user": "j111q",
@@ -1319,6 +1319,30 @@
       },
       "items": [
         {
+          "number": 64354,
+          "title": "Align order preview action buttons with WordPress 7.0 secondary style",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64354",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 5,
+          "updated_at": "2026-05-01T11:45:54Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64354"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.9.0"
+          },
+          "_status": "merged",
+          "_author": "annchichi"
+        },
+        {
           "number": 64186,
           "title": "Fix: replace developer-facing plugin install error with merchant-friendly copy",
           "html_url": "https://github.com/woocommerce/woocommerce/pull/64186",
@@ -1628,30 +1652,6 @@
             "title": "10.8.0"
           },
           "_status": "merged",
-          "_author": "annchichi"
-        },
-        {
-          "number": 64354,
-          "title": "Align order preview action buttons with WordPress 7.0 secondary style",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/64354",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "draft": false,
-          "comments": 5,
-          "updated_at": "2026-04-30T12:28:46Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/64354"
-          },
-          "labels": [
-            {
-              "name": "plugin: woocommerce",
-              "color": "db1c8e"
-            }
-          ],
-          "milestone": {
-            "title": "10.9.0"
-          },
-          "_status": "open",
           "_author": "annchichi"
         },
         {
