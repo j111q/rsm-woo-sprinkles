@@ -140,7 +140,24 @@
       "category": "Cleanup",
       "summary": "Stop rendering inbox note images and deprecate the API",
       "impact": "~24.2K unique stores saw inbox note images looking off / 90d"
+    },
+    "64453": {
+      "category": "Polish",
+      "summary": "Fix widows in admin body copy not covered by the global rule"
+    },
+    "64476": {
+      "category": "Polish",
+      "summary": "Order notes meta box: clarify visibility, modernize bubble styling"
     }
+  },
+  "dinhtungdu/mercantile-hook-loop-theme": {
+    "1": { "category": "Mercantile", "summary": "Match prototype copy to real Mercantile facts (contact, returns, fine print)" },
+    "2": { "category": "Mercantile", "summary": "WP logomark in the ticker → home link" },
+    "3": { "category": "Mercantile", "summary": "Use shared homepage hero across shop + category templates" },
+    "4": { "category": "Mercantile", "summary": "Add fade-up stagger to product grid cells" },
+    "5": { "category": "Mercantile", "summary": "Catalog filters: swap grid in place instead of full page nav" },
+    "6": { "category": "Mercantile", "summary": "section-head: equalize cart button height with search field" },
+    "7": { "category": "Mercantile", "summary": "Remove search field from section-head" }
   },
   "senadir/ssh-mercantile": {
     "1": {
