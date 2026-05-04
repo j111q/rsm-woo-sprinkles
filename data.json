@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-04T09:08:42.898Z",
+  "fetchedAt": "2026-05-04T11:15:23.335Z",
   "datasets": [
     {
       "user": "j111q",
@@ -9,6 +9,125 @@
         "html_url": "https://github.com/j111q"
       },
       "items": [
+        {
+          "number": 8,
+          "title": "Cross-link the SSH/TUI sibling project (ticker + footer)",
+          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/8",
+          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
+          "state": "closed",
+          "draft": false,
+          "comments": 0,
+          "updated_at": "2026-05-04T09:31:24Z",
+          "pull_request": {
+            "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/8"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "merged",
+          "_author": "j111q"
+        },
+        {
+          "number": 7,
+          "title": "Remove search field from section-head",
+          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/7",
+          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
+          "state": "closed",
+          "draft": false,
+          "comments": 0,
+          "updated_at": "2026-05-04T09:27:17Z",
+          "pull_request": {
+            "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/7"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "merged",
+          "_author": "j111q"
+        },
+        {
+          "number": 6,
+          "title": "section-head: equalize cart button height with search field",
+          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/6",
+          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
+          "state": "closed",
+          "draft": false,
+          "comments": 0,
+          "updated_at": "2026-05-04T09:27:03Z",
+          "pull_request": {
+            "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/6"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "merged",
+          "_author": "j111q"
+        },
+        {
+          "number": 4,
+          "title": "Add fade-up stagger to product grid cells",
+          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/4",
+          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
+          "state": "closed",
+          "draft": false,
+          "comments": 0,
+          "updated_at": "2026-05-04T09:24:23Z",
+          "pull_request": {
+            "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/4"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "merged",
+          "_author": "j111q"
+        },
+        {
+          "number": 3,
+          "title": "Use shared homepage hero across shop + category templates",
+          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/3",
+          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
+          "state": "closed",
+          "draft": false,
+          "comments": 0,
+          "updated_at": "2026-05-04T09:21:41Z",
+          "pull_request": {
+            "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/3"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "merged",
+          "_author": "j111q"
+        },
+        {
+          "number": 2,
+          "title": "WP logomark in the ticker → home link",
+          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/2",
+          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
+          "state": "closed",
+          "draft": false,
+          "comments": 0,
+          "updated_at": "2026-05-04T09:13:49Z",
+          "pull_request": {
+            "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/2"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "merged",
+          "_author": "j111q"
+        },
+        {
+          "number": 1,
+          "title": "Match prototype copy to real Mercantile facts (contact, returns, fine print)",
+          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/1",
+          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
+          "state": "closed",
+          "draft": false,
+          "comments": 0,
+          "updated_at": "2026-05-04T09:12:14Z",
+          "pull_request": {
+            "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/1"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "merged",
+          "_author": "j111q"
+        },
         {
           "number": 64453,
           "title": "Fix widows in admin body copy not covered by the global rule",
@@ -279,6 +398,73 @@
           "_author": "j111q"
         },
         {
+          "number": 64564,
+          "title": "Align Order Edit meta boxes with WordPress 7.0 design conventions",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64564",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": true,
+          "comments": 0,
+          "updated_at": "2026-05-04T10:37:19Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64564"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": null,
+          "_status": "draft",
+          "_author": "j111q"
+        },
+        {
+          "number": 64353,
+          "title": "Remove the task list reminder bar from Woo admin",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64353",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": false,
+          "comments": 5,
+          "updated_at": "2026-05-04T09:32:47Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64353"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            },
+            {
+              "name": "focus: e2e tests",
+              "color": "ff6b00"
+            }
+          ],
+          "milestone": {
+            "title": "10.9.0"
+          },
+          "_status": "open",
+          "_author": "j111q"
+        },
+        {
+          "number": 5,
+          "title": "Catalog filters: swap grid in place instead of full page nav",
+          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/5",
+          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
+          "state": "open",
+          "draft": false,
+          "comments": 1,
+          "updated_at": "2026-05-04T09:26:40Z",
+          "pull_request": {
+            "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/5"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "open",
+          "_author": "j111q"
+        },
+        {
           "number": 64476,
           "title": "Order notes meta box: clarify visibility, modernize bubble styling",
           "html_url": "https://github.com/woocommerce/woocommerce/pull/64476",
@@ -303,170 +489,6 @@
           "milestone": {
             "title": "10.9.0"
           },
-          "_status": "open",
-          "_author": "j111q"
-        },
-        {
-          "number": 8,
-          "title": "Cross-link the SSH/TUI sibling project (ticker + footer)",
-          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/8",
-          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
-          "state": "open",
-          "draft": false,
-          "comments": 0,
-          "updated_at": "2026-05-04T04:58:46Z",
-          "pull_request": {
-            "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/8"
-          },
-          "labels": [],
-          "milestone": null,
-          "_status": "open",
-          "_author": "j111q"
-        },
-        {
-          "number": 64353,
-          "title": "Remove the task list reminder bar from Woo admin",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/64353",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "draft": false,
-          "comments": 5,
-          "updated_at": "2026-05-01T06:37:22Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/64353"
-          },
-          "labels": [
-            {
-              "name": "plugin: woocommerce",
-              "color": "db1c8e"
-            },
-            {
-              "name": "focus: e2e tests",
-              "color": "ff6b00"
-            }
-          ],
-          "milestone": {
-            "title": "10.8.0"
-          },
-          "_status": "open",
-          "_author": "j111q"
-        },
-        {
-          "number": 7,
-          "title": "Remove search field from section-head",
-          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/7",
-          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
-          "state": "open",
-          "draft": false,
-          "comments": 0,
-          "updated_at": "2026-05-01T02:15:14Z",
-          "pull_request": {
-            "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/7"
-          },
-          "labels": [],
-          "milestone": null,
-          "_status": "open",
-          "_author": "j111q"
-        },
-        {
-          "number": 6,
-          "title": "section-head: equalize cart button height with search field",
-          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/6",
-          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
-          "state": "open",
-          "draft": false,
-          "comments": 0,
-          "updated_at": "2026-05-01T02:11:13Z",
-          "pull_request": {
-            "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/6"
-          },
-          "labels": [],
-          "milestone": null,
-          "_status": "open",
-          "_author": "j111q"
-        },
-        {
-          "number": 5,
-          "title": "Catalog filters: swap grid in place instead of full page nav",
-          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/5",
-          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
-          "state": "open",
-          "draft": false,
-          "comments": 0,
-          "updated_at": "2026-04-30T14:27:53Z",
-          "pull_request": {
-            "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/5"
-          },
-          "labels": [],
-          "milestone": null,
-          "_status": "open",
-          "_author": "j111q"
-        },
-        {
-          "number": 1,
-          "title": "Match prototype copy to real Mercantile facts (contact, returns, fine print)",
-          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/1",
-          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
-          "state": "open",
-          "draft": false,
-          "comments": 0,
-          "updated_at": "2026-04-30T14:13:24Z",
-          "pull_request": {
-            "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/1"
-          },
-          "labels": [],
-          "milestone": null,
-          "_status": "open",
-          "_author": "j111q"
-        },
-        {
-          "number": 3,
-          "title": "Use shared homepage hero across shop + category templates",
-          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/3",
-          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
-          "state": "open",
-          "draft": false,
-          "comments": 0,
-          "updated_at": "2026-04-30T14:13:22Z",
-          "pull_request": {
-            "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/3"
-          },
-          "labels": [],
-          "milestone": null,
-          "_status": "open",
-          "_author": "j111q"
-        },
-        {
-          "number": 4,
-          "title": "Add fade-up stagger to product grid cells",
-          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/4",
-          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
-          "state": "open",
-          "draft": false,
-          "comments": 0,
-          "updated_at": "2026-04-30T14:08:15Z",
-          "pull_request": {
-            "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/4"
-          },
-          "labels": [],
-          "milestone": null,
-          "_status": "open",
-          "_author": "j111q"
-        },
-        {
-          "number": 2,
-          "title": "WP logomark in the ticker → home link",
-          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/2",
-          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
-          "state": "open",
-          "draft": false,
-          "comments": 0,
-          "updated_at": "2026-04-30T13:55:13Z",
-          "pull_request": {
-            "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/2"
-          },
-          "labels": [],
-          "milestone": null,
           "_status": "open",
           "_author": "j111q"
         },
@@ -1335,6 +1357,74 @@
         "html_url": "https://github.com/annchichi"
       },
       "items": [
+        {
+          "number": 4,
+          "title": "Explain repo selection prompt in install steps",
+          "html_url": "https://github.com/annchichi/catwatchpr/pull/4",
+          "repository_url": "https://api.github.com/repos/annchichi/catwatchpr",
+          "state": "closed",
+          "draft": false,
+          "comments": 0,
+          "updated_at": "2026-05-04T11:12:32Z",
+          "pull_request": {
+            "html_url": "https://github.com/annchichi/catwatchpr/pull/4"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "merged",
+          "_author": "annchichi"
+        },
+        {
+          "number": 3,
+          "title": "Add screenshots to README",
+          "html_url": "https://github.com/annchichi/catwatchpr/pull/3",
+          "repository_url": "https://api.github.com/repos/annchichi/catwatchpr",
+          "state": "closed",
+          "draft": false,
+          "comments": 0,
+          "updated_at": "2026-05-04T11:08:51Z",
+          "pull_request": {
+            "html_url": "https://github.com/annchichi/catwatchpr/pull/3"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "merged",
+          "_author": "annchichi"
+        },
+        {
+          "number": 2,
+          "title": "Update README: fun intro and reflect automated setup",
+          "html_url": "https://github.com/annchichi/catwatchpr/pull/2",
+          "repository_url": "https://api.github.com/repos/annchichi/catwatchpr",
+          "state": "closed",
+          "draft": false,
+          "comments": 0,
+          "updated_at": "2026-05-04T10:55:49Z",
+          "pull_request": {
+            "html_url": "https://github.com/annchichi/catwatchpr/pull/2"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "merged",
+          "_author": "annchichi"
+        },
+        {
+          "number": 1,
+          "title": "Make setup.sh fully self-contained for new users",
+          "html_url": "https://github.com/annchichi/catwatchpr/pull/1",
+          "repository_url": "https://api.github.com/repos/annchichi/catwatchpr",
+          "state": "closed",
+          "draft": false,
+          "comments": 0,
+          "updated_at": "2026-05-04T10:14:12Z",
+          "pull_request": {
+            "html_url": "https://github.com/annchichi/catwatchpr/pull/1"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "merged",
+          "_author": "annchichi"
+        },
         {
           "number": 64354,
           "title": "Align order preview action buttons with WordPress 7.0 secondary style",
