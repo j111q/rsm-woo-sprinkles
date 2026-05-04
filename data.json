@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-04T04:05:43.712Z",
+  "fetchedAt": "2026-05-04T06:50:01.340Z",
   "datasets": [
     {
       "user": "j111q",
@@ -9,6 +9,38 @@
         "html_url": "https://github.com/j111q"
       },
       "items": [
+        {
+          "number": 64453,
+          "title": "Fix widows in admin body copy not covered by the global rule",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64453",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 5,
+          "updated_at": "2026-05-04T05:23:10Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64453"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            },
+            {
+              "name": "package: @woocommerce/components",
+              "color": "db1c8e"
+            },
+            {
+              "name": "package: @woocommerce/experimental",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.9.0"
+          },
+          "_status": "merged",
+          "_author": "j111q"
+        },
         {
           "number": 64454,
           "title": "Link meta box radius bridge to upstream Trac ticket #65142",
@@ -247,6 +279,51 @@
           "_author": "j111q"
         },
         {
+          "number": 64476,
+          "title": "Order notes meta box: clarify visibility, modernize bubble styling",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64476",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": false,
+          "comments": 4,
+          "updated_at": "2026-05-04T05:38:58Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64476"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            },
+            {
+              "name": "focus: e2e tests",
+              "color": "ff6b00"
+            }
+          ],
+          "milestone": {
+            "title": "10.9.0"
+          },
+          "_status": "open",
+          "_author": "j111q"
+        },
+        {
+          "number": 8,
+          "title": "Cross-link the SSH/TUI sibling project (ticker + footer)",
+          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/8",
+          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
+          "state": "open",
+          "draft": false,
+          "comments": 0,
+          "updated_at": "2026-05-04T04:58:46Z",
+          "pull_request": {
+            "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/8"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "open",
+          "_author": "j111q"
+        },
+        {
           "number": 64353,
           "title": "Remove the task list reminder bar from Woo admin",
           "html_url": "https://github.com/woocommerce/woocommerce/pull/64353",
@@ -270,38 +347,6 @@
           ],
           "milestone": {
             "title": "10.8.0"
-          },
-          "_status": "open",
-          "_author": "j111q"
-        },
-        {
-          "number": 64453,
-          "title": "Fix widows in admin body copy not covered by the global rule",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/64453",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "draft": false,
-          "comments": 5,
-          "updated_at": "2026-05-01T02:26:52Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/64453"
-          },
-          "labels": [
-            {
-              "name": "plugin: woocommerce",
-              "color": "db1c8e"
-            },
-            {
-              "name": "package: @woocommerce/components",
-              "color": "db1c8e"
-            },
-            {
-              "name": "package: @woocommerce/experimental",
-              "color": "db1c8e"
-            }
-          ],
-          "milestone": {
-            "title": "10.9.0"
           },
           "_status": "open",
           "_author": "j111q"
@@ -422,34 +467,6 @@
           },
           "labels": [],
           "milestone": null,
-          "_status": "open",
-          "_author": "j111q"
-        },
-        {
-          "number": 64476,
-          "title": "Order notes meta box: clarify visibility, modernize bubble styling",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/64476",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "draft": false,
-          "comments": 4,
-          "updated_at": "2026-04-30T10:08:35Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/64476"
-          },
-          "labels": [
-            {
-              "name": "plugin: woocommerce",
-              "color": "db1c8e"
-            },
-            {
-              "name": "focus: e2e tests",
-              "color": "ff6b00"
-            }
-          ],
-          "milestone": {
-            "title": "10.9.0"
-          },
           "_status": "open",
           "_author": "j111q"
         },
