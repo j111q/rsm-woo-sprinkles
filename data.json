@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-05T12:51:37.375Z",
+  "fetchedAt": "2026-05-05T16:22:08.972Z",
   "datasets": [
     {
       "user": "j111q",
@@ -9,6 +9,23 @@
         "html_url": "https://github.com/j111q"
       },
       "items": [
+        {
+          "number": 12,
+          "title": "PDP modal: register click + popstate via IxAPI directives",
+          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/12",
+          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
+          "state": "closed",
+          "draft": false,
+          "comments": 0,
+          "updated_at": "2026-05-05T13:26:05Z",
+          "pull_request": {
+            "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/12"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "merged",
+          "_author": "j111q"
+        },
         {
           "number": 9,
           "title": "PDP: real modal via the WordPress Interactivity API",
@@ -415,6 +432,76 @@
           "_author": "j111q"
         },
         {
+          "number": 64476,
+          "title": "Order notes meta box: clarify visibility, modernize bubble styling",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64476",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": false,
+          "comments": 4,
+          "updated_at": "2026-05-05T15:40:41Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64476"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            },
+            {
+              "name": "focus: e2e tests",
+              "color": "ff6b00"
+            }
+          ],
+          "milestone": {
+            "title": "10.9.0"
+          },
+          "_status": "open",
+          "_author": "j111q"
+        },
+        {
+          "number": 64564,
+          "title": "Align Order Edit meta boxes with WordPress 7.0 design conventions",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64564",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": false,
+          "comments": 3,
+          "updated_at": "2026-05-05T14:56:18Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64564"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.9.0"
+          },
+          "_status": "open",
+          "_author": "j111q"
+        },
+        {
+          "number": 64444,
+          "title": "Remove deprecated inbox note image/layout API (PR follow-up)",
+          "html_url": "https://github.com/woocommerce/woocommerce/issues/64444",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "comments": 0,
+          "updated_at": "2026-05-05T13:31:09Z",
+          "labels": [
+            {
+              "name": "Data Structure/CRUD/Backend Processing",
+              "color": "f7c8c1"
+            }
+          ],
+          "milestone": null,
+          "_status": "open",
+          "_author": "j111q"
+        },
+        {
           "number": 11,
           "title": "mobile: home/shop responsive fixes (wordmark + filter row)",
           "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/11",
@@ -449,58 +536,6 @@
           "_author": "j111q"
         },
         {
-          "number": 64564,
-          "title": "Align Order Edit meta boxes with WordPress 7.0 design conventions",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/64564",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "draft": false,
-          "comments": 3,
-          "updated_at": "2026-05-05T07:54:50Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/64564"
-          },
-          "labels": [
-            {
-              "name": "plugin: woocommerce",
-              "color": "db1c8e"
-            }
-          ],
-          "milestone": {
-            "title": "10.9.0"
-          },
-          "_status": "open",
-          "_author": "j111q"
-        },
-        {
-          "number": 64476,
-          "title": "Order notes meta box: clarify visibility, modernize bubble styling",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/64476",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "draft": false,
-          "comments": 4,
-          "updated_at": "2026-05-05T06:03:14Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/64476"
-          },
-          "labels": [
-            {
-              "name": "plugin: woocommerce",
-              "color": "db1c8e"
-            },
-            {
-              "name": "focus: e2e tests",
-              "color": "ff6b00"
-            }
-          ],
-          "milestone": {
-            "title": "10.9.0"
-          },
-          "_status": "open",
-          "_author": "j111q"
-        },
-        {
           "number": 64353,
           "title": "Remove the task list reminder bar from Woo admin",
           "html_url": "https://github.com/woocommerce/woocommerce/pull/64353",
@@ -525,24 +560,6 @@
           "milestone": {
             "title": "10.9.0"
           },
-          "_status": "open",
-          "_author": "j111q"
-        },
-        {
-          "number": 64444,
-          "title": "Remove deprecated inbox note image/layout API (PR follow-up)",
-          "html_url": "https://github.com/woocommerce/woocommerce/issues/64444",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "comments": 0,
-          "updated_at": "2026-04-28T16:05:59Z",
-          "labels": [
-            {
-              "name": "Data Structure/CRUD/Backend Processing",
-              "color": "f7c8c1"
-            }
-          ],
-          "milestone": null,
           "_status": "open",
           "_author": "j111q"
         },
@@ -627,6 +644,24 @@
           ],
           "milestone": null,
           "_status": "open",
+          "_author": "j111q"
+        },
+        {
+          "number": 64598,
+          "title": "Order edit screen: `delete_post` capability check fails on HPOS, hides trash link for all users",
+          "html_url": "https://github.com/woocommerce/woocommerce/issues/64598",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "comments": 1,
+          "updated_at": "2026-05-05T14:28:25Z",
+          "labels": [
+            {
+              "name": "Order Management",
+              "color": "f7c8c1"
+            }
+          ],
+          "milestone": null,
+          "_status": "closed",
           "_author": "j111q"
         },
         {
