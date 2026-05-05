@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-05T08:23:51.212Z",
+  "fetchedAt": "2026-05-05T10:14:53.898Z",
   "datasets": [
     {
       "user": "j111q",
@@ -9,6 +9,23 @@
         "html_url": "https://github.com/j111q"
       },
       "items": [
+        {
+          "number": 9,
+          "title": "PDP: real modal via the WordPress Interactivity API",
+          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/9",
+          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
+          "state": "closed",
+          "draft": false,
+          "comments": 0,
+          "updated_at": "2026-05-05T09:14:30Z",
+          "pull_request": {
+            "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/9"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "merged",
+          "_author": "j111q"
+        },
         {
           "number": 8,
           "title": "Cross-link the SSH/TUI sibling project (ticker + footer)",
@@ -398,20 +415,20 @@
           "_author": "j111q"
         },
         {
-          "number": 9,
-          "title": "PDP: real modal via the WordPress Interactivity API",
-          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/9",
+          "number": 10,
+          "title": "PDP modal loading: cute rotating copy + centered blinking caret",
+          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/10",
           "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
           "state": "open",
-          "draft": true,
+          "draft": false,
           "comments": 0,
-          "updated_at": "2026-05-05T08:07:40Z",
+          "updated_at": "2026-05-05T09:48:46Z",
           "pull_request": {
-            "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/9"
+            "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/10"
           },
           "labels": [],
           "milestone": null,
-          "_status": "draft",
+          "_status": "open",
           "_author": "j111q"
         },
         {
@@ -1815,6 +1832,30 @@
           "_author": "annchichi"
         },
         {
+          "number": 64249,
+          "title": "Use --wp-admin-border-width-focus for focus ring widths",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64249",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": false,
+          "comments": 5,
+          "updated_at": "2026-05-05T09:58:26Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64249"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.9.0"
+          },
+          "_status": "open",
+          "_author": "annchichi"
+        },
+        {
           "number": 64280,
           "title": "Align Woo admin gray text colors with WordPress 7.0 (via SCSS tokens)",
           "html_url": "https://github.com/woocommerce/woocommerce/pull/64280",
@@ -1873,30 +1914,6 @@
           "updated_at": "2026-04-29T07:57:33Z",
           "pull_request": {
             "html_url": "https://github.com/woocommerce/woocommerce/pull/64203"
-          },
-          "labels": [
-            {
-              "name": "plugin: woocommerce",
-              "color": "db1c8e"
-            }
-          ],
-          "milestone": {
-            "title": "10.9.0"
-          },
-          "_status": "open",
-          "_author": "annchichi"
-        },
-        {
-          "number": 64249,
-          "title": "Use --wp-admin-border-width-focus for focus ring widths",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/64249",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "draft": false,
-          "comments": 5,
-          "updated_at": "2026-04-29T07:55:19Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/64249"
           },
           "labels": [
             {
