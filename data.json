@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-05T10:14:53.898Z",
+  "fetchedAt": "2026-05-05T11:39:31.073Z",
   "datasets": [
     {
       "user": "j111q",
@@ -412,6 +412,23 @@
           "labels": [],
           "milestone": null,
           "_status": "merged",
+          "_author": "j111q"
+        },
+        {
+          "number": 11,
+          "title": "mobile: home/shop responsive fixes (wordmark + filter row)",
+          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/11",
+          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
+          "state": "open",
+          "draft": false,
+          "comments": 0,
+          "updated_at": "2026-05-05T10:32:50Z",
+          "pull_request": {
+            "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/11"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "open",
           "_author": "j111q"
         },
         {
