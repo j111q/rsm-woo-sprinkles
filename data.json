@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-05T06:05:03.315Z",
+  "fetchedAt": "2026-05-05T08:23:51.212Z",
   "datasets": [
     {
       "user": "j111q",
@@ -17,7 +17,7 @@
           "state": "closed",
           "draft": false,
           "comments": 0,
-          "updated_at": "2026-05-04T09:31:24Z",
+          "updated_at": "2026-05-05T07:12:02Z",
           "pull_request": {
             "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/8"
           },
@@ -34,7 +34,7 @@
           "state": "closed",
           "draft": false,
           "comments": 0,
-          "updated_at": "2026-05-04T09:27:17Z",
+          "updated_at": "2026-05-05T07:12:01Z",
           "pull_request": {
             "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/7"
           },
@@ -51,7 +51,7 @@
           "state": "closed",
           "draft": false,
           "comments": 0,
-          "updated_at": "2026-05-04T09:27:03Z",
+          "updated_at": "2026-05-05T07:11:59Z",
           "pull_request": {
             "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/6"
           },
@@ -68,7 +68,7 @@
           "state": "closed",
           "draft": false,
           "comments": 0,
-          "updated_at": "2026-05-04T09:24:23Z",
+          "updated_at": "2026-05-05T07:11:57Z",
           "pull_request": {
             "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/4"
           },
@@ -85,7 +85,7 @@
           "state": "closed",
           "draft": false,
           "comments": 0,
-          "updated_at": "2026-05-04T09:21:41Z",
+          "updated_at": "2026-05-05T07:11:56Z",
           "pull_request": {
             "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/3"
           },
@@ -102,7 +102,7 @@
           "state": "closed",
           "draft": false,
           "comments": 0,
-          "updated_at": "2026-05-04T09:13:49Z",
+          "updated_at": "2026-05-05T07:11:54Z",
           "pull_request": {
             "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/2"
           },
@@ -119,7 +119,7 @@
           "state": "closed",
           "draft": false,
           "comments": 0,
-          "updated_at": "2026-05-04T09:12:14Z",
+          "updated_at": "2026-05-05T07:11:53Z",
           "pull_request": {
             "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/1"
           },
@@ -398,6 +398,47 @@
           "_author": "j111q"
         },
         {
+          "number": 9,
+          "title": "PDP: real modal via the WordPress Interactivity API",
+          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/9",
+          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
+          "state": "open",
+          "draft": true,
+          "comments": 0,
+          "updated_at": "2026-05-05T08:07:40Z",
+          "pull_request": {
+            "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/9"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "draft",
+          "_author": "j111q"
+        },
+        {
+          "number": 64564,
+          "title": "Align Order Edit meta boxes with WordPress 7.0 design conventions",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64564",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": false,
+          "comments": 3,
+          "updated_at": "2026-05-05T07:54:50Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64564"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.9.0"
+          },
+          "_status": "open",
+          "_author": "j111q"
+        },
+        {
           "number": 64476,
           "title": "Order notes meta box: clarify visibility, modernize bubble styling",
           "html_url": "https://github.com/woocommerce/woocommerce/pull/64476",
@@ -426,45 +467,6 @@
           "_author": "j111q"
         },
         {
-          "number": 64564,
-          "title": "Align Order Edit meta boxes with WordPress 7.0 design conventions",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/64564",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "draft": false,
-          "comments": 3,
-          "updated_at": "2026-05-05T05:54:38Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/64564"
-          },
-          "labels": [
-            {
-              "name": "plugin: woocommerce",
-              "color": "db1c8e"
-            }
-          ],
-          "milestone": null,
-          "_status": "open",
-          "_author": "j111q"
-        },
-        {
-          "number": 5,
-          "title": "Make setup.sh work on machines that aren't yours",
-          "html_url": "https://github.com/annchichi/catwatchpr/pull/5",
-          "repository_url": "https://api.github.com/repos/annchichi/catwatchpr",
-          "state": "open",
-          "draft": false,
-          "comments": 0,
-          "updated_at": "2026-05-05T04:41:07Z",
-          "pull_request": {
-            "html_url": "https://github.com/annchichi/catwatchpr/pull/5"
-          },
-          "labels": [],
-          "milestone": null,
-          "_status": "open",
-          "_author": "j111q"
-        },
-        {
           "number": 64353,
           "title": "Remove the task list reminder bar from Woo admin",
           "html_url": "https://github.com/woocommerce/woocommerce/pull/64353",
@@ -489,23 +491,6 @@
           "milestone": {
             "title": "10.9.0"
           },
-          "_status": "open",
-          "_author": "j111q"
-        },
-        {
-          "number": 5,
-          "title": "Catalog filters: swap grid in place instead of full page nav",
-          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/5",
-          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
-          "state": "open",
-          "draft": false,
-          "comments": 1,
-          "updated_at": "2026-05-04T09:26:40Z",
-          "pull_request": {
-            "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/5"
-          },
-          "labels": [],
-          "milestone": null,
           "_status": "open",
           "_author": "j111q"
         },
@@ -608,6 +593,40 @@
           ],
           "milestone": null,
           "_status": "open",
+          "_author": "j111q"
+        },
+        {
+          "number": 5,
+          "title": "Make setup.sh work on machines that aren't yours",
+          "html_url": "https://github.com/annchichi/catwatchpr/pull/5",
+          "repository_url": "https://api.github.com/repos/annchichi/catwatchpr",
+          "state": "closed",
+          "draft": false,
+          "comments": 2,
+          "updated_at": "2026-05-05T07:16:34Z",
+          "pull_request": {
+            "html_url": "https://github.com/annchichi/catwatchpr/pull/5"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "closed",
+          "_author": "j111q"
+        },
+        {
+          "number": 5,
+          "title": "Catalog filters: swap grid in place instead of full page nav",
+          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/5",
+          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
+          "state": "closed",
+          "draft": false,
+          "comments": 2,
+          "updated_at": "2026-05-05T07:13:30Z",
+          "pull_request": {
+            "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/5"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "closed",
           "_author": "j111q"
         },
         {
@@ -1374,6 +1393,23 @@
         "html_url": "https://github.com/annchichi"
       },
       "items": [
+        {
+          "number": 6,
+          "title": "feat: guided setup for any machine",
+          "html_url": "https://github.com/annchichi/catwatchpr/pull/6",
+          "repository_url": "https://api.github.com/repos/annchichi/catwatchpr",
+          "state": "closed",
+          "draft": false,
+          "comments": 0,
+          "updated_at": "2026-05-05T07:17:22Z",
+          "pull_request": {
+            "html_url": "https://github.com/annchichi/catwatchpr/pull/6"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "merged",
+          "_author": "annchichi"
+        },
         {
           "number": 4,
           "title": "Explain repo selection prompt in install steps",
