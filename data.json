@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-06T17:05:24.854Z",
+  "fetchedAt": "2026-05-06T18:51:04.179Z",
   "datasets": [
     {
       "user": "j111q",
@@ -1511,6 +1511,54 @@
       },
       "items": [
         {
+          "number": 64249,
+          "title": "Use --wp-admin-border-width-focus for focus ring widths",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64249",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 5,
+          "updated_at": "2026-05-06T18:02:54Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64249"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.9.0"
+          },
+          "_status": "merged",
+          "_author": "annchichi"
+        },
+        {
+          "number": 64280,
+          "title": "Align Woo admin gray text colors with WordPress 7.0 (via SCSS tokens)",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64280",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 7,
+          "updated_at": "2026-05-06T17:10:09Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64280"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.9.0"
+          },
+          "_status": "merged",
+          "_author": "annchichi"
+        },
+        {
           "number": 6,
           "title": "feat: guided setup for any machine",
           "html_url": "https://github.com/annchichi/catwatchpr/pull/6",
@@ -1929,54 +1977,6 @@
             "title": "10.8.0"
           },
           "_status": "merged",
-          "_author": "annchichi"
-        },
-        {
-          "number": 64249,
-          "title": "Use --wp-admin-border-width-focus for focus ring widths",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/64249",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "draft": false,
-          "comments": 5,
-          "updated_at": "2026-05-06T16:00:07Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/64249"
-          },
-          "labels": [
-            {
-              "name": "plugin: woocommerce",
-              "color": "db1c8e"
-            }
-          ],
-          "milestone": {
-            "title": "10.9.0"
-          },
-          "_status": "open",
-          "_author": "annchichi"
-        },
-        {
-          "number": 64280,
-          "title": "Align Woo admin gray text colors with WordPress 7.0 (via SCSS tokens)",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/64280",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "draft": false,
-          "comments": 7,
-          "updated_at": "2026-05-06T15:56:56Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/64280"
-          },
-          "labels": [
-            {
-              "name": "plugin: woocommerce",
-              "color": "db1c8e"
-            }
-          ],
-          "milestone": {
-            "title": "10.9.0"
-          },
-          "_status": "open",
           "_author": "annchichi"
         },
         {
