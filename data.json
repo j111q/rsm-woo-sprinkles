@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-06T09:03:17.893Z",
+  "fetchedAt": "2026-05-06T11:12:34.042Z",
   "datasets": [
     {
       "user": "j111q",
@@ -9,6 +9,23 @@
         "html_url": "https://github.com/j111q"
       },
       "items": [
+        {
+          "number": 11,
+          "title": "mobile: home/shop responsive fixes (wordmark + filter row)",
+          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/11",
+          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
+          "state": "closed",
+          "draft": false,
+          "comments": 0,
+          "updated_at": "2026-05-06T09:57:18Z",
+          "pull_request": {
+            "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/11"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "merged",
+          "_author": "j111q"
+        },
         {
           "number": 12,
           "title": "PDP modal: register click + popstate via IxAPI directives",
@@ -432,14 +449,38 @@
           "_author": "j111q"
         },
         {
+          "number": 64643,
+          "title": "Floating header: suppress duplicate H1, unify chrome to icon tabs",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64643",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": false,
+          "comments": 4,
+          "updated_at": "2026-05-06T09:43:16Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64643"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.9.0"
+          },
+          "_status": "open",
+          "_author": "j111q"
+        },
+        {
           "number": 64645,
           "title": "Refresh legacy admin empty states",
           "html_url": "https://github.com/woocommerce/woocommerce/pull/64645",
           "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
           "state": "open",
           "draft": false,
-          "comments": 3,
-          "updated_at": "2026-05-06T09:01:47Z",
+          "comments": 4,
+          "updated_at": "2026-05-06T09:20:05Z",
           "pull_request": {
             "html_url": "https://github.com/woocommerce/woocommerce/pull/64645"
           },
@@ -462,34 +503,10 @@
           "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
           "state": "open",
           "draft": false,
-          "comments": 3,
-          "updated_at": "2026-05-06T08:56:54Z",
+          "comments": 4,
+          "updated_at": "2026-05-06T09:15:54Z",
           "pull_request": {
             "html_url": "https://github.com/woocommerce/woocommerce/pull/64564"
-          },
-          "labels": [
-            {
-              "name": "plugin: woocommerce",
-              "color": "db1c8e"
-            }
-          ],
-          "milestone": {
-            "title": "10.9.0"
-          },
-          "_status": "open",
-          "_author": "j111q"
-        },
-        {
-          "number": 64643,
-          "title": "Floating header: suppress duplicate H1, unify chrome to icon tabs",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/64643",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "draft": false,
-          "comments": 3,
-          "updated_at": "2026-05-06T08:50:29Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/64643"
           },
           "labels": [
             {
@@ -545,23 +562,6 @@
               "color": "f7c8c1"
             }
           ],
-          "milestone": null,
-          "_status": "open",
-          "_author": "j111q"
-        },
-        {
-          "number": 11,
-          "title": "mobile: home/shop responsive fixes (wordmark + filter row)",
-          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/11",
-          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
-          "state": "open",
-          "draft": false,
-          "comments": 0,
-          "updated_at": "2026-05-05T10:32:50Z",
-          "pull_request": {
-            "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/11"
-          },
-          "labels": [],
           "milestone": null,
           "_status": "open",
           "_author": "j111q"
