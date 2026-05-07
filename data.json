@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-07T09:13:16.012Z",
+  "fetchedAt": "2026-05-07T11:18:52.586Z",
   "datasets": [
     {
       "user": "j111q",
@@ -517,6 +517,34 @@
           "_author": "j111q"
         },
         {
+          "number": 64476,
+          "title": "Order notes meta box: clarify visibility, modernize bubble styling",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64476",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": false,
+          "comments": 4,
+          "updated_at": "2026-05-07T09:32:56Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64476"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            },
+            {
+              "name": "focus: e2e tests",
+              "color": "ff6b00"
+            }
+          ],
+          "milestone": {
+            "title": "10.9.0"
+          },
+          "_status": "open",
+          "_author": "j111q"
+        },
+        {
           "number": 16,
           "title": "PDP: render real per-product attributes via [product_attributes]",
           "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/16",
@@ -601,34 +629,6 @@
             {
               "name": "plugin: woocommerce",
               "color": "db1c8e"
-            }
-          ],
-          "milestone": {
-            "title": "10.9.0"
-          },
-          "_status": "open",
-          "_author": "j111q"
-        },
-        {
-          "number": 64476,
-          "title": "Order notes meta box: clarify visibility, modernize bubble styling",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/64476",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "draft": false,
-          "comments": 4,
-          "updated_at": "2026-05-06T07:34:02Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/64476"
-          },
-          "labels": [
-            {
-              "name": "plugin: woocommerce",
-              "color": "db1c8e"
-            },
-            {
-              "name": "focus: e2e tests",
-              "color": "ff6b00"
             }
           ],
           "milestone": {
@@ -2059,7 +2059,7 @@
           "state": "open",
           "draft": false,
           "comments": 5,
-          "updated_at": "2026-05-07T09:11:44Z",
+          "updated_at": "2026-05-07T10:49:58Z",
           "pull_request": {
             "html_url": "https://github.com/woocommerce/woocommerce/pull/64420"
           },
