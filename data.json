@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-07T00:04:00.063Z",
+  "fetchedAt": "2026-05-07T03:57:37.121Z",
   "datasets": [
     {
       "user": "j111q",
@@ -9,6 +9,23 @@
         "html_url": "https://github.com/j111q"
       },
       "items": [
+        {
+          "number": 10,
+          "title": "PDP modal loading: cute rotating copy + centered blinking caret",
+          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/10",
+          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
+          "state": "closed",
+          "draft": false,
+          "comments": 0,
+          "updated_at": "2026-05-07T03:56:47Z",
+          "pull_request": {
+            "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/10"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "merged",
+          "_author": "j111q"
+        },
         {
           "number": 11,
           "title": "mobile: home/shop responsive fixes (wordmark + filter row)",
@@ -456,7 +473,7 @@
           "state": "open",
           "draft": false,
           "comments": 4,
-          "updated_at": "2026-05-06T09:43:16Z",
+          "updated_at": "2026-05-07T03:09:04Z",
           "pull_request": {
             "html_url": "https://github.com/woocommerce/woocommerce/pull/64643"
           },
@@ -562,23 +579,6 @@
               "color": "f7c8c1"
             }
           ],
-          "milestone": null,
-          "_status": "open",
-          "_author": "j111q"
-        },
-        {
-          "number": 10,
-          "title": "PDP modal loading: cute rotating copy + centered blinking caret",
-          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/10",
-          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
-          "state": "open",
-          "draft": false,
-          "comments": 0,
-          "updated_at": "2026-05-05T09:48:46Z",
-          "pull_request": {
-            "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/10"
-          },
-          "labels": [],
           "milestone": null,
           "_status": "open",
           "_author": "j111q"
