@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-07T13:09:19.216Z",
+  "fetchedAt": "2026-05-07T15:33:52.548Z",
   "datasets": [
     {
       "user": "j111q",
@@ -9,6 +9,57 @@
         "html_url": "https://github.com/j111q"
       },
       "items": [
+        {
+          "number": 18,
+          "title": "PDP: fix [product_attributes] table restyle vs WC defaults",
+          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/18",
+          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
+          "state": "closed",
+          "draft": false,
+          "comments": 0,
+          "updated_at": "2026-05-07T15:18:42Z",
+          "pull_request": {
+            "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/18"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "merged",
+          "_author": "j111q"
+        },
+        {
+          "number": 17,
+          "title": "PDP: real size buttons via JS shim over WC variation form",
+          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/17",
+          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
+          "state": "closed",
+          "draft": false,
+          "comments": 0,
+          "updated_at": "2026-05-07T14:08:33Z",
+          "pull_request": {
+            "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/17"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "merged",
+          "_author": "j111q"
+        },
+        {
+          "number": 16,
+          "title": "PDP: render real per-product attributes via [product_attributes]",
+          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/16",
+          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
+          "state": "closed",
+          "draft": false,
+          "comments": 0,
+          "updated_at": "2026-05-07T14:06:17Z",
+          "pull_request": {
+            "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/16"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "merged",
+          "_author": "j111q"
+        },
         {
           "number": 13,
           "title": "Add gap between PDP marginalia pills and gallery",
@@ -541,23 +592,6 @@
           "milestone": {
             "title": "10.9.0"
           },
-          "_status": "open",
-          "_author": "j111q"
-        },
-        {
-          "number": 16,
-          "title": "PDP: render real per-product attributes via [product_attributes]",
-          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/16",
-          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
-          "state": "open",
-          "draft": false,
-          "comments": 0,
-          "updated_at": "2026-05-07T09:01:17Z",
-          "pull_request": {
-            "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/16"
-          },
-          "labels": [],
-          "milestone": null,
           "_status": "open",
           "_author": "j111q"
         },
@@ -2069,6 +2103,47 @@
           "_author": "annchichi"
         },
         {
+          "number": 64703,
+          "title": "Add email template canvas affordance",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64703",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": true,
+          "comments": 0,
+          "updated_at": "2026-05-07T15:18:40Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64703"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "draft",
+          "_author": "annchichi"
+        },
+        {
+          "number": 64203,
+          "title": "Align admin destructive action red with WordPress 7.0 error red",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64203",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": false,
+          "comments": 5,
+          "updated_at": "2026-05-07T15:09:30Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64203"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.9.0"
+          },
+          "_status": "open",
+          "_author": "annchichi"
+        },
+        {
           "number": 64204,
           "title": "Align shipping destructive action red with WordPress 7.0 error red",
           "html_url": "https://github.com/woocommerce/woocommerce/pull/64204",
@@ -2076,7 +2151,7 @@
           "state": "open",
           "draft": false,
           "comments": 6,
-          "updated_at": "2026-05-07T13:02:11Z",
+          "updated_at": "2026-05-07T13:13:31Z",
           "pull_request": {
             "html_url": "https://github.com/woocommerce/woocommerce/pull/64204"
           },
@@ -2111,30 +2186,6 @@
             }
           ],
           "milestone": null,
-          "_status": "open",
-          "_author": "annchichi"
-        },
-        {
-          "number": 64203,
-          "title": "Align admin destructive action red with WordPress 7.0 error red",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/64203",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "draft": false,
-          "comments": 4,
-          "updated_at": "2026-04-29T07:57:33Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/64203"
-          },
-          "labels": [
-            {
-              "name": "plugin: woocommerce",
-              "color": "db1c8e"
-            }
-          ],
-          "milestone": {
-            "title": "10.9.0"
-          },
           "_status": "open",
           "_author": "annchichi"
         },
