@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-07T06:33:44.203Z",
+  "fetchedAt": "2026-05-07T09:13:16.012Z",
   "datasets": [
     {
       "user": "j111q",
@@ -9,6 +9,57 @@
         "html_url": "https://github.com/j111q"
       },
       "items": [
+        {
+          "number": 13,
+          "title": "Add gap between PDP marginalia pills and gallery",
+          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/13",
+          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
+          "state": "closed",
+          "draft": false,
+          "comments": 0,
+          "updated_at": "2026-05-07T08:59:36Z",
+          "pull_request": {
+            "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/13"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "merged",
+          "_author": "j111q"
+        },
+        {
+          "number": 14,
+          "title": "Unify PDP details panel spec rows",
+          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/14",
+          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
+          "state": "closed",
+          "draft": false,
+          "comments": 0,
+          "updated_at": "2026-05-07T08:40:47Z",
+          "pull_request": {
+            "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/14"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "merged",
+          "_author": "j111q"
+        },
+        {
+          "number": 15,
+          "title": "PDP modal loading: tint the wapuu periwinkle blue",
+          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/15",
+          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
+          "state": "closed",
+          "draft": false,
+          "comments": 0,
+          "updated_at": "2026-05-07T08:37:56Z",
+          "pull_request": {
+            "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/15"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "merged",
+          "_author": "j111q"
+        },
         {
           "number": 10,
           "title": "PDP modal loading: cute rotating copy + centered blinking caret",
@@ -463,6 +514,23 @@
           "labels": [],
           "milestone": null,
           "_status": "merged",
+          "_author": "j111q"
+        },
+        {
+          "number": 16,
+          "title": "PDP: render real per-product attributes via [product_attributes]",
+          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/16",
+          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
+          "state": "open",
+          "draft": false,
+          "comments": 0,
+          "updated_at": "2026-05-07T09:01:17Z",
+          "pull_request": {
+            "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/16"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "open",
           "_author": "j111q"
         },
         {
@@ -1984,6 +2052,28 @@
           "_author": "annchichi"
         },
         {
+          "number": 64420,
+          "title": "Fix Marketplace header account button height and alignment",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64420",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": false,
+          "comments": 5,
+          "updated_at": "2026-05-07T09:11:44Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64420"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": null,
+          "_status": "open",
+          "_author": "annchichi"
+        },
+        {
           "number": 64204,
           "title": "Align shipping destructive action red with WordPress 7.0 error red",
           "html_url": "https://github.com/woocommerce/woocommerce/pull/64204",
@@ -2028,28 +2118,6 @@
           "milestone": {
             "title": "10.9.0"
           },
-          "_status": "open",
-          "_author": "annchichi"
-        },
-        {
-          "number": 64420,
-          "title": "Fix Marketplace header account button height and alignment",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/64420",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "draft": false,
-          "comments": 4,
-          "updated_at": "2026-04-27T15:07:58Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/64420"
-          },
-          "labels": [
-            {
-              "name": "plugin: woocommerce",
-              "color": "db1c8e"
-            }
-          ],
-          "milestone": null,
           "_status": "open",
           "_author": "annchichi"
         },
