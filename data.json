@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-08T07:58:30.402Z",
+  "fetchedAt": "2026-05-08T09:22:42.613Z",
   "datasets": [
     {
       "user": "j111q",
@@ -2171,6 +2171,23 @@
           "_author": "annchichi"
         },
         {
+          "number": 64703,
+          "title": "Add email template canvas affordance",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64703",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": false,
+          "comments": 4,
+          "updated_at": "2026-05-08T09:08:15Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64703"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "open",
+          "_author": "annchichi"
+        },
+        {
           "number": 64203,
           "title": "Align admin destructive action red with WordPress 7.0 error red",
           "html_url": "https://github.com/woocommerce/woocommerce/pull/64203",
@@ -2191,23 +2208,6 @@
           "milestone": {
             "title": "10.9.0"
           },
-          "_status": "open",
-          "_author": "annchichi"
-        },
-        {
-          "number": 64703,
-          "title": "Add email template canvas affordance",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/64703",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "draft": false,
-          "comments": 4,
-          "updated_at": "2026-05-08T06:48:42Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/64703"
-          },
-          "labels": [],
-          "milestone": null,
           "_status": "open",
           "_author": "annchichi"
         },
