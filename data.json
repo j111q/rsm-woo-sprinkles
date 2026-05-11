@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-11T00:00:12.189Z",
+  "fetchedAt": "2026-05-11T04:02:41.487Z",
   "datasets": [
     {
       "user": "j111q",
@@ -9,6 +9,23 @@
         "html_url": "https://github.com/j111q"
       },
       "items": [
+        {
+          "number": 23,
+          "title": "PDP + section-head: replace placeholder chrome with real data",
+          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/23",
+          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
+          "state": "closed",
+          "draft": false,
+          "comments": 0,
+          "updated_at": "2026-05-11T03:17:19Z",
+          "pull_request": {
+            "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/23"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "merged",
+          "_author": "j111q"
+        },
         {
           "number": 22,
           "title": "PDP modal: AJAX-submit add-to-cart instead of full page reload",
