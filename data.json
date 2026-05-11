@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-11T04:02:41.487Z",
+  "fetchedAt": "2026-05-11T07:51:25.708Z",
   "datasets": [
     {
       "user": "j111q",
@@ -9,6 +9,38 @@
         "html_url": "https://github.com/j111q"
       },
       "items": [
+        {
+          "number": 64476,
+          "title": "Order notes meta box: clarify visibility, modernize bubble styling",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64476",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 4,
+          "updated_at": "2026-05-11T05:38:12Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64476"
+          },
+          "labels": [
+            {
+              "name": "needs: documentation",
+              "color": "ffea00"
+            },
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            },
+            {
+              "name": "focus: e2e tests",
+              "color": "ff6b00"
+            }
+          ],
+          "milestone": {
+            "title": "10.9.0"
+          },
+          "_status": "merged",
+          "_author": "j111q"
+        },
         {
           "number": 23,
           "title": "PDP + section-head: replace placeholder chrome with real data",
@@ -653,6 +685,40 @@
           "_author": "j111q"
         },
         {
+          "number": 25,
+          "title": "Ticker cart tab: real count + live sync after add/remove",
+          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/25",
+          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
+          "state": "open",
+          "draft": false,
+          "comments": 0,
+          "updated_at": "2026-05-11T06:23:57Z",
+          "pull_request": {
+            "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/25"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "open",
+          "_author": "j111q"
+        },
+        {
+          "number": 24,
+          "title": "Hero + PDP marginalia: make decorative chrome tell the truth",
+          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/24",
+          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
+          "state": "open",
+          "draft": false,
+          "comments": 0,
+          "updated_at": "2026-05-11T04:05:52Z",
+          "pull_request": {
+            "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/24"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "open",
+          "_author": "j111q"
+        },
+        {
           "number": 64643,
           "title": "Floating header: suppress duplicate H1, unify chrome to icon tabs",
           "html_url": "https://github.com/woocommerce/woocommerce/pull/64643",
@@ -663,34 +729,6 @@
           "updated_at": "2026-05-08T05:02:20Z",
           "pull_request": {
             "html_url": "https://github.com/woocommerce/woocommerce/pull/64643"
-          },
-          "labels": [
-            {
-              "name": "plugin: woocommerce",
-              "color": "db1c8e"
-            },
-            {
-              "name": "focus: e2e tests",
-              "color": "ff6b00"
-            }
-          ],
-          "milestone": {
-            "title": "10.9.0"
-          },
-          "_status": "open",
-          "_author": "j111q"
-        },
-        {
-          "number": 64476,
-          "title": "Order notes meta box: clarify visibility, modernize bubble styling",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/64476",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "draft": false,
-          "comments": 4,
-          "updated_at": "2026-05-07T09:32:56Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/64476"
           },
           "labels": [
             {
@@ -2188,6 +2226,54 @@
           "_author": "annchichi"
         },
         {
+          "number": 64204,
+          "title": "Align shipping destructive action red with WordPress 7.0 error red",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64204",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": false,
+          "comments": 6,
+          "updated_at": "2026-05-11T07:31:32Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64204"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.9.0"
+          },
+          "_status": "open",
+          "_author": "annchichi"
+        },
+        {
+          "number": 64203,
+          "title": "Align admin destructive action red with WordPress 7.0 error red",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64203",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": false,
+          "comments": 6,
+          "updated_at": "2026-05-11T07:06:58Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64203"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.9.0"
+          },
+          "_status": "open",
+          "_author": "annchichi"
+        },
+        {
           "number": 64732,
           "title": "Add TreeCombo i1 feedback notes",
           "html_url": "https://github.com/woocommerce/woocommerce/pull/64732",
@@ -2245,54 +2331,6 @@
           },
           "labels": [],
           "milestone": null,
-          "_status": "open",
-          "_author": "annchichi"
-        },
-        {
-          "number": 64203,
-          "title": "Align admin destructive action red with WordPress 7.0 error red",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/64203",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "draft": false,
-          "comments": 6,
-          "updated_at": "2026-05-08T06:52:33Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/64203"
-          },
-          "labels": [
-            {
-              "name": "plugin: woocommerce",
-              "color": "db1c8e"
-            }
-          ],
-          "milestone": {
-            "title": "10.9.0"
-          },
-          "_status": "open",
-          "_author": "annchichi"
-        },
-        {
-          "number": 64204,
-          "title": "Align shipping destructive action red with WordPress 7.0 error red",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/64204",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "draft": false,
-          "comments": 6,
-          "updated_at": "2026-05-07T13:13:31Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/64204"
-          },
-          "labels": [
-            {
-              "name": "plugin: woocommerce",
-              "color": "db1c8e"
-            }
-          ],
-          "milestone": {
-            "title": "10.9.0"
-          },
           "_status": "open",
           "_author": "annchichi"
         },
