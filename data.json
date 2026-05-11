@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-11T18:07:47.808Z",
+  "fetchedAt": "2026-05-11T20:01:35.433Z",
   "datasets": [
     {
       "user": "j111q",
@@ -2243,6 +2243,48 @@
           "_author": "annchichi"
         },
         {
+          "number": 64788,
+          "title": "Fix Marketplace product card title focus ring",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64788",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": true,
+          "comments": 0,
+          "updated_at": "2026-05-11T19:20:27Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64788"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.9.0"
+          },
+          "_status": "draft",
+          "_author": "annchichi"
+        },
+        {
+          "number": 64254,
+          "title": "Marketplace product card title focus ring is clipped at the bottom",
+          "html_url": "https://github.com/woocommerce/woocommerce/issues/64254",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "comments": 0,
+          "updated_at": "2026-05-11T18:58:38Z",
+          "labels": [
+            {
+              "name": "WCCOM/Marketplace",
+              "color": "f7c8c1"
+            }
+          ],
+          "milestone": null,
+          "_status": "open",
+          "_author": "annchichi"
+        },
+        {
           "number": 64420,
           "title": "Fix Marketplace header account button height and alignment",
           "html_url": "https://github.com/woocommerce/woocommerce/pull/64420",
@@ -2258,24 +2300,6 @@
             {
               "name": "plugin: woocommerce",
               "color": "db1c8e"
-            }
-          ],
-          "milestone": null,
-          "_status": "open",
-          "_author": "annchichi"
-        },
-        {
-          "number": 64254,
-          "title": "Marketplace product card title focus ring is clipped at the bottom",
-          "html_url": "https://github.com/woocommerce/woocommerce/issues/64254",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "comments": 0,
-          "updated_at": "2026-05-11T14:50:23Z",
-          "labels": [
-            {
-              "name": "WCCOM/Marketplace",
-              "color": "f7c8c1"
             }
           ],
           "milestone": null,
