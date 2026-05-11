@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-11T07:51:25.708Z",
+  "fetchedAt": "2026-05-11T10:49:45.332Z",
   "datasets": [
     {
       "user": "j111q",
@@ -685,33 +685,16 @@
           "_author": "j111q"
         },
         {
-          "number": 25,
-          "title": "Ticker cart tab: real count + live sync after add/remove",
-          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/25",
+          "number": 29,
+          "title": "Convert [mh_product_attributes] shortcode → mercantile/product-attributes block",
+          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/29",
           "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
           "state": "open",
           "draft": false,
           "comments": 0,
-          "updated_at": "2026-05-11T06:23:57Z",
+          "updated_at": "2026-05-11T09:33:53Z",
           "pull_request": {
-            "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/25"
-          },
-          "labels": [],
-          "milestone": null,
-          "_status": "open",
-          "_author": "j111q"
-        },
-        {
-          "number": 24,
-          "title": "Hero + PDP marginalia: make decorative chrome tell the truth",
-          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/24",
-          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
-          "state": "open",
-          "draft": false,
-          "comments": 0,
-          "updated_at": "2026-05-11T04:05:52Z",
-          "pull_request": {
-            "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/24"
+            "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/29"
           },
           "labels": [],
           "milestone": null,
@@ -726,7 +709,7 @@
           "state": "open",
           "draft": false,
           "comments": 5,
-          "updated_at": "2026-05-08T05:02:20Z",
+          "updated_at": "2026-05-11T09:28:59Z",
           "pull_request": {
             "html_url": "https://github.com/woocommerce/woocommerce/pull/64643"
           },
@@ -921,6 +904,40 @@
           ],
           "milestone": null,
           "_status": "open",
+          "_author": "j111q"
+        },
+        {
+          "number": 25,
+          "title": "Ticker cart tab: real count + live sync after add/remove",
+          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/25",
+          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
+          "state": "closed",
+          "draft": false,
+          "comments": 1,
+          "updated_at": "2026-05-11T08:54:10Z",
+          "pull_request": {
+            "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/25"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "closed",
+          "_author": "j111q"
+        },
+        {
+          "number": 24,
+          "title": "Hero + PDP marginalia: make decorative chrome tell the truth",
+          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/24",
+          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
+          "state": "closed",
+          "draft": false,
+          "comments": 1,
+          "updated_at": "2026-05-11T08:54:09Z",
+          "pull_request": {
+            "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/24"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "closed",
           "_author": "j111q"
         },
         {
@@ -2226,6 +2243,23 @@
           "_author": "annchichi"
         },
         {
+          "number": 64703,
+          "title": "Add email template canvas affordance",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64703",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": false,
+          "comments": 4,
+          "updated_at": "2026-05-11T08:33:58Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64703"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "open",
+          "_author": "annchichi"
+        },
+        {
           "number": 64204,
           "title": "Align shipping destructive action red with WordPress 7.0 error red",
           "html_url": "https://github.com/woocommerce/woocommerce/pull/64204",
@@ -2313,23 +2347,6 @@
               "color": "db1c8e"
             }
           ],
-          "milestone": null,
-          "_status": "open",
-          "_author": "annchichi"
-        },
-        {
-          "number": 64703,
-          "title": "Add email template canvas affordance",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/64703",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "draft": false,
-          "comments": 4,
-          "updated_at": "2026-05-08T09:08:15Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/64703"
-          },
-          "labels": [],
           "milestone": null,
           "_status": "open",
           "_author": "annchichi"
