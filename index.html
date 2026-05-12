@@ -313,6 +313,9 @@
 <script>
 const USERS = ['j111q', 'annchichi'];
 const HACKATHON_START = new Date('2026-04-15T00:00:00Z').getTime();
+const EXCLUDED_REPOS = new Set([
+  'annchichi/catwatchpr' // Ann's personal side project — not RSM
+]);
 
 const WORKSTREAMS = {
   sprinkles: {
@@ -874,6 +877,7 @@ async function load() {
 
     datasets.forEach(d => {
       d.items = d.items.filter(i =>
+        !EXCLUDED_REPOS.has(repoName(i)) &&
         i._status !== 'closed' &&
         new Date(i.updated_at).getTime() >= HACKATHON_START
       );
