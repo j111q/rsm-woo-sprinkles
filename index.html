@@ -44,6 +44,15 @@
   .ws-tabs button .ws-count { font-size: 11px; opacity: 0.7; font-weight: 600; padding: 1px 7px; border-radius: 999px; background: rgba(0,0,0,0.05); }
   .ws-tabs button.active .ws-count { background: rgba(255,255,255,0.15); color: white; opacity: 1; }
 
+  .p2-list { display: flex; flex-direction: column; gap: 12px; }
+  .p2-post { display: flex; flex-direction: column; gap: 10px; padding: 18px 22px; background: var(--card); border: 1px solid var(--line); border-radius: 14px; text-decoration: none; color: inherit; transition: all 0.15s; }
+  .p2-post:hover { transform: translateY(-2px); box-shadow: 0 4px 18px rgba(0,0,0,0.05); border-color: #b3b3b3; }
+  .p2-post .p2-meta { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+  .p2-post .p2-title { font-size: 17px; font-weight: 600; line-height: 1.35; margin: 0; }
+  .p2-post .p2-source { font-size: 11px; color: var(--muted); font-family: ui-monospace, 'SF Mono', Menlo, monospace; }
+  .p2-post .p2-date { font-size: 12px; color: var(--muted); margin-left: auto; }
+  .badge.a8c-only { background: linear-gradient(135deg, rgba(33,117,155,0.12), rgba(33,117,155,0.18)); color: #1a5d7a; font-size: 10.5px; font-weight: 700; letter-spacing: 0.04em; padding: 3px 9px; display: inline-flex; align-items: center; gap: 4px; }
+
   .ws-placeholder { background: var(--card); border: 1px dashed var(--line); border-radius: 14px; padding: 48px 36px; text-align: center; color: var(--muted); max-width: 620px; margin: 0 auto; }
   .ws-placeholder .ph-emoji { font-size: 36px; display: block; margin-bottom: 16px; }
   .ws-placeholder h3 { font-family: 'Fraunces', serif; font-weight: 600; font-size: 22px; color: var(--ink); margin: 0 0 8px; }
@@ -327,6 +336,7 @@ const WORKSTREAMS = {
     tagline: 'Quietly reimagining WooCommerce shipping for merchants who deserve better.',
     repos: [],
     members: ['annchichi'],
+    kind: 'posts',
     placeholder: {
       em: 'Quietly prototyping 📐',
       body: "Most of the work is in Figma and private exploration right now. PRs will land here as the direction solidifies."
@@ -340,6 +350,7 @@ let activeTab = 'all';
 let activeAuthor = null;
 let activeWorkstream = 'sprinkles';
 let wins = {};
+let p2 = { posts: [] };
 
 async function ghFetch(url) {
   const res = await fetch(url, { headers: { 'Accept': 'application/vnd.github+json' } });
@@ -528,6 +539,12 @@ function renderWorkstreamTabs() {
     const ws = getWorkstream(item);
     if (counts[ws] !== undefined) counts[ws]++;
   });
+  // Post-streams count posts, not PRs.
+  Object.entries(WORKSTREAMS).forEach(([key, info]) => {
+    if (info.kind === 'posts') {
+      counts[key] = (p2.posts || []).filter(p => p.workstream === key).length;
+    }
+  });
 
   const root = document.getElementById('ws-tabs');
   root.innerHTML = Object.entries(WORKSTREAMS).map(([key, info]) => {
@@ -561,10 +578,70 @@ function updateChrome() {
 function renderEverything() {
   updateChrome();
   renderWorkstreamTabs();
+  const ws = WORKSTREAMS[activeWorkstream];
+  // Reset any inline grid override from previous renders
+  document.getElementById('people').style.gridTemplateColumns = '';
+  if (ws.kind === 'posts') {
+    renderPostsView();
+    return;
+  }
   const scoped = applyWorkstream();
   renderPeople(scoped);
   renderTabs();
   renderGrid();
+}
+
+function renderPostsView() {
+  const ws = WORKSTREAMS[activeWorkstream];
+  const posts = (p2.posts || [])
+    .filter(p => p.workstream === activeWorkstream)
+    .sort((a, b) => new Date(b.date) - new Date(a.date));
+
+  // Person card for whoever's listed in the workstream's members
+  const member = ws.members[0];
+  const ds = datasets.find(d => d.user === member);
+  const peopleEl = document.getElementById('people');
+  if (ds) {
+    peopleEl.innerHTML = `
+      <div class="person">
+        <img src="${ds.profile.avatar_url}" alt="${escapeHtml(member)}" />
+        <div>
+          <div class="handle"><a href="https://github.com/${escapeHtml(member)}" target="_blank">@${escapeHtml(member)}</a></div>
+          <div class="stats"><b>${posts.length}</b> P2 ${posts.length === 1 ? 'post' : 'posts'} so far</div>
+        </div>
+      </div>`;
+    peopleEl.style.gridTemplateColumns = '1fr';
+  } else {
+    peopleEl.innerHTML = '';
+  }
+
+  // No tabs for post streams
+  document.getElementById('tabs').innerHTML = '';
+
+  // Render posts (or the placeholder if empty)
+  const content = document.getElementById('content');
+  if (posts.length === 0) {
+    content.innerHTML = `
+      <div class="ws-placeholder">
+        <span class="ph-emoji">${ws.emoji}</span>
+        <h3>${escapeHtml(ws.placeholder.em)}</h3>
+        <p>${escapeHtml(ws.placeholder.body)}</p>
+      </div>`;
+    return;
+  }
+  content.innerHTML = `
+    <div class="p2-list">
+      ${posts.map(p => `
+        <a class="p2-post" href="${escapeHtml(p.url)}" target="_blank" rel="noopener">
+          <div class="p2-meta">
+            <span class="badge a8c-only">🔒 Automattic only</span>
+            <span class="p2-source">${escapeHtml(p.p2 || '')}.wordpress.com</span>
+            <span class="p2-date">${formatDate(p.date)}</span>
+          </div>
+          <h3 class="p2-title">${escapeHtml(decodeHtml(p.title))}</h3>
+        </a>
+      `).join('')}
+    </div>`;
 }
 
 function renderTabs() {
@@ -694,6 +771,19 @@ async function loadTrac() {
   return { tickets: [] };
 }
 
+async function loadP2() {
+  try {
+    const res = await fetch('p2.json?t=' + Date.now());
+    if (res.ok) p2 = await res.json();
+  } catch (e) { /* p2 is optional */ }
+}
+
+function decodeHtml(s) {
+  const ta = document.createElement('textarea');
+  ta.innerHTML = s;
+  return ta.value;
+}
+
 function tracTicketToItem(t) {
   let status = 'open';
   if (t.status === 'closed') {
@@ -765,7 +855,7 @@ async function loadPrefetched() {
 async function load() {
   document.getElementById('content').innerHTML = `<div class="loader">Fetching<span class="dot">.</span><span class="dot">.</span><span class="dot">.</span></div>`;
   try {
-    const [_, trac] = await Promise.all([loadWins(), loadTrac()]);
+    const [_, trac] = await Promise.all([loadWins(), loadTrac(), loadP2()]);
 
     // Try the GitHub-Action-prefetched data first; fall back to live API only if missing.
     let stamp = new Date();
