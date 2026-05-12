@@ -291,7 +291,7 @@
       <div class="eyebrow">RSM</div>
       <h1 id="ws-title">Woo Sprinkles 🧁</h1>
       <p class="subtitle" id="ws-tagline">Two designers poking at code, sprinkling tiny tweaks across Woo — one PR at a time. ✨</p>
-      <p class="hint"><em>psst — click a sprinkle merged badge for a surprise</em></p>
+      <p class="hint" id="ws-hint"><em>psst — click a sprinkle merged badge for a surprise</em></p>
     </div>
     <div class="updated">
       <div id="updated">—</div>
@@ -572,6 +572,8 @@ function updateChrome() {
   const info = WORKSTREAMS[activeWorkstream];
   document.getElementById('ws-title').textContent = info.title;
   document.getElementById('ws-tagline').textContent = info.tagline;
+  // Hide the "click for surprise" hint on workstreams that have no merged badges.
+  document.getElementById('ws-hint').style.display = info.kind === 'posts' ? 'none' : '';
 }
 
 function renderEverything() {
