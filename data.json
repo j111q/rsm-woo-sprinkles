@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-12T10:08:49.199Z",
+  "fetchedAt": "2026-05-12T12:11:43.559Z",
   "datasets": [
     {
       "user": "j111q",
@@ -719,6 +719,34 @@
           "_author": "j111q"
         },
         {
+          "number": 64643,
+          "title": "Floating header: suppress duplicate H1, unify chrome to icon tabs",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64643",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": false,
+          "comments": 6,
+          "updated_at": "2026-05-12T10:29:37Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64643"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            },
+            {
+              "name": "focus: e2e tests",
+              "color": "ff6b00"
+            }
+          ],
+          "milestone": {
+            "title": "10.9.0"
+          },
+          "_status": "open",
+          "_author": "j111q"
+        },
+        {
           "number": 36,
           "title": "Catalog: shrinking sticky head + mercantile/catalog-load-more block (drops pagination)",
           "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/36",
@@ -749,34 +777,6 @@
           },
           "labels": [],
           "milestone": null,
-          "_status": "open",
-          "_author": "j111q"
-        },
-        {
-          "number": 64643,
-          "title": "Floating header: suppress duplicate H1, unify chrome to icon tabs",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/64643",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "draft": false,
-          "comments": 5,
-          "updated_at": "2026-05-11T09:28:59Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/64643"
-          },
-          "labels": [
-            {
-              "name": "plugin: woocommerce",
-              "color": "db1c8e"
-            },
-            {
-              "name": "focus: e2e tests",
-              "color": "ff6b00"
-            }
-          ],
-          "milestone": {
-            "title": "10.9.0"
-          },
           "_status": "open",
           "_author": "j111q"
         },
@@ -2397,6 +2397,30 @@
           "_author": "annchichi"
         },
         {
+          "number": 64732,
+          "title": "Add TreeCombo i1 feedback notes",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64732",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": true,
+          "comments": 0,
+          "updated_at": "2026-05-12T12:00:57Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64732"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.9.0"
+          },
+          "_status": "draft",
+          "_author": "annchichi"
+        },
+        {
           "number": 64799,
           "title": "Improve payment provider setup error message",
           "html_url": "https://github.com/woocommerce/woocommerce/pull/64799",
@@ -2418,28 +2442,6 @@
             "title": "10.9.0"
           },
           "_status": "open",
-          "_author": "annchichi"
-        },
-        {
-          "number": 64732,
-          "title": "Add TreeCombo i1 feedback notes",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/64732",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "draft": true,
-          "comments": 0,
-          "updated_at": "2026-05-12T07:01:48Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/64732"
-          },
-          "labels": [
-            {
-              "name": "plugin: woocommerce",
-              "color": "db1c8e"
-            }
-          ],
-          "milestone": null,
-          "_status": "draft",
           "_author": "annchichi"
         },
         {
