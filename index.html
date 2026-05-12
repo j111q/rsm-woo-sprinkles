@@ -35,6 +35,25 @@
   h1 { font-family: 'Fraunces', serif; font-weight: 800; font-size: 56px; line-height: 1; letter-spacing: -0.02em; margin: 0 0 8px; }
   h1 .amp { font-style: italic; font-weight: 400; color: var(--muted); padding: 0 8px; }
   .eyebrow { font-size: 12px; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: var(--muted); margin-bottom: 10px; }
+
+  .ws-tabs { display: inline-flex; gap: 4px; background: var(--card); border: 1px solid var(--line); padding: 4px; border-radius: 999px; margin-bottom: 36px; flex-wrap: wrap; }
+  .ws-tabs button { background: none; border: none; padding: 8px 14px; font: inherit; font-size: 13px; font-weight: 600; color: var(--muted); cursor: pointer; border-radius: 999px; transition: all 0.15s; display: inline-flex; align-items: center; gap: 7px; }
+  .ws-tabs button:hover { color: var(--ink); }
+  .ws-tabs button.active { background: var(--ink); color: white; }
+  .ws-tabs button .ws-emoji { font-size: 14px; }
+  .ws-tabs button .ws-count { font-size: 11px; opacity: 0.7; font-weight: 600; padding: 1px 7px; border-radius: 999px; background: rgba(0,0,0,0.05); }
+  .ws-tabs button.active .ws-count { background: rgba(255,255,255,0.15); color: white; opacity: 1; }
+
+  .ws-placeholder { background: var(--card); border: 1px dashed var(--line); border-radius: 14px; padding: 48px 36px; text-align: center; color: var(--muted); max-width: 620px; margin: 0 auto; }
+  .ws-placeholder .ph-emoji { font-size: 36px; display: block; margin-bottom: 16px; }
+  .ws-placeholder h3 { font-family: 'Fraunces', serif; font-weight: 600; font-size: 22px; color: var(--ink); margin: 0 0 8px; }
+  .ws-placeholder p { font-size: 14px; line-height: 1.55; margin: 0 auto; max-width: 50ch; }
+
+  @media (max-width: 760px) {
+    .ws-tabs { display: flex; width: 100%; margin-bottom: 24px; }
+    .ws-tabs button { flex: 1; justify-content: center; padding: 9px 8px; font-size: 12px; }
+    .ws-tabs button .ws-count { display: none; }
+  }
   .subtitle { color: var(--muted); font-size: 15px; margin: 0; }
   .hint { font-size: 10.5px; color: var(--muted); margin: 6px 0 0; opacity: 0.75; }
   .hint em { font-style: italic; font-weight: 400; }
@@ -259,14 +278,16 @@
   <header>
     <div>
       <div class="eyebrow">RSM</div>
-      <h1>Woo Sprinkles 🧁</h1>
-      <p class="subtitle">Two designers poking at code, sprinkling tiny tweaks across Woo — one PR at a time. ✨</p>
+      <h1 id="ws-title">Woo Sprinkles 🧁</h1>
+      <p class="subtitle" id="ws-tagline">Two designers poking at code, sprinkling tiny tweaks across Woo — one PR at a time. ✨</p>
       <p class="hint"><em>psst — click a sprinkle merged badge for a surprise</em></p>
     </div>
     <div class="updated">
       <div id="updated">—</div>
     </div>
   </header>
+
+  <div class="ws-tabs" id="ws-tabs"></div>
 
   <div class="people" id="people"></div>
 
@@ -281,9 +302,43 @@
 <script>
 const USERS = ['j111q', 'annchichi'];
 const HACKATHON_START = new Date('2026-04-15T00:00:00Z').getTime();
+
+const WORKSTREAMS = {
+  sprinkles: {
+    label: 'Woo Sprinkles',
+    emoji: '🧁',
+    title: 'Woo Sprinkles 🧁',
+    tagline: 'Two designers poking at code, sprinkling tiny tweaks across Woo — one PR at a time. ✨',
+    repos: ['woocommerce/woocommerce', 'poligilad-auto/woo-revamp', 'core.trac.wordpress.org'],
+    members: ['j111q', 'annchichi']
+  },
+  mercantile: {
+    label: 'Mercantile',
+    emoji: '🏪',
+    title: 'Mercantile 🏪',
+    tagline: 'Prototyping the future of mercantile.wordpress.org — TUI and web store, on the side.',
+    repos: ['dinhtungdu/mercantile-hook-loop-theme', 'senadir/ssh-mercantile'],
+    members: ['j111q']
+  },
+  shipping: {
+    label: 'Shipping Revamp',
+    emoji: '📦',
+    title: 'Shipping Revamp 📦',
+    tagline: 'Quietly reimagining WooCommerce shipping for merchants who deserve better.',
+    repos: [],
+    members: ['annchichi'],
+    placeholder: {
+      em: 'Quietly prototyping 📐',
+      body: "Most of the work is in Figma and private exploration right now. PRs will land here as the direction solidifies."
+    }
+  }
+};
+
+let datasets = [];
 let allItems = [];
 let activeTab = 'all';
 let activeAuthor = null;
+let activeWorkstream = 'sprinkles';
 let wins = {};
 
 async function ghFetch(url) {
@@ -316,7 +371,24 @@ async function fetchUser(user) {
 function repoName(item) {
   // repository_url: https://api.github.com/repos/OWNER/REPO
   const m = item.repository_url.match(/repos\/(.+)$/);
-  return m ? m[1] : '';
+  if (m) return m[1];
+  // Trac items use a synthetic repo
+  if (item._source === 'trac') return 'core.trac.wordpress.org';
+  return '';
+}
+
+function getWorkstream(item) {
+  // Explicit override on the wins entry
+  const w = getWin(item);
+  if (w && w.workstream && WORKSTREAMS[w.workstream]) return w.workstream;
+  // Trac items are Sprinkles (WP 7.0 alignment work)
+  if (item._source === 'trac') return 'sprinkles';
+  // By repo
+  const repo = repoName(item);
+  for (const [key, info] of Object.entries(WORKSTREAMS)) {
+    if (info.repos.includes(repo)) return key;
+  }
+  return 'sprinkles'; // default
 }
 
 function labelTextColor(hex) {
@@ -394,7 +466,9 @@ function renderListCard(item) {
 function escapeHtml(s) { return s.replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]); }
 
 function renderPeople(datasets) {
-  const html = datasets.map(d => {
+  const members = WORKSTREAMS[activeWorkstream].members;
+  const filteredDatasets = datasets.filter(d => members.includes(d.user));
+  const html = filteredDatasets.map(d => {
     const merged = d.items.filter(i => i._status === 'merged').length;
     const open = d.items.filter(i => i._status === 'open').length;
     const draft = d.items.filter(i => i._status === 'draft').length;
@@ -436,6 +510,63 @@ function authorFilteredItems() {
   return activeAuthor ? allItems.filter(i => i._author === activeAuthor) : allItems;
 }
 
+function applyWorkstream() {
+  // Scope each dataset's items to the active workstream.
+  const scoped = datasets.map(d => ({
+    ...d,
+    items: d.items.filter(i => getWorkstream(i) === activeWorkstream)
+  }));
+  allItems = scoped.flatMap(d => d.items);
+  return scoped;
+}
+
+function renderWorkstreamTabs() {
+  const allItemsFlat = datasets.flatMap(d => d.items);
+  const counts = {};
+  Object.keys(WORKSTREAMS).forEach(k => counts[k] = 0);
+  allItemsFlat.forEach(item => {
+    const ws = getWorkstream(item);
+    if (counts[ws] !== undefined) counts[ws]++;
+  });
+
+  const root = document.getElementById('ws-tabs');
+  root.innerHTML = Object.entries(WORKSTREAMS).map(([key, info]) => {
+    const display = info.placeholder && counts[key] === 0 ? '·' : counts[key];
+    return `<button data-ws="${key}" class="${activeWorkstream === key ? 'active' : ''}">
+      <span class="ws-emoji">${info.emoji}</span>
+      <span class="ws-name">${escapeHtml(info.label)}</span>
+      <span class="ws-count">${display}</span>
+    </button>`;
+  }).join('');
+
+  root.querySelectorAll('button').forEach(b => {
+    b.addEventListener('click', () => setWorkstream(b.dataset.ws));
+  });
+}
+
+function setWorkstream(ws) {
+  if (!WORKSTREAMS[ws] || ws === activeWorkstream) return;
+  activeWorkstream = ws;
+  activeAuthor = null;
+  activeTab = 'all';
+  renderEverything();
+}
+
+function updateChrome() {
+  const info = WORKSTREAMS[activeWorkstream];
+  document.getElementById('ws-title').textContent = info.title;
+  document.getElementById('ws-tagline').textContent = info.tagline;
+}
+
+function renderEverything() {
+  updateChrome();
+  renderWorkstreamTabs();
+  const scoped = applyWorkstream();
+  renderPeople(scoped);
+  renderTabs();
+  renderGrid();
+}
+
 function renderTabs() {
   const base = authorFilteredItems();
   const counts = {
@@ -468,7 +599,21 @@ const EMPTY_COPY = {
 };
 
 function renderGrid() {
+  const ws = WORKSTREAMS[activeWorkstream];
+  const content = document.getElementById('content');
+
+  // Shipping (and any other placeholder workstream) gets a friendly placeholder
+  // instead of the normal list, when there are no items yet.
   const base = authorFilteredItems();
+  if (ws.placeholder && base.length === 0) {
+    content.innerHTML = `
+      <div class="ws-placeholder">
+        <span class="ph-emoji">${ws.emoji}</span>
+        <h3>${escapeHtml(ws.placeholder.em)}</h3>
+        <p>${escapeHtml(ws.placeholder.body)}</p>
+      </div>`;
+    return;
+  }
   const filtered = activeTab === 'all' ? base : base.filter(i => i._status === activeTab);
   const sorted = filtered.slice().sort((a, b) => {
     // merged first, then by updated desc
@@ -476,7 +621,6 @@ function renderGrid() {
     if (a._status !== 'merged' && b._status === 'merged') return 1;
     return new Date(b.updated_at) - new Date(a.updated_at);
   });
-  const content = document.getElementById('content');
   if (sorted.length === 0) {
     const c = EMPTY_COPY[activeTab] || EMPTY_COPY.all;
     const who = activeAuthor ? ` for <b>@${escapeHtml(activeAuthor)}</b>` : '';
@@ -624,7 +768,6 @@ async function load() {
     const [_, trac] = await Promise.all([loadWins(), loadTrac()]);
 
     // Try the GitHub-Action-prefetched data first; fall back to live API only if missing.
-    let datasets;
     let stamp = new Date();
     const pre = await loadPrefetched();
     if (pre) {
@@ -650,10 +793,7 @@ async function load() {
         new Date(i.updated_at).getTime() >= HACKATHON_START
       );
     });
-    renderPeople(datasets);
-    allItems = datasets.flatMap(d => d.items);
-    renderTabs();
-    renderGrid();
+    renderEverything();
     document.getElementById('updated').textContent = `Updated ${stamp.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' })}`;
   } catch (e) {
     document.getElementById('content').innerHTML = `<div class="empty"><div class="em">Something went sideways.</div><p>${escapeHtml(e.message)}</p></div>`;
