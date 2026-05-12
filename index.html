@@ -76,6 +76,8 @@
   .people { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 32px; }
   .person { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 20px 24px; display: flex; align-items: center; gap: 16px; cursor: pointer; transition: all 0.15s; position: relative; }
   .person:hover { border-color: #bbb; transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.04); }
+  .person.static { cursor: default; }
+  .person.static:hover { border-color: var(--line); transform: none; box-shadow: none; }
   .person.active { border-color: var(--ink); background: var(--ink); color: white; }
   .person.active .stats, .person.active .stats b { color: rgba(255,255,255,0.85); }
   .person.active .handle a { color: white; }
@@ -479,14 +481,22 @@ function escapeHtml(s) { return s.replace(/[&<>"']/g, c => ({ '&': '&amp;', '<':
 function renderPeople(datasets) {
   const members = WORKSTREAMS[activeWorkstream].members;
   const filteredDatasets = datasets.filter(d => members.includes(d.user));
+  const interactive = filteredDatasets.length > 1;
   const html = filteredDatasets.map(d => {
     const merged = d.items.filter(i => i._status === 'merged').length;
     const open = d.items.filter(i => i._status === 'open').length;
     const draft = d.items.filter(i => i._status === 'draft').length;
-    const isActive = activeAuthor === d.user;
-    const isDimmed = activeAuthor && !isActive;
+    const isActive = interactive && activeAuthor === d.user;
+    const isDimmed = interactive && activeAuthor && !isActive;
+    const classes = [
+      'person',
+      !interactive && 'static',
+      isActive && 'active',
+      isDimmed && 'dimmed'
+    ].filter(Boolean).join(' ');
+    const interactiveAttrs = interactive ? `role="button" tabindex="0" title="Click to filter to @${d.user}"` : '';
     return `
-      <div class="person ${isActive ? 'active' : ''} ${isDimmed ? 'dimmed' : ''}" data-user="${d.user}" role="button" tabindex="0" title="Click to filter to @${d.user}">
+      <div class="${classes}" data-user="${d.user}" ${interactiveAttrs}>
         <span class="check">✓</span>
         <img src="${d.profile.avatar_url}" alt="${d.user}" />
         <div>
@@ -498,15 +508,17 @@ function renderPeople(datasets) {
   }).join('');
   const root = document.getElementById('people');
   root.innerHTML = html;
-  root.querySelectorAll('.person').forEach(el => {
-    el.addEventListener('click', () => {
-      const u = el.dataset.user;
-      activeAuthor = activeAuthor === u ? null : u;
-      renderPeopleActive();
-      renderTabs();
-      renderGrid();
+  if (interactive) {
+    root.querySelectorAll('.person').forEach(el => {
+      el.addEventListener('click', () => {
+        const u = el.dataset.user;
+        activeAuthor = activeAuthor === u ? null : u;
+        renderPeopleActive();
+        renderTabs();
+        renderGrid();
+      });
     });
-  });
+  }
 }
 
 function renderPeopleActive() {
@@ -603,14 +615,13 @@ function renderPostsView() {
   const peopleEl = document.getElementById('people');
   if (ds) {
     peopleEl.innerHTML = `
-      <div class="person">
+      <div class="person static">
         <img src="${ds.profile.avatar_url}" alt="${escapeHtml(member)}" />
         <div>
           <div class="handle"><a href="https://github.com/${escapeHtml(member)}" target="_blank">@${escapeHtml(member)}</a></div>
           <div class="stats"><b>${posts.length}</b> P2 ${posts.length === 1 ? 'post' : 'posts'} so far</div>
         </div>
       </div>`;
-    peopleEl.style.gridTemplateColumns = '1fr';
   } else {
     peopleEl.innerHTML = '';
   }
