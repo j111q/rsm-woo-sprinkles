@@ -544,27 +544,11 @@ function applyWorkstream() {
 }
 
 function renderWorkstreamTabs() {
-  const allItemsFlat = datasets.flatMap(d => d.items);
-  const counts = {};
-  Object.keys(WORKSTREAMS).forEach(k => counts[k] = 0);
-  allItemsFlat.forEach(item => {
-    const ws = getWorkstream(item);
-    if (counts[ws] !== undefined) counts[ws]++;
-  });
-  // Post-streams count posts, not PRs.
-  Object.entries(WORKSTREAMS).forEach(([key, info]) => {
-    if (info.kind === 'posts') {
-      counts[key] = (p2.posts || []).filter(p => p.workstream === key).length;
-    }
-  });
-
   const root = document.getElementById('ws-tabs');
   root.innerHTML = Object.entries(WORKSTREAMS).map(([key, info]) => {
-    const display = info.placeholder && counts[key] === 0 ? '·' : counts[key];
     return `<button data-ws="${key}" class="${activeWorkstream === key ? 'active' : ''}">
       <span class="ws-emoji">${info.emoji}</span>
       <span class="ws-name">${escapeHtml(info.label)}</span>
-      <span class="ws-count">${display}</span>
     </button>`;
   }).join('');
 
