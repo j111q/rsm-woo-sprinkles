@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-12T01:18:25.402Z",
+  "fetchedAt": "2026-05-12T04:49:49.567Z",
   "datasets": [
     {
       "user": "j111q",
@@ -686,13 +686,13 @@
         },
         {
           "number": 29,
-          "title": "Convert [mh_product_attributes] shortcode → mercantile/product-attributes block",
+          "title": "Block-ification — first batch: product-attributes + product-price + pdp-details template part",
           "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/29",
           "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
           "state": "open",
           "draft": false,
-          "comments": 0,
-          "updated_at": "2026-05-11T09:33:53Z",
+          "comments": 2,
+          "updated_at": "2026-05-12T04:11:05Z",
           "pull_request": {
             "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/29"
           },
