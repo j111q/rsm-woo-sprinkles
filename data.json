@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-16T01:19:01.174Z",
+  "fetchedAt": "2026-05-16T04:42:02.651Z",
   "datasets": [
     {
       "user": "j111q",
@@ -748,6 +748,23 @@
           "labels": [],
           "milestone": null,
           "_status": "merged",
+          "_author": "j111q"
+        },
+        {
+          "number": 1,
+          "title": "sprinkle: align hardcoded font-sizes in core-profiler/style.scss with WP/Gutenberg tokens",
+          "html_url": "https://github.com/j111q/woocommerce/pull/1",
+          "repository_url": "https://api.github.com/repos/j111q/woocommerce",
+          "state": "open",
+          "draft": true,
+          "comments": 0,
+          "updated_at": "2026-05-16T02:22:58Z",
+          "pull_request": {
+            "html_url": "https://github.com/j111q/woocommerce/pull/1"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "draft",
           "_author": "j111q"
         },
         {
