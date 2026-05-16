@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-16T07:03:15.862Z",
+  "fetchedAt": "2026-05-16T08:55:23.163Z",
   "datasets": [
     {
       "user": "j111q",
@@ -751,23 +751,6 @@
           "_author": "j111q"
         },
         {
-          "number": 1,
-          "title": "sprinkle: align hardcoded font-sizes in core-profiler/style.scss with WP/Gutenberg tokens",
-          "html_url": "https://github.com/j111q/woocommerce/pull/1",
-          "repository_url": "https://api.github.com/repos/j111q/woocommerce",
-          "state": "open",
-          "draft": true,
-          "comments": 0,
-          "updated_at": "2026-05-16T02:22:58Z",
-          "pull_request": {
-            "html_url": "https://github.com/j111q/woocommerce/pull/1"
-          },
-          "labels": [],
-          "milestone": null,
-          "_status": "draft",
-          "_author": "j111q"
-        },
-        {
           "number": 64885,
           "title": "Floating header: polish + WP design token alignment",
           "html_url": "https://github.com/woocommerce/woocommerce/pull/64885",
@@ -1026,6 +1009,23 @@
           ],
           "milestone": null,
           "_status": "open",
+          "_author": "j111q"
+        },
+        {
+          "number": 1,
+          "title": "sprinkle: align hardcoded font-sizes in core-profiler/style.scss with WP/Gutenberg tokens",
+          "html_url": "https://github.com/j111q/woocommerce/pull/1",
+          "repository_url": "https://api.github.com/repos/j111q/woocommerce",
+          "state": "closed",
+          "draft": true,
+          "comments": 0,
+          "updated_at": "2026-05-16T07:43:20Z",
+          "pull_request": {
+            "html_url": "https://github.com/j111q/woocommerce/pull/1"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "closed",
           "_author": "j111q"
         },
         {
