@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-18T04:40:10.621Z",
+  "fetchedAt": "2026-05-18T08:35:23.886Z",
   "datasets": [
     {
       "user": "j111q",
@@ -751,14 +751,102 @@
           "_author": "j111q"
         },
         {
+          "number": 72,
+          "title": "Quantity input missing on simple-product PDPs",
+          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/issues/72",
+          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
+          "state": "open",
+          "comments": 0,
+          "updated_at": "2026-05-18T05:42:52Z",
+          "labels": [
+            {
+              "name": "bug",
+              "color": "d73a4a"
+            },
+            {
+              "name": "severity: high",
+              "color": "d93f0b"
+            }
+          ],
+          "milestone": null,
+          "_status": "open",
+          "_author": "j111q"
+        },
+        {
+          "number": 71,
+          "title": "Gallery \"SEE MORE\" button shows on single-image PDPs",
+          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/issues/71",
+          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
+          "state": "open",
+          "comments": 0,
+          "updated_at": "2026-05-18T05:42:51Z",
+          "labels": [
+            {
+              "name": "bug",
+              "color": "d73a4a"
+            },
+            {
+              "name": "severity: medium",
+              "color": "fbca04"
+            }
+          ],
+          "milestone": null,
+          "_status": "open",
+          "_author": "j111q"
+        },
+        {
+          "number": 63,
+          "title": "Footer category links should point to /?cat= filter URLs",
+          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/issues/63",
+          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
+          "state": "open",
+          "comments": 0,
+          "updated_at": "2026-05-18T05:38:25Z",
+          "labels": [
+            {
+              "name": "bug",
+              "color": "d73a4a"
+            },
+            {
+              "name": "severity: medium",
+              "color": "fbca04"
+            }
+          ],
+          "milestone": null,
+          "_status": "open",
+          "_author": "j111q"
+        },
+        {
+          "number": 62,
+          "title": "Kill category archive URLs — route filters through ?cat=",
+          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/issues/62",
+          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
+          "state": "open",
+          "comments": 0,
+          "updated_at": "2026-05-18T05:38:24Z",
+          "labels": [
+            {
+              "name": "bug",
+              "color": "d73a4a"
+            },
+            {
+              "name": "severity: medium",
+              "color": "fbca04"
+            }
+          ],
+          "milestone": null,
+          "_status": "open",
+          "_author": "j111q"
+        },
+        {
           "number": 64885,
           "title": "Floating header: polish + WP design token alignment",
           "html_url": "https://github.com/woocommerce/woocommerce/pull/64885",
           "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
           "state": "open",
           "draft": false,
-          "comments": 2,
-          "updated_at": "2026-05-18T04:39:21Z",
+          "comments": 4,
+          "updated_at": "2026-05-18T05:23:31Z",
           "pull_request": {
             "html_url": "https://github.com/woocommerce/woocommerce/pull/64885"
           },
@@ -771,6 +859,376 @@
           "milestone": {
             "title": "10.9.0"
           },
+          "_status": "open",
+          "_author": "j111q"
+        },
+        {
+          "number": 70,
+          "title": "Polish round — small fixes checklist",
+          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/issues/70",
+          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
+          "state": "open",
+          "comments": 0,
+          "updated_at": "2026-05-18T05:15:12Z",
+          "labels": [
+            {
+              "name": "severity: nit",
+              "color": "c5def5"
+            }
+          ],
+          "milestone": null,
+          "_status": "open",
+          "_author": "j111q"
+        },
+        {
+          "number": 69,
+          "title": "Cache MISS on first PDP hit — pre-warm strategy for drops",
+          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/issues/69",
+          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
+          "state": "open",
+          "comments": 0,
+          "updated_at": "2026-05-18T05:14:50Z",
+          "labels": [
+            {
+              "name": "enhancement",
+              "color": "a2eeef"
+            },
+            {
+              "name": "severity: medium",
+              "color": "fbca04"
+            }
+          ],
+          "milestone": null,
+          "_status": "open",
+          "_author": "j111q"
+        },
+        {
+          "number": 68,
+          "title": "Add production security headers + security.txt",
+          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/issues/68",
+          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
+          "state": "open",
+          "comments": 0,
+          "updated_at": "2026-05-18T05:14:48Z",
+          "labels": [
+            {
+              "name": "enhancement",
+              "color": "a2eeef"
+            },
+            {
+              "name": "severity: medium",
+              "color": "fbca04"
+            }
+          ],
+          "milestone": null,
+          "_status": "open",
+          "_author": "j111q"
+        },
+        {
+          "number": 67,
+          "title": "PDP quantity spinbutton has invalid valuemin/valuemax range",
+          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/issues/67",
+          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
+          "state": "open",
+          "comments": 0,
+          "updated_at": "2026-05-18T05:14:47Z",
+          "labels": [
+            {
+              "name": "bug",
+              "color": "d73a4a"
+            },
+            {
+              "name": "severity: medium",
+              "color": "fbca04"
+            }
+          ],
+          "milestone": null,
+          "_status": "open",
+          "_author": "j111q"
+        },
+        {
+          "number": 66,
+          "title": "Cart silently clamps over-stock quantity input",
+          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/issues/66",
+          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
+          "state": "open",
+          "comments": 0,
+          "updated_at": "2026-05-18T05:14:45Z",
+          "labels": [
+            {
+              "name": "bug",
+              "color": "d73a4a"
+            },
+            {
+              "name": "severity: medium",
+              "color": "fbca04"
+            }
+          ],
+          "milestone": null,
+          "_status": "open",
+          "_author": "j111q"
+        },
+        {
+          "number": 65,
+          "title": "No reviews/ratings on PDPs (structure removed entirely)",
+          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/issues/65",
+          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
+          "state": "open",
+          "comments": 0,
+          "updated_at": "2026-05-18T05:14:44Z",
+          "labels": [
+            {
+              "name": "enhancement",
+              "color": "a2eeef"
+            },
+            {
+              "name": "severity: medium",
+              "color": "fbca04"
+            }
+          ],
+          "milestone": null,
+          "_status": "open",
+          "_author": "j111q"
+        },
+        {
+          "number": 61,
+          "title": "Masthead + ticker stats are hardcoded and inconsistent",
+          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/issues/61",
+          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
+          "state": "open",
+          "comments": 0,
+          "updated_at": "2026-05-18T05:14:37Z",
+          "labels": [
+            {
+              "name": "bug",
+              "color": "d73a4a"
+            },
+            {
+              "name": "severity: medium",
+              "color": "fbca04"
+            }
+          ],
+          "milestone": null,
+          "_status": "open",
+          "_author": "j111q"
+        },
+        {
+          "number": 59,
+          "title": "Stale \"select attributes\" alert persists after successful add-to-cart",
+          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/issues/59",
+          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
+          "state": "open",
+          "comments": 0,
+          "updated_at": "2026-05-18T05:13:38Z",
+          "labels": [
+            {
+              "name": "bug",
+              "color": "d73a4a"
+            },
+            {
+              "name": "severity: high",
+              "color": "d93f0b"
+            }
+          ],
+          "milestone": null,
+          "_status": "open",
+          "_author": "j111q"
+        },
+        {
+          "number": 58,
+          "title": "Checkout email field has no autocomplete=\"email\"",
+          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/issues/58",
+          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
+          "state": "open",
+          "comments": 0,
+          "updated_at": "2026-05-18T05:13:35Z",
+          "labels": [
+            {
+              "name": "bug",
+              "color": "d73a4a"
+            },
+            {
+              "name": "severity: high",
+              "color": "d93f0b"
+            }
+          ],
+          "milestone": null,
+          "_status": "open",
+          "_author": "j111q"
+        },
+        {
+          "number": 56,
+          "title": "Currency locked to USD across all 251 countries",
+          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/issues/56",
+          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
+          "state": "open",
+          "comments": 0,
+          "updated_at": "2026-05-18T05:13:32Z",
+          "labels": [
+            {
+              "name": "bug",
+              "color": "d73a4a"
+            },
+            {
+              "name": "severity: high",
+              "color": "d93f0b"
+            }
+          ],
+          "milestone": null,
+          "_status": "open",
+          "_author": "j111q"
+        },
+        {
+          "number": 55,
+          "title": "Checkout order summary hides quantity for line items",
+          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/issues/55",
+          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
+          "state": "open",
+          "comments": 0,
+          "updated_at": "2026-05-18T05:13:30Z",
+          "labels": [
+            {
+              "name": "bug",
+              "color": "d73a4a"
+            },
+            {
+              "name": "severity: high",
+              "color": "d93f0b"
+            }
+          ],
+          "milestone": null,
+          "_status": "open",
+          "_author": "j111q"
+        },
+        {
+          "number": 54,
+          "title": "Variation size pills sort alphabetically, not by size",
+          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/issues/54",
+          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
+          "state": "open",
+          "comments": 0,
+          "updated_at": "2026-05-18T05:13:28Z",
+          "labels": [
+            {
+              "name": "bug",
+              "color": "d73a4a"
+            },
+            {
+              "name": "severity: high",
+              "color": "d93f0b"
+            }
+          ],
+          "milestone": null,
+          "_status": "open",
+          "_author": "j111q"
+        },
+        {
+          "number": 53,
+          "title": "No GDPR cookie consent or marketing opt-in",
+          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/issues/53",
+          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
+          "state": "open",
+          "comments": 0,
+          "updated_at": "2026-05-18T05:13:27Z",
+          "labels": [
+            {
+              "name": "bug",
+              "color": "d73a4a"
+            },
+            {
+              "name": "severity: high",
+              "color": "d93f0b"
+            }
+          ],
+          "milestone": null,
+          "_status": "open",
+          "_author": "j111q"
+        },
+        {
+          "number": 52,
+          "title": "Terms & Privacy links go to # and show debug-metadata text",
+          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/issues/52",
+          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
+          "state": "open",
+          "comments": 0,
+          "updated_at": "2026-05-18T05:12:32Z",
+          "labels": [
+            {
+              "name": "bug",
+              "color": "d73a4a"
+            },
+            {
+              "name": "severity: critical",
+              "color": "b60205"
+            }
+          ],
+          "milestone": null,
+          "_status": "open",
+          "_author": "j111q"
+        },
+        {
+          "number": 51,
+          "title": "No shipping cost or tax line shown in cart or checkout totals",
+          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/issues/51",
+          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
+          "state": "open",
+          "comments": 0,
+          "updated_at": "2026-05-18T05:12:30Z",
+          "labels": [
+            {
+              "name": "bug",
+              "color": "d73a4a"
+            },
+            {
+              "name": "severity: critical",
+              "color": "b60205"
+            }
+          ],
+          "milestone": null,
+          "_status": "open",
+          "_author": "j111q"
+        },
+        {
+          "number": 50,
+          "title": "Checkout has no separate shipping address section",
+          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/issues/50",
+          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
+          "state": "open",
+          "comments": 0,
+          "updated_at": "2026-05-18T05:12:28Z",
+          "labels": [
+            {
+              "name": "bug",
+              "color": "d73a4a"
+            },
+            {
+              "name": "severity: critical",
+              "color": "b60205"
+            }
+          ],
+          "milestone": null,
+          "_status": "open",
+          "_author": "j111q"
+        },
+        {
+          "number": 49,
+          "title": "Checkout shows \"There are no payment methods available\"",
+          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/issues/49",
+          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
+          "state": "open",
+          "comments": 0,
+          "updated_at": "2026-05-18T05:12:27Z",
+          "labels": [
+            {
+              "name": "bug",
+              "color": "d73a4a"
+            },
+            {
+              "name": "severity: critical",
+              "color": "b60205"
+            }
+          ],
+          "milestone": null,
           "_status": "open",
           "_author": "j111q"
         },
@@ -1011,6 +1469,72 @@
           ],
           "milestone": null,
           "_status": "open",
+          "_author": "j111q"
+        },
+        {
+          "number": 64,
+          "title": "Remove the search affordance entirely (feature out of scope)",
+          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/issues/64",
+          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
+          "state": "closed",
+          "comments": 1,
+          "updated_at": "2026-05-18T05:29:18Z",
+          "labels": [
+            {
+              "name": "enhancement",
+              "color": "a2eeef"
+            },
+            {
+              "name": "severity: medium",
+              "color": "fbca04"
+            }
+          ],
+          "milestone": null,
+          "_status": "closed",
+          "_author": "j111q"
+        },
+        {
+          "number": 57,
+          "title": "No \"Notify me when back in stock\" on out-of-stock PDPs",
+          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/issues/57",
+          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
+          "state": "closed",
+          "comments": 1,
+          "updated_at": "2026-05-18T05:23:34Z",
+          "labels": [
+            {
+              "name": "enhancement",
+              "color": "a2eeef"
+            },
+            {
+              "name": "wontfix",
+              "color": "ffffff"
+            }
+          ],
+          "milestone": null,
+          "_status": "closed",
+          "_author": "j111q"
+        },
+        {
+          "number": 60,
+          "title": "Wp-admin toolbar leaks into DOM for anonymous shoppers",
+          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/issues/60",
+          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
+          "state": "closed",
+          "comments": 1,
+          "updated_at": "2026-05-18T05:21:33Z",
+          "labels": [
+            {
+              "name": "bug",
+              "color": "d73a4a"
+            },
+            {
+              "name": "severity: high",
+              "color": "d93f0b"
+            }
+          ],
+          "milestone": null,
+          "_status": "closed",
           "_author": "j111q"
         },
         {
