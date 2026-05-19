@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-19T12:09:52.160Z",
+  "fetchedAt": "2026-05-19T15:48:11.195Z",
   "datasets": [
     {
       "user": "j111q",
@@ -17,7 +17,7 @@
           "state": "closed",
           "draft": false,
           "comments": 5,
-          "updated_at": "2026-05-19T06:25:15Z",
+          "updated_at": "2026-05-19T14:23:25Z",
           "pull_request": {
             "html_url": "https://github.com/woocommerce/woocommerce/pull/64885"
           },
@@ -800,6 +800,25 @@
           "labels": [],
           "milestone": null,
           "_status": "merged",
+          "_author": "j111q"
+        },
+        {
+          "number": 65157,
+          "title": "internal-style-build: alias WordPress-defaults SCSS vars to @wordpress/base-styles",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/65157",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": false,
+          "comments": 3,
+          "updated_at": "2026-05-19T15:29:17Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/65157"
+          },
+          "labels": [],
+          "milestone": {
+            "title": "10.9.0"
+          },
+          "_status": "open",
           "_author": "j111q"
         },
         {
