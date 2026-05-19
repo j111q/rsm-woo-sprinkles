@@ -33,7 +33,8 @@
     },
     "64204": {
       "category": "WP 7.0",
-      "summary": "Shipping destructive action red aligns with WP 7.0 error red"
+      "summary": "Shipping destructive action red aligns with WP 7.0 error red",
+      "impact": "Shipping zone & method destructive action links retoned · ~88K stores touch shipping / 30d"
     },
     "64212": {
       "category": "WP 7.0",
@@ -47,7 +48,8 @@
     },
     "64241": {
       "category": "WP 7.0",
-      "summary": "Marketplace product card focus ring uses admin theme color"
+      "summary": "Marketplace product card focus ring uses admin theme color",
+      "impact": "Marketplace product card focus state retoned · ~47K stores see Marketplace / 30d"
     },
     "64244": {
       "category": "WP 7.0",
@@ -56,15 +58,18 @@
     },
     "64249": {
       "category": "WP 7.0",
-      "summary": "Focus ring widths use --wp-admin-border-width-focus"
+      "summary": "Focus ring widths use --wp-admin-border-width-focus",
+      "impact": "Focus ring widths tokenized · ~47K stores see Marketplace / 30d"
     },
     "64257": {
       "category": "WP 7.0",
-      "summary": "Woo admin primary text color aligns with WP 7.0"
+      "summary": "Woo admin primary text color aligns with WP 7.0",
+      "impact": "Every legacy primary text color retoned · ~1.74M stores view Woo admin / 28d"
     },
     "64259": {
       "category": "WP 7.0",
-      "summary": "Woo admin placeholder text color aligns with WP 7.0"
+      "summary": "Woo admin placeholder text color aligns with WP 7.0",
+      "impact": "Every legacy placeholder retoned · ~1.74M stores view Woo admin / 28d"
     },
     "64262": {
       "category": "WP 7.0",
@@ -78,7 +83,8 @@
     },
     "64280": {
       "category": "WP 7.0",
-      "summary": "Woo admin gray text colors align with WP 7.0 via SCSS tokens"
+      "summary": "Woo admin gray text colors align with WP 7.0 via SCSS tokens",
+      "impact": "Admin gray text retoned via SCSS tokens · ~47K stores see Marketplace / 30d"
     },
     "64286": {
       "category": "Copy",
@@ -106,7 +112,8 @@
     },
     "64354": {
       "category": "WP 7.0",
-      "summary": "Order preview action buttons get WP 7.0 secondary button treatment"
+      "summary": "Order preview action buttons get WP 7.0 secondary button treatment",
+      "impact": "Order preview action buttons retoned · ~244K stores edit orders / 30d"
     },
     "64357": {
       "category": "Cleanup",
@@ -130,7 +137,8 @@
     },
     "64420": {
       "category": "WP 7.0",
-      "summary": "Marketplace header account button height & alignment"
+      "summary": "Marketplace header account button height & alignment",
+      "impact": "Marketplace header account button height aligned · ~47K stores see Marketplace / 30d"
     },
     "64421": {
       "category": "WP 7.0",
@@ -147,7 +155,8 @@
     },
     "64476": {
       "category": "Polish",
-      "summary": "Order notes meta box: clarify visibility, modernize bubble styling"
+      "summary": "Order notes meta box: clarify visibility, modernize bubble styling",
+      "impact": "Order notes meta box: clarified visibility & modernized note bubbles · ~28K stores add order notes / 30d"
     }
   },
   "dinhtungdu/mercantile-hook-loop-theme": {

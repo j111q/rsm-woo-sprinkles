@@ -124,8 +124,6 @@
   .card.list-card .win-block { background: rgba(255,255,255,0.88); border: 1px solid rgba(130,80,223,0.22); border-radius: 8px; padding: 8px 11px; display: flex; flex-direction: row; flex-wrap: wrap; align-items: baseline; gap: 4px 8px; font-size: 12px; line-height: 1.4; margin-top: 4px; }
   .card.list-card .win-block .win-label { font-weight: 700; color: var(--ink); flex-shrink: 0; }
   .card.list-card .win-block .win-impact { color: var(--muted); }
-  .card.list-card .win-block.win-block-summary { background: #f8f8f6; border-color: rgba(0,0,0,0.08); }
-  .card.list-card .win-block.win-block-summary .win-label { color: #1a7f37; }
 
   .category-pill { font-size: 10px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; padding: 3px 9px; border-radius: 999px; white-space: nowrap; align-self: flex-start; display: inline-block; margin-bottom: 4px; }
   .cat-wp-7-0 { color: #8250df; background: rgba(130,80,223,0.12); }
@@ -449,12 +447,9 @@ function renderListCard(item) {
   const author = `<span class="author-mini"><img src="https://github.com/${item._author}.png?size=28" alt="" />${item._author}</span>`;
 
   const win = status === 'merged' ? getWin(item) : null;
-  let winBlock = '';
-  if (win && win.impact) {
-    winBlock = `<div class="win-block"><span class="win-label">📈 Impact:</span><span class="win-impact">${escapeHtml(win.impact)}</span></div>`;
-  } else if (win && win.summary) {
-    winBlock = `<div class="win-block win-block-summary"><span class="win-label">✅</span><span class="win-impact">${escapeHtml(win.summary)}</span></div>`;
-  }
+  const winBlock = (win && win.impact)
+    ? `<div class="win-block"><span class="win-label">📈 Impact:</span><span class="win-impact">${escapeHtml(win.impact)}</span></div>`
+    : '';
 
   const tags = [milestone, labels].filter(Boolean).join('');
 
