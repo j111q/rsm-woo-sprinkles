@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-19T01:51:46.028Z",
+  "fetchedAt": "2026-05-19T04:38:05.993Z",
   "datasets": [
     {
       "user": "j111q",
@@ -9,6 +9,30 @@
         "html_url": "https://github.com/j111q"
       },
       "items": [
+        {
+          "number": 65131,
+          "title": "Floating header: Tracks instrumentation for Screen Options and Help icon clicks",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/65131",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 4,
+          "updated_at": "2026-05-19T02:22:01Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/65131"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.9.0"
+          },
+          "_status": "merged",
+          "_author": "j111q"
+        },
         {
           "number": 64643,
           "title": "Floating header: suppress duplicate H1, unify chrome to icon tabs",
@@ -751,16 +775,16 @@
           "_author": "j111q"
         },
         {
-          "number": 65131,
-          "title": "Floating header: Tracks instrumentation for Screen Options and Help icon clicks",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/65131",
+          "number": 64885,
+          "title": "Floating header: polish + WP design token alignment",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64885",
           "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
           "state": "open",
           "draft": false,
           "comments": 4,
-          "updated_at": "2026-05-18T15:27:02Z",
+          "updated_at": "2026-05-19T03:15:15Z",
           "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/65131"
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64885"
           },
           "labels": [
             {
@@ -920,30 +944,6 @@
             }
           ],
           "milestone": null,
-          "_status": "open",
-          "_author": "j111q"
-        },
-        {
-          "number": 64885,
-          "title": "Floating header: polish + WP design token alignment",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/64885",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "draft": false,
-          "comments": 4,
-          "updated_at": "2026-05-18T05:23:31Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/64885"
-          },
-          "labels": [
-            {
-              "name": "plugin: woocommerce",
-              "color": "db1c8e"
-            }
-          ],
-          "milestone": {
-            "title": "10.9.0"
-          },
           "_status": "open",
           "_author": "j111q"
         },
@@ -2490,6 +2490,54 @@
       },
       "items": [
         {
+          "number": 64860,
+          "title": "Improve payment setup fallback coverage",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64860",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 5,
+          "updated_at": "2026-05-19T04:22:33Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64860"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.9.0"
+          },
+          "_status": "merged",
+          "_author": "annchichi"
+        },
+        {
+          "number": 64809,
+          "title": "Align embedded admin notice padding",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64809",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 4,
+          "updated_at": "2026-05-19T04:15:01Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64809"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.9.0"
+          },
+          "_status": "merged",
+          "_author": "annchichi"
+        },
+        {
           "number": 64799,
           "title": "Improve payment provider setup error message",
           "html_url": "https://github.com/woocommerce/woocommerce/pull/64799",
@@ -3121,54 +3169,6 @@
             "title": "10.8.0"
           },
           "_status": "merged",
-          "_author": "annchichi"
-        },
-        {
-          "number": 64860,
-          "title": "Improve payment setup fallback coverage",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/64860",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "draft": false,
-          "comments": 4,
-          "updated_at": "2026-05-14T08:24:26Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/64860"
-          },
-          "labels": [
-            {
-              "name": "plugin: woocommerce",
-              "color": "db1c8e"
-            }
-          ],
-          "milestone": {
-            "title": "10.9.0"
-          },
-          "_status": "open",
-          "_author": "annchichi"
-        },
-        {
-          "number": 64809,
-          "title": "Align embedded admin notice padding",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/64809",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "draft": false,
-          "comments": 4,
-          "updated_at": "2026-05-13T06:01:33Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/64809"
-          },
-          "labels": [
-            {
-              "name": "plugin: woocommerce",
-              "color": "db1c8e"
-            }
-          ],
-          "milestone": {
-            "title": "10.9.0"
-          },
-          "_status": "open",
           "_author": "annchichi"
         },
         {
