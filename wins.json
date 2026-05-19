@@ -5,7 +5,7 @@
     "64181": {
       "category": "Copy",
       "summary": "Cleaner error notice when shipping tour close fails",
-      "impact": "Affects merchants completing the shipping setup tour · ~2K stores set shipping costs / 28d"
+      "impact": "~2K stores set shipping costs / 28d"
     },
     "64186": {
       "category": "Copy",
@@ -34,12 +34,12 @@
     "64204": {
       "category": "WP 7.0",
       "summary": "Shipping destructive action red aligns with WP 7.0 error red",
-      "impact": "Shipping zone & method destructive action links retoned · ~88K stores touch shipping / 30d"
+      "impact": "~88K stores touch shipping / 30d"
     },
     "64212": {
       "category": "WP 7.0",
       "summary": "Legacy admin success notice aligns with WP 7.0 palette",
-      "impact": "Every legacy success notice retoned · ~1.74M stores view Woo admin / 28d"
+      "impact": "~1.74M stores view Woo admin / 28d"
     },
     "64237": {
       "category": "WP 7.0",
@@ -49,42 +49,40 @@
     "64241": {
       "category": "WP 7.0",
       "summary": "Marketplace product card focus ring uses admin theme color",
-      "impact": "Marketplace product card focus state retoned · ~47K stores see Marketplace / 30d"
+      "impact": "~47K stores see Marketplace / 30d"
     },
     "64244": {
       "category": "WP 7.0",
-      "summary": "Legacy Select2 uses --wp-admin-theme-color",
-      "impact": "Every legacy Select2 dropdown retinted · seen on most Woo admin pages"
+      "summary": "Legacy Select2 uses --wp-admin-theme-color"
     },
     "64249": {
       "category": "WP 7.0",
       "summary": "Focus ring widths use --wp-admin-border-width-focus",
-      "impact": "Focus ring widths tokenized · ~47K stores see Marketplace / 30d"
+      "impact": "~47K stores see Marketplace / 30d"
     },
     "64257": {
       "category": "WP 7.0",
       "summary": "Woo admin primary text color aligns with WP 7.0",
-      "impact": "Every legacy primary text color retoned · ~1.74M stores view Woo admin / 28d"
+      "impact": "~1.74M stores view Woo admin / 28d"
     },
     "64259": {
       "category": "WP 7.0",
       "summary": "Woo admin placeholder text color aligns with WP 7.0",
-      "impact": "Every legacy placeholder retoned · ~1.74M stores view Woo admin / 28d"
+      "impact": "~1.74M stores view Woo admin / 28d"
     },
     "64262": {
       "category": "WP 7.0",
-      "summary": "Legacy admin custom button border-radius aligns with WP 7.0",
-      "impact": "CSS hygiene pass on rules that apply to HTML no longer rendered on modern Woo"
+      "summary": "Legacy admin custom button border-radius aligns with WP 7.0"
     },
     "64276": {
       "category": "WP 7.0",
       "summary": "Tokenized hardcoded grays in Woo admin for WP 7.0 alignment",
-      "impact": "Every hardcoded gray retoned · notably, ~144K stores hit onboarding / 28d"
+      "impact": "~144K stores hit onboarding / 28d"
     },
     "64280": {
       "category": "WP 7.0",
       "summary": "Woo admin gray text colors align with WP 7.0 via SCSS tokens",
-      "impact": "Admin gray text retoned via SCSS tokens · ~47K stores see Marketplace / 30d"
+      "impact": "~47K stores see Marketplace / 30d"
     },
     "64286": {
       "category": "Copy",
@@ -113,7 +111,7 @@
     "64354": {
       "category": "WP 7.0",
       "summary": "Order preview action buttons get WP 7.0 secondary button treatment",
-      "impact": "Order preview action buttons retoned · ~244K stores edit orders / 30d"
+      "impact": "~244K stores edit orders / 30d"
     },
     "64357": {
       "category": "Cleanup",
@@ -133,12 +131,12 @@
     "64417": {
       "category": "WP 7.0",
       "summary": "Adopt $radius-s 2px border radius for Woo inputs and buttons",
-      "impact": "Every Woo custom input & button reshaped · ~1.74M stores view Woo admin / 28d"
+      "impact": "~1.74M stores view Woo admin / 28d"
     },
     "64420": {
       "category": "WP 7.0",
       "summary": "Marketplace header account button height & alignment",
-      "impact": "Marketplace header account button height aligned · ~47K stores see Marketplace / 30d"
+      "impact": "~47K stores see Marketplace / 30d"
     },
     "64421": {
       "category": "WP 7.0",
@@ -156,7 +154,7 @@
     "64476": {
       "category": "Polish",
       "summary": "Order notes meta box: clarify visibility, modernize bubble styling",
-      "impact": "Order notes meta box: clarified visibility & modernized note bubbles · ~28K stores add order notes / 30d"
+      "impact": "~28K stores add order notes / 30d"
     }
   },
   "dinhtungdu/mercantile-hook-loop-theme": {
