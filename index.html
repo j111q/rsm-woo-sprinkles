@@ -127,11 +127,6 @@
   .card.list-card .win-block.win-block-summary { background: #f8f8f6; border-color: rgba(0,0,0,0.08); }
   .card.list-card .win-block.win-block-summary .win-label { color: #1a7f37; }
 
-  .summary-strip { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 20px; padding: 12px 16px; background: var(--card); border: 1px solid var(--line); border-radius: 12px; }
-  .sum-stat { display: inline-flex; align-items: center; gap: 5px; font-size: 13px; color: var(--muted); }
-  .sum-stat b { color: var(--ink); font-weight: 600; }
-  .sum-sep { color: #d0cdc6; font-size: 16px; line-height: 1; user-select: none; }
-
   .category-pill { font-size: 10px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; padding: 3px 9px; border-radius: 999px; white-space: nowrap; align-self: flex-start; display: inline-block; margin-bottom: 4px; }
   .cat-wp-7-0 { color: #8250df; background: rgba(130,80,223,0.12); }
   .cat-cleanup { color: #1a7f37; background: rgba(26,127,55,0.12); }
@@ -308,8 +303,6 @@
   <div class="ws-tabs" id="ws-tabs"></div>
 
   <div class="people" id="people"></div>
-
-  <div id="summary-strip" style="display:none"></div>
 
   <div class="tabs" id="tabs"></div>
 
@@ -602,8 +595,6 @@ function renderEverything() {
 }
 
 function renderPostsView() {
-  const el = document.getElementById('summary-strip');
-  if (el) el.style.display = 'none';
   const ws = WORKSTREAMS[activeWorkstream];
   const posts = (p2.posts || [])
     .filter(p => p.workstream === activeWorkstream)
@@ -686,55 +677,7 @@ const EMPTY_COPY = {
   draft:  { em: 'Nothing rising in the oven 🥐', body: 'No drafts in progress at the moment.' }
 };
 
-function parseMaxReach(items) {
-  let max = 0, label = '';
-  items.forEach(i => {
-    const w = getWin(i);
-    if (!w || !w.impact) return;
-    const matches = [...w.impact.matchAll(/~([\d,.]+)(K|M)\s+stores/gi)];
-    matches.forEach(m => {
-      const n = parseFloat(m[1].replace(/,/g, ''));
-      const count = n * (m[2].toUpperCase() === 'M' ? 1e6 : 1e3);
-      if (count > max) { max = count; label = `~${m[1]}${m[2]} stores`; }
-    });
-  });
-  return label;
-}
-
-function renderSummaryStrip() {
-  const el = document.getElementById('summary-strip');
-  if (!el) return;
-  const ws = WORKSTREAMS[activeWorkstream];
-  if (ws.kind === 'posts') { el.style.display = 'none'; return; }
-
-  const base = authorFilteredItems();
-  const merged = base.filter(i => i._status === 'merged');
-  const inProgress = base.filter(i => i._status === 'open' || i._status === 'draft');
-  const withImpact = merged.filter(i => getWin(i)?.impact);
-  const topReach = parseMaxReach(merged);
-
-  if (merged.length === 0 && inProgress.length === 0) { el.style.display = 'none'; return; }
-
-  const parts = [
-    `<span class="sum-stat">✨ <b>${merged.length}</b> merged</span>`,
-    `<span class="sum-sep">·</span>`,
-    `<span class="sum-stat"><b>${inProgress.length}</b> in progress</span>`,
-  ];
-  if (merged.length > 0) {
-    parts.push(`<span class="sum-sep">·</span>`);
-    parts.push(`<span class="sum-stat">📈 impact on <b>${withImpact.length} of ${merged.length}</b></span>`);
-  }
-  if (topReach) {
-    parts.push(`<span class="sum-sep">·</span>`);
-    parts.push(`<span class="sum-stat">up to <b>${topReach}</b> reached</span>`);
-  }
-
-  el.innerHTML = `<div class="summary-strip">${parts.join('')}</div>`;
-  el.style.display = '';
-}
-
 function renderGrid() {
-  renderSummaryStrip();
   const ws = WORKSTREAMS[activeWorkstream];
   const content = document.getElementById('content');
 
