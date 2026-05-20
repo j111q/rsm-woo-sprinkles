@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-20T01:33:03.037Z",
+  "fetchedAt": "2026-05-20T05:47:06.856Z",
   "datasets": [
     {
       "user": "j111q",
@@ -9,6 +9,25 @@
         "html_url": "https://github.com/j111q"
       },
       "items": [
+        {
+          "number": 65157,
+          "title": "internal-style-build: alias WordPress-defaults SCSS vars to @wordpress/base-styles",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/65157",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 3,
+          "updated_at": "2026-05-20T02:11:41Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/65157"
+          },
+          "labels": [],
+          "milestone": {
+            "title": "10.9.0"
+          },
+          "_status": "merged",
+          "_author": "j111q"
+        },
         {
           "number": 64885,
           "title": "Floating header: polish + WP design token alignment",
@@ -800,25 +819,6 @@
           "labels": [],
           "milestone": null,
           "_status": "merged",
-          "_author": "j111q"
-        },
-        {
-          "number": 65157,
-          "title": "internal-style-build: alias WordPress-defaults SCSS vars to @wordpress/base-styles",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/65157",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "draft": false,
-          "comments": 3,
-          "updated_at": "2026-05-19T15:29:17Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/65157"
-          },
-          "labels": [],
-          "milestone": {
-            "title": "10.9.0"
-          },
-          "_status": "open",
           "_author": "j111q"
         },
         {
