@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-20T05:47:06.856Z",
+  "fetchedAt": "2026-05-20T08:44:39.720Z",
   "datasets": [
     {
       "user": "j111q",
@@ -9,6 +9,23 @@
         "html_url": "https://github.com/j111q"
       },
       "items": [
+        {
+          "number": 73,
+          "title": "Masthead: drive vol/date, counts, updated-time off live data + mobile alignment fix",
+          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/73",
+          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
+          "state": "closed",
+          "draft": false,
+          "comments": 2,
+          "updated_at": "2026-05-20T07:59:58Z",
+          "pull_request": {
+            "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/73"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "merged",
+          "_author": "j111q"
+        },
         {
           "number": 65157,
           "title": "internal-style-build: alias WordPress-defaults SCSS vars to @wordpress/base-styles",
@@ -846,23 +863,6 @@
           "milestone": {
             "title": "10.9.0"
           },
-          "_status": "open",
-          "_author": "j111q"
-        },
-        {
-          "number": 73,
-          "title": "Masthead: drive vol/date, counts, updated-time off live data + mobile alignment fix",
-          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/73",
-          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
-          "state": "open",
-          "draft": false,
-          "comments": 2,
-          "updated_at": "2026-05-18T09:34:55Z",
-          "pull_request": {
-            "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/73"
-          },
-          "labels": [],
-          "milestone": null,
           "_status": "open",
           "_author": "j111q"
         },
