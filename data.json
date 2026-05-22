@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-22T11:31:34.141Z",
+  "fetchedAt": "2026-05-22T13:56:09.503Z",
   "datasets": [
     {
       "user": "j111q",
@@ -839,6 +839,30 @@
           "_author": "j111q"
         },
         {
+          "number": 64564,
+          "title": "Align Order Edit meta boxes with WordPress 7.0 design conventions",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64564",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": false,
+          "comments": 4,
+          "updated_at": "2026-05-22T13:37:16Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64564"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.9.0"
+          },
+          "_status": "open",
+          "_author": "j111q"
+        },
+        {
           "number": 64353,
           "title": "Remove the task list reminder bar from Woo admin",
           "html_url": "https://github.com/woocommerce/woocommerce/pull/64353",
@@ -1436,30 +1460,6 @@
           "updated_at": "2026-05-07T04:12:13Z",
           "pull_request": {
             "html_url": "https://github.com/woocommerce/woocommerce/pull/64645"
-          },
-          "labels": [
-            {
-              "name": "plugin: woocommerce",
-              "color": "db1c8e"
-            }
-          ],
-          "milestone": {
-            "title": "10.9.0"
-          },
-          "_status": "open",
-          "_author": "j111q"
-        },
-        {
-          "number": 64564,
-          "title": "Align Order Edit meta boxes with WordPress 7.0 design conventions",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/64564",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "draft": false,
-          "comments": 4,
-          "updated_at": "2026-05-06T09:15:54Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/64564"
           },
           "labels": [
             {
