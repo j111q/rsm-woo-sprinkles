@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-28T12:40:50.818Z",
+  "fetchedAt": "2026-05-28T16:42:36.603Z",
   "datasets": [
     {
       "user": "j111q",
@@ -2538,6 +2538,23 @@
         "html_url": "https://github.com/annchichi"
       },
       "items": [
+        {
+          "number": 10,
+          "title": "fix(launcher): also terminate menubar agent when launcher quits",
+          "html_url": "https://github.com/annchichi/catwatchpr/pull/10",
+          "repository_url": "https://api.github.com/repos/annchichi/catwatchpr",
+          "state": "closed",
+          "draft": false,
+          "comments": 0,
+          "updated_at": "2026-05-28T15:24:57Z",
+          "pull_request": {
+            "html_url": "https://github.com/annchichi/catwatchpr/pull/10"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "merged",
+          "_author": "annchichi"
+        },
         {
           "number": 9,
           "title": "Fix Quit menu so it terminates the launcher app, not just the agent",
