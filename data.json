@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T10:58:10.680Z",
+  "fetchedAt": "2026-05-29T14:01:41.996Z",
   "datasets": [
     {
       "user": "j111q",
@@ -9,6 +9,23 @@
         "html_url": "https://github.com/j111q"
       },
       "items": [
+        {
+          "number": 11734,
+          "title": "Make WooPay save-info copy smaller",
+          "html_url": "https://github.com/Automattic/woocommerce-payments/pull/11734",
+          "repository_url": "https://api.github.com/repos/Automattic/woocommerce-payments",
+          "state": "closed",
+          "draft": false,
+          "comments": 3,
+          "updated_at": "2026-05-29T13:03:03Z",
+          "pull_request": {
+            "html_url": "https://github.com/Automattic/woocommerce-payments/pull/11734"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "merged",
+          "_author": "j111q"
+        },
         {
           "number": 64353,
           "title": "Remove the task list reminder bar from Woo admin",
@@ -868,23 +885,6 @@
           "labels": [],
           "milestone": null,
           "_status": "merged",
-          "_author": "j111q"
-        },
-        {
-          "number": 11734,
-          "title": "Make WooPay save-info copy smaller",
-          "html_url": "https://github.com/Automattic/woocommerce-payments/pull/11734",
-          "repository_url": "https://api.github.com/repos/Automattic/woocommerce-payments",
-          "state": "open",
-          "draft": false,
-          "comments": 2,
-          "updated_at": "2026-05-29T05:02:18Z",
-          "pull_request": {
-            "html_url": "https://github.com/Automattic/woocommerce-payments/pull/11734"
-          },
-          "labels": [],
-          "milestone": null,
-          "_status": "open",
           "_author": "j111q"
         },
         {
