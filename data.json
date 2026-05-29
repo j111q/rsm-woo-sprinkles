@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T03:37:23.608Z",
+  "fetchedAt": "2026-05-29T07:40:01.912Z",
   "datasets": [
     {
       "user": "j111q",
@@ -878,16 +878,11 @@
           "state": "open",
           "draft": false,
           "comments": 2,
-          "updated_at": "2026-05-27T04:05:41Z",
+          "updated_at": "2026-05-29T05:02:18Z",
           "pull_request": {
             "html_url": "https://github.com/Automattic/woocommerce-payments/pull/11734"
           },
-          "labels": [
-            {
-              "name": "pr: needs review",
-              "color": "fbca04"
-            }
-          ],
+          "labels": [],
           "milestone": null,
           "_status": "open",
           "_author": "j111q"
