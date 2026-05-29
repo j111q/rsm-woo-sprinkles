@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-28T23:58:10.122Z",
+  "fetchedAt": "2026-05-29T03:37:23.608Z",
   "datasets": [
     {
       "user": "j111q",
@@ -2538,6 +2538,23 @@
         "html_url": "https://github.com/annchichi"
       },
       "items": [
+        {
+          "number": 11,
+          "title": "feat(menubar): add Check for Updates menu item",
+          "html_url": "https://github.com/annchichi/catwatchpr/pull/11",
+          "repository_url": "https://api.github.com/repos/annchichi/catwatchpr",
+          "state": "closed",
+          "draft": false,
+          "comments": 0,
+          "updated_at": "2026-05-29T01:05:26Z",
+          "pull_request": {
+            "html_url": "https://github.com/annchichi/catwatchpr/pull/11"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "merged",
+          "_author": "annchichi"
+        },
         {
           "number": 10,
           "title": "fix(launcher): also terminate menubar agent when launcher quits",
