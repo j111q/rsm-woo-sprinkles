@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-04T02:01:06.056Z",
+  "fetchedAt": "2026-06-04T06:51:02.108Z",
   "datasets": [
     {
       "user": "j111q",
@@ -2531,6 +2531,23 @@
         "html_url": "https://github.com/annchichi"
       },
       "items": [
+        {
+          "number": 12,
+          "title": "fix(watch): re-notify on new PR activity (dedup by id + updated_at)",
+          "html_url": "https://github.com/annchichi/catwatchpr/pull/12",
+          "repository_url": "https://api.github.com/repos/annchichi/catwatchpr",
+          "state": "closed",
+          "draft": false,
+          "comments": 0,
+          "updated_at": "2026-06-04T04:58:32Z",
+          "pull_request": {
+            "html_url": "https://github.com/annchichi/catwatchpr/pull/12"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "merged",
+          "_author": "annchichi"
+        },
         {
           "number": 11,
           "title": "feat(menubar): add Check for Updates menu item",
