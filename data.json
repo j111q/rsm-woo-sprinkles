@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-09T04:34:29.154Z",
+  "fetchedAt": "2026-06-09T08:08:04.183Z",
   "datasets": [
     {
       "user": "j111q",
@@ -1591,6 +1591,28 @@
           ],
           "milestone": null,
           "_status": "open",
+          "_author": "j111q"
+        },
+        {
+          "number": 83,
+          "title": "Multicurrency geolocation mis-detects shopper country (Florida → JMD, Jordan → Russia)",
+          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/issues/83",
+          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
+          "state": "closed",
+          "comments": 1,
+          "updated_at": "2026-06-09T07:18:04Z",
+          "labels": [
+            {
+              "name": "bug",
+              "color": "d73a4a"
+            },
+            {
+              "name": "severity: high",
+              "color": "d93f0b"
+            }
+          ],
+          "milestone": null,
+          "_status": "closed",
           "_author": "j111q"
         },
         {
