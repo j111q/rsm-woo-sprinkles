@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-12T02:56:28.369Z",
+  "fetchedAt": "2026-06-12T07:19:34.967Z",
   "datasets": [
     {
       "user": "j111q",
@@ -3335,54 +3335,6 @@
           "_author": "annchichi"
         },
         {
-          "number": 64732,
-          "title": "Add TreeCombo i1 feedback notes",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/64732",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "draft": false,
-          "comments": 2,
-          "updated_at": "2026-06-02T03:37:30Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/64732"
-          },
-          "labels": [
-            {
-              "name": "plugin: woocommerce",
-              "color": "db1c8e"
-            }
-          ],
-          "milestone": {
-            "title": "11.0.0"
-          },
-          "_status": "open",
-          "_author": "annchichi"
-        },
-        {
-          "number": 65237,
-          "title": "Add product category TreeSelect feedback notes",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/65237",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "draft": true,
-          "comments": 0,
-          "updated_at": "2026-06-02T03:11:05Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/65237"
-          },
-          "labels": [
-            {
-              "name": "plugin: woocommerce",
-              "color": "db1c8e"
-            }
-          ],
-          "milestone": {
-            "title": "11.0.0"
-          },
-          "_status": "draft",
-          "_author": "annchichi"
-        },
-        {
           "number": 67662,
           "title": "Update `Notice` component design",
           "html_url": "https://github.com/WordPress/gutenberg/issues/67662",
@@ -3762,6 +3714,54 @@
           "labels": [],
           "milestone": null,
           "_status": "open",
+          "_author": "annchichi"
+        },
+        {
+          "number": 65237,
+          "title": "Add product category TreeSelect feedback notes",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/65237",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": true,
+          "comments": 1,
+          "updated_at": "2026-06-12T06:48:18Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/65237"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "11.0.0"
+          },
+          "_status": "closed",
+          "_author": "annchichi"
+        },
+        {
+          "number": 64732,
+          "title": "Add TreeCombo i1 feedback notes",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64732",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 3,
+          "updated_at": "2026-06-12T06:48:12Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64732"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "11.0.0"
+          },
+          "_status": "closed",
           "_author": "annchichi"
         },
         {
