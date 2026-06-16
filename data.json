@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-16T12:27:44.966Z",
+  "fetchedAt": "2026-06-16T17:31:08.246Z",
   "datasets": [
     {
       "user": "j111q",
@@ -959,7 +959,7 @@
           "state": "open",
           "draft": false,
           "comments": 8,
-          "updated_at": "2026-06-16T10:48:56Z",
+          "updated_at": "2026-06-16T16:31:33Z",
           "pull_request": {
             "html_url": "https://github.com/woocommerce/woocommerce/pull/64564"
           },
@@ -973,6 +973,28 @@
             "title": "11.0.0"
           },
           "_status": "open",
+          "_author": "j111q"
+        },
+        {
+          "number": 65788,
+          "title": "Migrate customer stock notification screens to the order actions \"more actions\" menu",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/65788",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": true,
+          "comments": 0,
+          "updated_at": "2026-06-16T16:15:36Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/65788"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": null,
+          "_status": "draft",
           "_author": "j111q"
         },
         {
