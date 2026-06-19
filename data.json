@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-19T00:12:02.770Z",
+  "fetchedAt": "2026-06-19T05:23:32.846Z",
   "datasets": [
     {
       "user": "j111q",
@@ -1529,23 +1529,6 @@
           "_author": "j111q"
         },
         {
-          "number": 29,
-          "title": "Block-ification — first batch: product-attributes + product-price + pdp-details template part",
-          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/29",
-          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
-          "state": "open",
-          "draft": false,
-          "comments": 2,
-          "updated_at": "2026-05-12T04:11:05Z",
-          "pull_request": {
-            "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/29"
-          },
-          "labels": [],
-          "milestone": null,
-          "_status": "open",
-          "_author": "j111q"
-        },
-        {
           "number": 64444,
           "title": "Remove deprecated inbox note image/layout API (PR follow-up)",
           "html_url": "https://github.com/woocommerce/woocommerce/issues/64444",
@@ -1627,6 +1610,23 @@
           ],
           "milestone": null,
           "_status": "open",
+          "_author": "j111q"
+        },
+        {
+          "number": 29,
+          "title": "Block-ification — first batch: product-attributes + product-price + pdp-details template part",
+          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/29",
+          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
+          "state": "closed",
+          "draft": false,
+          "comments": 2,
+          "updated_at": "2026-06-19T04:41:01Z",
+          "pull_request": {
+            "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/29"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "closed",
           "_author": "j111q"
         },
         {
