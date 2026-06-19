@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-19T05:23:32.846Z",
+  "fetchedAt": "2026-06-19T09:56:15.964Z",
   "datasets": [
     {
       "user": "j111q",
@@ -2606,6 +2606,23 @@
         "html_url": "https://github.com/annchichi"
       },
       "items": [
+        {
+          "number": 13,
+          "title": "Fix CI notification wording by PR audience",
+          "html_url": "https://github.com/annchichi/catwatchpr/pull/13",
+          "repository_url": "https://api.github.com/repos/annchichi/catwatchpr",
+          "state": "closed",
+          "draft": false,
+          "comments": 0,
+          "updated_at": "2026-06-19T06:21:58Z",
+          "pull_request": {
+            "html_url": "https://github.com/annchichi/catwatchpr/pull/13"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "merged",
+          "_author": "annchichi"
+        },
         {
           "number": 12,
           "title": "fix(watch): re-notify on new PR activity (dedup by id + updated_at)",
