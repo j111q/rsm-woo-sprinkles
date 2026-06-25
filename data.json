@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-25T08:38:38.534Z",
+  "fetchedAt": "2026-06-25T11:19:35.074Z",
   "datasets": [
     {
       "user": "j111q",
@@ -9,6 +9,23 @@
         "html_url": "https://github.com/j111q"
       },
       "items": [
+        {
+          "number": 1,
+          "title": "Codex/woo intake automation",
+          "html_url": "https://github.com/poligilad-auto/woo-admin-revamp/pull/1",
+          "repository_url": "https://api.github.com/repos/poligilad-auto/woo-admin-revamp",
+          "state": "closed",
+          "draft": false,
+          "comments": 0,
+          "updated_at": "2026-06-25T09:14:17Z",
+          "pull_request": {
+            "html_url": "https://github.com/poligilad-auto/woo-admin-revamp/pull/1"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "merged",
+          "_author": "j111q"
+        },
         {
           "number": 64645,
           "title": "Refresh legacy admin empty states",
@@ -949,6 +966,23 @@
           "labels": [],
           "milestone": null,
           "_status": "merged",
+          "_author": "j111q"
+        },
+        {
+          "number": 2,
+          "title": "Spike/wp web components settings select preview",
+          "html_url": "https://github.com/poligilad-auto/woo-admin-revamp/pull/2",
+          "repository_url": "https://api.github.com/repos/poligilad-auto/woo-admin-revamp",
+          "state": "open",
+          "draft": false,
+          "comments": 0,
+          "updated_at": "2026-06-25T09:56:58Z",
+          "pull_request": {
+            "html_url": "https://github.com/poligilad-auto/woo-admin-revamp/pull/2"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "open",
           "_author": "j111q"
         },
         {
