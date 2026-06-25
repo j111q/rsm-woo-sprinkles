@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-25T13:29:13.224Z",
+  "fetchedAt": "2026-06-25T16:02:26.064Z",
   "datasets": [
     {
       "user": "j111q",
@@ -9,6 +9,23 @@
         "html_url": "https://github.com/j111q"
       },
       "items": [
+        {
+          "number": 3,
+          "title": "Automation/woo intake 28162157332",
+          "html_url": "https://github.com/poligilad-auto/woo-admin-revamp/pull/3",
+          "repository_url": "https://api.github.com/repos/poligilad-auto/woo-admin-revamp",
+          "state": "closed",
+          "draft": false,
+          "comments": 0,
+          "updated_at": "2026-06-25T14:21:05Z",
+          "pull_request": {
+            "html_url": "https://github.com/poligilad-auto/woo-admin-revamp/pull/3"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "merged",
+          "_author": "j111q"
+        },
         {
           "number": 1,
           "title": "Codex/woo intake automation",
@@ -969,23 +986,6 @@
           "_author": "j111q"
         },
         {
-          "number": 2,
-          "title": "Spike/wp web components settings select preview",
-          "html_url": "https://github.com/poligilad-auto/woo-admin-revamp/pull/2",
-          "repository_url": "https://api.github.com/repos/poligilad-auto/woo-admin-revamp",
-          "state": "open",
-          "draft": false,
-          "comments": 0,
-          "updated_at": "2026-06-25T09:56:58Z",
-          "pull_request": {
-            "html_url": "https://github.com/poligilad-auto/woo-admin-revamp/pull/2"
-          },
-          "labels": [],
-          "milestone": null,
-          "_status": "open",
-          "_author": "j111q"
-        },
-        {
           "number": 64564,
           "title": "Align Order Edit meta boxes with WordPress 7.0 design conventions",
           "html_url": "https://github.com/woocommerce/woocommerce/pull/64564",
@@ -993,7 +993,7 @@
           "state": "open",
           "draft": false,
           "comments": 8,
-          "updated_at": "2026-06-16T16:31:33Z",
+          "updated_at": "2026-06-25T15:15:51Z",
           "pull_request": {
             "html_url": "https://github.com/woocommerce/woocommerce/pull/64564"
           },
@@ -1644,6 +1644,23 @@
           ],
           "milestone": null,
           "_status": "open",
+          "_author": "j111q"
+        },
+        {
+          "number": 2,
+          "title": "Spike/wp web components settings select preview",
+          "html_url": "https://github.com/poligilad-auto/woo-admin-revamp/pull/2",
+          "repository_url": "https://api.github.com/repos/poligilad-auto/woo-admin-revamp",
+          "state": "closed",
+          "draft": false,
+          "comments": 0,
+          "updated_at": "2026-06-25T14:13:03Z",
+          "pull_request": {
+            "html_url": "https://github.com/poligilad-auto/woo-admin-revamp/pull/2"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "closed",
           "_author": "j111q"
         },
         {
