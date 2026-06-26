@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-26T11:30:55.764Z",
+  "fetchedAt": "2026-06-26T13:32:20.756Z",
   "datasets": [
     {
       "user": "j111q",
@@ -987,13 +987,13 @@
         },
         {
           "number": 66039,
-          "title": "[codex] Add search and pagination to order tax modal",
+          "title": "Add search and pagination to order tax modal",
           "html_url": "https://github.com/woocommerce/woocommerce/pull/66039",
           "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
           "state": "open",
           "draft": true,
           "comments": 0,
-          "updated_at": "2026-06-26T09:54:29Z",
+          "updated_at": "2026-06-26T13:00:26Z",
           "pull_request": {
             "html_url": "https://github.com/woocommerce/woocommerce/pull/66039"
           },
@@ -1003,7 +1003,9 @@
               "color": "db1c8e"
             }
           ],
-          "milestone": null,
+          "milestone": {
+            "title": "11.0.0"
+          },
           "_status": "draft",
           "_author": "j111q"
         },
