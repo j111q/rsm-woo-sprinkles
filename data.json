@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-30T13:25:23.713Z",
+  "fetchedAt": "2026-06-30T15:59:18.204Z",
   "datasets": [
     {
       "user": "j111q",
@@ -16,8 +16,8 @@
           "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
           "state": "closed",
           "draft": false,
-          "comments": 5,
-          "updated_at": "2026-06-30T09:50:28Z",
+          "comments": 6,
+          "updated_at": "2026-06-30T14:34:53Z",
           "pull_request": {
             "html_url": "https://github.com/woocommerce/woocommerce/pull/64476"
           },
@@ -986,6 +986,30 @@
           "_author": "j111q"
         },
         {
+          "number": 64564,
+          "title": "Align Order Edit meta boxes with WordPress 7.0 design conventions",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64564",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": false,
+          "comments": 9,
+          "updated_at": "2026-06-30T13:59:55Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64564"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "11.0.0"
+          },
+          "_status": "open",
+          "_author": "j111q"
+        },
+        {
           "number": 65788,
           "title": "Migrate customer stock notification screens to the order actions \"more actions\" menu",
           "html_url": "https://github.com/woocommerce/woocommerce/pull/65788",
@@ -1018,30 +1042,6 @@
           "updated_at": "2026-06-29T10:13:49Z",
           "pull_request": {
             "html_url": "https://github.com/woocommerce/woocommerce/pull/66039"
-          },
-          "labels": [
-            {
-              "name": "plugin: woocommerce",
-              "color": "db1c8e"
-            }
-          ],
-          "milestone": {
-            "title": "11.0.0"
-          },
-          "_status": "open",
-          "_author": "j111q"
-        },
-        {
-          "number": 64564,
-          "title": "Align Order Edit meta boxes with WordPress 7.0 design conventions",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/64564",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "draft": false,
-          "comments": 9,
-          "updated_at": "2026-06-29T10:08:32Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/64564"
           },
           "labels": [
             {
@@ -3456,7 +3456,7 @@
           "state": "open",
           "draft": true,
           "comments": 0,
-          "updated_at": "2026-06-30T09:42:35Z",
+          "updated_at": "2026-06-30T14:08:28Z",
           "pull_request": {
             "html_url": "https://github.com/woocommerce/woocommerce/pull/66110"
           },
