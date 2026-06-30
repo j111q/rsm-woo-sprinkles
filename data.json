@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-30T08:44:19.360Z",
+  "fetchedAt": "2026-06-30T11:32:56.983Z",
   "datasets": [
     {
       "user": "j111q",
@@ -9,6 +9,38 @@
         "html_url": "https://github.com/j111q"
       },
       "items": [
+        {
+          "number": 64476,
+          "title": "Order notes meta box: clarify visibility, modernize bubble styling",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64476",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 5,
+          "updated_at": "2026-06-30T09:50:28Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64476"
+          },
+          "labels": [
+            {
+              "name": "needs: documentation",
+              "color": "ffea00"
+            },
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            },
+            {
+              "name": "focus: e2e tests",
+              "color": "ff6b00"
+            }
+          ],
+          "milestone": {
+            "title": "10.9.0"
+          },
+          "_status": "merged",
+          "_author": "j111q"
+        },
         {
           "number": 3,
           "title": "Automation/woo intake 28162157332",
@@ -307,38 +339,6 @@
           },
           "labels": [],
           "milestone": null,
-          "_status": "merged",
-          "_author": "j111q"
-        },
-        {
-          "number": 64476,
-          "title": "Order notes meta box: clarify visibility, modernize bubble styling",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/64476",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "closed",
-          "draft": false,
-          "comments": 4,
-          "updated_at": "2026-05-11T05:38:12Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/64476"
-          },
-          "labels": [
-            {
-              "name": "needs: documentation",
-              "color": "ffea00"
-            },
-            {
-              "name": "plugin: woocommerce",
-              "color": "db1c8e"
-            },
-            {
-              "name": "focus: e2e tests",
-              "color": "ff6b00"
-            }
-          ],
-          "milestone": {
-            "title": "10.9.0"
-          },
           "_status": "merged",
           "_author": "j111q"
         },
@@ -3446,6 +3446,28 @@
             "title": "10.8.0"
           },
           "_status": "merged",
+          "_author": "annchichi"
+        },
+        {
+          "number": 66110,
+          "title": "Fix duplicate shipping marketplace link",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/66110",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": true,
+          "comments": 0,
+          "updated_at": "2026-06-30T09:42:35Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/66110"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": null,
+          "_status": "draft",
           "_author": "annchichi"
         },
         {
