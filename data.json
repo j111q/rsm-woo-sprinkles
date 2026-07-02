@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-02T07:43:58.333Z",
+  "fetchedAt": "2026-07-02T10:20:26.518Z",
   "datasets": [
     {
       "user": "j111q",
@@ -3458,9 +3458,9 @@
           "html_url": "https://github.com/woocommerce/woocommerce/pull/66153",
           "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
           "state": "open",
-          "draft": true,
-          "comments": 0,
-          "updated_at": "2026-07-02T05:45:50Z",
+          "draft": false,
+          "comments": 3,
+          "updated_at": "2026-07-02T08:21:52Z",
           "pull_request": {
             "html_url": "https://github.com/woocommerce/woocommerce/pull/66153"
           },
@@ -3468,10 +3468,14 @@
             {
               "name": "plugin: woocommerce",
               "color": "db1c8e"
+            },
+            {
+              "name": "focus: e2e tests",
+              "color": "ff6b00"
             }
           ],
           "milestone": null,
-          "_status": "draft",
+          "_status": "open",
           "_author": "annchichi"
         },
         {
