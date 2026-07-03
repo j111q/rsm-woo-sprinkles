@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-03T05:01:11.328Z",
+  "fetchedAt": "2026-07-03T08:16:18.165Z",
   "datasets": [
     {
       "user": "j111q",
@@ -3453,14 +3453,36 @@
           "_author": "annchichi"
         },
         {
+          "number": 66141,
+          "title": "Fix email order item alignment",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/66141",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": true,
+          "comments": 2,
+          "updated_at": "2026-07-03T08:15:07Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/66141"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": null,
+          "_status": "draft",
+          "_author": "annchichi"
+        },
+        {
           "number": 66110,
           "title": "Fix duplicate shipping marketplace link",
           "html_url": "https://github.com/woocommerce/woocommerce/pull/66110",
           "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
           "state": "open",
           "draft": false,
-          "comments": 7,
-          "updated_at": "2026-07-03T04:39:52Z",
+          "comments": 8,
+          "updated_at": "2026-07-03T06:02:41Z",
           "pull_request": {
             "html_url": "https://github.com/woocommerce/woocommerce/pull/66110"
           },
@@ -3485,28 +3507,6 @@
           "updated_at": "2026-07-03T04:12:35Z",
           "pull_request": {
             "html_url": "https://github.com/woocommerce/woocommerce/pull/66142"
-          },
-          "labels": [
-            {
-              "name": "plugin: woocommerce",
-              "color": "db1c8e"
-            }
-          ],
-          "milestone": null,
-          "_status": "draft",
-          "_author": "annchichi"
-        },
-        {
-          "number": 66141,
-          "title": "Fix email order item alignment",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/66141",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "draft": true,
-          "comments": 1,
-          "updated_at": "2026-07-03T03:41:34Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/66141"
           },
           "labels": [
             {
