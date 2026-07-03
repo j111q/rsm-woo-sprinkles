@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-03T16:46:28.453Z",
+  "fetchedAt": "2026-07-03T18:02:34.497Z",
   "datasets": [
     {
       "user": "j111q",
@@ -9,6 +9,38 @@
         "html_url": "https://github.com/j111q"
       },
       "items": [
+        {
+          "number": 64476,
+          "title": "Order notes meta box: clarify visibility, modernize bubble styling",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64476",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 8,
+          "updated_at": "2026-07-03T17:13:43Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64476"
+          },
+          "labels": [
+            {
+              "name": "needs: documentation",
+              "color": "ffea00"
+            },
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            },
+            {
+              "name": "focus: e2e tests",
+              "color": "ff6b00"
+            }
+          ],
+          "milestone": {
+            "title": "10.9.0"
+          },
+          "_status": "merged",
+          "_author": "j111q"
+        },
         {
           "number": 64564,
           "title": "Align Order Edit meta boxes with WordPress 7.0 design conventions",
@@ -33,38 +65,6 @@
           ],
           "milestone": {
             "title": "11.0.0"
-          },
-          "_status": "merged",
-          "_author": "j111q"
-        },
-        {
-          "number": 64476,
-          "title": "Order notes meta box: clarify visibility, modernize bubble styling",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/64476",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "closed",
-          "draft": false,
-          "comments": 7,
-          "updated_at": "2026-07-01T10:47:48Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/64476"
-          },
-          "labels": [
-            {
-              "name": "needs: documentation",
-              "color": "ffea00"
-            },
-            {
-              "name": "plugin: woocommerce",
-              "color": "db1c8e"
-            },
-            {
-              "name": "focus: e2e tests",
-              "color": "ff6b00"
-            }
-          ],
-          "milestone": {
-            "title": "10.9.0"
           },
           "_status": "merged",
           "_author": "j111q"
