@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-07T05:40:18.064Z",
+  "fetchedAt": "2026-07-07T08:53:02.909Z",
   "datasets": [
     {
       "user": "j111q",
@@ -3478,6 +3478,54 @@
             "title": "10.8.0"
           },
           "_status": "merged",
+          "_author": "annchichi"
+        },
+        {
+          "number": 66348,
+          "title": "Add warnings for shadowed shipping zones",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/66348",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": true,
+          "comments": 0,
+          "updated_at": "2026-07-07T08:42:07Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/66348"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": null,
+          "_status": "draft",
+          "_author": "annchichi"
+        },
+        {
+          "number": 66343,
+          "title": "Fix shipping zone save button after adding method",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/66343",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": true,
+          "comments": 0,
+          "updated_at": "2026-07-07T08:39:07Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/66343"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            },
+            {
+              "name": "focus: e2e tests",
+              "color": "ff6b00"
+            }
+          ],
+          "milestone": null,
+          "_status": "draft",
           "_author": "annchichi"
         },
         {
