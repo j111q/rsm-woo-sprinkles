@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-07T13:39:30.209Z",
+  "fetchedAt": "2026-07-07T16:09:26.402Z",
   "datasets": [
     {
       "user": "j111q",
@@ -3481,6 +3481,50 @@
           "_author": "annchichi"
         },
         {
+          "number": 66348,
+          "title": "Add warnings for shadowed shipping zones",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/66348",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": false,
+          "comments": 3,
+          "updated_at": "2026-07-07T14:29:51Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/66348"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": null,
+          "_status": "open",
+          "_author": "annchichi"
+        },
+        {
+          "number": 66110,
+          "title": "Fix duplicate shipping marketplace link",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/66110",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": false,
+          "comments": 8,
+          "updated_at": "2026-07-07T14:24:27Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/66110"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": null,
+          "_status": "open",
+          "_author": "annchichi"
+        },
+        {
           "number": 66343,
           "title": "Fix shipping zone save button after adding method",
           "html_url": "https://github.com/woocommerce/woocommerce/pull/66343",
@@ -3488,7 +3532,7 @@
           "state": "open",
           "draft": true,
           "comments": 0,
-          "updated_at": "2026-07-07T09:25:42Z",
+          "updated_at": "2026-07-07T14:04:13Z",
           "pull_request": {
             "html_url": "https://github.com/woocommerce/woocommerce/pull/66343"
           },
@@ -3504,50 +3548,6 @@
           ],
           "milestone": null,
           "_status": "draft",
-          "_author": "annchichi"
-        },
-        {
-          "number": 66348,
-          "title": "Add warnings for shadowed shipping zones",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/66348",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "draft": true,
-          "comments": 0,
-          "updated_at": "2026-07-07T09:24:00Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/66348"
-          },
-          "labels": [
-            {
-              "name": "plugin: woocommerce",
-              "color": "db1c8e"
-            }
-          ],
-          "milestone": null,
-          "_status": "draft",
-          "_author": "annchichi"
-        },
-        {
-          "number": 66110,
-          "title": "Fix duplicate shipping marketplace link",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/66110",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "draft": false,
-          "comments": 8,
-          "updated_at": "2026-07-06T04:52:06Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/66110"
-          },
-          "labels": [
-            {
-              "name": "plugin: woocommerce",
-              "color": "db1c8e"
-            }
-          ],
-          "milestone": null,
-          "_status": "open",
           "_author": "annchichi"
         },
         {
