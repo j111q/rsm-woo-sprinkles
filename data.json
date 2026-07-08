@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-08T01:07:05.900Z",
+  "fetchedAt": "2026-07-08T04:27:11.091Z",
   "datasets": [
     {
       "user": "j111q",
@@ -3481,6 +3481,32 @@
           "_author": "annchichi"
         },
         {
+          "number": 66343,
+          "title": "Fix shipping zone save button after adding method",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/66343",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": false,
+          "comments": 4,
+          "updated_at": "2026-07-08T04:08:16Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/66343"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            },
+            {
+              "name": "focus: e2e tests",
+              "color": "ff6b00"
+            }
+          ],
+          "milestone": null,
+          "_status": "open",
+          "_author": "annchichi"
+        },
+        {
           "number": 66348,
           "title": "Add warnings for shadowed shipping zones",
           "html_url": "https://github.com/woocommerce/woocommerce/pull/66348",
@@ -3522,32 +3548,6 @@
           ],
           "milestone": null,
           "_status": "open",
-          "_author": "annchichi"
-        },
-        {
-          "number": 66343,
-          "title": "Fix shipping zone save button after adding method",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/66343",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "draft": true,
-          "comments": 0,
-          "updated_at": "2026-07-07T14:04:13Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/66343"
-          },
-          "labels": [
-            {
-              "name": "plugin: woocommerce",
-              "color": "db1c8e"
-            },
-            {
-              "name": "focus: e2e tests",
-              "color": "ff6b00"
-            }
-          ],
-          "milestone": null,
-          "_status": "draft",
           "_author": "annchichi"
         },
         {
