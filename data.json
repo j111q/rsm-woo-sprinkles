@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-08T07:02:45.567Z",
+  "fetchedAt": "2026-07-08T09:30:31.542Z",
   "datasets": [
     {
       "user": "j111q",
@@ -3481,6 +3481,28 @@
           "_author": "annchichi"
         },
         {
+          "number": 66110,
+          "title": "Fix duplicate shipping marketplace link",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/66110",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": false,
+          "comments": 8,
+          "updated_at": "2026-07-08T09:23:33Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/66110"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": null,
+          "_status": "open",
+          "_author": "annchichi"
+        },
+        {
           "number": 66343,
           "title": "Fix shipping zone save button after adding method",
           "html_url": "https://github.com/woocommerce/woocommerce/pull/66343",
@@ -3517,28 +3539,6 @@
           "updated_at": "2026-07-07T14:29:51Z",
           "pull_request": {
             "html_url": "https://github.com/woocommerce/woocommerce/pull/66348"
-          },
-          "labels": [
-            {
-              "name": "plugin: woocommerce",
-              "color": "db1c8e"
-            }
-          ],
-          "milestone": null,
-          "_status": "open",
-          "_author": "annchichi"
-        },
-        {
-          "number": 66110,
-          "title": "Fix duplicate shipping marketplace link",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/66110",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "draft": false,
-          "comments": 8,
-          "updated_at": "2026-07-07T14:24:27Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/66110"
           },
           "labels": [
             {
