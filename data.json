@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-10T18:58:16.198Z",
+  "fetchedAt": "2026-07-10T20:22:44.267Z",
   "datasets": [
     {
       "user": "j111q",
@@ -2785,6 +2785,801 @@
         "html_url": "https://github.com/annchichi"
       },
       "items": [
+        {
+          "number": 66141,
+          "title": "Fix email order item alignment",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/66141",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 4,
+          "updated_at": "2026-07-03T10:35:18Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/66141"
+          },
+          "labels": [
+            {
+              "name": "needs: documentation",
+              "color": "ffea00"
+            },
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "11.0.0"
+          },
+          "_status": "merged",
+          "_author": "annchichi"
+        },
+        {
+          "number": 13,
+          "title": "Fix CI notification wording by PR audience",
+          "html_url": "https://github.com/annchichi/catwatchpr/pull/13",
+          "repository_url": "https://api.github.com/repos/annchichi/catwatchpr",
+          "state": "closed",
+          "draft": false,
+          "comments": 0,
+          "updated_at": "2026-06-19T06:21:58Z",
+          "pull_request": {
+            "html_url": "https://github.com/annchichi/catwatchpr/pull/13"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "merged",
+          "_author": "annchichi"
+        },
+        {
+          "number": 12,
+          "title": "fix(watch): re-notify on new PR activity (dedup by id + updated_at)",
+          "html_url": "https://github.com/annchichi/catwatchpr/pull/12",
+          "repository_url": "https://api.github.com/repos/annchichi/catwatchpr",
+          "state": "closed",
+          "draft": false,
+          "comments": 0,
+          "updated_at": "2026-06-04T04:58:32Z",
+          "pull_request": {
+            "html_url": "https://github.com/annchichi/catwatchpr/pull/12"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "merged",
+          "_author": "annchichi"
+        },
+        {
+          "number": 11,
+          "title": "feat(menubar): add Check for Updates menu item",
+          "html_url": "https://github.com/annchichi/catwatchpr/pull/11",
+          "repository_url": "https://api.github.com/repos/annchichi/catwatchpr",
+          "state": "closed",
+          "draft": false,
+          "comments": 0,
+          "updated_at": "2026-05-29T01:05:26Z",
+          "pull_request": {
+            "html_url": "https://github.com/annchichi/catwatchpr/pull/11"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "merged",
+          "_author": "annchichi"
+        },
+        {
+          "number": 10,
+          "title": "fix(launcher): also terminate menubar agent when launcher quits",
+          "html_url": "https://github.com/annchichi/catwatchpr/pull/10",
+          "repository_url": "https://api.github.com/repos/annchichi/catwatchpr",
+          "state": "closed",
+          "draft": false,
+          "comments": 0,
+          "updated_at": "2026-05-28T15:24:57Z",
+          "pull_request": {
+            "html_url": "https://github.com/annchichi/catwatchpr/pull/10"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "merged",
+          "_author": "annchichi"
+        },
+        {
+          "number": 9,
+          "title": "Fix Quit menu so it terminates the launcher app, not just the agent",
+          "html_url": "https://github.com/annchichi/catwatchpr/pull/9",
+          "repository_url": "https://api.github.com/repos/annchichi/catwatchpr",
+          "state": "closed",
+          "draft": false,
+          "comments": 0,
+          "updated_at": "2026-05-22T06:22:13Z",
+          "pull_request": {
+            "html_url": "https://github.com/annchichi/catwatchpr/pull/9"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "merged",
+          "_author": "annchichi"
+        },
+        {
+          "number": 64860,
+          "title": "Improve payment setup fallback coverage",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64860",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 5,
+          "updated_at": "2026-05-19T04:22:33Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64860"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.9.0"
+          },
+          "_status": "merged",
+          "_author": "annchichi"
+        },
+        {
+          "number": 64809,
+          "title": "Align embedded admin notice padding",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64809",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 4,
+          "updated_at": "2026-05-19T04:15:01Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64809"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.9.0"
+          },
+          "_status": "merged",
+          "_author": "annchichi"
+        },
+        {
+          "number": 64799,
+          "title": "Improve payment provider setup error message",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64799",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 7,
+          "updated_at": "2026-05-13T13:09:16Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64799"
+          },
+          "labels": [
+            {
+              "name": "needs: documentation",
+              "color": "ffea00"
+            },
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.9.0"
+          },
+          "_status": "merged",
+          "_author": "annchichi"
+        },
+        {
+          "number": 64788,
+          "title": "Fix Marketplace product card title focus ring",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64788",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 6,
+          "updated_at": "2026-05-12T08:42:36Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64788"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.9.0"
+          },
+          "_status": "merged",
+          "_author": "annchichi"
+        },
+        {
+          "number": 64703,
+          "title": "Add email template canvas affordance",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64703",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 6,
+          "updated_at": "2026-05-12T07:54:11Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64703"
+          },
+          "labels": [
+            {
+              "name": "needs: documentation",
+              "color": "ffea00"
+            }
+          ],
+          "milestone": {
+            "title": "10.9.0"
+          },
+          "_status": "merged",
+          "_author": "annchichi"
+        },
+        {
+          "number": 64203,
+          "title": "Align admin destructive action red with WordPress 7.0 error red",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64203",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 6,
+          "updated_at": "2026-05-12T07:03:47Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64203"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.9.0"
+          },
+          "_status": "merged",
+          "_author": "annchichi"
+        },
+        {
+          "number": 64204,
+          "title": "Align shipping destructive action red with WordPress 7.0 error red",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64204",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 6,
+          "updated_at": "2026-05-12T07:02:56Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64204"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.9.0"
+          },
+          "_status": "merged",
+          "_author": "annchichi"
+        },
+        {
+          "number": 64420,
+          "title": "Fix Marketplace header account button height and alignment",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64420",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 6,
+          "updated_at": "2026-05-12T06:56:13Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64420"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.9.0"
+          },
+          "_status": "merged",
+          "_author": "annchichi"
+        },
+        {
+          "number": 7,
+          "title": "docs: rewrite install flow around the .app + wizard",
+          "html_url": "https://github.com/annchichi/catwatchpr/pull/7",
+          "repository_url": "https://api.github.com/repos/annchichi/catwatchpr",
+          "state": "closed",
+          "draft": false,
+          "comments": 0,
+          "updated_at": "2026-05-07T11:50:33Z",
+          "pull_request": {
+            "html_url": "https://github.com/annchichi/catwatchpr/pull/7"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "merged",
+          "_author": "annchichi"
+        },
+        {
+          "number": 64249,
+          "title": "Use --wp-admin-border-width-focus for focus ring widths",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64249",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 5,
+          "updated_at": "2026-05-06T18:02:54Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64249"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.9.0"
+          },
+          "_status": "merged",
+          "_author": "annchichi"
+        },
+        {
+          "number": 64280,
+          "title": "Align Woo admin gray text colors with WordPress 7.0 (via SCSS tokens)",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64280",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 7,
+          "updated_at": "2026-05-06T17:10:09Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64280"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.9.0"
+          },
+          "_status": "merged",
+          "_author": "annchichi"
+        },
+        {
+          "number": 6,
+          "title": "feat: guided setup for any machine",
+          "html_url": "https://github.com/annchichi/catwatchpr/pull/6",
+          "repository_url": "https://api.github.com/repos/annchichi/catwatchpr",
+          "state": "closed",
+          "draft": false,
+          "comments": 0,
+          "updated_at": "2026-05-05T07:17:22Z",
+          "pull_request": {
+            "html_url": "https://github.com/annchichi/catwatchpr/pull/6"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "merged",
+          "_author": "annchichi"
+        },
+        {
+          "number": 4,
+          "title": "Explain repo selection prompt in install steps",
+          "html_url": "https://github.com/annchichi/catwatchpr/pull/4",
+          "repository_url": "https://api.github.com/repos/annchichi/catwatchpr",
+          "state": "closed",
+          "draft": false,
+          "comments": 0,
+          "updated_at": "2026-05-04T11:12:32Z",
+          "pull_request": {
+            "html_url": "https://github.com/annchichi/catwatchpr/pull/4"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "merged",
+          "_author": "annchichi"
+        },
+        {
+          "number": 3,
+          "title": "Add screenshots to README",
+          "html_url": "https://github.com/annchichi/catwatchpr/pull/3",
+          "repository_url": "https://api.github.com/repos/annchichi/catwatchpr",
+          "state": "closed",
+          "draft": false,
+          "comments": 0,
+          "updated_at": "2026-05-04T11:08:51Z",
+          "pull_request": {
+            "html_url": "https://github.com/annchichi/catwatchpr/pull/3"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "merged",
+          "_author": "annchichi"
+        },
+        {
+          "number": 2,
+          "title": "Update README: fun intro and reflect automated setup",
+          "html_url": "https://github.com/annchichi/catwatchpr/pull/2",
+          "repository_url": "https://api.github.com/repos/annchichi/catwatchpr",
+          "state": "closed",
+          "draft": false,
+          "comments": 0,
+          "updated_at": "2026-05-04T10:55:49Z",
+          "pull_request": {
+            "html_url": "https://github.com/annchichi/catwatchpr/pull/2"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "merged",
+          "_author": "annchichi"
+        },
+        {
+          "number": 1,
+          "title": "Make setup.sh fully self-contained for new users",
+          "html_url": "https://github.com/annchichi/catwatchpr/pull/1",
+          "repository_url": "https://api.github.com/repos/annchichi/catwatchpr",
+          "state": "closed",
+          "draft": false,
+          "comments": 0,
+          "updated_at": "2026-05-04T10:14:12Z",
+          "pull_request": {
+            "html_url": "https://github.com/annchichi/catwatchpr/pull/1"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "merged",
+          "_author": "annchichi"
+        },
+        {
+          "number": 64354,
+          "title": "Align order preview action buttons with WordPress 7.0 secondary style",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64354",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 5,
+          "updated_at": "2026-05-01T11:45:54Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64354"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.9.0"
+          },
+          "_status": "merged",
+          "_author": "annchichi"
+        },
+        {
+          "number": 64186,
+          "title": "Fix: replace developer-facing plugin install error with merchant-friendly copy",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64186",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 7,
+          "updated_at": "2026-04-29T16:17:34Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64186"
+          },
+          "labels": [
+            {
+              "name": "needs: documentation",
+              "color": "ffea00"
+            },
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.9.0"
+          },
+          "_status": "merged",
+          "_author": "annchichi"
+        },
+        {
+          "number": 64212,
+          "title": "Align legacy admin success notice with WordPress 7.0 palette",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64212",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 7,
+          "updated_at": "2026-04-28T19:32:15Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64212"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.8.0"
+          },
+          "_status": "merged",
+          "_author": "annchichi"
+        },
+        {
+          "number": 64237,
+          "title": "Align settings notice with WordPress 7.0 palette",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64237",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 6,
+          "updated_at": "2026-04-28T19:31:37Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64237"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.8.0"
+          },
+          "_status": "merged",
+          "_author": "annchichi"
+        },
+        {
+          "number": 64244,
+          "title": "Use --wp-admin-theme-color for legacy Select2",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64244",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 5,
+          "updated_at": "2026-04-28T19:31:28Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64244"
+          },
+          "labels": [
+            {
+              "name": "needs: documentation",
+              "color": "ffea00"
+            },
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.8.0"
+          },
+          "_status": "merged",
+          "_author": "annchichi"
+        },
+        {
+          "number": 64181,
+          "title": "Fix confusing error notice in shipping tour close handler",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64181",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 8,
+          "updated_at": "2026-04-28T19:14:01Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64181"
+          },
+          "labels": [
+            {
+              "name": "needs: documentation",
+              "color": "ffea00"
+            },
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.8.0"
+          },
+          "_status": "merged",
+          "_author": "annchichi"
+        },
+        {
+          "number": 64327,
+          "title": "Align Product / Coupon Data panel labels and help-tips with 40px inputs (WP 7.0)",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64327",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 7,
+          "updated_at": "2026-04-28T16:31:32Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64327"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.8.0"
+          },
+          "_status": "merged",
+          "_author": "annchichi"
+        },
+        {
+          "number": 64389,
+          "title": "Align order edit page address Select2 with WordPress 7.0 input height",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64389",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 6,
+          "updated_at": "2026-04-28T11:24:23Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64389"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.8.0"
+          },
+          "_status": "merged",
+          "_author": "annchichi"
+        },
+        {
+          "number": 64417,
+          "title": "Fix: adopt $radius-s (2px) border-radius for Woo custom inputs and buttons (WP 7.0)",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64417",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 5,
+          "updated_at": "2026-04-28T10:36:24Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64417"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.9.0"
+          },
+          "_status": "merged",
+          "_author": "annchichi"
+        },
+        {
+          "number": 64397,
+          "title": "Show merchant-friendly message on plugin install upgrader failure",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64397",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 3,
+          "updated_at": "2026-04-28T09:11:20Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64397"
+          },
+          "labels": [
+            {
+              "name": "needs: documentation",
+              "color": "ffea00"
+            },
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.9.0"
+          },
+          "_status": "merged",
+          "_author": "annchichi"
+        },
+        {
+          "number": 64262,
+          "title": "Align Woo legacy admin custom button border-radius with WordPress 7.0",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64262",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 5,
+          "updated_at": "2026-04-28T09:03:32Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64262"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.8.0"
+          },
+          "_status": "merged",
+          "_author": "annchichi"
+        },
+        {
+          "number": 64322,
+          "title": "Adopt WP 7.0 form-control sizing on settings inputs and Select2 multi-select",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64322",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 7,
+          "updated_at": "2026-04-28T08:43:41Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64322"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "10.8.0"
+          },
+          "_status": "merged",
+          "_author": "annchichi"
+        },
+        {
+          "number": 64286,
+          "title": "Map email test-send errors to merchant-friendly copy",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/64286",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 6,
+          "updated_at": "2026-04-22T11:24:56Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/64286"
+          },
+          "labels": [
+            {
+              "name": "needs: documentation",
+              "color": "ffea00"
+            },
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            },
+            {
+              "name": "focus: e2e tests",
+              "color": "ff6b00"
+            }
+          ],
+          "milestone": {
+            "title": "10.8.0"
+          },
+          "_status": "merged",
+          "_author": "annchichi"
+        },
         {
           "number": 66110,
           "title": "Fix duplicate shipping marketplace link",
