@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-10T08:33:34.049Z",
+  "fetchedAt": "2026-07-10T11:27:34.469Z",
   "datasets": [
     {
       "user": "j111q",
@@ -1061,7 +1061,7 @@
           "state": "open",
           "draft": false,
           "comments": 4,
-          "updated_at": "2026-07-10T06:45:19Z",
+          "updated_at": "2026-07-10T09:16:41Z",
           "pull_request": {
             "html_url": "https://github.com/woocommerce/woocommerce/pull/66481"
           },
@@ -1078,6 +1078,28 @@
           "milestone": {
             "title": "11.0.0"
           },
+          "_status": "open",
+          "_author": "j111q"
+        },
+        {
+          "number": 64444,
+          "title": "Remove deprecated inbox note image/layout API (PR follow-up)",
+          "html_url": "https://github.com/woocommerce/woocommerce/issues/64444",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "comments": 2,
+          "updated_at": "2026-07-10T08:43:31Z",
+          "labels": [
+            {
+              "name": "Data Structure/CRUD/Backend Processing",
+              "color": "f7c8c1"
+            },
+            {
+              "name": "needs: developer feedback",
+              "color": "ffea00"
+            }
+          ],
+          "milestone": null,
           "_status": "open",
           "_author": "j111q"
         },
@@ -1682,24 +1704,6 @@
             "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/36"
           },
           "labels": [],
-          "milestone": null,
-          "_status": "open",
-          "_author": "j111q"
-        },
-        {
-          "number": 64444,
-          "title": "Remove deprecated inbox note image/layout API (PR follow-up)",
-          "html_url": "https://github.com/woocommerce/woocommerce/issues/64444",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "comments": 0,
-          "updated_at": "2026-05-05T13:31:09Z",
-          "labels": [
-            {
-              "name": "Data Structure/CRUD/Backend Processing",
-              "color": "f7c8c1"
-            }
-          ],
           "milestone": null,
           "_status": "open",
           "_author": "j111q"
