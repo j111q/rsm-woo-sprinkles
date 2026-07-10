@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-10T21:30:44.055Z",
+  "fetchedAt": "2026-07-10T22:33:21.638Z",
   "datasets": [
     {
       "user": "j111q",
@@ -1054,6 +1054,34 @@
           "_author": "j111q"
         },
         {
+          "number": 66484,
+          "title": "Remove redundant changelog entry for PR #66477",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/66484",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": false,
+          "comments": 2,
+          "updated_at": "2026-07-10T21:53:24Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/66484"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            },
+            {
+              "name": "cherry pick to frozen release",
+              "color": "F9D0C4"
+            }
+          ],
+          "milestone": {
+            "title": "11.0.0"
+          },
+          "_status": "open",
+          "_author": "j111q"
+        },
+        {
           "number": 66481,
           "title": "Restore generic blank-state icon style at the refreshed 32px scale",
           "html_url": "https://github.com/woocommerce/woocommerce/pull/66481",
@@ -1100,34 +1128,6 @@
             }
           ],
           "milestone": null,
-          "_status": "open",
-          "_author": "j111q"
-        },
-        {
-          "number": 66484,
-          "title": "Remove redundant changelog entry for PR #66477",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/66484",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "draft": false,
-          "comments": 2,
-          "updated_at": "2026-07-10T06:43:30Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/66484"
-          },
-          "labels": [
-            {
-              "name": "plugin: woocommerce",
-              "color": "db1c8e"
-            },
-            {
-              "name": "cherry pick to frozen release",
-              "color": "F9D0C4"
-            }
-          ],
-          "milestone": {
-            "title": "11.0.0"
-          },
           "_status": "open",
           "_author": "j111q"
         },
