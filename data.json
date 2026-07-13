@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-13T00:01:54.697Z",
+  "fetchedAt": "2026-07-13T03:47:03.292Z",
   "datasets": [
     {
       "user": "j111q",
@@ -9,6 +9,34 @@
         "html_url": "https://github.com/j111q"
       },
       "items": [
+        {
+          "number": 66484,
+          "title": "Remove redundant changelog entry for PR #66477",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/66484",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 4,
+          "updated_at": "2026-07-13T03:46:36Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/66484"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            },
+            {
+              "name": "cherry pick to frozen release",
+              "color": "F9D0C4"
+            }
+          ],
+          "milestone": {
+            "title": "11.0.0"
+          },
+          "_status": "merged",
+          "_author": "j111q"
+        },
         {
           "number": 66477,
           "title": "Analytics: remove trailing colon from FilterPicker labels",
@@ -1051,34 +1079,6 @@
           "labels": [],
           "milestone": null,
           "_status": "merged",
-          "_author": "j111q"
-        },
-        {
-          "number": 66484,
-          "title": "Remove redundant changelog entry for PR #66477",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/66484",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "draft": false,
-          "comments": 2,
-          "updated_at": "2026-07-10T21:53:24Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/66484"
-          },
-          "labels": [
-            {
-              "name": "plugin: woocommerce",
-              "color": "db1c8e"
-            },
-            {
-              "name": "cherry pick to frozen release",
-              "color": "F9D0C4"
-            }
-          ],
-          "milestone": {
-            "title": "11.0.0"
-          },
-          "_status": "open",
           "_author": "j111q"
         },
         {
