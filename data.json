@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-13T15:21:58.298Z",
+  "fetchedAt": "2026-07-13T17:25:13.092Z",
   "datasets": [
     {
       "user": "j111q",
@@ -3587,10 +3587,32 @@
           "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
           "state": "open",
           "draft": false,
-          "comments": 13,
-          "updated_at": "2026-07-10T08:20:16Z",
+          "comments": 14,
+          "updated_at": "2026-07-13T17:24:25Z",
           "pull_request": {
             "html_url": "https://github.com/woocommerce/woocommerce/pull/66110"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": null,
+          "_status": "open",
+          "_author": "annchichi"
+        },
+        {
+          "number": 66348,
+          "title": "Add warnings for shadowed shipping zones",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/66348",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": false,
+          "comments": 3,
+          "updated_at": "2026-07-13T17:14:41Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/66348"
           },
           "labels": [
             {
@@ -3622,28 +3644,6 @@
             {
               "name": "focus: e2e tests",
               "color": "ff6b00"
-            }
-          ],
-          "milestone": null,
-          "_status": "open",
-          "_author": "annchichi"
-        },
-        {
-          "number": 66348,
-          "title": "Add warnings for shadowed shipping zones",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/66348",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "draft": false,
-          "comments": 3,
-          "updated_at": "2026-07-07T14:29:51Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/66348"
-          },
-          "labels": [
-            {
-              "name": "plugin: woocommerce",
-              "color": "db1c8e"
             }
           ],
           "milestone": null,
