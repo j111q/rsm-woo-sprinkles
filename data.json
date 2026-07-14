@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-14T05:42:17.014Z",
+  "fetchedAt": "2026-07-14T07:28:06.993Z",
   "datasets": [
     {
       "user": "j111q",
@@ -3581,16 +3581,16 @@
           "_author": "annchichi"
         },
         {
-          "number": 66110,
-          "title": "Fix duplicate shipping marketplace link",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/66110",
+          "number": 66348,
+          "title": "Add warnings for shadowed shipping zones",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/66348",
           "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
           "state": "open",
           "draft": false,
-          "comments": 14,
-          "updated_at": "2026-07-13T17:24:25Z",
+          "comments": 3,
+          "updated_at": "2026-07-14T06:25:39Z",
           "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/66110"
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/66348"
           },
           "labels": [
             {
@@ -3603,16 +3603,16 @@
           "_author": "annchichi"
         },
         {
-          "number": 66348,
-          "title": "Add warnings for shadowed shipping zones",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/66348",
+          "number": 66110,
+          "title": "Fix duplicate shipping marketplace link",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/66110",
           "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
           "state": "open",
           "draft": false,
-          "comments": 3,
-          "updated_at": "2026-07-13T17:14:41Z",
+          "comments": 14,
+          "updated_at": "2026-07-14T06:13:22Z",
           "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/66348"
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/66110"
           },
           "labels": [
             {
