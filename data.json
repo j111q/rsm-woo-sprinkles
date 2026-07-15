@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-15T11:15:26.339Z",
+  "fetchedAt": "2026-07-15T12:43:34.293Z",
   "datasets": [
     {
       "user": "j111q",
@@ -1117,7 +1117,7 @@
           "state": "open",
           "draft": false,
           "comments": 2,
-          "updated_at": "2026-07-15T09:47:21Z",
+          "updated_at": "2026-07-15T11:28:11Z",
           "pull_request": {
             "html_url": "https://github.com/woocommerce/woocommerce/pull/66039"
           },
@@ -3609,6 +3609,28 @@
           "_author": "annchichi"
         },
         {
+          "number": 66110,
+          "title": "Fix duplicate shipping marketplace link",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/66110",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": false,
+          "comments": 15,
+          "updated_at": "2026-07-15T12:05:20Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/66110"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": null,
+          "_status": "open",
+          "_author": "annchichi"
+        },
+        {
           "number": 66343,
           "title": "Fix shipping zone save button after adding method",
           "html_url": "https://github.com/woocommerce/woocommerce/pull/66343",
@@ -3647,28 +3669,6 @@
             "html_url": "https://github.com/woocommerce/woocommerce/pull/66620"
           },
           "labels": [],
-          "milestone": null,
-          "_status": "open",
-          "_author": "annchichi"
-        },
-        {
-          "number": 66110,
-          "title": "Fix duplicate shipping marketplace link",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/66110",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "draft": false,
-          "comments": 15,
-          "updated_at": "2026-07-14T13:54:32Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/66110"
-          },
-          "labels": [
-            {
-              "name": "plugin: woocommerce",
-              "color": "db1c8e"
-            }
-          ],
           "milestone": null,
           "_status": "open",
           "_author": "annchichi"
