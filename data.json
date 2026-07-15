@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-15T03:32:34.890Z",
+  "fetchedAt": "2026-07-15T05:55:24.076Z",
   "datasets": [
     {
       "user": "j111q",
@@ -2786,6 +2786,34 @@
       },
       "items": [
         {
+          "number": 66348,
+          "title": "Add warnings for shadowed shipping zones",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/66348",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 3,
+          "updated_at": "2026-07-15T05:28:10Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/66348"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            },
+            {
+              "name": "feature highlight",
+              "color": "46e1c0"
+            }
+          ],
+          "milestone": {
+            "title": "11.1.0"
+          },
+          "_status": "merged",
+          "_author": "annchichi"
+        },
+        {
           "number": 66141,
           "title": "Fix email order item alignment",
           "html_url": "https://github.com/woocommerce/woocommerce/pull/66141",
@@ -3581,6 +3609,23 @@
           "_author": "annchichi"
         },
         {
+          "number": 66620,
+          "title": "[Email Editor] Fix global font weight rendering",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/66620",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": true,
+          "comments": 1,
+          "updated_at": "2026-07-15T05:34:27Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/66620"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "draft",
+          "_author": "annchichi"
+        },
+        {
           "number": 66110,
           "title": "Fix duplicate shipping marketplace link",
           "html_url": "https://github.com/woocommerce/woocommerce/pull/66110",
@@ -3591,28 +3636,6 @@
           "updated_at": "2026-07-14T13:54:32Z",
           "pull_request": {
             "html_url": "https://github.com/woocommerce/woocommerce/pull/66110"
-          },
-          "labels": [
-            {
-              "name": "plugin: woocommerce",
-              "color": "db1c8e"
-            }
-          ],
-          "milestone": null,
-          "_status": "open",
-          "_author": "annchichi"
-        },
-        {
-          "number": 66348,
-          "title": "Add warnings for shadowed shipping zones",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/66348",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "draft": false,
-          "comments": 3,
-          "updated_at": "2026-07-14T13:47:27Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/66348"
           },
           "labels": [
             {
