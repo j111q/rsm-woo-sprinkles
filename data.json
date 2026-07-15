@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-15T09:45:12.281Z",
+  "fetchedAt": "2026-07-15T11:15:26.339Z",
   "datasets": [
     {
       "user": "j111q",
@@ -1117,7 +1117,7 @@
           "state": "open",
           "draft": false,
           "comments": 2,
-          "updated_at": "2026-07-13T13:13:50Z",
+          "updated_at": "2026-07-15T09:47:21Z",
           "pull_request": {
             "html_url": "https://github.com/woocommerce/woocommerce/pull/66039"
           },
@@ -3609,20 +3609,46 @@
           "_author": "annchichi"
         },
         {
+          "number": 66343,
+          "title": "Fix shipping zone save button after adding method",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/66343",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": false,
+          "comments": 4,
+          "updated_at": "2026-07-15T10:58:30Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/66343"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            },
+            {
+              "name": "focus: e2e tests",
+              "color": "ff6b00"
+            }
+          ],
+          "milestone": null,
+          "_status": "open",
+          "_author": "annchichi"
+        },
+        {
           "number": 66620,
           "title": "[Email Editor] Fix global font weight rendering",
           "html_url": "https://github.com/woocommerce/woocommerce/pull/66620",
           "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
           "state": "open",
-          "draft": true,
-          "comments": 1,
-          "updated_at": "2026-07-15T09:11:20Z",
+          "draft": false,
+          "comments": 3,
+          "updated_at": "2026-07-15T10:11:23Z",
           "pull_request": {
             "html_url": "https://github.com/woocommerce/woocommerce/pull/66620"
           },
           "labels": [],
           "milestone": null,
-          "_status": "draft",
+          "_status": "open",
           "_author": "annchichi"
         },
         {
@@ -3641,32 +3667,6 @@
             {
               "name": "plugin: woocommerce",
               "color": "db1c8e"
-            }
-          ],
-          "milestone": null,
-          "_status": "open",
-          "_author": "annchichi"
-        },
-        {
-          "number": 66343,
-          "title": "Fix shipping zone save button after adding method",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/66343",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "draft": false,
-          "comments": 4,
-          "updated_at": "2026-07-08T04:08:16Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/66343"
-          },
-          "labels": [
-            {
-              "name": "plugin: woocommerce",
-              "color": "db1c8e"
-            },
-            {
-              "name": "focus: e2e tests",
-              "color": "ff6b00"
             }
           ],
           "milestone": null,
