@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-16T04:17:29.720Z",
+  "fetchedAt": "2026-07-16T06:33:44.796Z",
   "datasets": [
     {
       "user": "j111q",
@@ -3633,6 +3633,28 @@
           "_author": "annchichi"
         },
         {
+          "number": 66689,
+          "title": "Fix shipping recommendation dismissal accessibility and fallbacks",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/66689",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": true,
+          "comments": 0,
+          "updated_at": "2026-07-16T05:56:19Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/66689"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": null,
+          "_status": "draft",
+          "_author": "annchichi"
+        },
+        {
           "number": 66343,
           "title": "Fix shipping zone save button after adding method",
           "html_url": "https://github.com/woocommerce/woocommerce/pull/66343",
@@ -3640,7 +3662,7 @@
           "state": "open",
           "draft": false,
           "comments": 5,
-          "updated_at": "2026-07-15T15:24:38Z",
+          "updated_at": "2026-07-16T05:43:40Z",
           "pull_request": {
             "html_url": "https://github.com/woocommerce/woocommerce/pull/66343"
           },
