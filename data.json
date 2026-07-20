@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-20T12:05:43.644Z",
+  "fetchedAt": "2026-07-20T14:29:18.758Z",
   "datasets": [
     {
       "user": "j111q",
@@ -1117,7 +1117,7 @@
           "state": "open",
           "draft": false,
           "comments": 3,
-          "updated_at": "2026-07-20T07:49:01Z",
+          "updated_at": "2026-07-20T12:45:28Z",
           "pull_request": {
             "html_url": "https://github.com/woocommerce/woocommerce/pull/66039"
           },
@@ -2786,6 +2786,30 @@
       },
       "items": [
         {
+          "number": 66620,
+          "title": "[Email Editor] Fix global typography rendering",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/66620",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 8,
+          "updated_at": "2026-07-20T12:32:54Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/66620"
+          },
+          "labels": [
+            {
+              "name": "needs: documentation",
+              "color": "ffea00"
+            }
+          ],
+          "milestone": {
+            "title": "11.1.0"
+          },
+          "_status": "merged",
+          "_author": "annchichi"
+        },
+        {
           "number": 66110,
           "title": "Fix duplicate shipping marketplace link",
           "html_url": "https://github.com/woocommerce/woocommerce/pull/66110",
@@ -3633,23 +3657,6 @@
           "_author": "annchichi"
         },
         {
-          "number": 66620,
-          "title": "[Email Editor] Fix global typography rendering",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/66620",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "draft": false,
-          "comments": 7,
-          "updated_at": "2026-07-20T07:49:00Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/66620"
-          },
-          "labels": [],
-          "milestone": null,
-          "_status": "open",
-          "_author": "annchichi"
-        },
-        {
           "number": 66343,
           "title": "Fix shipping zone save button after adding method",
           "html_url": "https://github.com/woocommerce/woocommerce/pull/66343",
@@ -3657,7 +3664,7 @@
           "state": "open",
           "draft": false,
           "comments": 7,
-          "updated_at": "2026-07-20T05:12:18Z",
+          "updated_at": "2026-07-20T12:44:54Z",
           "pull_request": {
             "html_url": "https://github.com/woocommerce/woocommerce/pull/66343"
           },
