@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-20T04:01:31.862Z",
+  "fetchedAt": "2026-07-20T06:55:32.321Z",
   "datasets": [
     {
       "user": "j111q",
@@ -1116,8 +1116,8 @@
           "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
           "state": "open",
           "draft": false,
-          "comments": 2,
-          "updated_at": "2026-07-15T11:28:11Z",
+          "comments": 3,
+          "updated_at": "2026-07-20T06:38:56Z",
           "pull_request": {
             "html_url": "https://github.com/woocommerce/woocommerce/pull/66039"
           },
@@ -3634,13 +3634,13 @@
         },
         {
           "number": 66620,
-          "title": "[Email Editor] Fix global font weight rendering",
+          "title": "[Email Editor] Fix global typography rendering",
           "html_url": "https://github.com/woocommerce/woocommerce/pull/66620",
           "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
           "state": "open",
           "draft": false,
-          "comments": 6,
-          "updated_at": "2026-07-17T11:39:47Z",
+          "comments": 7,
+          "updated_at": "2026-07-20T05:52:38Z",
           "pull_request": {
             "html_url": "https://github.com/woocommerce/woocommerce/pull/66620"
           },
@@ -3657,7 +3657,7 @@
           "state": "open",
           "draft": false,
           "comments": 7,
-          "updated_at": "2026-07-17T07:12:41Z",
+          "updated_at": "2026-07-20T05:12:18Z",
           "pull_request": {
             "html_url": "https://github.com/woocommerce/woocommerce/pull/66343"
           },
