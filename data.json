@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-21T08:45:59.117Z",
+  "fetchedAt": "2026-07-21T10:51:03.426Z",
   "datasets": [
     {
       "user": "j111q",
@@ -3657,6 +3657,28 @@
           "_author": "annchichi"
         },
         {
+          "number": 66811,
+          "title": "Fix shipping method names on manual orders",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/66811",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": false,
+          "comments": 4,
+          "updated_at": "2026-07-21T09:50:02Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/66811"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": null,
+          "_status": "open",
+          "_author": "annchichi"
+        },
+        {
           "number": 66343,
           "title": "Fix shipping zone save button after adding method",
           "html_url": "https://github.com/woocommerce/woocommerce/pull/66343",
@@ -3664,7 +3686,7 @@
           "state": "open",
           "draft": false,
           "comments": 7,
-          "updated_at": "2026-07-21T08:45:23Z",
+          "updated_at": "2026-07-21T08:48:01Z",
           "pull_request": {
             "html_url": "https://github.com/woocommerce/woocommerce/pull/66343"
           },
