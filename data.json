@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-21T20:05:14.550Z",
+  "fetchedAt": "2026-07-21T21:21:50.407Z",
   "datasets": [
     {
       "user": "j111q",
@@ -3674,6 +3674,28 @@
           "_author": "annchichi"
         },
         {
+          "number": 66811,
+          "title": "Fix shipping method names on manual orders",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/66811",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": false,
+          "comments": 5,
+          "updated_at": "2026-07-21T20:41:22Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/66811"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": null,
+          "_status": "open",
+          "_author": "annchichi"
+        },
+        {
           "number": 66343,
           "title": "Fix shipping zone save button after adding method",
           "html_url": "https://github.com/woocommerce/woocommerce/pull/66343",
@@ -3681,7 +3703,7 @@
           "state": "open",
           "draft": false,
           "comments": 7,
-          "updated_at": "2026-07-21T16:05:11Z",
+          "updated_at": "2026-07-21T20:23:05Z",
           "pull_request": {
             "html_url": "https://github.com/woocommerce/woocommerce/pull/66343"
           },
@@ -3693,28 +3715,6 @@
             {
               "name": "focus: e2e tests",
               "color": "ff6b00"
-            }
-          ],
-          "milestone": null,
-          "_status": "open",
-          "_author": "annchichi"
-        },
-        {
-          "number": 66811,
-          "title": "Fix shipping method names on manual orders",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/66811",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "draft": false,
-          "comments": 5,
-          "updated_at": "2026-07-21T15:58:58Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/66811"
-          },
-          "labels": [
-            {
-              "name": "plugin: woocommerce",
-              "color": "db1c8e"
             }
           ],
           "milestone": null,
