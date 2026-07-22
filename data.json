@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-22T15:57:07.231Z",
+  "fetchedAt": "2026-07-22T17:14:35.755Z",
   "datasets": [
     {
       "user": "j111q",
@@ -3764,8 +3764,12 @@
           "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
           "state": "open",
           "comments": 0,
-          "updated_at": "2026-07-22T15:24:07Z",
+          "updated_at": "2026-07-22T17:00:32Z",
           "labels": [
+            {
+              "name": "Order Management",
+              "color": "f7c8c1"
+            },
             {
               "name": "Shipping",
               "color": "f7c8c1"
