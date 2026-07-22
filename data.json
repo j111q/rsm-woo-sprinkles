@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-22T00:06:44.583Z",
+  "fetchedAt": "2026-07-22T03:37:33.753Z",
   "datasets": [
     {
       "user": "j111q",
@@ -2803,6 +2803,30 @@
       },
       "items": [
         {
+          "number": 66811,
+          "title": "Fix shipping method names on manual orders",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/66811",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 5,
+          "updated_at": "2026-07-22T03:37:09Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/66811"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "11.1.0"
+          },
+          "_status": "merged",
+          "_author": "annchichi"
+        },
+        {
           "number": 66620,
           "title": "[Email Editor] Fix global typography rendering",
           "html_url": "https://github.com/woocommerce/woocommerce/pull/66620",
@@ -3671,28 +3695,6 @@
             "title": "10.8.0"
           },
           "_status": "merged",
-          "_author": "annchichi"
-        },
-        {
-          "number": 66811,
-          "title": "Fix shipping method names on manual orders",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/66811",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "draft": false,
-          "comments": 5,
-          "updated_at": "2026-07-21T20:41:22Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/66811"
-          },
-          "labels": [
-            {
-              "name": "plugin: woocommerce",
-              "color": "db1c8e"
-            }
-          ],
-          "milestone": null,
-          "_status": "open",
           "_author": "annchichi"
         },
         {
