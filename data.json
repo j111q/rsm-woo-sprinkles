@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-22T03:37:33.753Z",
+  "fetchedAt": "2026-07-22T06:12:49.736Z",
   "datasets": [
     {
       "user": "j111q",
@@ -1115,15 +1115,15 @@
           "html_url": "https://github.com/WordPress/wordpress-develop/pull/12627",
           "repository_url": "https://api.github.com/repos/WordPress/wordpress-develop",
           "state": "open",
-          "draft": true,
-          "comments": 1,
-          "updated_at": "2026-07-21T14:44:48Z",
+          "draft": false,
+          "comments": 2,
+          "updated_at": "2026-07-22T05:25:26Z",
           "pull_request": {
             "html_url": "https://github.com/WordPress/wordpress-develop/pull/12627"
           },
           "labels": [],
           "milestone": null,
-          "_status": "draft",
+          "_status": "open",
           "_author": "j111q"
         },
         {
@@ -2803,6 +2803,38 @@
       },
       "items": [
         {
+          "number": 66343,
+          "title": "Clarify shipping zone save action when adding a method",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/66343",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 7,
+          "updated_at": "2026-07-22T04:04:25Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/66343"
+          },
+          "labels": [
+            {
+              "name": "needs: documentation",
+              "color": "ffea00"
+            },
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            },
+            {
+              "name": "focus: e2e tests",
+              "color": "ff6b00"
+            }
+          ],
+          "milestone": {
+            "title": "11.1.0"
+          },
+          "_status": "merged",
+          "_author": "annchichi"
+        },
+        {
           "number": 66811,
           "title": "Fix shipping method names on manual orders",
           "html_url": "https://github.com/woocommerce/woocommerce/pull/66811",
@@ -2810,11 +2842,15 @@
           "state": "closed",
           "draft": false,
           "comments": 5,
-          "updated_at": "2026-07-22T03:37:09Z",
+          "updated_at": "2026-07-22T03:37:47Z",
           "pull_request": {
             "html_url": "https://github.com/woocommerce/woocommerce/pull/66811"
           },
           "labels": [
+            {
+              "name": "needs: documentation",
+              "color": "ffea00"
+            },
             {
               "name": "plugin: woocommerce",
               "color": "db1c8e"
@@ -3698,25 +3734,21 @@
           "_author": "annchichi"
         },
         {
-          "number": 66343,
-          "title": "Fix shipping zone save button after adding method",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/66343",
+          "number": 66849,
+          "title": "Fix shipping line names changing on order save",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/66849",
           "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
           "state": "open",
           "draft": false,
-          "comments": 7,
-          "updated_at": "2026-07-21T20:23:05Z",
+          "comments": 3,
+          "updated_at": "2026-07-22T05:53:53Z",
           "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/66343"
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/66849"
           },
           "labels": [
             {
               "name": "plugin: woocommerce",
               "color": "db1c8e"
-            },
-            {
-              "name": "focus: e2e tests",
-              "color": "ff6b00"
             }
           ],
           "milestone": null,
