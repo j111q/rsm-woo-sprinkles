@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-22T14:26:23.832Z",
+  "fetchedAt": "2026-07-22T15:57:07.231Z",
   "datasets": [
     {
       "user": "j111q",
@@ -2803,6 +2803,30 @@
       },
       "items": [
         {
+          "number": 66849,
+          "title": "Fix shipping line names changing on order save",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/66849",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 11,
+          "updated_at": "2026-07-22T15:55:02Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/66849"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "11.1.0"
+          },
+          "_status": "merged",
+          "_author": "annchichi"
+        },
+        {
           "number": 66343,
           "title": "Clarify shipping zone save action when adding a method",
           "html_url": "https://github.com/woocommerce/woocommerce/pull/66343",
@@ -3734,21 +3758,17 @@
           "_author": "annchichi"
         },
         {
-          "number": 66849,
-          "title": "Fix shipping line names changing on order save",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/66849",
+          "number": 66887,
+          "title": "Clean up the shipping method title JS test/export approach",
+          "html_url": "https://github.com/woocommerce/woocommerce/issues/66887",
           "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
           "state": "open",
-          "draft": false,
-          "comments": 9,
-          "updated_at": "2026-07-22T12:40:29Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/66849"
-          },
+          "comments": 0,
+          "updated_at": "2026-07-22T15:24:07Z",
           "labels": [
             {
-              "name": "plugin: woocommerce",
-              "color": "db1c8e"
+              "name": "Shipping",
+              "color": "f7c8c1"
             }
           ],
           "milestone": null,
