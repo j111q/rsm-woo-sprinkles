@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-22T12:16:49.087Z",
+  "fetchedAt": "2026-07-22T14:26:23.832Z",
   "datasets": [
     {
       "user": "j111q",
@@ -3734,16 +3734,16 @@
           "_author": "annchichi"
         },
         {
-          "number": 66689,
-          "title": "Fix shipping recommendation dismissal accessibility and fallbacks",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/66689",
+          "number": 66849,
+          "title": "Fix shipping line names changing on order save",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/66849",
           "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
           "state": "open",
           "draft": false,
-          "comments": 4,
-          "updated_at": "2026-07-22T11:52:12Z",
+          "comments": 9,
+          "updated_at": "2026-07-22T12:40:29Z",
           "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/66689"
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/66849"
           },
           "labels": [
             {
@@ -3756,16 +3756,16 @@
           "_author": "annchichi"
         },
         {
-          "number": 66849,
-          "title": "Fix shipping line names changing on order save",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/66849",
+          "number": 66689,
+          "title": "Fix shipping recommendation dismissal accessibility and fallbacks",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/66689",
           "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
           "state": "open",
           "draft": false,
-          "comments": 8,
-          "updated_at": "2026-07-22T11:26:44Z",
+          "comments": 4,
+          "updated_at": "2026-07-22T11:52:12Z",
           "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/66849"
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/66689"
           },
           "labels": [
             {
