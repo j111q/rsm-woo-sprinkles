@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-23T04:33:21.669Z",
+  "fetchedAt": "2026-07-23T07:10:52.608Z",
   "datasets": [
     {
       "user": "j111q",
@@ -3758,13 +3758,35 @@
           "_author": "annchichi"
         },
         {
+          "number": 66689,
+          "title": "Fix shipping recommendation dismissal accessibility and fallbacks",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/66689",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": false,
+          "comments": 4,
+          "updated_at": "2026-07-23T06:22:34Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/66689"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": null,
+          "_status": "open",
+          "_author": "annchichi"
+        },
+        {
           "number": 66887,
           "title": "Clean up the shipping method title JS test/export approach",
           "html_url": "https://github.com/woocommerce/woocommerce/issues/66887",
           "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
           "state": "open",
           "comments": 0,
-          "updated_at": "2026-07-22T17:00:32Z",
+          "updated_at": "2026-07-23T05:59:12Z",
           "labels": [
             {
               "name": "Order Management",
@@ -3773,28 +3795,6 @@
             {
               "name": "Shipping",
               "color": "f7c8c1"
-            }
-          ],
-          "milestone": null,
-          "_status": "open",
-          "_author": "annchichi"
-        },
-        {
-          "number": 66689,
-          "title": "Fix shipping recommendation dismissal accessibility and fallbacks",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/66689",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "draft": false,
-          "comments": 4,
-          "updated_at": "2026-07-22T11:52:12Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/66689"
-          },
-          "labels": [
-            {
-              "name": "plugin: woocommerce",
-              "color": "db1c8e"
             }
           ],
           "milestone": null,
