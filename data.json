@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-24T12:42:44.452Z",
+  "fetchedAt": "2026-07-24T14:25:01.963Z",
   "datasets": [
     {
       "user": "j111q",
@@ -1110,6 +1110,30 @@
           "_author": "j111q"
         },
         {
+          "number": 66039,
+          "title": "Add search and pagination to order tax modal",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/66039",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": false,
+          "comments": 3,
+          "updated_at": "2026-07-24T13:27:34Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/66039"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "11.1.0"
+          },
+          "_status": "open",
+          "_author": "j111q"
+        },
+        {
           "number": 12627,
           "title": "Administration: Add box reordering toggle to Screen Options.",
           "html_url": "https://github.com/WordPress/wordpress-develop/pull/12627",
@@ -1123,30 +1147,6 @@
           },
           "labels": [],
           "milestone": null,
-          "_status": "open",
-          "_author": "j111q"
-        },
-        {
-          "number": 66039,
-          "title": "Add search and pagination to order tax modal",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/66039",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "draft": false,
-          "comments": 3,
-          "updated_at": "2026-07-20T12:45:28Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/66039"
-          },
-          "labels": [
-            {
-              "name": "plugin: woocommerce",
-              "color": "db1c8e"
-            }
-          ],
-          "milestone": {
-            "title": "11.1.0"
-          },
           "_status": "open",
           "_author": "j111q"
         },
