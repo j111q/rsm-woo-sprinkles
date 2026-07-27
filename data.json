@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-27T08:17:56.696Z",
+  "fetchedAt": "2026-07-27T11:43:22.754Z",
   "datasets": [
     {
       "user": "j111q",
@@ -3793,7 +3793,7 @@
           "state": "open",
           "draft": false,
           "comments": 4,
-          "updated_at": "2026-07-27T08:07:27Z",
+          "updated_at": "2026-07-27T10:23:29Z",
           "pull_request": {
             "html_url": "https://github.com/woocommerce/woocommerce/pull/67006"
           },
@@ -3809,6 +3809,28 @@
           ],
           "milestone": null,
           "_status": "open",
+          "_author": "annchichi"
+        },
+        {
+          "number": 67014,
+          "title": "Fix legacy report custom date field contrast",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/67014",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": true,
+          "comments": 0,
+          "updated_at": "2026-07-27T09:53:37Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/67014"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": null,
+          "_status": "draft",
           "_author": "annchichi"
         },
         {
