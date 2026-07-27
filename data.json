@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-27T04:51:52.854Z",
+  "fetchedAt": "2026-07-27T08:17:56.696Z",
   "datasets": [
     {
       "user": "j111q",
@@ -2803,6 +2803,34 @@
       },
       "items": [
         {
+          "number": 66689,
+          "title": "Fix shipping recommendation dismissal accessibility and fallbacks",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/66689",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 4,
+          "updated_at": "2026-07-27T05:58:55Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/66689"
+          },
+          "labels": [
+            {
+              "name": "needs: documentation",
+              "color": "ffea00"
+            },
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "11.1.0"
+          },
+          "_status": "merged",
+          "_author": "annchichi"
+        },
+        {
           "number": 66849,
           "title": "Fix shipping line names changing on order save",
           "html_url": "https://github.com/woocommerce/woocommerce/pull/66849",
@@ -3758,21 +3786,25 @@
           "_author": "annchichi"
         },
         {
-          "number": 66689,
-          "title": "Fix shipping recommendation dismissal accessibility and fallbacks",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/66689",
+          "number": 67006,
+          "title": "Clean up shipping method title test coverage",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/67006",
           "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
           "state": "open",
           "draft": false,
           "comments": 4,
-          "updated_at": "2026-07-24T14:48:10Z",
+          "updated_at": "2026-07-27T08:07:27Z",
           "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/66689"
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/67006"
           },
           "labels": [
             {
               "name": "plugin: woocommerce",
               "color": "db1c8e"
+            },
+            {
+              "name": "focus: e2e tests",
+              "color": "ff6b00"
             }
           ],
           "milestone": null,
