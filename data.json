@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-30T00:09:38.497Z",
+  "fetchedAt": "2026-07-30T03:23:39.275Z",
   "datasets": [
     {
       "user": "j111q",
@@ -2810,7 +2810,7 @@
           "state": "closed",
           "draft": false,
           "comments": 4,
-          "updated_at": "2026-07-29T09:31:39Z",
+          "updated_at": "2026-07-30T02:10:21Z",
           "pull_request": {
             "html_url": "https://github.com/woocommerce/woocommerce/pull/67014"
           },
