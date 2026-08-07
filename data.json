@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-07T17:58:14.939Z",
+  "fetchedAt": "2026-08-07T18:55:47.368Z",
   "datasets": [
     {
       "user": "j111q",
@@ -9,6 +9,23 @@
         "html_url": "https://github.com/j111q"
       },
       "items": [
+        {
+          "number": 751,
+          "title": "Global header/footer: Restore Swag to the footer, tidy the header link",
+          "html_url": "https://github.com/WordPress/wporg-mu-plugins/pull/751",
+          "repository_url": "https://api.github.com/repos/WordPress/wporg-mu-plugins",
+          "state": "closed",
+          "draft": false,
+          "comments": 1,
+          "updated_at": "2026-08-07T17:59:42Z",
+          "pull_request": {
+            "html_url": "https://github.com/WordPress/wporg-mu-plugins/pull/751"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "merged",
+          "_author": "j111q"
+        },
         {
           "number": 66481,
           "title": "Restore generic blank-state icon style at the refreshed 32px scale",
@@ -1107,23 +1124,6 @@
           "labels": [],
           "milestone": null,
           "_status": "merged",
-          "_author": "j111q"
-        },
-        {
-          "number": 751,
-          "title": "Global header/footer: Restore Swag to the footer, tidy the header link",
-          "html_url": "https://github.com/WordPress/wporg-mu-plugins/pull/751",
-          "repository_url": "https://api.github.com/repos/WordPress/wporg-mu-plugins",
-          "state": "open",
-          "draft": false,
-          "comments": 1,
-          "updated_at": "2026-08-07T14:48:58Z",
-          "pull_request": {
-            "html_url": "https://github.com/WordPress/wporg-mu-plugins/pull/751"
-          },
-          "labels": [],
-          "milestone": null,
-          "_status": "open",
           "_author": "j111q"
         },
         {
