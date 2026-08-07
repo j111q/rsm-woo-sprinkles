@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-07T08:40:05.348Z",
+  "fetchedAt": "2026-08-07T09:38:56.547Z",
   "datasets": [
     {
       "user": "j111q",
@@ -1117,7 +1117,7 @@
           "state": "open",
           "draft": false,
           "comments": 0,
-          "updated_at": "2026-08-07T08:33:37Z",
+          "updated_at": "2026-08-07T09:30:33Z",
           "pull_request": {
             "html_url": "https://github.com/WordPress/wporg-mu-plugins/pull/751"
           },
@@ -3856,9 +3856,9 @@
           "html_url": "https://github.com/woocommerce/woocommerce/pull/67466",
           "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
           "state": "open",
-          "draft": true,
-          "comments": 1,
-          "updated_at": "2026-08-07T06:56:08Z",
+          "draft": false,
+          "comments": 3,
+          "updated_at": "2026-08-07T09:20:36Z",
           "pull_request": {
             "html_url": "https://github.com/woocommerce/woocommerce/pull/67466"
           },
@@ -3869,7 +3869,7 @@
             }
           ],
           "milestone": null,
-          "_status": "draft",
+          "_status": "open",
           "_author": "annchichi"
         },
         {
