@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-07T07:46:10.394Z",
+  "fetchedAt": "2026-08-07T08:40:05.348Z",
   "datasets": [
     {
       "user": "j111q",
@@ -1111,13 +1111,13 @@
         },
         {
           "number": 751,
-          "title": "Global header/footer: Add Swag to the top-level nav and footer",
+          "title": "Global header/footer: Restore Swag to the footer, tidy the header link",
           "html_url": "https://github.com/WordPress/wporg-mu-plugins/pull/751",
           "repository_url": "https://api.github.com/repos/WordPress/wporg-mu-plugins",
           "state": "open",
           "draft": false,
           "comments": 0,
-          "updated_at": "2026-08-07T07:27:47Z",
+          "updated_at": "2026-08-07T08:33:37Z",
           "pull_request": {
             "html_url": "https://github.com/WordPress/wporg-mu-plugins/pull/751"
           },
