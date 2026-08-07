@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-07T06:18:36.405Z",
+  "fetchedAt": "2026-08-07T07:46:10.394Z",
   "datasets": [
     {
       "user": "j111q",
@@ -1117,7 +1117,7 @@
           "state": "open",
           "draft": false,
           "comments": 0,
-          "updated_at": "2026-08-07T04:23:42Z",
+          "updated_at": "2026-08-07T07:27:47Z",
           "pull_request": {
             "html_url": "https://github.com/WordPress/wporg-mu-plugins/pull/751"
           },
@@ -3848,6 +3848,28 @@
             "title": "10.8.0"
           },
           "_status": "merged",
+          "_author": "annchichi"
+        },
+        {
+          "number": 67466,
+          "title": "[Email Editor] Fix spacing below block email buttons",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/67466",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": true,
+          "comments": 1,
+          "updated_at": "2026-08-07T06:56:08Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/67466"
+          },
+          "labels": [
+            {
+              "name": "Documentation",
+              "color": "95a2b3"
+            }
+          ],
+          "milestone": null,
+          "_status": "draft",
           "_author": "annchichi"
         },
         {
