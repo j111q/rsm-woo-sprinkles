@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-07T14:28:43.293Z",
+  "fetchedAt": "2026-08-07T15:25:36.053Z",
   "datasets": [
     {
       "user": "j111q",
@@ -1116,8 +1116,8 @@
           "repository_url": "https://api.github.com/repos/WordPress/wporg-mu-plugins",
           "state": "open",
           "draft": false,
-          "comments": 0,
-          "updated_at": "2026-08-07T13:18:50Z",
+          "comments": 1,
+          "updated_at": "2026-08-07T14:48:58Z",
           "pull_request": {
             "html_url": "https://github.com/WordPress/wporg-mu-plugins/pull/751"
           },
