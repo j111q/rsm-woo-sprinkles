@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-08T11:16:02.598Z",
+  "fetchedAt": "2026-08-08T11:45:17.504Z",
   "datasets": [
     {
       "user": "j111q",
@@ -3895,32 +3895,6 @@
           "_author": "annchichi"
         },
         {
-          "number": 67662,
-          "title": "Update `Notice` component design",
-          "html_url": "https://github.com/WordPress/gutenberg/issues/67662",
-          "repository_url": "https://api.github.com/repos/WordPress/gutenberg",
-          "state": "open",
-          "comments": 19,
-          "updated_at": "2025-07-27T10:23:24Z",
-          "labels": [
-            {
-              "name": "[Type] Enhancement",
-              "color": "FEF2C0"
-            },
-            {
-              "name": "Needs Design Feedback",
-              "color": "0e8a16"
-            },
-            {
-              "name": "Design System",
-              "color": "ed2572"
-            }
-          ],
-          "milestone": null,
-          "_status": "open",
-          "_author": "annchichi"
-        },
-        {
           "number": 22,
           "title": "Disconnected shipping setup experience",
           "html_url": "https://github.com/woocommerce/woo-design-quality/issues/22",
@@ -4274,6 +4248,32 @@
           "labels": [],
           "milestone": null,
           "_status": "open",
+          "_author": "annchichi"
+        },
+        {
+          "number": 67662,
+          "title": "Update `Notice` component design",
+          "html_url": "https://github.com/WordPress/gutenberg/issues/67662",
+          "repository_url": "https://api.github.com/repos/WordPress/gutenberg",
+          "state": "closed",
+          "comments": 20,
+          "updated_at": "2026-08-08T11:18:40Z",
+          "labels": [
+            {
+              "name": "[Type] Enhancement",
+              "color": "FEF2C0"
+            },
+            {
+              "name": "Needs Design Feedback",
+              "color": "0e8a16"
+            },
+            {
+              "name": "Design System",
+              "color": "ed2572"
+            }
+          ],
+          "milestone": null,
+          "_status": "closed",
           "_author": "annchichi"
         },
         {
