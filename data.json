@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-14T09:13:49.308Z",
+  "fetchedAt": "2026-08-14T10:16:25.645Z",
   "datasets": [
     {
       "user": "j111q",
@@ -1133,8 +1133,8 @@
           "repository_url": "https://api.github.com/repos/WordPress/wordpress-develop",
           "state": "open",
           "draft": false,
-          "comments": 2,
-          "updated_at": "2026-08-14T09:13:32Z",
+          "comments": 4,
+          "updated_at": "2026-08-14T09:43:57Z",
           "pull_request": {
             "html_url": "https://github.com/WordPress/wordpress-develop/pull/13050"
           },
