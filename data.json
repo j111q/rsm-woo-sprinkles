@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-14T05:13:37.353Z",
+  "fetchedAt": "2026-08-14T06:42:10.490Z",
   "datasets": [
     {
       "user": "j111q",
@@ -3876,15 +3876,15 @@
           "html_url": "https://github.com/woocommerce/woocommerce/pull/67642",
           "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
           "state": "open",
-          "draft": true,
-          "comments": 1,
-          "updated_at": "2026-08-13T09:43:27Z",
+          "draft": false,
+          "comments": 3,
+          "updated_at": "2026-08-14T05:20:43Z",
           "pull_request": {
             "html_url": "https://github.com/woocommerce/woocommerce/pull/67642"
           },
           "labels": [],
           "milestone": null,
-          "_status": "draft",
+          "_status": "open",
           "_author": "annchichi"
         },
         {
