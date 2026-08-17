@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-17T11:34:28.880Z",
+  "fetchedAt": "2026-08-17T11:53:37.104Z",
   "datasets": [
     {
       "user": "j111q",
@@ -1127,6 +1127,30 @@
           "_author": "j111q"
         },
         {
+          "number": 66039,
+          "title": "Add search and pagination to order tax modal",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/66039",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": false,
+          "comments": 3,
+          "updated_at": "2026-08-17T11:43:14Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/66039"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "11.2.0"
+          },
+          "_status": "open",
+          "_author": "j111q"
+        },
+        {
           "number": 13050,
           "title": "Editor: Enhance classic editor timestamp fields with native controls (continues #12275)",
           "html_url": "https://github.com/WordPress/wordpress-develop/pull/13050",
@@ -1158,30 +1182,6 @@
             }
           ],
           "milestone": null,
-          "_status": "open",
-          "_author": "j111q"
-        },
-        {
-          "number": 66039,
-          "title": "Add search and pagination to order tax modal",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/66039",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "draft": false,
-          "comments": 3,
-          "updated_at": "2026-07-24T13:27:34Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/66039"
-          },
-          "labels": [
-            {
-              "name": "plugin: woocommerce",
-              "color": "db1c8e"
-            }
-          ],
-          "milestone": {
-            "title": "11.1.0"
-          },
           "_status": "open",
           "_author": "j111q"
         },
