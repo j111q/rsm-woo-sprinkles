@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-18T08:49:04.791Z",
+  "fetchedAt": "2026-08-18T09:16:18.613Z",
   "datasets": [
     {
       "user": "j111q",
@@ -2829,6 +2829,25 @@
       },
       "items": [
         {
+          "number": 67790,
+          "title": "[Email Editor] Fix locale-sensitive pill padding",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/67790",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 3,
+          "updated_at": "2026-08-18T09:14:14Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/67790"
+          },
+          "labels": [],
+          "milestone": {
+            "title": "11.2.0"
+          },
+          "_status": "merged",
+          "_author": "annchichi"
+        },
+        {
           "number": 67642,
           "title": "[Email Editor] Fix social links spacing in rendered emails",
           "html_url": "https://github.com/woocommerce/woocommerce/pull/67642",
@@ -3909,23 +3928,6 @@
             "title": "10.8.0"
           },
           "_status": "merged",
-          "_author": "annchichi"
-        },
-        {
-          "number": 67790,
-          "title": "[Email Editor] Fix locale-sensitive pill padding",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/67790",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "draft": false,
-          "comments": 3,
-          "updated_at": "2026-08-18T06:51:39Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/67790"
-          },
-          "labels": [],
-          "milestone": null,
-          "_status": "open",
           "_author": "annchichi"
         },
         {
