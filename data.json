@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-18T14:00:52.993Z",
+  "fetchedAt": "2026-08-18T14:39:53.534Z",
   "datasets": [
     {
       "user": "j111q",
@@ -1127,6 +1127,30 @@
           "_author": "j111q"
         },
         {
+          "number": 66039,
+          "title": "Add search and pagination to order tax modal",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/66039",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "open",
+          "draft": false,
+          "comments": 4,
+          "updated_at": "2026-08-18T14:39:50Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/66039"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": {
+            "title": "11.2.0"
+          },
+          "_status": "open",
+          "_author": "j111q"
+        },
+        {
           "number": 67808,
           "title": "Add stock notification emails as WC_Email classes",
           "html_url": "https://github.com/woocommerce/woocommerce/pull/67808",
@@ -1148,30 +1172,6 @@
             "title": "11.2.0"
           },
           "_status": "draft",
-          "_author": "j111q"
-        },
-        {
-          "number": 66039,
-          "title": "Add search and pagination to order tax modal",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/66039",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "draft": false,
-          "comments": 3,
-          "updated_at": "2026-08-17T11:43:14Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/66039"
-          },
-          "labels": [
-            {
-              "name": "plugin: woocommerce",
-              "color": "db1c8e"
-            }
-          ],
-          "milestone": {
-            "title": "11.2.0"
-          },
-          "_status": "open",
           "_author": "j111q"
         },
         {
