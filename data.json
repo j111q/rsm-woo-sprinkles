@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-01T01:24:24.118Z",
+  "fetchedAt": "2026-09-01T06:21:58.370Z",
   "datasets": [
     {
       "user": "j111q",
@@ -1161,8 +1161,8 @@
           "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
           "state": "open",
           "draft": false,
-          "comments": 3,
-          "updated_at": "2026-08-31T11:38:36Z",
+          "comments": 4,
+          "updated_at": "2026-09-01T04:16:44Z",
           "pull_request": {
             "html_url": "https://github.com/woocommerce/woocommerce/pull/68185"
           },
