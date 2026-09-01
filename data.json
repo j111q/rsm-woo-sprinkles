@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-01T06:21:58.370Z",
+  "fetchedAt": "2026-09-01T11:48:38.552Z",
   "datasets": [
     {
       "user": "j111q",
@@ -24,7 +24,7 @@
           "labels": [
             {
               "name": "needs: documentation",
-              "color": "ffea00"
+              "color": "f2c94c"
             },
             {
               "name": "plugin: woocommerce",
@@ -125,7 +125,7 @@
           "labels": [
             {
               "name": "needs: documentation",
-              "color": "ffea00"
+              "color": "f2c94c"
             },
             {
               "name": "plugin: woocommerce",
@@ -165,7 +165,7 @@
           "labels": [
             {
               "name": "needs: documentation",
-              "color": "ffea00"
+              "color": "f2c94c"
             },
             {
               "name": "plugin: woocommerce",
@@ -197,7 +197,7 @@
           "labels": [
             {
               "name": "needs: documentation",
-              "color": "ffea00"
+              "color": "f2c94c"
             },
             {
               "name": "plugin: woocommerce",
@@ -259,7 +259,7 @@
           "labels": [
             {
               "name": "needs: documentation",
-              "color": "ffea00"
+              "color": "f2c94c"
             },
             {
               "name": "plugin: woocommerce",
@@ -287,7 +287,7 @@
           "labels": [
             {
               "name": "needs: documentation",
-              "color": "ffea00"
+              "color": "f2c94c"
             },
             {
               "name": "plugin: woocommerce",
@@ -340,7 +340,7 @@
           "labels": [
             {
               "name": "needs: documentation",
-              "color": "ffea00"
+              "color": "f2c94c"
             },
             {
               "name": "plugin: woocommerce",
@@ -408,7 +408,7 @@
           "labels": [
             {
               "name": "needs: documentation",
-              "color": "ffea00"
+              "color": "f2c94c"
             },
             {
               "name": "plugin: woocommerce",
@@ -460,7 +460,7 @@
           "labels": [
             {
               "name": "needs: documentation",
-              "color": "ffea00"
+              "color": "f2c94c"
             },
             {
               "name": "plugin: woocommerce",
@@ -956,7 +956,7 @@
           "labels": [
             {
               "name": "needs: documentation",
-              "color": "ffea00"
+              "color": "f2c94c"
             },
             {
               "name": "plugin: woocommerce",
@@ -992,7 +992,7 @@
           "labels": [
             {
               "name": "needs: documentation",
-              "color": "ffea00"
+              "color": "f2c94c"
             },
             {
               "name": "plugin: woocommerce",
@@ -1092,7 +1092,7 @@
           "labels": [
             {
               "name": "needs: documentation",
-              "color": "ffea00"
+              "color": "f2c94c"
             },
             {
               "name": "plugin: woocommerce",
@@ -1124,7 +1124,7 @@
           "labels": [
             {
               "name": "needs: documentation",
-              "color": "ffea00"
+              "color": "f2c94c"
             },
             {
               "name": "plugin: woocommerce",
@@ -1152,28 +1152,6 @@
           "labels": [],
           "milestone": null,
           "_status": "merged",
-          "_author": "j111q"
-        },
-        {
-          "number": 68185,
-          "title": "Do not confirm a modal on Enter from a button, link or select",
-          "html_url": "https://github.com/woocommerce/woocommerce/pull/68185",
-          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
-          "state": "open",
-          "draft": false,
-          "comments": 4,
-          "updated_at": "2026-09-01T04:16:44Z",
-          "pull_request": {
-            "html_url": "https://github.com/woocommerce/woocommerce/pull/68185"
-          },
-          "labels": [
-            {
-              "name": "plugin: woocommerce",
-              "color": "db1c8e"
-            }
-          ],
-          "milestone": null,
-          "_status": "open",
           "_author": "j111q"
         },
         {
@@ -1867,6 +1845,28 @@
           ],
           "milestone": null,
           "_status": "open",
+          "_author": "j111q"
+        },
+        {
+          "number": 68185,
+          "title": "Do not confirm a modal on Enter from a button, link or select",
+          "html_url": "https://github.com/woocommerce/woocommerce/pull/68185",
+          "repository_url": "https://api.github.com/repos/woocommerce/woocommerce",
+          "state": "closed",
+          "draft": false,
+          "comments": 5,
+          "updated_at": "2026-09-01T09:57:46Z",
+          "pull_request": {
+            "html_url": "https://github.com/woocommerce/woocommerce/pull/68185"
+          },
+          "labels": [
+            {
+              "name": "plugin: woocommerce",
+              "color": "db1c8e"
+            }
+          ],
+          "milestone": null,
+          "_status": "closed",
           "_author": "j111q"
         },
         {
@@ -2936,7 +2936,7 @@
           "labels": [
             {
               "name": "needs: documentation",
-              "color": "ffea00"
+              "color": "f2c94c"
             }
           ],
           "milestone": {
@@ -3036,7 +3036,7 @@
           "labels": [
             {
               "name": "needs: documentation",
-              "color": "ffea00"
+              "color": "f2c94c"
             },
             {
               "name": "plugin: woocommerce",
@@ -3088,7 +3088,7 @@
           "labels": [
             {
               "name": "needs: documentation",
-              "color": "ffea00"
+              "color": "f2c94c"
             },
             {
               "name": "plugin: woocommerce",
@@ -3120,7 +3120,7 @@
           "labels": [
             {
               "name": "needs: documentation",
-              "color": "ffea00"
+              "color": "f2c94c"
             },
             {
               "name": "plugin: woocommerce",
@@ -3148,7 +3148,7 @@
           "labels": [
             {
               "name": "needs: documentation",
-              "color": "ffea00"
+              "color": "f2c94c"
             }
           ],
           "milestone": {
@@ -3224,7 +3224,7 @@
           "labels": [
             {
               "name": "needs: documentation",
-              "color": "ffea00"
+              "color": "f2c94c"
             },
             {
               "name": "plugin: woocommerce",
@@ -3385,7 +3385,7 @@
           "labels": [
             {
               "name": "needs: documentation",
-              "color": "ffea00"
+              "color": "f2c94c"
             },
             {
               "name": "plugin: woocommerce",
@@ -3437,7 +3437,7 @@
           "labels": [
             {
               "name": "needs: documentation",
-              "color": "ffea00"
+              "color": "f2c94c"
             }
           ],
           "milestone": {
@@ -3707,7 +3707,7 @@
           "labels": [
             {
               "name": "needs: documentation",
-              "color": "ffea00"
+              "color": "f2c94c"
             },
             {
               "name": "plugin: woocommerce",
@@ -3783,7 +3783,7 @@
           "labels": [
             {
               "name": "needs: documentation",
-              "color": "ffea00"
+              "color": "f2c94c"
             },
             {
               "name": "plugin: woocommerce",
@@ -3811,7 +3811,7 @@
           "labels": [
             {
               "name": "needs: documentation",
-              "color": "ffea00"
+              "color": "f2c94c"
             },
             {
               "name": "plugin: woocommerce",
@@ -3911,7 +3911,7 @@
           "labels": [
             {
               "name": "needs: documentation",
-              "color": "ffea00"
+              "color": "f2c94c"
             },
             {
               "name": "plugin: woocommerce",
@@ -3987,7 +3987,7 @@
           "labels": [
             {
               "name": "needs: documentation",
-              "color": "ffea00"
+              "color": "f2c94c"
             },
             {
               "name": "plugin: woocommerce",
