@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-09T09:21:44.857Z",
+  "fetchedAt": "2026-09-09T13:46:50.803Z",
   "datasets": [
     {
       "user": "j111q",
@@ -207,40 +207,6 @@
           "milestone": {
             "title": "11.0.0"
           },
-          "_status": "merged",
-          "_author": "j111q"
-        },
-        {
-          "number": 3,
-          "title": "Automation/woo intake 28162157332",
-          "html_url": "https://github.com/poligilad-auto/woo-admin-revamp/pull/3",
-          "repository_url": "https://api.github.com/repos/poligilad-auto/woo-admin-revamp",
-          "state": "closed",
-          "draft": false,
-          "comments": 0,
-          "updated_at": "2026-06-25T14:21:05Z",
-          "pull_request": {
-            "html_url": "https://github.com/poligilad-auto/woo-admin-revamp/pull/3"
-          },
-          "labels": [],
-          "milestone": null,
-          "_status": "merged",
-          "_author": "j111q"
-        },
-        {
-          "number": 1,
-          "title": "Codex/woo intake automation",
-          "html_url": "https://github.com/poligilad-auto/woo-admin-revamp/pull/1",
-          "repository_url": "https://api.github.com/repos/poligilad-auto/woo-admin-revamp",
-          "state": "closed",
-          "draft": false,
-          "comments": 0,
-          "updated_at": "2026-06-25T09:14:17Z",
-          "pull_request": {
-            "html_url": "https://github.com/poligilad-auto/woo-admin-revamp/pull/1"
-          },
-          "labels": [],
-          "milestone": null,
           "_status": "merged",
           "_author": "j111q"
         },
@@ -1277,23 +1243,6 @@
           "_author": "j111q"
         },
         {
-          "number": 4,
-          "title": "Show non-variation product attributes as a Details section",
-          "html_url": "https://github.com/senadir/ssh-mercantile/pull/4",
-          "repository_url": "https://api.github.com/repos/senadir/ssh-mercantile",
-          "state": "open",
-          "draft": false,
-          "comments": 0,
-          "updated_at": "2026-06-08T06:59:06Z",
-          "pull_request": {
-            "html_url": "https://github.com/senadir/ssh-mercantile/pull/4"
-          },
-          "labels": [],
-          "milestone": null,
-          "_status": "open",
-          "_author": "j111q"
-        },
-        {
           "number": 74,
           "title": "Compact mobile masthead via a dedicated mercantile/masthead-meta block",
           "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/issues/74",
@@ -1769,23 +1718,6 @@
               "color": "b60205"
             }
           ],
-          "milestone": null,
-          "_status": "open",
-          "_author": "j111q"
-        },
-        {
-          "number": 3,
-          "title": "Show product images in the terminal",
-          "html_url": "https://github.com/senadir/ssh-mercantile/pull/3",
-          "repository_url": "https://api.github.com/repos/senadir/ssh-mercantile",
-          "state": "open",
-          "draft": false,
-          "comments": 0,
-          "updated_at": "2026-05-12T13:41:57Z",
-          "pull_request": {
-            "html_url": "https://github.com/senadir/ssh-mercantile/pull/3"
-          },
-          "labels": [],
           "milestone": null,
           "_status": "open",
           "_author": "j111q"
@@ -4274,23 +4206,6 @@
           "updated_at": "2016-10-01T20:10:45Z",
           "pull_request": {
             "html_url": "https://github.com/learn-co-students/javascript-fix-the-scope-lab-js-intro-000/pull/150"
-          },
-          "labels": [],
-          "milestone": null,
-          "_status": "open",
-          "_author": "annchichi"
-        },
-        {
-          "number": 173,
-          "title": "Done",
-          "html_url": "https://github.com/learn-co-students/javascript-arithmetic-lab-js-intro-000/pull/173",
-          "repository_url": "https://api.github.com/repos/learn-co-students/javascript-arithmetic-lab-js-intro-000",
-          "state": "open",
-          "draft": false,
-          "comments": 0,
-          "updated_at": "2016-09-29T05:20:51Z",
-          "pull_request": {
-            "html_url": "https://github.com/learn-co-students/javascript-arithmetic-lab-js-intro-000/pull/173"
           },
           "labels": [],
           "milestone": null,
