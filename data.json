@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-10T02:19:18.713Z",
+  "fetchedAt": "2026-09-10T07:21:58.275Z",
   "datasets": [
     {
       "user": "j111q",
@@ -1791,23 +1791,6 @@
           "_author": "j111q"
         },
         {
-          "number": 36,
-          "title": "Catalog: shrinking sticky head + mercantile/catalog-load-more block (drops pagination)",
-          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/36",
-          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
-          "state": "open",
-          "draft": false,
-          "comments": 4,
-          "updated_at": "2026-05-12T08:57:35Z",
-          "pull_request": {
-            "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/36"
-          },
-          "labels": [],
-          "milestone": null,
-          "_status": "open",
-          "_author": "j111q"
-        },
-        {
           "number": 77056,
           "title": "Apply typographic transformations (texturize) to DataForm field labels and descriptions",
           "html_url": "https://github.com/WordPress/gutenberg/issues/77056",
@@ -1845,6 +1828,23 @@
           ],
           "milestone": null,
           "_status": "open",
+          "_author": "j111q"
+        },
+        {
+          "number": 36,
+          "title": "Catalog: shrinking sticky head + mercantile/catalog-load-more block (drops pagination)",
+          "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/36",
+          "repository_url": "https://api.github.com/repos/dinhtungdu/mercantile-hook-loop-theme",
+          "state": "closed",
+          "draft": false,
+          "comments": 4,
+          "updated_at": "2026-09-10T06:33:40Z",
+          "pull_request": {
+            "html_url": "https://github.com/dinhtungdu/mercantile-hook-loop-theme/pull/36"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "closed",
           "_author": "j111q"
         },
         {
