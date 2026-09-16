@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-15T22:27:15.597Z",
+  "fetchedAt": "2026-09-16T00:38:17.161Z",
   "datasets": [
     {
       "user": "j111q",
@@ -1155,6 +1155,23 @@
           "_author": "j111q"
         },
         {
+          "number": 12627,
+          "title": "Administration: Add box reordering toggle to Screen Options.",
+          "html_url": "https://github.com/WordPress/wordpress-develop/pull/12627",
+          "repository_url": "https://api.github.com/repos/WordPress/wordpress-develop",
+          "state": "open",
+          "draft": false,
+          "comments": 2,
+          "updated_at": "2026-09-16T00:09:50Z",
+          "pull_request": {
+            "html_url": "https://github.com/WordPress/wordpress-develop/pull/12627"
+          },
+          "labels": [],
+          "milestone": null,
+          "_status": "open",
+          "_author": "j111q"
+        },
+        {
           "number": 68075,
           "title": "Analytics: add a setting to exclude free orders from report totals",
           "html_url": "https://github.com/woocommerce/woocommerce/pull/68075",
@@ -1233,23 +1250,6 @@
               "color": "f7c8c1"
             }
           ],
-          "milestone": null,
-          "_status": "open",
-          "_author": "j111q"
-        },
-        {
-          "number": 12627,
-          "title": "Administration: Add box reordering toggle to Screen Options.",
-          "html_url": "https://github.com/WordPress/wordpress-develop/pull/12627",
-          "repository_url": "https://api.github.com/repos/WordPress/wordpress-develop",
-          "state": "open",
-          "draft": false,
-          "comments": 2,
-          "updated_at": "2026-07-22T05:25:26Z",
-          "pull_request": {
-            "html_url": "https://github.com/WordPress/wordpress-develop/pull/12627"
-          },
-          "labels": [],
           "milestone": null,
           "_status": "open",
           "_author": "j111q"
